@@ -1,0 +1,14 @@
+{
+  "lessons": [
+    {
+      "id": "intro",
+      "title": "Using AI & Ethics — Coming soon",
+      "steps": [
+        {
+          "title": "This lesson is still being prepared",
+          "body": "<p>This module covers: <em>Working with Gemini and ChatGPT, asking smart questions, privacy risks and when NOT to use AI.</em>.</p><p>The teacher can add step-by-step material here via the project's content folder (<code>content/lessons/</code>). Module 1 (Email etc.) can serve as an example.</p>"
+        }
+      ]
+    }
+  ]
+}

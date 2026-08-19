@@ -1,0 +1,11 @@
+<div class="browser-page">
+  <div class="browser-bar">
+    <a href="<%= back %>" class="btn btn-ghost">← <%= t.backToLesson %></a>
+    <div class="browser-address"><%= url %></div>
+    <a href="<%= url %>" target="_blank" rel="noopener" class="btn btn-small">↗ Nieuw tabblad</a>
+  </div>
+  <p class="hint" id="frame-hint">Sommige websites (zoals Gmail, WhatsApp of banken) staan niet toe dat ze binnen dit platform worden getoond, om veiligheidsredenen. Werkt de site hieronder niet? Klik dan op "Nieuw tabblad".</p>
+  <div class="iframe-wrap">
+    <iframe src="<%= url %>" title="Oefensite" id="practice-frame" referrerpolicy="no-referrer"></iframe>
+  </div>
+</div>

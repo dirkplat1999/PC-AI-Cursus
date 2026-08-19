@@ -1,0 +1,30 @@
+<div class="admin-page">
+  <div class="admin-header">
+    <h1><%= t.changelog %></h1>
+    <nav class="admin-nav">
+      <a href="/admin"><%= t.adminDashboard %></a>
+      <a href="/admin/students"><%= t.students %></a>
+      <a href="/admin/changelog" class="active"><%= t.changelog %></a>
+    </nav>
+  </div>
+
+  <section class="panel">
+    <p><%= t.currentVersion %>: <strong>v<%= version %></strong></p>
+    <div class="form-actions">
+      <form method="POST" action="/admin/changelog/check">
+        <button type="submit" class="btn btn-primary"><%= t.checkUpdates %></button>
+      </form>
+      <form method="POST" action="/admin/changelog/update" onsubmit="return confirm('Weet je zeker dat je wilt bijwerken vanaf GitHub?');">
+        <button type="submit" class="btn"><%= t.updateNow %></button>
+      </form>
+    </div>
+    <% if (gitResult) { %>
+      <pre class="git-result"><%= gitResult %></pre>
+    <% } %>
+  </section>
+
+  <section class="panel">
+    <h2>CHANGELOG.md</h2>
+    <pre class="changelog-body"><%= changelog %></pre>
+  </section>
+</div>

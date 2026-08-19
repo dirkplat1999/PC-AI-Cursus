@@ -1,0 +1,49 @@
+<div class="auth-page">
+  <div class="auth-card">
+    <h1>🖥️ <%= t.appName %></h1>
+
+    <form method="GET" class="lang-switch-inline">
+      <select name="lang" onchange="this.form.submit()">
+        <option value="nl" <%= lang === 'nl' ? 'selected' : '' %>>Nederlands</option>
+        <option value="en" <%= lang === 'en' ? 'selected' : '' %>>English</option>
+        <option value="de" <%= lang === 'de' ? 'selected' : '' %>>Deutsch</option>
+      </select>
+    </form>
+
+    <div class="role-tabs">
+      <button type="button" class="role-tab active" data-role="student"><%= t.students %></button>
+      <button type="button" class="role-tab" data-role="admin"><%= t.adminDashboard %></button>
+    </div>
+
+    <% if (error) { %><p class="error"><%= error %></p><% } %>
+
+    <form method="POST" action="/login" id="login-form">
+      <input type="hidden" name="lang" value="<%= lang %>">
+      <input type="hidden" name="role" id="role-input" value="student">
+
+      <div id="username-field">
+        <label for="username"><%= t.username %></label>
+        <input type="text" id="username" name="username" autofocus>
+      </div>
+
+      <label for="password"><%= t.password %></label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit" class="btn btn-primary btn-block"><%= t.loginButton %></button>
+    </form>
+  </div>
+</div>
+
+<script>
+  const tabs = document.querySelectorAll('.role-tab');
+  const roleInput = document.getElementById('role-input');
+  const usernameField = document.getElementById('username-field');
+  tabs.forEach((tab) => {
+    tab.addEventListener('click', () => {
+      tabs.forEach((tb) => tb.classList.remove('active'));
+      tab.classList.add('active');
+      roleInput.value = tab.dataset.role;
+      usernameField.style.display = tab.dataset.role === 'admin' ? 'none' : 'block';
+    });
+  });
+</script>

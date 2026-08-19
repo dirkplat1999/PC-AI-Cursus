@@ -1,0 +1,99 @@
+{
+  "lessons": [
+    {
+      "id": "emailen",
+      "title": "E-mailen: de basis",
+      "steps": [
+        {
+          "title": "Wat is e-mail?",
+          "body": "<p>E-mail (elektronische post) is een manier om berichten via internet te versturen, net als een brief maar dan digitaal en meestal binnen enkele seconden bezorgd.</p><p>Je hebt hiervoor een <strong>e-mailadres</strong> nodig, bijvoorbeeld <code>naam@gmail.com</code>. Iedereen met een e-mailadres kan jou berichten sturen.</p>"
+        },
+        {
+          "title": "Je postvak openen",
+          "body": "<p>Open je e-mailprogramma (bijvoorbeeld Gmail) via de browser of de app. Je ziet dan je <strong>Postvak IN</strong>: een lijst met binnengekomen berichten. Ongelezen berichten zijn meestal <strong>vetgedrukt</strong>.</p><p>Klik op een bericht om het te openen en te lezen.</p>"
+        },
+        {
+          "title": "Een nieuw bericht opstellen",
+          "body": "<p>Klik op de knop <strong>'Opstellen'</strong> of <strong>'Nieuw bericht'</strong>. Vul in:</p><ul><li><strong>Aan:</strong> het e-mailadres van de ontvanger</li><li><strong>Onderwerp:</strong> een korte samenvatting waar het bericht over gaat</li><li><strong>Bericht:</strong> de tekst zelf</li></ul><p>Klik daarna op <strong>'Verzenden'</strong>.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Open hieronder je eigen mailbox en probeer een testbericht te sturen naar jezelf. Zo zie je precies hoe een verzonden bericht aankomt.</p>",
+          "practiceUrl": "https://mail.google.com"
+        },
+        {
+          "title": "Let op: veilig e-mailen",
+          "body": "<p>Open nooit zomaar een bijlage of link van een afzender die je niet kent. Twijfel je? Vraag het gerust aan de docent via de <strong>Help-knop</strong> rechtsonder.</p>"
+        }
+      ]
+    },
+    {
+      "id": "bijlagen",
+      "title": "Bijlagen versturen",
+      "steps": [
+        {
+          "title": "Wat is een bijlage?",
+          "body": "<p>Een bijlage is een bestand (zoals een foto, document of pdf) dat je meestuurt met je e-mail. Je herkent de knop meestal aan een <strong>paperclip-icoon 📎</strong>.</p>"
+        },
+        {
+          "title": "Een bestand toevoegen",
+          "body": "<ol><li>Klik in je e-mail op het paperclip-icoon</li><li>Zoek het bestand op je computer of telefoon</li><li>Klik op 'Openen' of 'Selecteren'</li><li>Wacht tot het bestand volledig is geüpload (je ziet een balkje of vinkje)</li></ol>"
+        },
+        {
+          "title": "Grote bestanden",
+          "body": "<p>Foto's en video's kunnen groot zijn. Bij een te grote bijlage biedt bijvoorbeeld Gmail automatisch een downloadlink via Google Drive aan in plaats van een directe bijlage.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Probeer in je eigen mailbox een nieuw bericht te openen en een foto als bijlage toe te voegen (zonder te versturen).</p>",
+          "practiceUrl": "https://mail.google.com"
+        }
+      ]
+    },
+    {
+      "id": "navigeren",
+      "title": "Navigeren op het web",
+      "steps": [
+        {
+          "title": "De browser",
+          "body": "<p>Een <strong>browser</strong> is het programma waarmee je websites bekijkt, bijvoorbeeld Google Chrome, Microsoft Edge of Safari. Bovenin zie je de <strong>adresbalk</strong>: hier typ je een website-adres of een zoekterm.</p>"
+        },
+        {
+          "title": "Zoeken op internet",
+          "body": "<p>Typ in de adresbalk een vraag of zoekwoord, bijvoorbeeld <em>'weer vandaag'</em>, en druk op <strong>Enter</strong>. Je krijgt een lijst met resultaten. Klik op een blauwe titel om de pagina te openen.</p>"
+        },
+        {
+          "title": "Terug- en vooruitknop",
+          "body": "<p>Gebruik de pijltjes linksboven (⬅️ ➡️) om terug te gaan naar de vorige pagina of weer vooruit. Een nieuw <strong>tabblad</strong> open je met het plusje (+) naast je huidige tabblad.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Zoek hieronder naar 'nieuws van vandaag' en open een artikel dat je interesseert.</p>",
+          "practiceUrl": "https://www.google.com"
+        }
+      ]
+    },
+    {
+      "id": "videobellen",
+      "title": "Videobellen",
+      "steps": [
+        {
+          "title": "Wat is videobellen?",
+          "body": "<p>Met videobellen zie en hoor je elkaar via internet, bijvoorbeeld met <strong>WhatsApp</strong>, <strong>Google Meet</strong> of <strong>FaceTime</strong>. Handig om familie op afstand te zien!</p>"
+        },
+        {
+          "title": "Camera en microfoon",
+          "body": "<p>Voordat je belt, vraagt de app meestal toestemming om je <strong>camera</strong> en <strong>microfoon</strong> te gebruiken. Klik op 'Toestaan' zodat de ander je kan zien en horen.</p>"
+        },
+        {
+          "title": "Een gesprek starten",
+          "body": "<ol><li>Open de app (bijvoorbeeld WhatsApp)</li><li>Zoek het contact op</li><li>Klik op het video-camera-icoon 📹</li><li>Wacht tot de ander opneemt</li></ol>"
+        },
+        {
+          "title": "Een gesprek beëindigen",
+          "body": "<p>Klik op de rode telefoonknop om het gesprek te beëindigen. Dat is alles!</p>"
+        }
+      ]
+    }
+  ]
+}

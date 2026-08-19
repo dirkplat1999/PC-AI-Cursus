@@ -1,0 +1,14 @@
+{
+  "lessons": [
+    {
+      "id": "intro",
+      "title": "AI-gebruik & Ethiek — Binnenkort beschikbaar",
+      "steps": [
+        {
+          "title": "Deze les wordt nog voorbereid",
+          "body": "<p>Deze module gaat over: <em>Werken met Gemini en ChatGPT, slimme vragen stellen, privacyrisico's en wanneer AI NIET te gebruiken.</em>.</p><p>De docent kan hier stap-voor-stap lesmateriaal aan toevoegen via de contentmap van het project (<code>content/lessons/</code>). De structuur van module 1 (E-mailen etc.) kan als voorbeeld dienen.</p>"
+        }
+      ]
+    }
+  ]
+}

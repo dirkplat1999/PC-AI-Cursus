@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="<%= typeof lang !== 'undefined' ? lang : 'nl' %>">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= (typeof t !== 'undefined' && t.appName) ? t.appName : 'PC & AI Cursus' %></title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="manifest" href="/manifest.json">
+</head>
+<body class="font-normal">
+  <header class="topbar">
+    <div class="topbar-left">
+      <a href="/" class="brand">🖥️ <%= (typeof t !== 'undefined' && t.appName) ? t.appName : 'PC & AI Cursus' %></a>
+    </div>
+    <div class="topbar-right">
+      <% if (typeof session !== 'undefined' && session.role) { %>
+        <div class="a11y-controls" aria-label="Toegankelijkheidsopties">
+          <button type="button" id="btn-font-decrease" title="<%= t.fontSize %> -" aria-label="Kleinere letters">A-</button>
+          <button type="button" id="btn-font-increase" title="<%= t.fontSize %> +" aria-label="Grotere letters">A+</button>
+          <button type="button" id="btn-contrast" title="<%= t.highContrast %>" aria-label="Hoog contrast aan/uit">◐</button>
+        </div>
+        <form method="GET" class="lang-switch" onchange="this.submit()">
+          <select name="lang" aria-label="<%= t.language %>">
+            <option value="nl" <%= lang === 'nl' ? 'selected' : '' %>>NL</option>
+            <option value="en" <%= lang === 'en' ? 'selected' : '' %>>EN</option>
+            <option value="de" <%= lang === 'de' ? 'selected' : '' %>>DE</option>
+          </select>
+        </form>
+        <form action="/logout" method="POST">
+          <button type="submit" class="btn btn-ghost"><%= t.logout %></button>
+        </form>
+      <% } %>
+    </div>
+  </header>
+
+  <main class="content">
+    <%- body %>
+  </main>
+
+  <% if (typeof session !== 'undefined' && session.role === 'student') { %>
+    <button id="help-fab" class="help-fab" title="<%= t.help %>">🆘 <span><%= t.help %></span></button>
+    <div id="help-modal" class="modal hidden">
+      <div class="modal-box">
+        <h3><%= t.help %></h3>
+        <p id="help-status" class="hint"></p>
+        <textarea id="help-message" placeholder="<%= t.helpPlaceholder %>" rows="3"></textarea>
+        <div class="modal-actions">
+          <button id="help-cancel" class="btn btn-ghost"><%= t.cancel %></button>
+          <button id="help-send" class="btn btn-primary"><%= t.help %></button>
+        </div>
+      </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+  <% } %>
+
+  <script>
+    window.APP_I18N = <%- JSON.stringify(typeof t !== 'undefined' ? t : {}) %>;
+    window.APP_LANG = "<%= typeof lang !== 'undefined' ? lang : 'nl' %>";
+    window.APP_ROLE = "<%= (typeof session !== 'undefined' && session.role) ? session.role : '' %>";
+  </script>
+  <script src="/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+[
+  { "term": "Browser", "definition": "Het programma waarmee je websites bekijkt, zoals Chrome, Edge of Safari." },
+  { "term": "Bijlage", "definition": "Een bestand (foto, document) dat je meestuurt met een e-mail." },
+  { "term": "Wachtwoordmanager", "definition": "Een programma dat al je wachtwoorden veilig onthoudt, zodat jij dat niet hoeft te doen." },
+  { "term": "2FA (tweestapsverificatie)", "definition": "Een extra beveiligingsstap na je wachtwoord, bijvoorbeeld een code via sms of app." },
+  { "term": "Phishing", "definition": "Nepberichten die proberen je wachtwoord of gegevens te stelen door zich voor te doen als een betrouwbare afzender." },
+  { "term": "Cloud", "definition": "Opslag van bestanden via internet, in plaats van alleen op je eigen apparaat." },
+  { "term": "DigiD", "definition": "Je persoonlijke inlogmiddel voor de Nederlandse overheid, zoals de Belastingdienst." },
+  { "term": "AI (kunstmatige intelligentie)", "definition": "Computerprogramma's die kunnen leren en zelfstandig taken uitvoeren, zoals ChatGPT of Gemini." },
+  { "term": "Prompt", "definition": "De vraag of opdracht die je typt aan een AI-programma zoals ChatGPT." },
+  { "term": "Tabblad", "definition": "Een extra 'pagina' bovenin je browser waarmee je meerdere websites tegelijk open kunt hebben." }
+]

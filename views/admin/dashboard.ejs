@@ -1,0 +1,77 @@
+<div class="admin-page">
+  <div class="admin-header">
+    <h1><%= t.adminDashboard %></h1>
+    <nav class="admin-nav">
+      <a href="/admin" class="active"><%= t.adminDashboard %></a>
+      <a href="/admin/students"><%= t.students %></a>
+      <a href="/admin/changelog"><%= t.changelog %></a>
+    </nav>
+  </div>
+
+  <div class="stat-cards">
+    <div class="stat-card">
+      <div class="stat-value"><%= students.length %></div>
+      <div class="stat-label"><%= t.students %></div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value"><%= modules.length %></div>
+      <div class="stat-label">Modules</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-value"><%= t.currentVersion %>: v<%= version %></div>
+    </div>
+  </div>
+
+  <section class="panel">
+    <h2><%= t.helpRequests %> <span id="help-live-dot" class="live-dot hidden"></span></h2>
+    <ul id="help-list" class="help-list">
+      <% if (!openHelp.length) { %>
+        <li class="empty" id="help-empty"><%= t.noHelpRequests %></li>
+      <% } %>
+      <% openHelp.forEach(h => { %>
+        <li class="help-item" data-id="<%= h.id %>">
+          <div>
+            <strong><%= h.full_name %></strong> (<%= h.username %>)
+            <% if (h.module_key) { %><span class="tag"><%= h.module_key %></span><% } %>
+            <p><%= h.message || '(geen bericht)' %></p>
+            <small><%= h.created_at %></small>
+          </div>
+          <form method="POST" action="/admin/help/<%= h.id %>/resolve">
+            <button type="submit" class="btn btn-small"><%= t.resolve %></button>
+          </form>
+        </li>
+      <% }) %>
+    </ul>
+  </section>
+
+  <section class="panel">
+    <h2><%= t.students %> — <%= t.progress %></h2>
+    <div class="table-wrap">
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th><%= t.fullName %></th>
+            <th><%= t.username %></th>
+            <th><%= t.language %></th>
+            <th>Modules</th>
+            <th><%= t.progress %></th>
+          </tr>
+        </thead>
+        <tbody>
+          <% students.forEach(s => { %>
+            <tr>
+              <td><%= s.full_name %></td>
+              <td><%= s.username %></td>
+              <td><%= s.language.toUpperCase() %></td>
+              <td><%= s.assignedModules.join(', ') || '—' %></td>
+              <td><%= s.completedCount %> / <%= s.totalAssigned %></td>
+            </tr>
+          <% }) %>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/admin.js"></script>

@@ -1,0 +1,14 @@
+{
+  "lessons": [
+    {
+      "id": "intro",
+      "title": "Praktische Apps — Demnächst verfügbar",
+      "steps": [
+        {
+          "title": "Diese Lektion wird noch vorbereitet",
+          "body": "<p>Dieses Modul behandelt: <em>Google Maps/Navigation, Marktplaats, Funda, NPO Start/YouTube, 9292-Reiseübungen, Facebook/lokale Gruppen.</em>.</p><p>Die Lehrkraft kann hier Schritt-für-Schritt-Material über den Content-Ordner des Projekts hinzufügen (<code>content/lessons/</code>). Modul 1 (E-Mail usw.) kann als Beispiel dienen.</p>"
+        }
+      ]
+    }
+  ]
+}

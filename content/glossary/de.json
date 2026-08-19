@@ -1,0 +1,12 @@
+[
+  { "term": "Browser", "definition": "Das Programm, mit dem du Webseiten ansiehst, wie Chrome, Edge oder Safari." },
+  { "term": "Anhang", "definition": "Eine Datei (Foto, Dokument), die du mit einer E-Mail mitschickst." },
+  { "term": "Passwort-Manager", "definition": "Ein Programm, das alle deine Passwörter sicher für dich merkt." },
+  { "term": "2FA (Zwei-Faktor-Authentifizierung)", "definition": "Ein zusätzlicher Sicherheitsschritt nach deinem Passwort, z. B. ein Code per SMS oder App." },
+  { "term": "Phishing", "definition": "Gefälschte Nachrichten, die versuchen, dein Passwort oder deine Daten zu stehlen, indem sie sich als vertrauenswürdiger Absender ausgeben." },
+  { "term": "Cloud", "definition": "Speicherung von Dateien über das Internet, statt nur auf deinem eigenen Gerät." },
+  { "term": "DigiD", "definition": "Dein persönliches Login-Mittel für die niederländische Regierung, z. B. das Finanzamt." },
+  { "term": "KI (künstliche Intelligenz)", "definition": "Computerprogramme, die lernen und selbstständig Aufgaben ausführen können, wie ChatGPT oder Gemini." },
+  { "term": "Prompt", "definition": "Die Frage oder Anweisung, die du in ein KI-Programm wie ChatGPT eingibst." },
+  { "term": "Tab", "definition": "Eine zusätzliche 'Seite' oben in deinem Browser, mit der du mehrere Webseiten gleichzeitig geöffnet haben kannst." }
+]

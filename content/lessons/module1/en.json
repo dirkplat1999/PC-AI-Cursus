@@ -1,0 +1,99 @@
+{
+  "lessons": [
+    {
+      "id": "emailen",
+      "title": "Email: the basics",
+      "steps": [
+        {
+          "title": "What is email?",
+          "body": "<p>Email (electronic mail) is a way to send messages over the internet, like a letter but digital and usually delivered within seconds.</p><p>You need an <strong>email address</strong> for this, for example <code>name@gmail.com</code>. Anyone with an email address can send you messages.</p>"
+        },
+        {
+          "title": "Opening your inbox",
+          "body": "<p>Open your email program (for example Gmail) through the browser or app. You will see your <strong>Inbox</strong>: a list of received messages. Unread messages are usually shown in <strong>bold</strong>.</p><p>Click on a message to open and read it.</p>"
+        },
+        {
+          "title": "Writing a new message",
+          "body": "<p>Click the <strong>'Compose'</strong> or <strong>'New message'</strong> button. Fill in:</p><ul><li><strong>To:</strong> the recipient's email address</li><li><strong>Subject:</strong> a short summary of what the message is about</li><li><strong>Message:</strong> the text itself</li></ul><p>Then click <strong>'Send'</strong>.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Open your own mailbox below and try sending a test message to yourself. This way you'll see exactly how a sent message arrives.</p>",
+          "practiceUrl": "https://mail.google.com"
+        },
+        {
+          "title": "Note: staying safe by email",
+          "body": "<p>Never open an attachment or link from a sender you don't know. Not sure? Feel free to ask the teacher via the <strong>Help button</strong> in the bottom right.</p>"
+        }
+      ]
+    },
+    {
+      "id": "bijlagen",
+      "title": "Sending attachments",
+      "steps": [
+        {
+          "title": "What is an attachment?",
+          "body": "<p>An attachment is a file (like a photo, document or PDF) that you send along with your email. You'll usually recognize the button by a <strong>paperclip icon 📎</strong>.</p>"
+        },
+        {
+          "title": "Adding a file",
+          "body": "<ol><li>Click the paperclip icon in your email</li><li>Find the file on your computer or phone</li><li>Click 'Open' or 'Select'</li><li>Wait until the file has fully uploaded (you'll see a progress bar or checkmark)</li></ol>"
+        },
+        {
+          "title": "Large files",
+          "body": "<p>Photos and videos can be large. For a too-large attachment, Gmail for example automatically offers a download link via Google Drive instead of a direct attachment.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Try opening a new message in your own mailbox and adding a photo as an attachment (without sending it).</p>",
+          "practiceUrl": "https://mail.google.com"
+        }
+      ]
+    },
+    {
+      "id": "navigeren",
+      "title": "Browsing the web",
+      "steps": [
+        {
+          "title": "The browser",
+          "body": "<p>A <strong>browser</strong> is the program you use to view websites, for example Google Chrome, Microsoft Edge or Safari. At the top you'll see the <strong>address bar</strong>: type a website address or a search term here.</p>"
+        },
+        {
+          "title": "Searching the internet",
+          "body": "<p>Type a question or search word in the address bar, for example <em>'weather today'</em>, and press <strong>Enter</strong>. You'll get a list of results. Click a blue title to open the page.</p>"
+        },
+        {
+          "title": "Back and forward buttons",
+          "body": "<p>Use the arrows in the top left (⬅️ ➡️) to go back to the previous page or forward again. Open a new <strong>tab</strong> with the plus sign (+) next to your current tab.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Search below for 'news today' and open an article that interests you.</p>",
+          "practiceUrl": "https://www.google.com"
+        }
+      ]
+    },
+    {
+      "id": "videobellen",
+      "title": "Video calling",
+      "steps": [
+        {
+          "title": "What is video calling?",
+          "body": "<p>Video calling lets you see and hear each other over the internet, for example with <strong>WhatsApp</strong>, <strong>Google Meet</strong> or <strong>FaceTime</strong>. Great for seeing family who live far away!</p>"
+        },
+        {
+          "title": "Camera and microphone",
+          "body": "<p>Before you call, the app usually asks permission to use your <strong>camera</strong> and <strong>microphone</strong>. Click 'Allow' so the other person can see and hear you.</p>"
+        },
+        {
+          "title": "Starting a call",
+          "body": "<ol><li>Open the app (for example WhatsApp)</li><li>Find the contact</li><li>Click the video camera icon 📹</li><li>Wait for the other person to answer</li></ol>"
+        },
+        {
+          "title": "Ending a call",
+          "body": "<p>Click the red phone button to end the call. That's it!</p>"
+        }
+      ]
+    }
+  ]
+}

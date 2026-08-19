@@ -1,0 +1,28 @@
+<div class="auth-page">
+  <div class="auth-card">
+    <h1>🖥️ <%= t.appName %></h1>
+    <h2><%= t.setupTitle %></h2>
+    <p><%= t.setupIntro %></p>
+
+    <form method="GET" class="lang-switch-inline">
+      <select name="lang" onchange="this.form.submit()">
+        <option value="nl" <%= lang === 'nl' ? 'selected' : '' %>>Nederlands</option>
+        <option value="en" <%= lang === 'en' ? 'selected' : '' %>>English</option>
+        <option value="de" <%= lang === 'de' ? 'selected' : '' %>>Deutsch</option>
+      </select>
+    </form>
+
+    <% if (error) { %><p class="error"><%= error %></p><% } %>
+
+    <form method="POST" action="/setup">
+      <input type="hidden" name="lang" value="<%= lang %>">
+      <label for="password"><%= t.password %></label>
+      <input type="password" id="password" name="password" minlength="6" required autofocus>
+
+      <label for="confirmPassword"><%= t.confirmPassword %></label>
+      <input type="password" id="confirmPassword" name="confirmPassword" minlength="6" required>
+
+      <button type="submit" class="btn btn-primary btn-block"><%= t.setupButton %></button>
+    </form>
+  </div>
+</div>

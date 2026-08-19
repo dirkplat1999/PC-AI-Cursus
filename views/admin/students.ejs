@@ -1,0 +1,90 @@
+<div class="admin-page">
+  <div class="admin-header">
+    <h1><%= t.students %></h1>
+    <nav class="admin-nav">
+      <a href="/admin"><%= t.adminDashboard %></a>
+      <a href="/admin/students" class="active"><%= t.students %></a>
+      <a href="/admin/changelog"><%= t.changelog %></a>
+    </nav>
+  </div>
+
+  <% if (error) { %><p class="error"><%= error %></p><% } %>
+
+  <section class="panel">
+    <h2><%= t.addStudent %></h2>
+    <form method="POST" action="/admin/students" class="student-form">
+      <div class="form-row">
+        <div>
+          <label><%= t.fullName %></label>
+          <input type="text" name="full_name" required>
+        </div>
+        <div>
+          <label><%= t.username %></label>
+          <input type="text" name="username" required>
+        </div>
+        <div>
+          <label><%= t.password %></label>
+          <input type="password" name="password" minlength="6" required>
+        </div>
+        <div>
+          <label><%= t.language %></label>
+          <select name="language">
+            <% langs.forEach(l => { %><option value="<%= l %>"><%= l.toUpperCase() %></option><% }) %>
+          </select>
+        </div>
+      </div>
+      <label><%= t.assignModules %></label>
+      <div class="module-checkboxes">
+        <% modules.forEach(m => { %>
+          <label class="checkbox-pill">
+            <input type="checkbox" name="modules" value="<%= m.key %>">
+            <%= m.icon %> <%= m.title[lang] || m.title.nl %>
+          </label>
+        <% }) %>
+      </div>
+      <button type="submit" class="btn btn-primary"><%= t.addStudent %></button>
+    </form>
+  </section>
+
+  <section class="panel">
+    <h2><%= t.students %></h2>
+    <% students.forEach(s => { %>
+      <details class="student-edit">
+        <summary><%= s.full_name %> (<%= s.username %>) — <%= s.assignedModules.length %> module(s)</summary>
+        <form method="POST" action="/admin/students/<%= s.id %>" class="student-form">
+          <div class="form-row">
+            <div>
+              <label><%= t.fullName %></label>
+              <input type="text" name="full_name" value="<%= s.full_name %>" required>
+            </div>
+            <div>
+              <label><%= t.language %></label>
+              <select name="language">
+                <% langs.forEach(l => { %><option value="<%= l %>" <%= s.language === l ? 'selected' : '' %>><%= l.toUpperCase() %></option><% }) %>
+              </select>
+            </div>
+            <div>
+              <label>Nieuw wachtwoord (optioneel)</label>
+              <input type="password" name="new_password" minlength="6" placeholder="•••••••">
+            </div>
+          </div>
+          <label><%= t.assignModules %></label>
+          <div class="module-checkboxes">
+            <% modules.forEach(m => { %>
+              <label class="checkbox-pill">
+                <input type="checkbox" name="modules" value="<%= m.key %>" <%= s.assignedModules.includes(m.key) ? 'checked' : '' %>>
+                <%= m.icon %> <%= m.title[lang] || m.title.nl %>
+              </label>
+            <% }) %>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary"><%= t.save %></button>
+          </div>
+        </form>
+        <form method="POST" action="/admin/students/<%= s.id %>/delete" onsubmit="return confirm('<%= t.delete %> <%= s.full_name %>?');">
+          <button type="submit" class="btn btn-danger btn-small"><%= t.delete %></button>
+        </form>
+      </details>
+    <% }) %>
+  </section>
+</div>

@@ -1,0 +1,14 @@
+{
+  "lessons": [
+    {
+      "id": "intro",
+      "title": "Praktische Apps — Binnenkort beschikbaar",
+      "steps": [
+        {
+          "title": "Deze les wordt nog voorbereid",
+          "body": "<p>Deze module gaat over: <em>Google Maps/navigatie, Marktplaats, Funda, NPO Start/YouTube, 9292-reisoefeningen, Facebook/lokale groepen.</em>.</p><p>De docent kan hier stap-voor-stap lesmateriaal aan toevoegen via de contentmap van het project (<code>content/lessons/</code>). De structuur van module 1 (E-mailen etc.) kan als voorbeeld dienen.</p>"
+        }
+      ]
+    }
+  ]
+}

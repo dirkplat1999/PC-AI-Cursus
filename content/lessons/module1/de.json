@@ -1,0 +1,99 @@
+{
+  "lessons": [
+    {
+      "id": "emailen",
+      "title": "E-Mail: die Grundlagen",
+      "steps": [
+        {
+          "title": "Was ist E-Mail?",
+          "body": "<p>E-Mail (elektronische Post) ist eine Möglichkeit, Nachrichten über das Internet zu senden – wie ein Brief, aber digital und meist innerhalb weniger Sekunden zugestellt.</p><p>Dafür brauchst du eine <strong>E-Mail-Adresse</strong>, zum Beispiel <code>name@gmail.com</code>. Jeder mit einer E-Mail-Adresse kann dir Nachrichten schicken.</p>"
+        },
+        {
+          "title": "Dein Postfach öffnen",
+          "body": "<p>Öffne dein E-Mail-Programm (zum Beispiel Gmail) über den Browser oder die App. Du siehst dann deinen <strong>Posteingang</strong>: eine Liste eingegangener Nachrichten. Ungelesene Nachrichten sind meist <strong>fett gedruckt</strong>.</p><p>Klicke auf eine Nachricht, um sie zu öffnen und zu lesen.</p>"
+        },
+        {
+          "title": "Eine neue Nachricht verfassen",
+          "body": "<p>Klicke auf <strong>'Verfassen'</strong> oder <strong>'Neue Nachricht'</strong>. Fülle aus:</p><ul><li><strong>An:</strong> die E-Mail-Adresse des Empfängers</li><li><strong>Betreff:</strong> eine kurze Zusammenfassung, worum es geht</li><li><strong>Nachricht:</strong> der eigentliche Text</li></ul><p>Klicke danach auf <strong>'Senden'</strong>.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Öffne unten dein eigenes Postfach und versuche, eine Testnachricht an dich selbst zu senden. So siehst du genau, wie eine gesendete Nachricht ankommt.</p>",
+          "practiceUrl": "https://mail.google.com"
+        },
+        {
+          "title": "Achtung: sicher mailen",
+          "body": "<p>Öffne niemals einfach einen Anhang oder Link von einem Absender, den du nicht kennst. Unsicher? Frag ruhig die Lehrkraft über die <strong>Hilfe-Taste</strong> unten rechts.</p>"
+        }
+      ]
+    },
+    {
+      "id": "bijlagen",
+      "title": "Anhänge versenden",
+      "steps": [
+        {
+          "title": "Was ist ein Anhang?",
+          "body": "<p>Ein Anhang ist eine Datei (wie ein Foto, Dokument oder PDF), die du mit deiner E-Mail mitschickst. Die Schaltfläche erkennst du meist an einem <strong>Büroklammer-Symbol 📎</strong>.</p>"
+        },
+        {
+          "title": "Eine Datei hinzufügen",
+          "body": "<ol><li>Klicke in deiner E-Mail auf das Büroklammer-Symbol</li><li>Suche die Datei auf deinem Computer oder Handy</li><li>Klicke auf 'Öffnen' oder 'Auswählen'</li><li>Warte, bis die Datei vollständig hochgeladen ist (du siehst einen Ladebalken oder ein Häkchen)</li></ol>"
+        },
+        {
+          "title": "Große Dateien",
+          "body": "<p>Fotos und Videos können groß sein. Bei einem zu großen Anhang bietet zum Beispiel Gmail automatisch einen Downloadlink über Google Drive an, statt eines direkten Anhangs.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Versuche, in deinem eigenen Postfach eine neue Nachricht zu öffnen und ein Foto als Anhang hinzuzufügen (ohne sie zu senden).</p>",
+          "practiceUrl": "https://mail.google.com"
+        }
+      ]
+    },
+    {
+      "id": "navigeren",
+      "title": "Im Web navigieren",
+      "steps": [
+        {
+          "title": "Der Browser",
+          "body": "<p>Ein <strong>Browser</strong> ist das Programm, mit dem du Webseiten ansiehst, zum Beispiel Google Chrome, Microsoft Edge oder Safari. Oben siehst du die <strong>Adressleiste</strong>: hier gibst du eine Webadresse oder einen Suchbegriff ein.</p>"
+        },
+        {
+          "title": "Im Internet suchen",
+          "body": "<p>Gib in der Adressleiste eine Frage oder ein Suchwort ein, zum Beispiel <em>'Wetter heute'</em>, und drücke <strong>Enter</strong>. Du erhältst eine Liste mit Ergebnissen. Klicke auf einen blauen Titel, um die Seite zu öffnen.</p>"
+        },
+        {
+          "title": "Zurück- und Vorwärts-Taste",
+          "body": "<p>Benutze die Pfeile oben links (⬅️ ➡️), um zur vorherigen Seite zurückzugehen oder wieder vorwärts. Einen neuen <strong>Tab</strong> öffnest du mit dem Plus-Zeichen (+) neben deinem aktuellen Tab.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Suche unten nach 'Nachrichten heute' und öffne einen Artikel, der dich interessiert.</p>",
+          "practiceUrl": "https://www.google.com"
+        }
+      ]
+    },
+    {
+      "id": "videobellen",
+      "title": "Videotelefonie",
+      "steps": [
+        {
+          "title": "Was ist Videotelefonie?",
+          "body": "<p>Beim Videotelefonieren seht und hört ihr euch über das Internet, zum Beispiel mit <strong>WhatsApp</strong>, <strong>Google Meet</strong> oder <strong>FaceTime</strong>. Praktisch, um Familie aus der Ferne zu sehen!</p>"
+        },
+        {
+          "title": "Kamera und Mikrofon",
+          "body": "<p>Bevor du anrufst, fragt die App meist um Erlaubnis, deine <strong>Kamera</strong> und dein <strong>Mikrofon</strong> zu benutzen. Klicke auf 'Zulassen', damit die andere Person dich sehen und hören kann.</p>"
+        },
+        {
+          "title": "Ein Gespräch starten",
+          "body": "<ol><li>Öffne die App (zum Beispiel WhatsApp)</li><li>Suche den Kontakt</li><li>Klicke auf das Videokamera-Symbol 📹</li><li>Warte, bis die andere Person abnimmt</li></ol>"
+        },
+        {
+          "title": "Ein Gespräch beenden",
+          "body": "<p>Klicke auf die rote Telefontaste, um das Gespräch zu beenden. Das war's!</p>"
+        }
+      ]
+    }
+  ]
+}

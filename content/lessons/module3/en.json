@@ -1,0 +1,14 @@
+{
+  "lessons": [
+    {
+      "id": "intro",
+      "title": "Government & Safety — Coming soon",
+      "steps": [
+        {
+          "title": "This lesson is still being prepared",
+          "body": "<p>This module covers: <em>DigiD, MijnOverheid, online banking, recognizing phishing, strong passwords and 2FA.</em>.</p><p>The teacher can add step-by-step material here via the project's content folder (<code>content/lessons/</code>). Module 1 (Email etc.) can serve as an example.</p>"
+        }
+      ]
+    }
+  ]
+}

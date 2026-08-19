@@ -1,0 +1,12 @@
+[
+  { "term": "Browser", "definition": "The program you use to view websites, such as Chrome, Edge or Safari." },
+  { "term": "Attachment", "definition": "A file (photo, document) that you send along with an email." },
+  { "term": "Password manager", "definition": "A program that securely remembers all your passwords for you." },
+  { "term": "2FA (two-factor authentication)", "definition": "An extra security step after your password, e.g. a code via SMS or app." },
+  { "term": "Phishing", "definition": "Fake messages that try to steal your password or data by pretending to be a trustworthy sender." },
+  { "term": "Cloud", "definition": "Storing files over the internet, instead of only on your own device." },
+  { "term": "DigiD", "definition": "Your personal login method for the Dutch government, such as the Tax Office." },
+  { "term": "AI (artificial intelligence)", "definition": "Computer programs that can learn and perform tasks independently, such as ChatGPT or Gemini." },
+  { "term": "Prompt", "definition": "The question or instruction you type to an AI program such as ChatGPT." },
+  { "term": "Tab", "definition": "An extra 'page' at the top of your browser that lets you have multiple websites open at once." }
+]

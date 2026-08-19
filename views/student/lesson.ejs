@@ -1,0 +1,71 @@
+<div class="lesson-page">
+  <div class="lesson-top">
+    <a href="/student?lang=<%= lang %>" class="btn btn-ghost">← <%= t.yourModules %></a>
+    <div class="lesson-progress-text"><%= t.step %> <%= currentIndex + 1 %> <%= t.of %> <%= total %></div>
+  </div>
+
+  <div class="progress-bar"><div class="progress-fill" style="width: <%= Math.round(((currentIndex + 1) / total) * 100) %>%"></div></div>
+
+  <h1><%= module.icon %> <%= module.title[lang] || module.title.nl %></h1>
+  <h3 class="lesson-subtitle"><%= currentStep.lessonTitle %></h3>
+
+  <div class="step-card">
+    <h2><%= currentStep.title %></h2>
+    <div class="step-body" id="step-body"><%- currentStep.body %></div>
+
+    <% if (currentStep.practiceUrl) { %>
+      <a class="btn btn-primary" href="/student/browser?url=<%= encodeURIComponent(currentStep.practiceUrl) %>&back=<%= encodeURIComponent('/student/module/' + module.key + '?step=' + currentIndex + '&lang=' + lang) %>">
+        🌐 <%= t.openPractice %>
+      </a>
+    <% } %>
+
+    <div class="step-tools">
+      <button type="button" id="btn-read-aloud" data-lang="<%= lang %>"><%= t.readAloud %> 🔊</button>
+      <button type="button" id="btn-open-glossary"><%= t.glossary %> 📖</button>
+    </div>
+  </div>
+
+  <div class="lesson-nav">
+    <% if (currentIndex > 0) { %>
+      <a class="btn" href="?step=<%= currentIndex - 1 %>&lang=<%= lang %>">← <%= t.previous %></a>
+    <% } else { %><span></span><% } %>
+
+    <% if (currentIndex < total - 1) { %>
+      <a class="btn btn-primary btn-large" href="?step=<%= currentIndex + 1 %>&lang=<%= lang %>"><%= t.next %> →</a>
+    <% } else { %>
+      <a class="btn btn-primary btn-large" href="/student?lang=<%= lang %>" id="finish-btn"><%= t.finishModule %> ✅</a>
+    <% } %>
+  </div>
+</div>
+
+<div id="glossary-modal" class="modal hidden">
+  <div class="modal-box modal-wide">
+    <h3><%= t.glossary %></h3>
+    <div class="glossary-list">
+      <% glossary.forEach(g => { %>
+        <div class="glossary-item"><strong><%= g.term %></strong><p><%= g.definition %></p></div>
+      <% }) %>
+    </div>
+    <div class="modal-actions">
+      <button id="glossary-close" class="btn btn-ghost"><%= t.cancel %></button>
+    </div>
+  </div>
+</div>
+
+<script>
+  (function () {
+    const isLast = <%= currentIndex >= total - 1 ? 'true' : 'false' %>;
+    fetch('/student/module/<%= module.key %>/progress', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ step_index: <%= currentIndex %>, completed: isLast })
+    }).catch(() => {});
+
+    document.getElementById('btn-open-glossary')?.addEventListener('click', () => {
+      document.getElementById('glossary-modal').classList.remove('hidden');
+    });
+    document.getElementById('glossary-close')?.addEventListener('click', () => {
+      document.getElementById('glossary-modal').classList.add('hidden');
+    });
+  })();
+</script>

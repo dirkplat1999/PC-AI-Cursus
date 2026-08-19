@@ -1,0 +1,14 @@
+{
+  "lessons": [
+    {
+      "id": "intro",
+      "title": "Digitale Handigheidjes — Binnenkort beschikbaar",
+      "steps": [
+        {
+          "title": "Deze les wordt nog voorbereid",
+          "body": "<p>Deze module gaat over: <em>E-readers, foto's opslaan in de cloud, betrouwbare medische bronnen (Thuisarts.nl), wachtwoordmanagers.</em>.</p><p>De docent kan hier stap-voor-stap lesmateriaal aan toevoegen via de contentmap van het project (<code>content/lessons/</code>). De structuur van module 1 (E-mailen etc.) kan als voorbeeld dienen.</p>"
+        }
+      ]
+    }
+  ]
+}
