@@ -1,12 +1,84 @@
 {
   "lessons": [
     {
-      "id": "intro",
-      "title": "AI-gebruik & Ethiek — Binnenkort beschikbaar",
+      "id": "ai-basis",
+      "title": "Wat is AI? ChatGPT en Gemini",
       "steps": [
         {
-          "title": "Deze les wordt nog voorbereid",
-          "body": "<p>Deze module gaat over: <em>Werken met Gemini en ChatGPT, slimme vragen stellen, privacyrisico's en wanneer AI NIET te gebruiken.</em>.</p><p>De docent kan hier stap-voor-stap lesmateriaal aan toevoegen via de contentmap van het project (<code>content/lessons/</code>). De structuur van module 1 (E-mailen etc.) kan als voorbeeld dienen.</p>"
+          "title": "Wat is kunstmatige intelligentie (AI)?",
+          "body": "<p>AI (kunstmatige intelligentie) zijn computerprogramma's die geleerd hebben om taal te begrijpen en zelf teksten, antwoorden of afbeeldingen te maken. Bekende voorbeelden zijn <strong>ChatGPT</strong> (van OpenAI) en <strong>Gemini</strong> (van Google).</p>"
+        },
+        {
+          "title": "Chatten met een AI",
+          "body": "<p>Je typt een vraag of opdracht ('prompt') in een tekstvak, bijvoorbeeld <em>'Leg uit wat inflatie is in eenvoudige taal'</em>. Binnen enkele seconden krijg je een antwoord terug. Je kunt daarna doorvragen, precies zoals in een gesprek.</p>"
+        },
+        {
+          "title": "Waar is AI goed in — en niet goed in?",
+          "body": "<p>AI is goed in: tekst samenvatten, uitleggen, ideeën verzamelen, een eerste opzet schrijven.</p><p>AI is <strong>niet altijd betrouwbaar</strong>: het kan dingen 'verzinnen' die er kloppend uitzien maar niet waar zijn (dit heet een <em>hallucinatie</em>). Controleer belangrijke feiten dus altijd nog even zelf.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Open hieronder Gemini en stel een eenvoudige vraag, bijvoorbeeld 'Wat kan ik vandaag koken met aardappelen en kip?'</p>",
+          "practiceUrl": "https://gemini.google.com"
+        }
+      ]
+    },
+    {
+      "id": "prompten",
+      "title": "Slimme vragen stellen (prompten)",
+      "steps": [
+        {
+          "title": "Wat is een 'prompt'?",
+          "body": "<p>Een <strong>prompt</strong> is de vraag of opdracht die je aan een AI geeft. Hoe duidelijker je prompt, hoe beter het antwoord.</p>"
+        },
+        {
+          "title": "Tips voor een goede prompt",
+          "body": "<ul><li>Wees specifiek: niet 'schrijf een brief' maar 'schrijf een korte, vriendelijke brief aan mijn buurman over een lekkende dakgoot'</li><li>Geef context: vertel voor wie het antwoord is, en waarom</li><li>Vraag om een bepaalde vorm: 'in maximaal 5 zinnen', 'als een lijst met stappen'</li><li>Niet tevreden? Vraag gewoon om het anders of korter te doen</li></ul>"
+        },
+        {
+          "title": "Voorbeelden van goede prompts",
+          "body": "<ul><li><em>'Leg in simpele taal uit wat 2FA is, alsof ik nog nooit van internetbeveiliging heb gehoord.'</em></li><li><em>'Schrijf een verjaardagswens voor mijn kleinzoon van 10 jaar die van voetbal houdt.'</em></li><li><em>'Maak een boodschappenlijstje voor een lasagne voor 4 personen.'</em></li><li><em>'Vat dit e-mailbericht in 3 zinnen samen: [plak hier de tekst]'</em></li></ul>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Probeer hieronder zelf een van de voorbeeldprompten, of bedenk je eigen vraag.</p>",
+          "practiceUrl": "https://gemini.google.com"
+        }
+      ]
+    },
+    {
+      "id": "privacy-ai",
+      "title": "Privacyrisico's bij AI",
+      "steps": [
+        {
+          "title": "Wat gebeurt er met wat je typt?",
+          "body": "<p>Wat je in een AI-chat typt, wordt verstuurd naar en verwerkt door het bedrijf achter die AI (bijvoorbeeld Google of OpenAI). Dat is niet hetzelfde als een privégesprek.</p>"
+        },
+        {
+          "title": "Wat deel je nooit met een AI-chatbot?",
+          "body": "<ul><li>Wachtwoorden of inlogcodes</li><li>Je DigiD-gegevens of BSN</li><li>Bankgegevens of pincodes</li><li>Medische dossiers met namen van anderen</li><li>Gevoelige informatie over andere personen</li></ul>"
+        },
+        {
+          "title": "Antwoorden controleren",
+          "body": "<p>Een AI klinkt vaak zelfverzekerd, ook als het antwoord niet klopt. Controleer belangrijke informatie (medisch, financieel, juridisch) altijd bij een officiële bron of deskundige, voordat je ernaar handelt.</p>"
+        }
+      ]
+    },
+    {
+      "id": "ai-niet-gebruiken",
+      "title": "Wanneer gebruik je AI NIET?",
+      "steps": [
+        {
+          "title": "AI is geen dokter, advocaat of bank",
+          "body": "<p>Gebruik AI niet als vervanging voor professioneel advies. Voor medische klachten ga je naar de huisarts (of <a href='https://www.thuisarts.nl' target='_blank' rel='noopener'>Thuisarts.nl</a>), voor juridische vragen naar een jurist, en voor geldzaken naar je bank of een adviseur.</p>"
+        },
+        {
+          "title": "Belangrijke of officiële beslissingen",
+          "body": "<p>Gebruik nooit alleen een AI-antwoord om een officiële beslissing op te baseren, zoals een belastingaangifte, een medische behandeling of een grote aankoop. Controleer dit altijd bij een mens of een officiële instantie.</p>"
+        },
+        {
+          "title": "Samenvatting",
+          "body": "<p>Zie AI als een <strong>hulpmiddel</strong> — handig om ideeën te krijgen, teksten te controleren of iets uit te laten leggen — maar niet als een onfeilbare waarheid. Bij twijfel: vraag het na bij een mens.</p>"
         }
       ]
     }

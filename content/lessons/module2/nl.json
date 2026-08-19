@@ -1,12 +1,156 @@
 {
   "lessons": [
     {
-      "id": "intro",
-      "title": "Praktische Apps — Binnenkort beschikbaar",
+      "id": "maps",
+      "title": "Google Maps & navigeren",
       "steps": [
         {
-          "title": "Deze les wordt nog voorbereid",
-          "body": "<p>Deze module gaat over: <em>Google Maps/navigatie, Marktplaats, Funda, NPO Start/YouTube, 9292-reisoefeningen, Facebook/lokale groepen.</em>.</p><p>De docent kan hier stap-voor-stap lesmateriaal aan toevoegen via de contentmap van het project (<code>content/lessons/</code>). De structuur van module 1 (E-mailen etc.) kan als voorbeeld dienen.</p>"
+          "title": "Wat is Google Maps?",
+          "body": "<p>Google Maps is een digitale kaart van de hele wereld. Je kunt ermee adressen opzoeken, routes uitstippelen en zien hoe druk het ergens is.</p><p>Je opent Google Maps via de app op je telefoon of via <code>maps.google.com</code> in je browser.</p>"
+        },
+        {
+          "title": "Een adres opzoeken",
+          "body": "<ol><li>Klik of tik bovenin op de zoekbalk</li><li>Typ een adres, plaatsnaam of bedrijfsnaam</li><li>Kies het juiste resultaat uit de lijst</li></ol><p>Er verschijnt nu een rode pin op de kaart bij die locatie.</p>"
+        },
+        {
+          "title": "Een route uitstippelen",
+          "body": "<p>Klik op de blauwe knop <strong>'Route'</strong>. Vul in waar je vandaan vertrekt en waar je heen wilt. Kies bovenaan hoe je wilt reizen:</p><ul><li>🚗 Auto</li><li>🚲 Fiets</li><li>🚶 Lopen</li><li>🚌 Openbaar vervoer</li></ul><p>Google Maps laat nu de route en de reistijd zien.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Zoek hieronder je eigen adres op en stippel een route uit naar de supermarkt bij jou in de buurt.</p>",
+          "practiceUrl": "https://maps.google.com"
+        },
+        {
+          "title": "Tip: Straatbeeld",
+          "body": "<p>Sleep het gele mannetje (rechtsonder op de kaart) naar een straat om er rond te kijken alsof je er zelf staat. Handig om een adres te herkennen voordat je er naartoe gaat!</p>"
+        }
+      ]
+    },
+    {
+      "id": "marktplaats",
+      "title": "Marktplaats: kopen en verkopen",
+      "steps": [
+        {
+          "title": "Wat is Marktplaats?",
+          "body": "<p>Marktplaats is een website waar mensen tweedehands spullen kopen en verkopen, van fietsen tot meubels. Iedereen kan er iets plaatsen of iets kopen.</p>"
+        },
+        {
+          "title": "Iets zoeken",
+          "body": "<ol><li>Typ in de zoekbalk wat je zoekt, bijvoorbeeld 'fiets dames'</li><li>Gebruik de filters links om te zoeken op prijs of afstand tot jouw woonplaats</li><li>Klik op een advertentie om foto's en de beschrijving te bekijken</li></ol>"
+        },
+        {
+          "title": "Veilig kopen: let op oplichting",
+          "body": "<p>De meeste verkopers zijn eerlijk, maar wees voorzichtig:</p><ul><li>Betaal <strong>nooit</strong> vooraf via een linkje dat je per bericht krijgt toegestuurd</li><li>Spreek af om het product in persoon te bekijken en te betalen, of gebruik veilig betalen via Marktplaats zelf</li><li>Twijfel je? Vraag het na aan de docent of familie</li></ul>"
+        },
+        {
+          "title": "Zelf iets verkopen",
+          "body": "<p>Klik op <strong>'Plaats advertentie'</strong>. Voeg toe:</p><ul><li>Een paar duidelijke foto's</li><li>Een korte, eerlijke titel en beschrijving</li><li>Een prijs</li></ul>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Bekijk hieronder Marktplaats en zoek naar iets dat je interesseert, zonder iets te kopen.</p>",
+          "practiceUrl": "https://www.marktplaats.nl"
+        }
+      ]
+    },
+    {
+      "id": "funda",
+      "title": "Funda: een huis zoeken",
+      "steps": [
+        {
+          "title": "Wat is Funda?",
+          "body": "<p>Funda is de bekendste Nederlandse website om huizen te koop of te huur te bekijken. Handig als je zelf verhuist, of gewoon nieuwsgierig bent naar huizenprijzen bij jou in de buurt.</p>"
+        },
+        {
+          "title": "Zoeken op plaats",
+          "body": "<ol><li>Typ een plaatsnaam of postcode in de zoekbalk</li><li>Druk op Enter of kies de plaats uit de lijst</li><li>Je ziet nu alle woningen die daar te koop staan</li></ol>"
+        },
+        {
+          "title": "Filters gebruiken",
+          "body": "<p>Boven de resultaten kun je filteren op bijvoorbeeld:</p><ul><li>Prijs (minimum en maximum)</li><li>Aantal kamers</li><li>Type woning (appartement, huis, bungalow)</li></ul>"
+        },
+        {
+          "title": "Een woning bekijken",
+          "body": "<p>Klik op een woning om foto's, de plattegrond en alle kenmerken te zien, zoals oppervlakte en bouwjaar.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Zoek hieronder naar woningen in jouw eigen plaats.</p>",
+          "practiceUrl": "https://www.funda.nl"
+        }
+      ]
+    },
+    {
+      "id": "video",
+      "title": "NPO Start & YouTube: video kijken",
+      "steps": [
+        {
+          "title": "Wat zijn NPO Start en YouTube?",
+          "body": "<p><strong>NPO Start</strong> is de app/website om Nederlandse tv-programma's terug te kijken. <strong>YouTube</strong> is een website vol video's over bijna elk onderwerp, van recepten tot documentaires.</p>"
+        },
+        {
+          "title": "Een programma of video zoeken",
+          "body": "<ol><li>Klik op het vergrootglas-icoon 🔍</li><li>Typ een programmanaam of onderwerp</li><li>Klik op de video die je wilt bekijken</li></ol>"
+        },
+        {
+          "title": "Bedienen tijdens het kijken",
+          "body": "<ul><li>Klik op het beeld om te pauzeren of verder te spelen</li><li>Sleep de balk onderin om vooruit of terug te spoelen</li><li>Het luidsprekertje-icoon regelt het volume</li><li>Bij YouTube: het 'CC'-icoon zet ondertiteling aan of uit</li></ul>"
+        },
+        {
+          "title": "Let op: reclame",
+          "body": "<p>Bij YouTube verschijnt soms reclame vóór of tijdens een video. Na een paar seconden kun je meestal op <strong>'Overslaan'</strong> klikken rechtsonder in beeld. Een pop-up die om geld of persoonlijke gegevens vraagt, sluit je met het kruisje — nooit klikken op verdachte pop-ups.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Zoek hieronder een video of programma dat je leuk lijkt.</p>",
+          "practiceUrl": "https://www.youtube.com"
+        }
+      ]
+    },
+    {
+      "id": "reisplanner",
+      "title": "9292: je reis plannen",
+      "steps": [
+        {
+          "title": "Wat is 9292?",
+          "body": "<p>9292 is de Nederlandse reisplanner voor het openbaar vervoer: bus, tram, metro en trein. Je vult in waar je heen wilt en 9292 zoekt de beste route voor je uit.</p>"
+        },
+        {
+          "title": "Vertrek- en aankomstplaats invullen",
+          "body": "<ol><li>Typ bij 'Van' je vertrekpunt (bijvoorbeeld je woonplaats of een station)</li><li>Typ bij 'Naar' waar je heen wilt</li><li>Klik op 'Plan je reis'</li></ol>"
+        },
+        {
+          "title": "Vertrektijd en reisopties",
+          "body": "<p>Je kunt kiezen tussen <strong>'Vertrek nu'</strong> of een andere tijd instellen. 9292 toont daarna verschillende reisopties met vertrek- en aankomsttijd, het aantal overstappen en vaak ook de prijs.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Plan hieronder een reis van jouw woonplaats naar een plek die je vaak bezoekt.</p>",
+          "practiceUrl": "https://www.9292.nl"
+        }
+      ]
+    },
+    {
+      "id": "facebook",
+      "title": "Facebook & lokale groepen",
+      "steps": [
+        {
+          "title": "Wat is Facebook?",
+          "body": "<p>Facebook is een sociaal netwerk waarmee je berichten, foto's en nieuwtjes kunt delen met vrienden en familie. Er zijn ook <strong>groepen</strong>: verzamelplekken voor mensen met dezelfde interesse of woonplaats.</p>"
+        },
+        {
+          "title": "Een lokale groep vinden",
+          "body": "<ol><li>Typ in de zoekbalk bovenin bijvoorbeeld 'Buurtgroep [jouw plaatsnaam]'</li><li>Klik op 'Groepen' in de resultaten</li><li>Open een groep en klik op 'Word lid' of 'Deelnemen'</li></ol>"
+        },
+        {
+          "title": "Veilig omgaan met Facebook",
+          "body": "<ul><li>Deel geen adres, geboortedatum of vakantieplannen openbaar</li><li>Controleer via Instellingen &gt; Privacy wie je berichten kan zien</li><li>Accepteer geen vriendschapsverzoeken van mensen die je niet kent</li></ul>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Bekijk hieronder Facebook en zoek naar een groep bij jou in de buurt.</p>",
+          "practiceUrl": "https://www.facebook.com"
         }
       ]
     }

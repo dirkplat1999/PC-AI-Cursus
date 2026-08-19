@@ -1,12 +1,84 @@
 {
   "lessons": [
     {
-      "id": "intro",
-      "title": "Digitale Helferlein — Demnächst verfügbar",
+      "id": "ereaders",
+      "title": "E-Reader",
       "steps": [
         {
-          "title": "Diese Lektion wird noch vorbereitet",
-          "body": "<p>Dieses Modul behandelt: <em>E-Reader, Fotos in der Cloud speichern, vertrauenswürdige medizinische Quellen, Passwort-Manager.</em>.</p><p>Die Lehrkraft kann hier Schritt-für-Schritt-Material über den Content-Ordner des Projekts hinzufügen (<code>content/lessons/</code>). Modul 1 (E-Mail usw.) kann als Beispiel dienen.</p>"
+          "title": "Was ist ein E-Reader?",
+          "body": "<p>Ein E-Reader ist ein Gerät zum Lesen digitaler Bücher (E-Books), wie der Kobo oder Kindle. Der Bildschirm sieht aus wie Papier und ist angenehm für die Augen, auch draußen in der Sonne.</p>"
+        },
+        {
+          "title": "Ein Buch suchen und herunterladen",
+          "body": "<ol><li>Öffne die Shop-App auf deinem E-Reader oder leihe kostenlose E-Books über die App deiner Bibliothek</li><li>Suche nach Titel, Autor oder Thema</li><li>Klicke auf 'Herunterladen' oder 'Ausleihen' — das Buch erscheint automatisch in deinem Bücherregal</li></ol>"
+        },
+        {
+          "title": "Schriftgröße anpassen",
+          "body": "<p>Tippe während des Lesens in die Mitte des Bildschirms, um das Menü zu öffnen. Wähle das Buchstaben-Symbol (oft 'Aa'), um Schriftgröße, Schriftart und Zeilenabstand nach Wunsch anzupassen.</p>"
+        }
+      ]
+    },
+    {
+      "id": "cloud-fotos",
+      "title": "Fotos in der Cloud speichern",
+      "steps": [
+        {
+          "title": "Was ist 'die Cloud'?",
+          "body": "<p>Die Cloud ist Speicherplatz im Internet, statt nur auf deinem Handy oder Computer. So bleiben deine Fotos auch sicher, wenn du dein Handy verlierst oder ersetzt.</p>"
+        },
+        {
+          "title": "Fotos automatisch sichern",
+          "body": "<p>Mit einer App wie <strong>Google Fotos</strong> (Android) oder <strong>iCloud</strong> (iPhone) werden neue Fotos automatisch in der Cloud gespeichert, sobald dein Handy mit WLAN verbunden ist. Das schaltest du meist einmalig in den Einstellungen der App ein.</p>"
+        },
+        {
+          "title": "Ein Foto wiederfinden und teilen",
+          "body": "<ol><li>Öffne die Foto-App und suche nach Datum, Ort oder sogar einem Suchwort (zum Beispiel 'Hund')</li><li>Öffne das Foto</li><li>Klicke auf das Teilen-Symbol, um das Foto zum Beispiel über WhatsApp oder E-Mail zu versenden</li></ol>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Schau dir unten deine eigenen Google Fotos an und suche eine Erinnerung.</p>",
+          "practiceUrl": "https://photos.google.com"
+        }
+      ]
+    },
+    {
+      "id": "thuisarts",
+      "title": "Vertrauenswürdige medizinische Quellen",
+      "steps": [
+        {
+          "title": "Warum eine vertrauenswürdige Gesundheitswebsite?",
+          "body": "<p>Eine Website wie das niederländische <strong>Thuisarts.nl</strong> wird von Hausärzten erstellt und bietet zuverlässige, verständliche Informationen zu Beschwerden und Erkrankungen — im Gegensatz zu zufälligen Internet-Suchergebnissen, die nicht immer stimmen.</p>"
+        },
+        {
+          "title": "Beschwerden nachschlagen",
+          "body": "<ol><li>Gib deine Beschwerde in die Suchleiste ein, zum Beispiel 'Kopfschmerzen' oder 'Erkältung'</li><li>Lies die Erklärung möglicher Ursachen und was du selbst tun kannst</li><li>Unten auf der Seite steht meist, wann du doch zum Arzt solltest</li></ol>"
+        },
+        {
+          "title": "Wann rufst du trotzdem den Hausarzt an?",
+          "body": "<p>Solche Websites sind als Hilfsmittel gedacht, kein Ersatz für einen Arzt. Ruf immer deinen Hausarzt an (oder bei einem Notfall den Notruf), wenn du dir Sorgen machst oder wenn die Beschwerden anhalten oder sich verschlimmern.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Suche unten nach einer Beschwerde, die du kennst.</p>",
+          "practiceUrl": "https://www.thuisarts.nl"
+        }
+      ]
+    },
+    {
+      "id": "wachtwoordmanager",
+      "title": "Einen Passwort-Manager nutzen",
+      "steps": [
+        {
+          "title": "Was ist ein Passwort-Manager?",
+          "body": "<p>Ein Passwort-Manager ist eine App, die all deine Passwörter sicher verschlüsselt speichert. Du musst dir nur noch ein Hauptpasswort merken — die App füllt den Rest automatisch für dich aus.</p>"
+        },
+        {
+          "title": "Ein Passwort speichern und ausfüllen",
+          "body": "<ol><li>Melde dich wie gewohnt bei einer Website an</li><li>Der Passwort-Manager fragt: 'Dieses Passwort speichern?' — klicke auf 'Speichern'</li><li>Beim nächsten Anmelden bietet die App an, das Passwort automatisch auszufüllen</li></ol>"
+        },
+        {
+          "title": "Warum das sicherer ist",
+          "body": "<p>Ohne Passwort-Manager verwenden Menschen oft überall dasselbe (schwache) Passwort — wird eine Website gehackt, können Kriminelle dann auf alle deine Konten zugreifen. Ein Passwort-Manager macht es einfach, für jede Website ein anderes, starkes Passwort zu haben, ohne dass du sie dir alle merken musst.</p>"
         }
       ]
     }

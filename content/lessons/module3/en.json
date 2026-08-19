@@ -1,12 +1,118 @@
 {
   "lessons": [
     {
-      "id": "intro",
-      "title": "Government & Safety — Coming soon",
+      "id": "digid",
+      "title": "DigiD: what and how",
       "steps": [
         {
-          "title": "This lesson is still being prepared",
-          "body": "<p>This module covers: <em>DigiD, MijnOverheid, online banking, recognizing phishing, strong passwords and 2FA.</em>.</p><p>The teacher can add step-by-step material here via the project's content folder (<code>content/lessons/</code>). Module 1 (Email etc.) can serve as an example.</p>"
+          "title": "What is DigiD?",
+          "body": "<p>DigiD is your personal digital identity for the Dutch government. It proves who you are online, for example with the Tax Office, your municipality, or your health insurer.</p>"
+        },
+        {
+          "title": "Logging in with the DigiD app",
+          "body": "<ol><li>Install the free DigiD app on your phone (one time, with help from the teacher)</li><li>On the computer, go to the website where you want to log in and choose 'Log in with DigiD'</li><li>Open the DigiD app on your phone and scan the code, or follow the instructions in the app</li><li>Confirm with your face, fingerprint, or PIN</li></ol>"
+        },
+        {
+          "title": "What is DigiD used for?",
+          "body": "<p>For example: filing a tax return, making an appointment with your municipality, arranging your health insurance, or logging in to MijnOverheid.</p>"
+        },
+        {
+          "title": "Staying safe with DigiD",
+          "body": "<p><strong>Important:</strong> DigiD is just as personal as your bank card.</p><ul><li>Never share your DigiD login details or code with anyone, not even family</li><li>The government will <strong>never</strong> call you asking for your DigiD code — that is always a scam</li><li>Not sure about a message or call? Don't respond, hang up, and check with the teacher</li></ul>"
+        },
+        {
+          "title": "Explore",
+          "body": "<p>Browse the official DigiD information page below. Don't log in with your own DigiD during class unless the teacher asks you to.</p>",
+          "practiceUrl": "https://www.digid.nl"
+        }
+      ]
+    },
+    {
+      "id": "mijnoverheid",
+      "title": "MijnOverheid",
+      "steps": [
+        {
+          "title": "What is MijnOverheid?",
+          "body": "<p>MijnOverheid is your personal mailbox for the government. Here you'll find official letters, your personal details, and ongoing matters, such as an application with your municipality.</p>"
+        },
+        {
+          "title": "Logging in and the message box",
+          "body": "<ol><li>Go to mijnoverheid.nl and click 'Log in'</li><li>Log in with DigiD</li><li>Click 'Messages' to read your digital mail, for example from the Tax Office</li></ol>"
+        },
+        {
+          "title": "What else can you find there?",
+          "body": "<p>Under 'Personal details' you can see what the government knows about you (address, family situation). Under 'Ongoing matters' you can see the status of applications you've submitted.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Browse the MijnOverheid website below. Only log in if you have your own DigiD and the teacher asks you to.</p>",
+          "practiceUrl": "https://www.mijnoverheid.nl"
+        }
+      ]
+    },
+    {
+      "id": "bankieren",
+      "title": "Safe online banking",
+      "steps": [
+        {
+          "title": "What is online banking?",
+          "body": "<p>Online banking lets you manage your bank affairs through your bank's website or app: checking your balance, transferring money, viewing statements. This is usually done through your bank's app on your phone.</p>"
+        },
+        {
+          "title": "Logging in to your bank",
+          "body": "<p>Most banks use their app together with a PIN, face recognition, or fingerprint. Some banks still use a separate 'scanner' device that reads a code from your bank card.</p>"
+        },
+        {
+          "title": "Checking a payment",
+          "body": "<p>Always check carefully before confirming a payment:</p><ul><li>Is the account number or recipient's name correct?</li><li>Is the amount correct?</li></ul><p>Once confirmed, a payment usually cannot be reversed.</p>"
+        },
+        {
+          "title": "Recognizing bank helpdesk fraud",
+          "body": "<p>Your bank will <strong>never</strong> call you asking for your PIN, DigiD code, or to transfer money 'for your own safety'. Get such a call? Hang up and call your bank yourself using the official number from their website or your bank card.</p>"
+        }
+      ]
+    },
+    {
+      "id": "phishing",
+      "title": "Recognizing phishing",
+      "steps": [
+        {
+          "title": "What is phishing?",
+          "body": "<p>Phishing is a fake email, text message, or chat that looks real (for example from your bank, a delivery company, or the tax office), but is meant to steal your password, PIN, or money.</p>"
+        },
+        {
+          "title": "Warning signs",
+          "body": "<ul><li>The sender's address isn't quite right (for example <code>tax-office-nl.com</code> instead of the real domain)</li><li>Spelling and grammar mistakes</li><li>You're pressured to act <strong>fast</strong> ('within 24 hours, or else...')</li><li>A link that doesn't seem to go to the real website</li></ul>"
+        },
+        {
+          "title": "What to do with a suspicious message",
+          "body": "<ol><li>Don't click the link and don't open the attachment</li><li>Go to the official website yourself by typing the address, instead of clicking the link</li><li>Not sure? Check with family, the teacher, or call the organization yourself using a number you looked up yourself</li><li>Delete the suspicious message</li></ol>"
+        },
+        {
+          "title": "Exercise: real or fake?",
+          "body": "<p>Look at this example message: <em>'Your bank card will be blocked! Click this link within 2 hours to prevent this: bank-secure-login.info'</em></p><p>Do you spot the warning signs? Heavy time pressure, an odd link that doesn't match the real bank website... This is phishing!</p>"
+        }
+      ]
+    },
+    {
+      "id": "wachtwoorden",
+      "title": "Strong passwords and 2FA",
+      "steps": [
+        {
+          "title": "Why a strong password?",
+          "body": "<p>A weak password (like <code>welcome123</code> or your date of birth) is easy for criminals to guess. A strong, unique password for each website protects your accounts.</p>"
+        },
+        {
+          "title": "How to create a strong password",
+          "body": "<ul><li>At least 12 characters long</li><li>A mix of uppercase, lowercase, numbers, and symbols</li><li>No names, birth dates, or easily guessed words</li><li>A <strong>different</strong> password for every website or app</li></ul><p>Tip: a string of 4 random words (for example <code>Bicycle7Rain!Tree</code>) is long, strong, and easy to remember.</p>"
+        },
+        {
+          "title": "What is two-factor authentication (2FA)?",
+          "body": "<p>With 2FA, you need a second confirmation besides your password to log in, for example a code sent to your phone. This means someone with just your password still can't log in.</p>"
+        },
+        {
+          "title": "Setting up 2FA",
+          "body": "<p>Most services (Google, Facebook, your bank) offer this under <strong>Settings &gt; Security &gt; Two-factor authentication</strong>. Follow the on-screen steps to link your phone number or an app.</p>"
         }
       ]
     }

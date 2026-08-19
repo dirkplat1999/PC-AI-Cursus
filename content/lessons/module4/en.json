@@ -1,12 +1,84 @@
 {
   "lessons": [
     {
-      "id": "intro",
-      "title": "Using AI & Ethics — Coming soon",
+      "id": "ai-basis",
+      "title": "What is AI? ChatGPT and Gemini",
       "steps": [
         {
-          "title": "This lesson is still being prepared",
-          "body": "<p>This module covers: <em>Working with Gemini and ChatGPT, asking smart questions, privacy risks and when NOT to use AI.</em>.</p><p>The teacher can add step-by-step material here via the project's content folder (<code>content/lessons/</code>). Module 1 (Email etc.) can serve as an example.</p>"
+          "title": "What is artificial intelligence (AI)?",
+          "body": "<p>AI (artificial intelligence) refers to computer programs that have learned to understand language and generate text, answers, or images themselves. Well-known examples are <strong>ChatGPT</strong> (by OpenAI) and <strong>Gemini</strong> (by Google).</p>"
+        },
+        {
+          "title": "Chatting with an AI",
+          "body": "<p>You type a question or instruction (a 'prompt') into a text box, for example <em>'Explain what inflation is in simple terms'</em>. Within seconds you get a reply. You can then ask follow-up questions, just like in a conversation.</p>"
+        },
+        {
+          "title": "What AI is — and isn't — good at",
+          "body": "<p>AI is good at: summarizing text, explaining things, brainstorming ideas, writing a first draft.</p><p>AI is <strong>not always reliable</strong>: it can 'make up' things that sound correct but aren't true (this is called a <em>hallucination</em>). Always double-check important facts yourself.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Open Gemini below and ask a simple question, for example 'What can I cook today with potatoes and chicken?'</p>",
+          "practiceUrl": "https://gemini.google.com"
+        }
+      ]
+    },
+    {
+      "id": "prompten",
+      "title": "Asking smart questions (prompting)",
+      "steps": [
+        {
+          "title": "What is a 'prompt'?",
+          "body": "<p>A <strong>prompt</strong> is the question or instruction you give to an AI. The clearer your prompt, the better the answer.</p>"
+        },
+        {
+          "title": "Tips for a good prompt",
+          "body": "<ul><li>Be specific: instead of 'write a letter', try 'write a short, friendly letter to my neighbor about a leaking gutter'</li><li>Give context: mention who the answer is for, and why</li><li>Ask for a specific format: 'in at most 5 sentences', 'as a step-by-step list'</li><li>Not happy with the result? Just ask it to try again differently or shorter</li></ul>"
+        },
+        {
+          "title": "Examples of good prompts",
+          "body": "<ul><li><em>'Explain in simple terms what 2FA is, as if I've never heard of internet security.'</em></li><li><em>'Write a birthday message for my 10-year-old grandson who loves football.'</em></li><li><em>'Make a shopping list for a lasagna for 4 people.'</em></li><li><em>'Summarize this email in 3 sentences: [paste the text here]'</em></li></ul>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Try one of the example prompts below, or come up with your own question.</p>",
+          "practiceUrl": "https://gemini.google.com"
+        }
+      ]
+    },
+    {
+      "id": "privacy-ai",
+      "title": "Privacy risks with AI",
+      "steps": [
+        {
+          "title": "What happens to what you type?",
+          "body": "<p>What you type into an AI chat is sent to and processed by the company behind that AI (for example Google or OpenAI). That's not the same as a private conversation.</p>"
+        },
+        {
+          "title": "What you should never share with an AI chatbot",
+          "body": "<ul><li>Passwords or login codes</li><li>Your DigiD details or national ID number</li><li>Bank details or PIN codes</li><li>Medical records containing other people's names</li><li>Sensitive information about other people</li></ul>"
+        },
+        {
+          "title": "Checking answers",
+          "body": "<p>An AI often sounds confident, even when the answer is wrong. Always check important information (medical, financial, legal) with an official source or expert before acting on it.</p>"
+        }
+      ]
+    },
+    {
+      "id": "ai-niet-gebruiken",
+      "title": "When NOT to use AI",
+      "steps": [
+        {
+          "title": "AI is not a doctor, lawyer, or bank",
+          "body": "<p>Don't use AI as a substitute for professional advice. For medical concerns, go to your doctor (or a trusted medical source), for legal questions go to a lawyer, and for money matters go to your bank or an advisor.</p>"
+        },
+        {
+          "title": "Important or official decisions",
+          "body": "<p>Never base an official decision solely on an AI answer, such as a tax return, a medical treatment, or a major purchase. Always verify this with a person or an official body.</p>"
+        },
+        {
+          "title": "Summary",
+          "body": "<p>Think of AI as a <strong>tool</strong> — handy for getting ideas, checking text, or having something explained — but not as an infallible truth. When in doubt: ask a person.</p>"
         }
       ]
     }

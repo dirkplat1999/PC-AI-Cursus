@@ -1,12 +1,84 @@
 {
   "lessons": [
     {
-      "id": "intro",
-      "title": "Digital Handy Tips — Coming soon",
+      "id": "ereaders",
+      "title": "E-readers",
       "steps": [
         {
-          "title": "This lesson is still being prepared",
-          "body": "<p>This module covers: <em>E-readers, storing photos in the cloud, trustworthy medical sources, password managers.</em>.</p><p>The teacher can add step-by-step material here via the project's content folder (<code>content/lessons/</code>). Module 1 (Email etc.) can serve as an example.</p>"
+          "title": "What is an e-reader?",
+          "body": "<p>An e-reader is a device for reading digital books (e-books), such as a Kobo or Kindle. The screen looks like paper and is easy on the eyes, even outside in sunlight.</p>"
+        },
+        {
+          "title": "Finding and downloading a book",
+          "body": "<ol><li>Open the store app on your e-reader, or borrow free e-books through your library's app</li><li>Search by title, author, or topic</li><li>Click 'Download' or 'Borrow' — the book appears automatically in your bookshelf</li></ol>"
+        },
+        {
+          "title": "Adjusting the font size",
+          "body": "<p>Tap the middle of the screen while reading to open the menu. Choose the letter icon (often 'Aa') to adjust the font size, typeface, and line spacing to your liking.</p>"
+        }
+      ]
+    },
+    {
+      "id": "cloud-fotos",
+      "title": "Storing photos in the cloud",
+      "steps": [
+        {
+          "title": "What is 'the cloud'?",
+          "body": "<p>The cloud is storage space on the internet, instead of only on your phone or computer. This keeps your photos safe even if you lose or replace your phone.</p>"
+        },
+        {
+          "title": "Backing up photos automatically",
+          "body": "<p>With an app like <strong>Google Photos</strong> (Android) or <strong>iCloud</strong> (iPhone), new photos are automatically saved to the cloud whenever your phone is connected to Wi-Fi. You usually turn this on once in the app's settings.</p>"
+        },
+        {
+          "title": "Finding and sharing a photo",
+          "body": "<ol><li>Open the photos app and search by date, place, or even a keyword (for example 'dog')</li><li>Open the photo</li><li>Click the share icon to send the photo via, for example, WhatsApp or email</li></ol>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Browse your own Google Photos below and find a memory.</p>",
+          "practiceUrl": "https://photos.google.com"
+        }
+      ]
+    },
+    {
+      "id": "thuisarts",
+      "title": "Trustworthy medical sources",
+      "steps": [
+        {
+          "title": "Why use a trusted medical website?",
+          "body": "<p>A website like the Dutch <strong>Thuisarts.nl</strong> is written by doctors and gives reliable, easy-to-understand information about symptoms and conditions — unlike random internet search results, which aren't always accurate.</p>"
+        },
+        {
+          "title": "Looking up symptoms",
+          "body": "<ol><li>Type your symptom in the search bar, for example 'headache' or 'cold'</li><li>Read the explanation of possible causes and what you can do yourself</li><li>The bottom of the page usually explains when you should see a doctor</li></ol>"
+        },
+        {
+          "title": "When should you still call your doctor?",
+          "body": "<p>Thuisarts.nl is meant as a helpful tool, not a replacement for a doctor. Always call your doctor (or emergency services if urgent) if you're worried, or if symptoms persist or get worse.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Look up a symptom you recognize below.</p>",
+          "practiceUrl": "https://www.thuisarts.nl"
+        }
+      ]
+    },
+    {
+      "id": "wachtwoordmanager",
+      "title": "Using a password manager",
+      "steps": [
+        {
+          "title": "What is a password manager?",
+          "body": "<p>A password manager is an app that securely stores all your passwords in encrypted form. You only need to remember one master password — the app fills in the rest automatically for you.</p>"
+        },
+        {
+          "title": "Saving and filling in a password",
+          "body": "<ol><li>Log in to a website as usual</li><li>The password manager asks: 'Save this password?' — click 'Save'</li><li>Next time you log in, the app offers to fill in the password automatically</li></ol>"
+        },
+        {
+          "title": "Why this is safer",
+          "body": "<p>Without a password manager, people often use the same (weak) password everywhere — if one website gets hacked, criminals can then access all your accounts. A password manager makes it easy to have a different, strong password for every website, without having to remember them all yourself.</p>"
         }
       ]
     }

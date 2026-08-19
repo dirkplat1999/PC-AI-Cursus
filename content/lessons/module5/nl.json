@@ -1,12 +1,84 @@
 {
   "lessons": [
     {
-      "id": "intro",
-      "title": "Digitale Handigheidjes — Binnenkort beschikbaar",
+      "id": "ereaders",
+      "title": "E-readers",
       "steps": [
         {
-          "title": "Deze les wordt nog voorbereid",
-          "body": "<p>Deze module gaat over: <em>E-readers, foto's opslaan in de cloud, betrouwbare medische bronnen (Thuisarts.nl), wachtwoordmanagers.</em>.</p><p>De docent kan hier stap-voor-stap lesmateriaal aan toevoegen via de contentmap van het project (<code>content/lessons/</code>). De structuur van module 1 (E-mailen etc.) kan als voorbeeld dienen.</p>"
+          "title": "Wat is een e-reader?",
+          "body": "<p>Een e-reader is een apparaat om digitale boeken (e-books) op te lezen, zoals de Kobo of Kindle. Het scherm lijkt op papier en is prettig voor de ogen, ook buiten in de zon.</p>"
+        },
+        {
+          "title": "Een boek zoeken en downloaden",
+          "body": "<ol><li>Open de winkel-app op je e-reader, of leen gratis e-books via de app van de Bibliotheek</li><li>Zoek op titel, auteur of onderwerp</li><li>Klik op 'Downloaden' of 'Lenen' — het boek verschijnt automatisch in je boekenkast</li></ol>"
+        },
+        {
+          "title": "Lettergrootte aanpassen",
+          "body": "<p>Tik tijdens het lezen midden op het scherm om het menu te openen. Kies het letter-icoon (vaak 'Aa') om de lettergrootte, het lettertype en de regelafstand naar wens aan te passen.</p>"
+        }
+      ]
+    },
+    {
+      "id": "cloud-fotos",
+      "title": "Foto's opslaan in de cloud",
+      "steps": [
+        {
+          "title": "Wat is 'de cloud'?",
+          "body": "<p>De cloud is opslagruimte op internet, in plaats van alleen op je telefoon of computer. Je foto's staan dan ook veilig als je je telefoon kwijtraakt of vervangt.</p>"
+        },
+        {
+          "title": "Foto's automatisch back-uppen",
+          "body": "<p>Met een app zoals <strong>Google Foto's</strong> (Android) of <strong>iCloud</strong> (iPhone) worden nieuwe foto's automatisch opgeslagen in de cloud, zodra je telefoon met wifi is verbonden. Dit zet je meestal eenmalig aan in de instellingen van de app.</p>"
+        },
+        {
+          "title": "Een foto terugvinden en delen",
+          "body": "<ol><li>Open de foto-app en zoek op datum, plaats of zelfs een zoekwoord (bijvoorbeeld 'hond')</li><li>Open de foto</li><li>Klik op het deel-icoon om de foto te versturen via bijvoorbeeld WhatsApp of e-mail</li></ol>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Bekijk hieronder je eigen Google Foto's en zoek een herinnering op.</p>",
+          "practiceUrl": "https://photos.google.com"
+        }
+      ]
+    },
+    {
+      "id": "thuisarts",
+      "title": "Thuisarts.nl: betrouwbare medische info",
+      "steps": [
+        {
+          "title": "Waarom Thuisarts.nl?",
+          "body": "<p>Thuisarts.nl is gemaakt door huisartsen en geeft betrouwbare, begrijpelijke informatie over klachten en aandoeningen — in tegenstelling tot willekeurige zoekresultaten op internet, die niet altijd kloppen.</p>"
+        },
+        {
+          "title": "Klachten opzoeken",
+          "body": "<ol><li>Typ in de zoekbalk je klacht, bijvoorbeeld 'hoofdpijn' of 'verkoudheid'</li><li>Lees de uitleg over mogelijke oorzaken en wat je zelf kunt doen</li><li>Onderaan de pagina staat vaak wanneer je wél naar de huisarts moet</li></ol>"
+        },
+        {
+          "title": "Wanneer bel je toch de huisarts?",
+          "body": "<p>Thuisarts.nl is bedoeld als hulpmiddel, geen vervanging voor een dokter. Bel altijd je huisarts (of bij spoed 112) als je je zorgen maakt of als de klachten aanhouden of verergeren.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Zoek hieronder een klacht op die je herkent.</p>",
+          "practiceUrl": "https://www.thuisarts.nl"
+        }
+      ]
+    },
+    {
+      "id": "wachtwoordmanager",
+      "title": "Een wachtwoordmanager gebruiken",
+      "steps": [
+        {
+          "title": "Wat is een wachtwoordmanager?",
+          "body": "<p>Een wachtwoordmanager is een app die al je wachtwoorden veilig versleuteld opslaat. Jij hoeft alleen nog één hoofdwachtwoord te onthouden — de app vult de rest automatisch voor je in.</p>"
+        },
+        {
+          "title": "Een wachtwoord opslaan en invullen",
+          "body": "<ol><li>Log in op een website zoals je normaal doet</li><li>De wachtwoordmanager vraagt: 'Dit wachtwoord opslaan?' — klik op 'Opslaan'</li><li>De volgende keer dat je inlogt, biedt de app aan om het wachtwoord automatisch in te vullen</li></ol>"
+        },
+        {
+          "title": "Waarom dit veiliger is",
+          "body": "<p>Zonder wachtwoordmanager gebruiken mensen vaak overal hetzelfde (zwakke) wachtwoord — als één website gehackt wordt, kunnen criminelen dan bij al je accounts. Een wachtwoordmanager maakt het makkelijk om voor élke website een ander, sterk wachtwoord te hebben, zonder dat je ze allemaal hoeft te onthouden.</p>"
         }
       ]
     }

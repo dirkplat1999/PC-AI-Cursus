@@ -1,12 +1,118 @@
 {
   "lessons": [
     {
-      "id": "intro",
-      "title": "Behörden & Sicherheit — Demnächst verfügbar",
+      "id": "digid",
+      "title": "DigiD: was und wie",
       "steps": [
         {
-          "title": "Diese Lektion wird noch vorbereitet",
-          "body": "<p>Dieses Modul behandelt: <em>DigiD, MijnOverheid, Online-Banking, Phishing erkennen, starke Passwörter und 2FA.</em>.</p><p>Die Lehrkraft kann hier Schritt-für-Schritt-Material über den Content-Ordner des Projekts hinzufügen (<code>content/lessons/</code>). Modul 1 (E-Mail usw.) kann als Beispiel dienen.</p>"
+          "title": "Was ist DigiD?",
+          "body": "<p>DigiD ist dein persönlicher digitaler Ausweis für die niederländische Regierung. Damit weist du online nach, wer du bist, zum Beispiel beim Finanzamt, deiner Gemeinde oder deiner Krankenkasse.</p>"
+        },
+        {
+          "title": "Anmelden mit der DigiD-App",
+          "body": "<ol><li>Installiere die kostenlose DigiD-App auf deinem Handy (einmalig, mit Hilfe der Lehrkraft)</li><li>Gehe am Computer zur Website, bei der du dich anmelden möchtest, und wähle 'Mit DigiD anmelden'</li><li>Öffne die DigiD-App auf deinem Handy und scanne den Code, oder folge den Anweisungen in der App</li><li>Bestätige mit deinem Gesicht, Fingerabdruck oder PIN</li></ol>"
+        },
+        {
+          "title": "Wofür nutzt du DigiD?",
+          "body": "<p>Zum Beispiel für: eine Steuererklärung abgeben, einen Termin bei der Gemeinde vereinbaren, deine Krankenversicherung regeln oder dich bei MijnOverheid anmelden.</p>"
+        },
+        {
+          "title": "Sicher mit DigiD umgehen",
+          "body": "<p><strong>Wichtig:</strong> DigiD ist genauso persönlich wie deine Bankkarte.</p><ul><li>Teile deine DigiD-Anmeldedaten oder deinen Code niemals mit jemandem, auch nicht mit der Familie</li><li>Die Regierung ruft dich <strong>niemals</strong> an, um nach deinem DigiD-Code zu fragen — das ist immer Betrug</li><li>Unsicher bei einer Nachricht oder einem Anruf? Nicht reagieren / auflegen und bei der Lehrkraft nachfragen</li></ul>"
+        },
+        {
+          "title": "Erkunden",
+          "body": "<p>Schau dir unten die offizielle Informationsseite von DigiD an. Melde dich während des Unterrichts nicht mit deinem eigenen DigiD an, außer die Lehrkraft bittet dich darum.</p>",
+          "practiceUrl": "https://www.digid.nl"
+        }
+      ]
+    },
+    {
+      "id": "mijnoverheid",
+      "title": "MijnOverheid",
+      "steps": [
+        {
+          "title": "Was ist MijnOverheid?",
+          "body": "<p>MijnOverheid ist dein persönliches Postfach für die Regierung. Hier findest du offizielle Briefe, deine persönlichen Daten und laufende Angelegenheiten, wie zum Beispiel einen Antrag bei der Gemeinde.</p>"
+        },
+        {
+          "title": "Anmelden und der Nachrichtenbereich",
+          "body": "<ol><li>Gehe zu mijnoverheid.nl und klicke auf 'Anmelden'</li><li>Melde dich mit DigiD an</li><li>Klicke auf 'Nachrichten', um deine digitale Post zu lesen, zum Beispiel vom Finanzamt</li></ol>"
+        },
+        {
+          "title": "Was findest du noch?",
+          "body": "<p>Unter 'Persönliche Daten' siehst du, was die Regierung über dich weiß (Adresse, Familiensituation). Unter 'Laufende Angelegenheiten' siehst du den Status von Anträgen, die du eingereicht hast.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Schau dir unten die Website von MijnOverheid an. Melde dich nur an, wenn du selbst ein DigiD hast und die Lehrkraft dich darum bittet.</p>",
+          "practiceUrl": "https://www.mijnoverheid.nl"
+        }
+      ]
+    },
+    {
+      "id": "bankieren",
+      "title": "Sicheres Online-Banking",
+      "steps": [
+        {
+          "title": "Was ist Online-Banking?",
+          "body": "<p>Mit Online-Banking erledigst du deine Bankgeschäfte über die Website oder App deiner Bank: Kontostand ansehen, Geld überweisen, Kontoauszüge einsehen. Das machst du meist mit der App deiner Bank auf dem Handy.</p>"
+        },
+        {
+          "title": "Anmelden bei deiner Bank",
+          "body": "<p>Die meisten Banken nutzen die Banking-App zusammen mit PIN, Gesichtserkennung oder Fingerabdruck. Manche Banken verwenden noch ein separates Kartenlesegerät, mit dem du einen Code von deiner Bankkarte abliest.</p>"
+        },
+        {
+          "title": "Eine Zahlung prüfen",
+          "body": "<p>Prüfe immer genau, bevor du eine Zahlung bestätigst:</p><ul><li>Stimmt die Kontonummer oder der Name des Empfängers?</li><li>Stimmt der Betrag?</li></ul><p>Einmal bestätigt, kann eine Zahlung meist nicht mehr rückgängig gemacht werden.</p>"
+        },
+        {
+          "title": "Bank-Helpdesk-Betrug erkennen",
+          "body": "<p>Deine Bank ruft dich <strong>niemals</strong> an, um nach deiner PIN, deinem DigiD-Code zu fragen oder dich zu bitten, 'zu deiner eigenen Sicherheit' Geld zu überweisen. Bekommst du so einen Anruf? Lege auf und ruf deine Bank selbst über die offizielle Nummer von ihrer Website oder deiner Karte an.</p>"
+        }
+      ]
+    },
+    {
+      "id": "phishing",
+      "title": "Phishing erkennen",
+      "steps": [
+        {
+          "title": "Was ist Phishing?",
+          "body": "<p>Phishing ist eine gefälschte E-Mail, SMS oder Nachricht, die echt aussieht (zum Beispiel von deiner Bank, einem Paketdienst oder dem Finanzamt), aber darauf abzielt, dein Passwort, deine PIN oder dein Geld zu stehlen.</p>"
+        },
+        {
+          "title": "Erkennungsmerkmale",
+          "body": "<ul><li>Die Absenderadresse stimmt nicht ganz (zum Beispiel <code>finanzamt-nl.com</code> statt der echten Domain)</li><li>Sprach- und Rechtschreibfehler</li><li>Du musst <strong>schnell</strong> handeln ('innerhalb von 24 Stunden, sonst...')</li><li>Ein Link, der nicht zur echten Website zu führen scheint</li></ul>"
+        },
+        {
+          "title": "Was tun bei einer verdächtigen Nachricht?",
+          "body": "<ol><li>Klicke nicht auf den Link und öffne keinen Anhang</li><li>Gehe selbst zur offiziellen Website, indem du die Adresse selbst eingibst, statt auf den Link zu klicken</li><li>Unsicher? Frage Familie, die Lehrkraft, oder rufe die Organisation selbst über eine selbst herausgesuchte Nummer an</li><li>Lösche die verdächtige Nachricht</li></ol>"
+        },
+        {
+          "title": "Übung: echt oder falsch?",
+          "body": "<p>Sieh dir diese Beispielnachricht an: <em>'Ihre Bankkarte wird gesperrt! Klicken Sie innerhalb von 2 Stunden auf diesen Link, um dies zu verhindern: bank-sicher-anmelden.info'</em></p><p>Erkennst du die Warnsignale? Großer Zeitdruck, ein seltsamer Link, der nicht zur echten Bank-Website passt... Das ist Phishing!</p>"
+        }
+      ]
+    },
+    {
+      "id": "wachtwoorden",
+      "title": "Starke Passwörter und 2FA",
+      "steps": [
+        {
+          "title": "Warum ein starkes Passwort?",
+          "body": "<p>Ein schwaches Passwort (wie <code>willkommen123</code> oder dein Geburtsdatum) ist für Kriminelle leicht zu erraten. Ein starkes, für jede Website einzigartiges Passwort schützt deine Konten.</p>"
+        },
+        {
+          "title": "Wie erstellst du ein starkes Passwort?",
+          "body": "<ul><li>Mindestens 12 Zeichen lang</li><li>Eine Mischung aus Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen</li><li>Keine Namen, Geburtsdaten oder leicht zu erratende Wörter</li><li>Für jede Website oder App ein <strong>anderes</strong> Passwort</li></ul><p>Tipp: eine Reihe von 4 zufälligen Wörtern (zum Beispiel <code>Fahrrad7Regen!Baum</code>) ist lang, stark und gut zu merken.</p>"
+        },
+        {
+          "title": "Was ist Zwei-Faktor-Authentifizierung (2FA)?",
+          "body": "<p>Bei 2FA brauchst du neben deinem Passwort eine zweite Bestätigung, um dich anzumelden, zum Beispiel einen Code, der an dein Handy gesendet wird. So kann jemand mit nur deinem Passwort sich noch nicht anmelden.</p>"
+        },
+        {
+          "title": "2FA einrichten",
+          "body": "<p>Bei den meisten Diensten (Google, Facebook, deiner Bank) findest du dies unter <strong>Einstellungen &gt; Sicherheit &gt; Zwei-Faktor-Authentifizierung</strong>. Folge den Schritten auf dem Bildschirm, um deine Telefonnummer oder eine App zu verknüpfen.</p>"
         }
       ]
     }

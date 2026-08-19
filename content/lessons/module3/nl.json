@@ -1,12 +1,118 @@
 {
   "lessons": [
     {
-      "id": "intro",
-      "title": "Overheid & Veiligheid — Binnenkort beschikbaar",
+      "id": "digid",
+      "title": "DigiD: wat en hoe",
       "steps": [
         {
-          "title": "Deze les wordt nog voorbereid",
-          "body": "<p>Deze module gaat over: <em>DigiD, MijnOverheid, online bankieren, phishing herkennen, sterke wachtwoorden en 2FA.</em>.</p><p>De docent kan hier stap-voor-stap lesmateriaal aan toevoegen via de contentmap van het project (<code>content/lessons/</code>). De structuur van module 1 (E-mailen etc.) kan als voorbeeld dienen.</p>"
+          "title": "Wat is DigiD?",
+          "body": "<p>DigiD is jouw persoonlijke digitale identiteitsbewijs voor de Nederlandse overheid. Hiermee bewijs je online wie je bent, bijvoorbeeld bij de Belastingdienst, je gemeente of je zorgverzekeraar.</p>"
+        },
+        {
+          "title": "Inloggen met de DigiD-app",
+          "body": "<ol><li>Installeer de gratis DigiD-app op je telefoon (eenmalig, met hulp van de docent)</li><li>Ga op de computer naar de website waar je wilt inloggen en kies 'Inloggen met DigiD'</li><li>Open de DigiD-app op je telefoon en scan de code, of volg de aanwijzingen in de app</li><li>Bevestig met je gezicht, vingerafdruk of pincode</li></ol>"
+        },
+        {
+          "title": "Waarvoor gebruik je DigiD?",
+          "body": "<p>Bijvoorbeeld voor: belastingaangifte doen, een afspraak maken bij de gemeente, je zorgverzekering regelen, of inloggen bij MijnOverheid.</p>"
+        },
+        {
+          "title": "Veilig omgaan met DigiD",
+          "body": "<p><strong>Belangrijk:</strong> DigiD is net zo persoonlijk als je pinpas.</p><ul><li>Deel je DigiD-inloggegevens of -code nooit met iemand, ook niet met familie</li><li>De overheid belt je <strong>nooit</strong> om naar je DigiD-code te vragen — dat is altijd oplichting</li><li>Twijfel je over een bericht of telefoontje? Hang op / reageer niet, en vraag het na bij de docent</li></ul>"
+        },
+        {
+          "title": "Verkennen",
+          "body": "<p>Bekijk hieronder de officiële informatiepagina van DigiD. Log tijdens de les niet in met je eigen DigiD, tenzij de docent dat vraagt.</p>",
+          "practiceUrl": "https://www.digid.nl"
+        }
+      ]
+    },
+    {
+      "id": "mijnoverheid",
+      "title": "MijnOverheid",
+      "steps": [
+        {
+          "title": "Wat is MijnOverheid?",
+          "body": "<p>MijnOverheid is jouw persoonlijke postvak voor de overheid. Hier vind je officiële brieven, je persoonlijke gegevens en lopende zaken, zoals een aanvraag bij de gemeente.</p>"
+        },
+        {
+          "title": "Inloggen en de Berichtenbox",
+          "body": "<ol><li>Ga naar mijnoverheid.nl en klik op 'Inloggen'</li><li>Log in met DigiD</li><li>Klik op 'Berichten' om je digitale post te lezen, bijvoorbeeld van de Belastingdienst</li></ol>"
+        },
+        {
+          "title": "Wat vind je er nog meer?",
+          "body": "<p>Onder 'Persoonlijke gegevens' zie je wat de overheid van jou weet (adres, gezinssituatie). Onder 'Lopende zaken' zie je de status van aanvragen die je hebt ingediend.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Bekijk hieronder de website van MijnOverheid. Inloggen doe je alleen als je zelf een DigiD hebt en de docent dit vraagt.</p>",
+          "practiceUrl": "https://www.mijnoverheid.nl"
+        }
+      ]
+    },
+    {
+      "id": "bankieren",
+      "title": "Veilig online bankieren",
+      "steps": [
+        {
+          "title": "Wat is online bankieren?",
+          "body": "<p>Met online bankieren regel je je bankzaken via de website of app van je bank: saldo bekijken, geld overmaken, rekeningafschriften inzien. Dit doe je meestal met de app van je bank op je telefoon.</p>"
+        },
+        {
+          "title": "Inloggen bij je bank",
+          "body": "<p>De meeste banken werken met de bank-app en een pincode, gezichtsherkenning of vingerafdruk. Sommige banken gebruiken nog een los 'scannertje' waarmee je een code van je pinpas overneemt.</p>"
+        },
+        {
+          "title": "Een betaling controleren",
+          "body": "<p>Kijk altijd goed voordat je een betaling bevestigt:</p><ul><li>Klopt het rekeningnummer of de naam van de ontvanger?</li><li>Klopt het bedrag?</li></ul><p>Eenmaal bevestigd, kan een betaling meestal niet meer worden teruggedraaid.</p>"
+        },
+        {
+          "title": "Bankhelpdesk-fraude herkennen",
+          "body": "<p>Je bank belt je <strong>nooit</strong> om te vragen naar je pincode, DigiD-code of om geld over te maken 'voor je eigen veiligheid'. Krijg je zo'n telefoontje? Hang op en bel zelf je bank via het officiële nummer op hun website of op je pas.</p>"
+        }
+      ]
+    },
+    {
+      "id": "phishing",
+      "title": "Phishing herkennen",
+      "steps": [
+        {
+          "title": "Wat is phishing?",
+          "body": "<p>Phishing is een nep-e-mail, sms of appje dat net echt lijkt (bijvoorbeeld van je bank, PostNL of de Belastingdienst), maar bedoeld is om je wachtwoord, pincode of geld te stelen.</p>"
+        },
+        {
+          "title": "Herkenningspunten",
+          "body": "<ul><li>Het afzenderadres klopt niet helemaal (bijvoorbeeld <code>belastingdienst-ni.nl</code> in plaats van <code>belastingdienst.nl</code>)</li><li>Taal- en spelfouten</li><li>Je moet <strong>snel</strong> handelen ('binnen 24 uur, anders...')</li><li>Een link die niet naar de echte website lijkt te gaan</li></ul>"
+        },
+        {
+          "title": "Wat doe je bij een verdacht bericht?",
+          "body": "<ol><li>Klik niet op de link en open geen bijlage</li><li>Ga zelf naar de officiële website door het adres zelf in te typen, in plaats van op de link te klikken</li><li>Twijfel je? Vraag het na bij familie, de docent, of bel de organisatie zelf via een nummer dat je zelf hebt opgezocht</li><li>Verwijder het verdachte bericht</li></ol>"
+        },
+        {
+          "title": "Oefening: echt of nep?",
+          "body": "<p>Bekijk dit voorbeeldbericht: <em>'Uw bankpas wordt geblokkeerd! Klik binnen 2 uur op deze link om dit te voorkomen: bank-veilig-inloggen.info'</em></p><p>Herken je de signalen? Grote tijdsdruk, een vreemde link die niet op de echte bank-website lijkt... Dit is phishing!</p>"
+        }
+      ]
+    },
+    {
+      "id": "wachtwoorden",
+      "title": "Sterke wachtwoorden en 2FA",
+      "steps": [
+        {
+          "title": "Waarom een sterk wachtwoord?",
+          "body": "<p>Een zwak wachtwoord (zoals <code>welkom123</code> of je geboortedatum) is voor criminelen makkelijk te raden. Een sterk, uniek wachtwoord per website beschermt je accounts.</p>"
+        },
+        {
+          "title": "Hoe maak je een sterk wachtwoord?",
+          "body": "<ul><li>Minstens 12 tekens lang</li><li>Een mix van hoofdletters, kleine letters, cijfers en tekens</li><li>Geen namen, geboortedata of makkelijk te raden woorden</li><li>Voor elke website of app een <strong>ander</strong> wachtwoord</li></ul><p>Tip: een reeks van 4 losse woorden (bijvoorbeeld <code>Fiets7Regen!Boom</code>) is lang, sterk én goed te onthouden.</p>"
+        },
+        {
+          "title": "Wat is tweestapsverificatie (2FA)?",
+          "body": "<p>Bij 2FA (two-factor authentication) heb je naast je wachtwoord ook een tweede bevestiging nodig om in te loggen, bijvoorbeeld een code die naar je telefoon wordt gestuurd. Zo kan iemand met alleen je wachtwoord nog niet inloggen.</p>"
+        },
+        {
+          "title": "2FA instellen",
+          "body": "<p>Bij de meeste diensten (Google, Facebook, je bank) vind je dit onder <strong>Instellingen &gt; Beveiliging &gt; Tweestapsverificatie</strong>. Volg de stappen op het scherm om je telefoonnummer of een app te koppelen.</p>"
         }
       ]
     }

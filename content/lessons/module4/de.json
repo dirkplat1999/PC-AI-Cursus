@@ -1,12 +1,84 @@
 {
   "lessons": [
     {
-      "id": "intro",
-      "title": "KI-Nutzung & Ethik — Demnächst verfügbar",
+      "id": "ai-basis",
+      "title": "Was ist KI? ChatGPT und Gemini",
       "steps": [
         {
-          "title": "Diese Lektion wird noch vorbereitet",
-          "body": "<p>Dieses Modul behandelt: <em>Arbeiten mit Gemini und ChatGPT, kluge Fragen stellen, Datenschutzrisiken und wann KI NICHT genutzt werden sollte.</em>.</p><p>Die Lehrkraft kann hier Schritt-für-Schritt-Material über den Content-Ordner des Projekts hinzufügen (<code>content/lessons/</code>). Modul 1 (E-Mail usw.) kann als Beispiel dienen.</p>"
+          "title": "Was ist künstliche Intelligenz (KI)?",
+          "body": "<p>KI (künstliche Intelligenz) sind Computerprogramme, die gelernt haben, Sprache zu verstehen und selbst Texte, Antworten oder Bilder zu erstellen. Bekannte Beispiele sind <strong>ChatGPT</strong> (von OpenAI) und <strong>Gemini</strong> (von Google).</p>"
+        },
+        {
+          "title": "Mit einer KI chatten",
+          "body": "<p>Du gibst eine Frage oder Anweisung ('Prompt') in ein Textfeld ein, zum Beispiel <em>'Erkläre einfach, was Inflation ist'</em>. Innerhalb weniger Sekunden erhältst du eine Antwort. Danach kannst du nachfragen, genau wie in einem Gespräch.</p>"
+        },
+        {
+          "title": "Worin ist KI gut — und worin nicht?",
+          "body": "<p>KI ist gut in: Texte zusammenfassen, erklären, Ideen sammeln, einen ersten Entwurf schreiben.</p><p>KI ist <strong>nicht immer zuverlässig</strong>: Sie kann Dinge 'erfinden', die richtig klingen, aber nicht wahr sind (das nennt man eine <em>Halluzination</em>). Überprüfe wichtige Fakten deshalb immer selbst.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Öffne unten Gemini und stelle eine einfache Frage, zum Beispiel 'Was kann ich heute mit Kartoffeln und Hähnchen kochen?'</p>",
+          "practiceUrl": "https://gemini.google.com"
+        }
+      ]
+    },
+    {
+      "id": "prompten",
+      "title": "Kluge Fragen stellen (Prompten)",
+      "steps": [
+        {
+          "title": "Was ist ein 'Prompt'?",
+          "body": "<p>Ein <strong>Prompt</strong> ist die Frage oder Anweisung, die du einer KI gibst. Je klarer dein Prompt, desto besser die Antwort.</p>"
+        },
+        {
+          "title": "Tipps für einen guten Prompt",
+          "body": "<ul><li>Sei konkret: nicht 'schreibe einen Brief', sondern 'schreibe einen kurzen, freundlichen Brief an meinen Nachbarn wegen einer verstopften Dachrinne'</li><li>Gib Kontext: erzähle, für wen die Antwort ist und warum</li><li>Frage nach einer bestimmten Form: 'in höchstens 5 Sätzen', 'als Schritt-für-Schritt-Liste'</li><li>Nicht zufrieden? Bitte die KI einfach, es anders oder kürzer zu machen</li></ul>"
+        },
+        {
+          "title": "Beispiele guter Prompts",
+          "body": "<ul><li><em>'Erkläre einfach, was 2FA ist, als hätte ich noch nie von Internetsicherheit gehört.'</em></li><li><em>'Schreibe einen Geburtstagswunsch für meinen 10-jährigen Enkel, der Fußball liebt.'</em></li><li><em>'Erstelle eine Einkaufsliste für eine Lasagne für 4 Personen.'</em></li><li><em>'Fasse diese E-Mail in 3 Sätzen zusammen: [Text hier einfügen]'</em></li></ul>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Probiere unten einen der Beispiel-Prompts aus, oder überlege dir eine eigene Frage.</p>",
+          "practiceUrl": "https://gemini.google.com"
+        }
+      ]
+    },
+    {
+      "id": "privacy-ai",
+      "title": "Datenschutzrisiken bei KI",
+      "steps": [
+        {
+          "title": "Was passiert mit dem, was du eingibst?",
+          "body": "<p>Was du in einen KI-Chat eingibst, wird an das Unternehmen hinter dieser KI (zum Beispiel Google oder OpenAI) gesendet und dort verarbeitet. Das ist nicht dasselbe wie ein privates Gespräch.</p>"
+        },
+        {
+          "title": "Was du niemals mit einem KI-Chatbot teilst",
+          "body": "<ul><li>Passwörter oder Anmeldecodes</li><li>Deine DigiD-Daten oder Sozialversicherungsnummer</li><li>Bankdaten oder PIN-Codes</li><li>Medizinische Unterlagen mit Namen anderer Personen</li><li>Sensible Informationen über andere Personen</li></ul>"
+        },
+        {
+          "title": "Antworten überprüfen",
+          "body": "<p>Eine KI klingt oft selbstsicher, auch wenn die Antwort falsch ist. Überprüfe wichtige Informationen (medizinisch, finanziell, rechtlich) immer bei einer offiziellen Quelle oder einem Experten, bevor du danach handelst.</p>"
+        }
+      ]
+    },
+    {
+      "id": "ai-niet-gebruiken",
+      "title": "Wann du KI NICHT nutzen solltest",
+      "steps": [
+        {
+          "title": "KI ist kein Arzt, Anwalt oder Bank",
+          "body": "<p>Nutze KI nicht als Ersatz für professionelle Beratung. Bei gesundheitlichen Beschwerden gehe zum Hausarzt (oder einer vertrauenswürdigen medizinischen Quelle), bei rechtlichen Fragen zu einem Anwalt und bei Geldangelegenheiten zu deiner Bank oder einem Berater.</p>"
+        },
+        {
+          "title": "Wichtige oder offizielle Entscheidungen",
+          "body": "<p>Stütze niemals eine offizielle Entscheidung allein auf eine KI-Antwort, wie zum Beispiel eine Steuererklärung, eine medizinische Behandlung oder einen großen Kauf. Überprüfe dies immer bei einem Menschen oder einer offiziellen Stelle.</p>"
+        },
+        {
+          "title": "Zusammenfassung",
+          "body": "<p>Betrachte KI als <strong>Hilfsmittel</strong> — praktisch, um Ideen zu bekommen, Texte zu prüfen oder sich etwas erklären zu lassen — aber nicht als unfehlbare Wahrheit. Im Zweifel: frage einen Menschen.</p>"
         }
       ]
     }

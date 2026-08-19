@@ -1,12 +1,156 @@
 {
   "lessons": [
     {
-      "id": "intro",
-      "title": "Praktische Apps — Demnächst verfügbar",
+      "id": "maps",
+      "title": "Google Maps & Navigation",
       "steps": [
         {
-          "title": "Diese Lektion wird noch vorbereitet",
-          "body": "<p>Dieses Modul behandelt: <em>Google Maps/Navigation, Marktplaats, Funda, NPO Start/YouTube, 9292-Reiseübungen, Facebook/lokale Gruppen.</em>.</p><p>Die Lehrkraft kann hier Schritt-für-Schritt-Material über den Content-Ordner des Projekts hinzufügen (<code>content/lessons/</code>). Modul 1 (E-Mail usw.) kann als Beispiel dienen.</p>"
+          "title": "Was ist Google Maps?",
+          "body": "<p>Google Maps ist eine digitale Karte der ganzen Welt. Damit kannst du Adressen suchen, Routen planen und sehen, wie voll es irgendwo ist.</p><p>Öffne Google Maps über die App auf deinem Handy oder über <code>maps.google.com</code> im Browser.</p>"
+        },
+        {
+          "title": "Eine Adresse suchen",
+          "body": "<ol><li>Klicke oder tippe oben auf die Suchleiste</li><li>Gib eine Adresse, einen Ortsnamen oder einen Firmennamen ein</li><li>Wähle das passende Ergebnis aus der Liste</li></ol><p>Jetzt erscheint eine rote Markierung auf der Karte an diesem Ort.</p>"
+        },
+        {
+          "title": "Eine Route planen",
+          "body": "<p>Klicke auf die blaue Schaltfläche <strong>'Route'</strong>. Gib ein, wo du startest und wohin du möchtest. Wähle oben, wie du reisen willst:</p><ul><li>🚗 Auto</li><li>🚲 Fahrrad</li><li>🚶 Zu Fuß</li><li>🚌 Öffentliche Verkehrsmittel</li></ul><p>Google Maps zeigt jetzt die Route und die Fahrzeit an.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Suche unten deine eigene Adresse und plane eine Route zum nächsten Supermarkt.</p>",
+          "practiceUrl": "https://maps.google.com"
+        },
+        {
+          "title": "Tipp: Street View",
+          "body": "<p>Ziehe das kleine gelbe Männchen (unten rechts auf der Karte) auf eine Straße, um dich umzusehen, als würdest du selbst dort stehen. Praktisch, um eine Adresse zu erkennen, bevor du hingehst!</p>"
+        }
+      ]
+    },
+    {
+      "id": "marktplaats",
+      "title": "Marktplaats: kaufen und verkaufen",
+      "steps": [
+        {
+          "title": "Was ist Marktplaats?",
+          "body": "<p>Marktplaats ist eine niederländische Website, auf der Menschen gebrauchte Dinge kaufen und verkaufen, von Fahrrädern bis Möbeln. Jeder kann etwas anbieten oder kaufen.</p>"
+        },
+        {
+          "title": "Etwas suchen",
+          "body": "<ol><li>Gib in die Suchleiste ein, was du suchst, zum Beispiel 'Damenfahrrad'</li><li>Nutze die Filter links, um nach Preis oder Entfernung zu deinem Wohnort zu suchen</li><li>Klicke auf eine Anzeige, um Fotos und die Beschreibung zu sehen</li></ol>"
+        },
+        {
+          "title": "Sicher kaufen: Vorsicht vor Betrug",
+          "body": "<p>Die meisten Verkäufer sind ehrlich, aber sei vorsichtig:</p><ul><li>Zahle <strong>niemals</strong> im Voraus über einen Link, den du per Nachricht bekommst</li><li>Vereinbare, das Produkt persönlich zu besichtigen und dann zu bezahlen, oder nutze die sichere Bezahlfunktion von Marktplaats selbst</li><li>Unsicher? Frag die Lehrkraft oder Familie um Rat</li></ul>"
+        },
+        {
+          "title": "Selbst etwas verkaufen",
+          "body": "<p>Klicke auf <strong>'Anzeige aufgeben'</strong>. Füge hinzu:</p><ul><li>Ein paar klare Fotos</li><li>Einen kurzen, ehrlichen Titel und eine Beschreibung</li><li>Einen Preis</li></ul>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Schau dir unten Marktplaats an und suche nach etwas, das dich interessiert, ohne etwas zu kaufen.</p>",
+          "practiceUrl": "https://www.marktplaats.nl"
+        }
+      ]
+    },
+    {
+      "id": "funda",
+      "title": "Funda: ein Haus suchen",
+      "steps": [
+        {
+          "title": "Was ist Funda?",
+          "body": "<p>Funda ist die bekannteste niederländische Website, um Häuser zum Kauf oder zur Miete anzusehen. Praktisch, wenn du selbst umziehst oder einfach neugierig auf Hauspreise in deiner Umgebung bist.</p>"
+        },
+        {
+          "title": "Nach Ort suchen",
+          "body": "<ol><li>Gib einen Ortsnamen oder eine Postleitzahl in die Suchleiste ein</li><li>Drücke Enter oder wähle den Ort aus der Liste</li><li>Du siehst nun alle dort zum Verkauf stehenden Wohnungen</li></ol>"
+        },
+        {
+          "title": "Filter nutzen",
+          "body": "<p>Über den Ergebnissen kannst du zum Beispiel filtern nach:</p><ul><li>Preis (Minimum und Maximum)</li><li>Anzahl der Zimmer</li><li>Wohnungstyp (Wohnung, Haus, Bungalow)</li></ul>"
+        },
+        {
+          "title": "Eine Wohnung ansehen",
+          "body": "<p>Klicke auf eine Wohnung, um Fotos, den Grundriss und alle Merkmale wie Fläche und Baujahr zu sehen.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Suche unten nach Wohnungen in deinem eigenen Ort.</p>",
+          "practiceUrl": "https://www.funda.nl"
+        }
+      ]
+    },
+    {
+      "id": "video",
+      "title": "NPO Start & YouTube: Videos ansehen",
+      "steps": [
+        {
+          "title": "Was sind NPO Start und YouTube?",
+          "body": "<p><strong>NPO Start</strong> ist die App/Website, um niederländische Fernsehsendungen nachzuschauen. <strong>YouTube</strong> ist eine Website voller Videos zu fast jedem Thema, von Rezepten bis zu Dokumentationen.</p>"
+        },
+        {
+          "title": "Eine Sendung oder ein Video suchen",
+          "body": "<ol><li>Klicke auf das Lupensymbol 🔍</li><li>Gib einen Sendungsnamen oder ein Thema ein</li><li>Klicke auf das Video, das du ansehen möchtest</li></ol>"
+        },
+        {
+          "title": "Bedienung während des Ansehens",
+          "body": "<ul><li>Klicke auf das Bild, um zu pausieren oder fortzusetzen</li><li>Ziehe die Leiste unten, um vor- oder zurückzuspulen</li><li>Das Lautsprechersymbol regelt die Lautstärke</li><li>Bei YouTube: Das 'CC'-Symbol schaltet Untertitel ein oder aus</li></ul>"
+        },
+        {
+          "title": "Achtung: Werbung",
+          "body": "<p>Bei YouTube erscheint manchmal Werbung vor oder während eines Videos. Nach ein paar Sekunden kannst du meist unten rechts auf <strong>'Überspringen'</strong> klicken. Ein Pop-up, das nach Geld oder persönlichen Daten fragt, schließt du mit dem Kreuz — klicke nie auf verdächtige Pop-ups.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Suche unten ein Video oder eine Sendung, die dir gefällt.</p>",
+          "practiceUrl": "https://www.youtube.com"
+        }
+      ]
+    },
+    {
+      "id": "reisplanner",
+      "title": "9292: deine Reise planen",
+      "steps": [
+        {
+          "title": "Was ist 9292?",
+          "body": "<p>9292 ist der niederländische Reiseplaner für öffentliche Verkehrsmittel: Bus, Straßenbahn, U-Bahn und Zug. Du gibst ein, wohin du möchtest, und 9292 sucht die beste Route für dich.</p>"
+        },
+        {
+          "title": "Start- und Zielort eingeben",
+          "body": "<ol><li>Gib bei 'Von' deinen Startpunkt ein (zum Beispiel deinen Wohnort oder einen Bahnhof)</li><li>Gib bei 'Nach' dein Ziel ein</li><li>Klicke auf 'Reise planen'</li></ol>"
+        },
+        {
+          "title": "Abfahrtszeit und Reiseoptionen",
+          "body": "<p>Du kannst zwischen <strong>'Jetzt abfahren'</strong> oder einer anderen Zeit wählen. 9292 zeigt danach verschiedene Reiseoptionen mit Abfahrts- und Ankunftszeit, Anzahl der Umstiege und oft auch dem Preis.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Plane unten eine Reise von deinem Wohnort zu einem Ort, den du oft besuchst.</p>",
+          "practiceUrl": "https://www.9292.nl"
+        }
+      ]
+    },
+    {
+      "id": "facebook",
+      "title": "Facebook & lokale Gruppen",
+      "steps": [
+        {
+          "title": "Was ist Facebook?",
+          "body": "<p>Facebook ist ein soziales Netzwerk, mit dem du Beiträge, Fotos und Neuigkeiten mit Freunden und Familie teilen kannst. Es gibt auch <strong>Gruppen</strong>: Treffpunkte für Menschen mit demselben Interesse oder Wohnort.</p>"
+        },
+        {
+          "title": "Eine lokale Gruppe finden",
+          "body": "<ol><li>Gib oben in die Suchleiste zum Beispiel 'Nachbarschaftsgruppe [dein Ort]' ein</li><li>Klicke bei den Ergebnissen auf 'Gruppen'</li><li>Öffne eine Gruppe und klicke auf 'Beitreten'</li></ol>"
+        },
+        {
+          "title": "Sicher mit Facebook umgehen",
+          "body": "<ul><li>Teile Adresse, Geburtsdatum oder Urlaubspläne nicht öffentlich</li><li>Prüfe unter Einstellungen &gt; Privatsphäre, wer deine Beiträge sehen kann</li><li>Nimm keine Freundschaftsanfragen von Menschen an, die du nicht kennst</li></ul>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Schau dir unten Facebook an und suche nach einer Gruppe in deiner Nähe.</p>",
+          "practiceUrl": "https://www.facebook.com"
         }
       ]
     }

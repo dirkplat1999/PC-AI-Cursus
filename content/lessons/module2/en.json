@@ -1,12 +1,156 @@
 {
   "lessons": [
     {
-      "id": "intro",
-      "title": "Practical Apps — Coming soon",
+      "id": "maps",
+      "title": "Google Maps & navigation",
       "steps": [
         {
-          "title": "This lesson is still being prepared",
-          "body": "<p>This module covers: <em>Google Maps/navigation, Marktplaats, Funda, NPO Start/YouTube, 9292 travel exercises, Facebook/local groups.</em>.</p><p>The teacher can add step-by-step material here via the project's content folder (<code>content/lessons/</code>). Module 1 (Email etc.) can serve as an example.</p>"
+          "title": "What is Google Maps?",
+          "body": "<p>Google Maps is a digital map of the whole world. You can use it to look up addresses, plan routes, and see how busy a place is.</p><p>Open Google Maps through the app on your phone or via <code>maps.google.com</code> in your browser.</p>"
+        },
+        {
+          "title": "Looking up an address",
+          "body": "<ol><li>Click or tap the search bar at the top</li><li>Type an address, place name, or business name</li><li>Choose the right result from the list</li></ol><p>A red pin now appears on the map at that location.</p>"
+        },
+        {
+          "title": "Planning a route",
+          "body": "<p>Click the blue <strong>'Directions'</strong> button. Fill in where you're leaving from and where you want to go. At the top, choose how you want to travel:</p><ul><li>🚗 Car</li><li>🚲 Bicycle</li><li>🚶 Walking</li><li>🚌 Public transport</li></ul><p>Google Maps now shows the route and travel time.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Look up your own address below and plan a route to the nearest supermarket.</p>",
+          "practiceUrl": "https://maps.google.com"
+        },
+        {
+          "title": "Tip: Street View",
+          "body": "<p>Drag the little yellow figure (bottom right of the map) onto a street to look around as if you were standing there yourself. Handy for recognizing an address before you go there!</p>"
+        }
+      ]
+    },
+    {
+      "id": "marktplaats",
+      "title": "Marktplaats: buying and selling",
+      "steps": [
+        {
+          "title": "What is Marktplaats?",
+          "body": "<p>Marktplaats is a website where people buy and sell second-hand items, from bicycles to furniture. Anyone can post something or buy something.</p>"
+        },
+        {
+          "title": "Searching for something",
+          "body": "<ol><li>Type what you're looking for in the search bar, for example 'ladies bicycle'</li><li>Use the filters on the left to search by price or distance from your home</li><li>Click a listing to view photos and the description</li></ol>"
+        },
+        {
+          "title": "Buying safely: watch out for scams",
+          "body": "<p>Most sellers are honest, but be careful:</p><ul><li><strong>Never</strong> pay in advance through a link sent to you in a message</li><li>Arrange to view the item in person and pay then, or use Marktplaats's own secure payment option</li><li>Not sure? Check with a teacher or family member first</li></ul>"
+        },
+        {
+          "title": "Selling something yourself",
+          "body": "<p>Click <strong>'Place ad'</strong>. Add:</p><ul><li>A few clear photos</li><li>A short, honest title and description</li><li>A price</li></ul>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Browse Marktplaats below and search for something that interests you, without buying anything.</p>",
+          "practiceUrl": "https://www.marktplaats.nl"
+        }
+      ]
+    },
+    {
+      "id": "funda",
+      "title": "Funda: house hunting",
+      "steps": [
+        {
+          "title": "What is Funda?",
+          "body": "<p>Funda is the best-known Dutch website for browsing homes for sale or rent. Useful if you're moving yourself, or just curious about house prices in your area.</p>"
+        },
+        {
+          "title": "Searching by location",
+          "body": "<ol><li>Type a place name or postal code in the search bar</li><li>Press Enter or select the place from the list</li><li>You'll now see all the homes for sale there</li></ol>"
+        },
+        {
+          "title": "Using filters",
+          "body": "<p>Above the results you can filter by, for example:</p><ul><li>Price (minimum and maximum)</li><li>Number of rooms</li><li>Property type (apartment, house, bungalow)</li></ul>"
+        },
+        {
+          "title": "Viewing a property",
+          "body": "<p>Click a property to see photos, the floor plan, and all the details, such as surface area and year built.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Search for properties in your own town below.</p>",
+          "practiceUrl": "https://www.funda.nl"
+        }
+      ]
+    },
+    {
+      "id": "video",
+      "title": "NPO Start & YouTube: watching video",
+      "steps": [
+        {
+          "title": "What are NPO Start and YouTube?",
+          "body": "<p><strong>NPO Start</strong> is the app/website for catching up on Dutch TV shows. <strong>YouTube</strong> is a website full of videos on almost any topic, from recipes to documentaries.</p>"
+        },
+        {
+          "title": "Searching for a show or video",
+          "body": "<ol><li>Click the magnifying glass icon 🔍</li><li>Type a show name or topic</li><li>Click the video you want to watch</li></ol>"
+        },
+        {
+          "title": "Controls while watching",
+          "body": "<ul><li>Click the picture to pause or resume</li><li>Drag the bar at the bottom to skip forward or back</li><li>The speaker icon controls the volume</li><li>On YouTube: the 'CC' icon turns subtitles on or off</li></ul>"
+        },
+        {
+          "title": "Note: advertisements",
+          "body": "<p>On YouTube, ads sometimes appear before or during a video. After a few seconds you can usually click <strong>'Skip'</strong> in the bottom right. Close a pop-up asking for money or personal details with the X — never click on suspicious pop-ups.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Search below for a video or show that looks interesting to you.</p>",
+          "practiceUrl": "https://www.youtube.com"
+        }
+      ]
+    },
+    {
+      "id": "reisplanner",
+      "title": "9292: planning your trip",
+      "steps": [
+        {
+          "title": "What is 9292?",
+          "body": "<p>9292 is the Dutch journey planner for public transport: bus, tram, metro, and train. You enter where you want to go and 9292 finds the best route for you.</p>"
+        },
+        {
+          "title": "Entering departure and arrival points",
+          "body": "<ol><li>Type your starting point under 'From' (for example your town or a station)</li><li>Type your destination under 'To'</li><li>Click 'Plan journey'</li></ol>"
+        },
+        {
+          "title": "Departure time and travel options",
+          "body": "<p>You can choose <strong>'Leave now'</strong> or set a different time. 9292 then shows several travel options with departure and arrival times, the number of transfers, and often the price too.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Plan a trip below from your town to a place you often visit.</p>",
+          "practiceUrl": "https://www.9292.nl"
+        }
+      ]
+    },
+    {
+      "id": "facebook",
+      "title": "Facebook & local groups",
+      "steps": [
+        {
+          "title": "What is Facebook?",
+          "body": "<p>Facebook is a social network for sharing posts, photos, and news with friends and family. There are also <strong>groups</strong>: gathering places for people with the same interest or hometown.</p>"
+        },
+        {
+          "title": "Finding a local group",
+          "body": "<ol><li>Type something like 'Neighborhood group [your town]' in the search bar at the top</li><li>Click 'Groups' in the results</li><li>Open a group and click 'Join'</li></ol>"
+        },
+        {
+          "title": "Staying safe on Facebook",
+          "body": "<ul><li>Don't share your address, date of birth, or vacation plans publicly</li><li>Check who can see your posts under Settings &gt; Privacy</li><li>Don't accept friend requests from people you don't know</li></ul>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Browse Facebook below and look for a group in your area.</p>",
+          "practiceUrl": "https://www.facebook.com"
         }
       ]
     }
