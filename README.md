@@ -4,6 +4,10 @@ Lokale webserver, bereikbaar op het LAN-netwerk, als interactieve lesomgeving vo
 
 ## Starten
 
+**Snelste manier (Windows):** dubbelklik op `Start PC en AI Cursus.bat` in de projectmap. Dit installeert bij de eerste keer automatisch de benodigde bestanden, start de server en opent na een paar seconden automatisch de browser. Laat het zwarte venster openstaan zolang de cursus gebruikt wordt; sluit het venster om de server te stoppen.
+
+**Handmatig (alle platforms):**
+
 ```bash
 npm install
 npm start
