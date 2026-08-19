@@ -33,9 +33,18 @@
             <% langs.forEach(l => { %><option value="<%= l %>"><%= l.toUpperCase() %></option><% }) %>
           </select>
         </div>
+        <div>
+          <label><%= t.ageGroup %></label>
+          <select name="age_group" id="age-group-new">
+            <% ageGroups.forEach(a => { %><option value="<%= a %>"><%= a === 'young' ? t.ageGroupYoung : t.ageGroupSenior %></option><% }) %>
+          </select>
+        </div>
       </div>
-      <label><%= t.assignModules %></label>
-      <div class="module-checkboxes">
+      <div class="form-actions">
+        <label><%= t.assignModules %></label>
+        <button type="button" class="btn btn-small" data-recommend-btn data-age-select="age-group-new" data-checkbox-scope="modules-new"><%- icon('check-circle', { size: 16 }) %> <%= t.recommendModules %></button>
+      </div>
+      <div class="module-checkboxes" id="modules-new">
         <% modules.forEach(m => { %>
           <label class="checkbox-pill">
             <input type="checkbox" name="modules" value="<%= m.key %>">
@@ -46,6 +55,8 @@
       <button type="submit" class="btn btn-primary"><%= t.addStudent %></button>
     </form>
   </section>
+
+  <script>window.RECOMMENDED_MODULES = <%- JSON.stringify(recommendedModules) %>;</script>
 
   <section class="panel">
     <h2><%= t.students %></h2>
@@ -65,12 +76,21 @@
               </select>
             </div>
             <div>
+              <label><%= t.ageGroup %></label>
+              <select name="age_group" id="age-group-<%= s.id %>">
+                <% ageGroups.forEach(a => { %><option value="<%= a %>" <%= s.age_group === a ? 'selected' : '' %>><%= a === 'young' ? t.ageGroupYoung : t.ageGroupSenior %></option><% }) %>
+              </select>
+            </div>
+            <div>
               <label>Nieuw wachtwoord (optioneel)</label>
               <input type="password" name="new_password" minlength="6" placeholder="•••••••">
             </div>
           </div>
-          <label><%= t.assignModules %></label>
-          <div class="module-checkboxes">
+          <div class="form-actions">
+            <label><%= t.assignModules %></label>
+            <button type="button" class="btn btn-small" data-recommend-btn data-age-select="age-group-<%= s.id %>" data-checkbox-scope="modules-<%= s.id %>"><%- icon('check-circle', { size: 16 }) %> <%= t.recommendModules %></button>
+          </div>
+          <div class="module-checkboxes" id="modules-<%= s.id %>">
             <% modules.forEach(m => { %>
               <label class="checkbox-pill">
                 <input type="checkbox" name="modules" value="<%= m.key %>" <%= s.assignedModules.includes(m.key) ? 'checked' : '' %>>

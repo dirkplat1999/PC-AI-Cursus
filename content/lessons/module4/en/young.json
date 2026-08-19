@@ -1,0 +1,94 @@
+{
+  "lessons": [
+    {
+      "id": "ai-werk",
+      "title": "AI at work: using ChatGPT and Gemini smartly",
+      "steps": [
+        {
+          "title": "AI as a colleague, not a replacement",
+          "body": "<p>ChatGPT and Gemini are strong at: drafting first versions, summarizing, brainstorming, checking code, improving emails. Think of it as a fast colleague who always has time — not a replacement for your own judgment.</p>"
+        },
+        {
+          "title": "Company data: what's okay, what isn't?",
+          "body": "<p>Always check your employer's AI policy before pasting company data into a public AI chatbot. Confidential customer data, source code, or internal documents don't belong in ChatGPT or Gemini unless your employer uses a secured business version.</p>"
+        },
+        {
+          "title": "Always double-check AI output",
+          "body": "<p>Using AI for work-related text? Always verify facts, numbers, and citations yourself before sending or publishing — an AI can sound convincing while being factually wrong.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Try asking Gemini below to draft an email for a situation from your own work or daily life, and critically judge whether the answer is accurate.</p>",
+          "practiceUrl": "https://gemini.google.com"
+        }
+      ]
+    },
+    {
+      "id": "prompten-productiviteit",
+      "title": "Smart prompting for productivity",
+      "steps": [
+        {
+          "title": "Working iteratively",
+          "body": "<p>Don't expect the perfect answer right away. Follow up with 'Make it shorter', 'Use a more casual tone', 'Add an example'. This back-and-forth often gets a better result than trying to write one perfect prompt.</p>"
+        },
+        {
+          "title": "Role prompts",
+          "body": "<p>Give the AI a role: <em>'Respond as an experienced HR manager and give feedback on this cover letter'</em> or <em>'Explain this as if I'm a junior developer'</em>. This shapes the tone and level of detail in the answer.</p>"
+        },
+        {
+          "title": "Reusing templates",
+          "body": "<p>Often working on similar tasks (like weekly reports)? Save a prompt that works well as a template, so you can reuse it with small tweaks instead of starting from scratch every time.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Try a role prompt below: ask Gemini to respond as a specific expert on a topic you're interested in.</p>",
+          "practiceUrl": "https://gemini.google.com"
+        }
+      ]
+    },
+    {
+      "id": "ai-privacy-deepfakes",
+      "title": "AI privacy risks and deepfakes",
+      "steps": [
+        {
+          "title": "What an AI company does with your data",
+          "body": "<p>By default, what you type in an AI chat can be used to train the model. Check the settings (in ChatGPT for example: Settings &gt; Data controls) to turn this off if you don't want that.</p>"
+        },
+        {
+          "title": "Recognizing deepfakes",
+          "body": "<p>AI can now create convincing fake video and audio of real people. Be skeptical of voice messages or videos that pressure you to act quickly (like the 'CEO fraud' example from the safety module) — always verify through a different channel.</p>"
+        },
+        {
+          "title": "What you never share with an AI chatbot",
+          "body": "<ul><li>Passwords, DigiD details, national ID numbers</li><li>Confidential company information without authorization</li><li>Medical or financial data belonging to other people</li><li>Photos of official documents (passport, driver's license)</li></ul>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Check in your own AI account (ChatGPT or Gemini) whether you can opt out of your conversations being used to train the model.</p>"
+        }
+      ]
+    },
+    {
+      "id": "ai-ethiek-bias",
+      "title": "AI ethics: bias, copyright, and when not to use it",
+      "steps": [
+        {
+          "title": "Bias in AI",
+          "body": "<p>AI models are trained on existing data from the world — including existing biases. In sensitive applications (like resume screening), this can lead to unfair outcomes. Use AI here as, at most, a helper tool — never as the sole decision-maker.</p>"
+        },
+        {
+          "title": "Copyright and AI-generated content",
+          "body": "<p>Using AI to create text, code, or images for work or publication? Be aware that copyright law around AI content is still evolving, and that some AI tools are trained on material with unclear rights. Check your employer's or client's policy.</p>"
+        },
+        {
+          "title": "When NOT to use AI",
+          "body": "<p>Not for: medical, legal, or financial advice without consulting an expert; official decisions; anything where a mistake has serious consequences. Treat AI as a sparring partner, not the one ultimately responsible.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Think of a situation from your own work or life where you would use AI, and one where you would deliberately choose not to. What's the difference?</p>"
+        }
+      ]
+    }
+  ]
+}

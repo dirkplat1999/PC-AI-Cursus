@@ -1,0 +1,111 @@
+{
+  "lessons": [
+    {
+      "id": "digid-mijnoverheid-snel",
+      "title": "DigiD & MijnOverheid, fast and secure",
+      "steps": [
+        {
+          "title": "Setting up DigiD in two minutes",
+          "body": "<p>Install the DigiD app, link your face recognition or fingerprint, and you're set. You'll use DigiD for the Tax Office, DUO, your health insurer, and MijnOverheid, among others.</p>"
+        },
+        {
+          "title": "Message box: turn on email reminders",
+          "body": "<p>Go to MijnOverheid &gt; <strong>Message box</strong> and turn on an email reminder for whenever new mail arrives. This way you won't miss a tax assessment or other deadline without having to actively check the site.</p>"
+        },
+        {
+          "title": "DigiD is personal — no exceptions",
+          "body": "<p>Even if you're tech-savvy: never share your DigiD details with anyone, not even 'quickly' for a parent or partner. The government will <strong>never</strong> call or message you asking for a DigiD code.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Browse MijnOverheid below and check whether your message box reminders are turned on.</p>",
+          "practiceUrl": "https://www.mijnoverheid.nl"
+        }
+      ]
+    },
+    {
+      "id": "bankieren-fraude-geavanceerd",
+      "title": "Online banking: recognizing advanced fraud",
+      "steps": [
+        {
+          "title": "Investment fraud",
+          "body": "<p>You see an ad on social media: 'Make quick money with crypto/stocks, endorsed by a celebrity.' This is almost always fake — often using a deepfaked video of a well-known face. Never invest via a link from an ad or message; always go to a recognized, regulated provider (check its official registration).</p>"
+        },
+        {
+          "title": "Romance fraud and 'friendship' scams",
+          "body": "<p>Someone you meet online (dating app, social media) who, after a while, asks for money — for an 'emergency', travel costs to meet you, or an 'investment together' — is almost always a scammer. Never transfer money to someone you've never met in person.</p>"
+        },
+        {
+          "title": "WhatsApp fraud: 'hi mom/dad, new number'",
+          "body": "<p>A message from a 'child' or family member with a new number, asking you to quickly transfer money because a payment 'isn't going through' — always verify this with a phone call to the known number, never by replying to the new one.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Check your banking app and see whether you get notified of unusual transactions.</p>"
+        }
+      ]
+    },
+    {
+      "id": "phishing-2",
+      "title": "Phishing 2.0: parcels, LinkedIn, and spear-phishing",
+      "steps": [
+        {
+          "title": "Phishing is getting more personal",
+          "body": "<p>Classic phishing is generic ('Dear customer'). <strong>Spear-phishing</strong> targets you specifically: a message with your real name, based on info from LinkedIn or social media — for example a fake colleague, fake recruiter, or a fake delivery notice that knows you recently ordered something.</p>"
+        },
+        {
+          "title": "Exercise: a parcel-delivery scam",
+          "body": "<p>Below is a <strong>recreated example</strong> of a common SMS/email scam about a 'failed parcel delivery'. Click the message to open it. There are two things you can try: click the button, or delete the email via the menu (⋮).</p><div class=\"phish-sim\"><button type=\"button\" class=\"phish-inbox-item\" data-phish-open aria-expanded=\"false\"><span class=\"phish-avatar\" aria-hidden=\"true\">P</span><span class=\"phish-inbox-text\"><span class=\"phish-sender-name\">PostNL</span><span class=\"phish-subject\">Delivery failed: reschedule within 24 hours</span><span class=\"phish-snippet\">We were unable to deliver your parcel. Amount due: €0.49...</span></span><span class=\"phish-time\">11:32</span></button><div class=\"phish-email hidden\" data-phish-email><button type=\"button\" class=\"phish-more-btn\" data-phish-more aria-haspopup=\"true\" aria-expanded=\"false\" aria-label=\"More options\">⋮</button><div class=\"phish-more-menu hidden\" data-phish-menu role=\"menu\"><button type=\"button\" data-phish-delete role=\"menuitem\">🗑 Delete</button></div><div class=\"phish-email-header\"><div><strong>From:</strong> PostNL &lt;delivery@<span class=\"phish-flag\">postnl-track-parcel.info</span>&gt;</div><div><strong>To:</strong> you@example.com</div><div><strong>Subject:</strong> Delivery failed: reschedule within 24 hours</div></div><div class=\"phish-email-body\"><p>Dear customer,</p><p>Unfortunately we were unable to deliver your parcel. There is an outstanding amount of <strong>€0.49</strong> in shipping costs. Pay this within 24 hours or your parcel will be returned to the sender.</p><button type=\"button\" class=\"phish-cta-btn\" data-phish-click>Pay €0.49 and reschedule delivery</button></div></div><div class=\"phish-reveal phish-reveal-bad hidden\" data-phish-reveal-bad tabindex=\"-1\"><h4>⚠️ Just an exercise — phew!</h4><p>This type of scam is hugely popular precisely because the amount seems so small (€0.49) — people think 'what harm could it do'. In reality, this steals your card details. The teacher has automatically been notified, so you can go over it together.</p><p><strong>The warning signs:</strong></p><ul><li>The full email address isn't PostNL's: <code>postnl-track-parcel.info</code></li><li>A tiny amount, designed to lower your guard</li><li>Time pressure ('within 24 hours')</li><li>Delivery services never ask you to pay extra online via a link</li></ul><p>Not sure? Always go to the delivery service's own site or app by typing the address yourself, and ask family for a second opinion if in doubt.</p><button type=\"button\" class=\"btn btn-ghost\" data-phish-reset>Try again</button></div><div class=\"phish-reveal phish-reveal-good hidden\" data-phish-reveal-good tabindex=\"-1\"><h4>✅ Well done!</h4><p>You <strong>deleted</strong> the suspicious message without paying. Exactly right — these 'small amount' scams are specifically designed to bypass your guard.</p><p><strong>Warning signs you spotted:</strong></p><ul><li>The full email address wasn't PostNL's: <code>postnl-track-parcel.info</code></li><li>A suspiciously small amount to lower your guard</li><li>Time pressure ('within 24 hours')</li></ul><p>Not sure about a delivery message? Always go to the delivery service's own site or app.</p><button type=\"button\" class=\"btn btn-ghost\" data-phish-reset>Try again</button></div></div>"
+        },
+        {
+          "title": "LinkedIn and fake recruiters",
+          "body": "<p>A 'recruiter' who reaches out with too-good-to-be-true pay for too little work, and quickly asks for personal details or a 'deposit for equipment', is a scammer. Always check whether the company really exists and whether the recruiter has a verified profile with a shared connection.</p>"
+        }
+      ]
+    },
+    {
+      "id": "wachtwoordmanager-standaard",
+      "title": "Password managers and 2FA as the default",
+      "steps": [
+        {
+          "title": "Why this isn't a 'nice to have' anymore",
+          "body": "<p>With dozens of accounts (work, social media, shops, subscriptions), memorizing a unique, strong password for every site by hand just isn't realistic anymore. A password manager (like Bitwarden, 1Password, or your browser's built-in one) is now standard equipment.</p>"
+        },
+        {
+          "title": "Passkeys: the password's successor",
+          "body": "<p>More and more services (Google, Apple, banks) now support <strong>passkeys</strong>: logging in with your fingerprint or face, no password needed. This is more secure than a password, since there's nothing that can be stolen via a phishing email. Turn this on wherever you can.</p>"
+        },
+        {
+          "title": "2FA via an app, not SMS",
+          "body": "<p>For 2FA, prefer an <strong>authenticator app</strong> (Google Authenticator, Authy) over SMS — SMS codes can be intercepted via 'SIM swapping' (your number gets taken over by a scammer).</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Check one of your most important accounts (email, bank) to see whether app-based 2FA is set up, and turn it on if it isn't yet.</p>"
+        }
+      ]
+    },
+    {
+      "id": "identiteitsdiefstal",
+      "title": "Recognizing identity theft and social engineering",
+      "steps": [
+        {
+          "title": "What is social engineering?",
+          "body": "<p>Social engineering means manipulating people into giving up confidential information — often by putting you under pressure, creating urgency, or making you believe the sender has authority (your boss, the bank, the police).</p>"
+        },
+        {
+          "title": "'CEO fraud' at work",
+          "body": "<p>A message or email that appears to come from your manager, asking you to quickly and discreetly make a payment or buy gift cards, is a well-known scam targeting employees. Always verify via a different channel (call your manager) before doing anything.</p>"
+        },
+        {
+          "title": "What to do if your identity is stolen",
+          "body": "<ol><li>Change your passwords immediately, starting with your email</li><li>Report it to your bank if financial details are involved</li><li>File a police report</li><li>Check <a href=\"https://www.mijnoverheid.nl\" target=\"_blank\" rel=\"noopener\">MijnOverheid</a> for unfamiliar entries under your name</li></ol>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Think about it: would you immediately believe a message from 'your manager' urgently asking for gift cards, or would you check first with a phone call?</p>"
+        }
+      ]
+    }
+  ]
+}

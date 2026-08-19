@@ -1,0 +1,142 @@
+{
+  "lessons": [
+    {
+      "id": "maps-slim",
+      "title": "Google Maps: klug navigieren",
+      "steps": [
+        {
+          "title": "Mehr als nur eine Route",
+          "body": "<p>Google Maps verfolgt <strong>Live-Verkehr</strong> (orange/rote Straßen = viel Verkehr) und passt deine Route entsprechend an. Bei einer langen Fahrt siehst du auch eine geschätzte Ankunftszeit, die sich mit dem Verkehr mitbewegt.</p>"
+        },
+        {
+          "title": "Mehrere Zwischenstopps hinzufügen",
+          "body": "<ol><li>Lege eine Route wie gewohnt fest</li><li>Klicke auf das Plus-Symbol (⋮ oder 'Stopp hinzufügen') neben dem Adressfeld</li><li>Füge einen Zwischenstopp hinzu, zum Beispiel eine Tankstelle oder einen Supermarkt</li><li>Ziehe die Stopps in die gewünschte Reihenfolge</li></ol>"
+        },
+        {
+          "title": "Offline-Karten herunterladen",
+          "body": "<p>Fährst du in ein Gebiet mit schlechtem Empfang? Lade das Gebiet vorher offline herunter: tippe auf dein Profilbild &gt; <strong>Offline-Karten</strong> &gt; 'Eigene Karte auswählen'. So funktioniert die Navigation auch ohne Internetverbindung.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Plane unten eine Route mit mindestens zwei Zwischenstopps.</p>",
+          "practiceUrl": "https://maps.google.com"
+        }
+      ]
+    },
+    {
+      "id": "marktplaats-veilig",
+      "title": "Marktplaats: sicher kaufen und verkaufen",
+      "steps": [
+        {
+          "title": "Eine gute Anzeige erstellen",
+          "body": "<p>Möchtest du etwas verkaufen (vielleicht als Nebenverdienst)? Eine gute Anzeige hat: scharfe Fotos bei Tageslicht, eine ehrliche Beschreibung von Mängeln und einen realistischen Preis — vergleiche ähnliche Anzeigen, bevor du einen Preis festlegst.</p>"
+        },
+        {
+          "title": "Sicher bezahlen",
+          "body": "<p>Nutze im Zweifel die <strong>sichere Bezahlfunktion von Marktplaats</strong> statt einer direkten Überweisung. Verkaufst du über eine andere Plattform: sei besonders wachsam bei Käufern, die zu schnell einem hohen Preis zustimmen, oder die vorschlagen, außerhalb der Plattform zu kommunizieren — das ist ein bekanntes Betrugsmuster.</p>"
+        },
+        {
+          "title": "Erkennbare Betrugsmaschen",
+          "body": "<ul><li>Der Käufer schickt einen 'Zahlungsbeleg' und bittet dich, die Versandkosten vorzustrecken</li><li>Ein 'zu gut, um wahr zu sein'-Angebot, sofort gefolgt von Zeitdruck</li><li>Ein Link zu einer Zahlungsseite, die nicht auf marktplaats.nl liegt</li></ul><p>Unsicher? Gehe niemals auf Anfragen außerhalb der Plattform ein, und frage im Zweifel die Familie um eine zweite Meinung.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Schau dir unten eine Kategorie auf Marktplaats an, die dich interessiert, und achte auf Preisunterschiede zwischen ähnlichen Anzeigen.</p>",
+          "practiceUrl": "https://www.marktplaats.nl"
+        }
+      ]
+    },
+    {
+      "id": "funda-eerste-huis",
+      "title": "Funda: deine erste Wohnung suchen",
+      "steps": [
+        {
+          "title": "Suchfilter einstellen",
+          "body": "<p>Stelle Filter für Preisklasse, Zimmeranzahl und Wohnungstyp ein. Speichere deine Suche und aktiviere einen <strong>E-Mail-Alarm</strong>, damit du benachrichtigt wirst, sobald eine neue Wohnung deinen Kriterien entspricht — beliebte Wohnungen sind manchmal nur wenige Stunden online.</p>"
+        },
+        {
+          "title": "Worauf du achten solltest",
+          "body": "<ul><li>Energieausweis (beeinflusst deine monatlichen Kosten)</li><li>Erbpacht oder Eigentumsgrund</li><li>Baujahr und eventueller Sanierungsbedarf (Fundament, Dach)</li><li>Den amtlichen Wert (WOZ) mit dem Angebotspreis vergleichen</li></ul>"
+        },
+        {
+          "title": "Eine Besichtigung anfragen",
+          "body": "<p>Klicke auf 'Besichtigung anfragen' oder kontaktiere den Makler über die Kontaktdaten in der Anzeige. Bereite Fragen vor: Warum wird die Wohnung verkauft, wie alt ist der Heizkessel, gibt es noch offene Umbauten?</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Richte unten eine Suche für deine ideale erste Wohnung ein und speichere sie.</p>",
+          "practiceUrl": "https://www.funda.nl"
+        }
+      ]
+    },
+    {
+      "id": "streamen-slim",
+      "title": "Streaming: NPO Start & YouTube klug nutzen",
+      "steps": [
+        {
+          "title": "Empfohlene Videos: wie funktioniert das?",
+          "body": "<p>YouTube und andere Plattformen zeigen Videos basierend auf einem <strong>Algorithmus</strong>: Was du vorher angesehen hast, bestimmt, was dir als Nächstes gezeigt wird. Praktisch, um schnell etwas zu finden, kann dich aber auch in einer 'Blase' halten. Nutze gelegentlich bewusst die Suchfunktion, statt nur den Empfehlungen zu folgen.</p>"
+        },
+        {
+          "title": "Verlauf und Datenschutz verwalten",
+          "body": "<p>Möchtest du nicht, dass dein Wiedergabeverlauf deine Empfehlungen weiter beeinflusst? Gehe zu deinem Konto &gt; <strong>Verlauf</strong> und lösche Einträge, oder schalte den Wiedergabeverlauf über ein Inkognito-Fenster vorübergehend aus.</p>"
+        },
+        {
+          "title": "Abonnements und Benachrichtigungen",
+          "body": "<p>Abonniere Kanäle, die dich interessieren, über die Schaltfläche 'Abonnieren'. Aktiviere die Glocke für sofortige Benachrichtigungen bei neuen Videos, oder lass sie aus, wenn du lieber selbst entscheidest, wann du schaust.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Schau dir unten deinen Wiedergabeverlauf an und lösche ein paar Einträge, die für dich nicht mehr relevant sind.</p>",
+          "practiceUrl": "https://www.youtube.com"
+        }
+      ]
+    },
+    {
+      "id": "reisplanner-forenzen",
+      "title": "9292: Pendeln und Reisen",
+      "steps": [
+        {
+          "title": "Lieblingsrouten speichern",
+          "body": "<p>Fährst du regelmäßig dieselbe Strecke (zum Beispiel zur Arbeit)? Speichere die Route als Favorit, damit du sie mit einem Tipp wieder abrufen kannst, ohne alles erneut eingeben zu müssen.</p>"
+        },
+        {
+          "title": "Echtzeit-Störungen und Verspätungen",
+          "body": "<p>9292 zeigt Echtzeit-Verspätungen und Störungen im Schienennetz. Prüfe alternative Routen, bevor du losfährst, wenn eine Störung gemeldet wird, damit du nicht umsonst zum Bahnhof fährst.</p>"
+        },
+        {
+          "title": "Fahrkarten und Abonnements",
+          "body": "<p>Überlege dir ein Reiseabonnement, wenn du oft dieselbe Strecke fährst — das kann im Vergleich zu Einzelfahrten deutlich sparen. Vergleiche die Optionen auf der Website des Verkehrsunternehmens (NS, GVB, RET, HTM) mit deinem durchschnittlichen Reiseverhalten.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Plane unten deine feste Pendelstrecke und speichere sie als Favorit.</p>",
+          "practiceUrl": "https://www.9292.nl"
+        }
+      ]
+    },
+    {
+      "id": "social-privacy",
+      "title": "Soziale Medien: deine Privatsphäre im Griff",
+      "steps": [
+        {
+          "title": "Wer sieht, was du teilst?",
+          "body": "<p>Gehe zu <strong>Einstellungen &gt; Datenschutz</strong> bei Facebook oder Instagram und prüfe, wer deine Beiträge, Fotos und Profilinformationen sehen kann: alle, Freunde, oder nur du selbst. Stelle dies standardmäßig auf 'Freunde', nicht auf 'öffentlich'.</p>"
+        },
+        {
+          "title": "Standort nicht automatisch teilen",
+          "body": "<p>Viele Apps fügen deinen Standort automatisch zu Fotos und Beiträgen hinzu. Schalte das in den App-Einstellungen deines Handys aus (bei Instagram zum Beispiel: Einstellungen &gt; Datenschutz &gt; Standortdienste), besonders unterwegs oder zu Hause.</p>"
+        },
+        {
+          "title": "Markierungen kontrollieren",
+          "body": "<p>Stelle ein, dass du zustimmen musst, bevor ein Foto, auf dem du markiert bist, in deiner Chronik erscheint. So bestimmst du selbst, was öffentlich mit deinem Namen verknüpft wird.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Prüfe unten deine Datenschutz-Einstellungen bei Facebook und passe an, wer deine Beiträge sehen kann.</p>",
+          "practiceUrl": "https://www.facebook.com"
+        }
+      ]
+    }
+  ]
+}

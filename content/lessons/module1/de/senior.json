@@ -17,6 +17,10 @@
           "body": "<p>Klicke auf <strong>'Verfassen'</strong> oder <strong>'Neue Nachricht'</strong>. Fülle aus:</p><ul><li><strong>An:</strong> die E-Mail-Adresse des Empfängers</li><li><strong>Betreff:</strong> eine kurze Zusammenfassung, worum es geht</li><li><strong>Nachricht:</strong> der eigentliche Text</li></ul><p>Klicke danach auf <strong>'Senden'</strong>.</p>"
         },
         {
+          "title": "Eine Nachricht, die du nicht finden kannst",
+          "body": "<p>Erwartest du eine E-Mail, die einfach nicht ankommt? Schau im Ordner <strong>'Spam'</strong> oder <strong>'Unerwünschte E-Mail'</strong> nach (meist links im Menü) — Nachrichten, die dein Mailprogramm verdächtig findet, landen dort automatisch, auch wenn es eine echte Nachricht ist.</p><p>Ist sie dort? Klicke auf <strong>'Kein Spam'</strong>, um sie zurück in deinen Posteingang zu verschieben.</p>"
+        },
+        {
           "title": "Übung",
           "body": "<p>Öffne unten dein eigenes Postfach und versuche, eine Testnachricht an dich selbst zu senden. So siehst du genau, wie eine gesendete Nachricht ankommt.</p>",
           "practiceUrl": "https://mail.google.com"
@@ -44,6 +48,10 @@
           "body": "<p>Fotos und Videos können groß sein. Bei einem zu großen Anhang bietet zum Beispiel Gmail automatisch einen Downloadlink über Google Drive an, statt eines direkten Anhangs.</p>"
         },
         {
+          "title": "Einen erhaltenen Anhang öffnen und speichern",
+          "body": "<p>Hast du einen Anhang bekommen? Klicke darauf, um ihn anzusehen. Möchtest du ihn auf deinem Computer oder Handy speichern? Klicke auf den <strong>Download-Pfeil ⬇️</strong> (erscheint meist, wenn du mit der Maus über den Anhang fährst, oder als eigene Schaltfläche darunter). Die Datei landet dann in deinem Ordner 'Downloads'.</p>"
+        },
+        {
           "title": "Übung",
           "body": "<p>Versuche, in deinem eigenen Postfach eine neue Nachricht zu öffnen und ein Foto als Anhang hinzuzufügen (ohne sie zu senden).</p>",
           "practiceUrl": "https://mail.google.com"
@@ -65,6 +73,10 @@
         {
           "title": "Zurück- und Vorwärts-Taste",
           "body": "<p>Benutze die Pfeile oben links (⬅️ ➡️), um zur vorherigen Seite zurückzugehen oder wieder vorwärts. Einen neuen <strong>Tab</strong> öffnest du mit dem Plus-Zeichen (+) neben deinem aktuellen Tab.</p>"
+        },
+        {
+          "title": "Eine Website als Favorit speichern",
+          "body": "<p>Besuchst du eine Website oft (zum Beispiel deine Bank oder eine Nachrichtenseite)? Klicke auf den <strong>Stern ☆</strong> rechts in der Adressleiste, um die Seite als Favorit/Lesezeichen zu speichern. Du findest deine gespeicherten Favoriten danach über diesen Stern oder ein Menü mit 'Favoriten'/'Lesezeichen' wieder.</p>"
         },
         {
           "title": "Übung",

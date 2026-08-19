@@ -54,6 +54,7 @@
             <th><%= t.fullName %></th>
             <th><%= t.username %></th>
             <th><%= t.language %></th>
+            <th><%= t.ageGroup %></th>
             <th>Modules</th>
             <th><%= t.progress %></th>
           </tr>
@@ -64,6 +65,7 @@
               <td><%= s.full_name %></td>
               <td><%= s.username %></td>
               <td><%= s.language.toUpperCase() %></td>
+              <td><%= s.age_group === 'young' ? t.ageGroupYoung : t.ageGroupSenior %></td>
               <td><%= s.assignedModuleTitles.join(', ') || '—' %></td>
               <td><%= s.completedCount %> / <%= s.totalAssigned %></td>
             </tr>

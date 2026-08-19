@@ -1,0 +1,93 @@
+{
+  "lessons": [
+    {
+      "id": "cloud-samenwerken",
+      "title": "Cloud-Speicher und Zusammenarbeit",
+      "steps": [
+        {
+          "title": "Warum Zusammenarbeit in der Cloud klüger ist",
+          "body": "<p>Statt ein Dokument hin- und herzuschicken, arbeitest du mit Google Docs, Word Online oder ähnlichen Tools <strong>gleichzeitig mit anderen in derselben Datei</strong>. Änderungen sind sofort sichtbar, und du siehst, wer was geändert hat.</p>"
+        },
+        {
+          "title": "Versionsverlauf nutzen",
+          "body": "<p>Aus Versehen etwas gelöscht oder überschrieben? Über <strong>Datei &gt; Versionsverlauf</strong> (Google Docs) kannst du eine frühere Version ansehen und wiederherstellen. Kein Grund mehr, separate Backup-Dateien aufzubewahren.</p>"
+        },
+        {
+          "title": "Ordner klug organisieren",
+          "body": "<p>Nutze gemeinsame Ordner für Projekte, an denen du mit anderen arbeitest, und halte deine persönlichen Dateien getrennt. Eine konsistente Benennung (Datum + Thema) erspart dir später viel Suchzeit.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Erstelle unten ein neues Dokument in Google Drive und schau dir die Optionen für Teilen und Versionsverlauf an.</p>",
+          "practiceUrl": "https://drive.google.com"
+        }
+      ]
+    },
+    {
+      "id": "telefoon-backup",
+      "title": "Dein Handy sichern und schützen",
+      "steps": [
+        {
+          "title": "Automatisches Backup einrichten",
+          "body": "<p>Aktiviere automatisches Backup für Fotos, Kontakte und App-Daten (bei Android: Einstellungen &gt; System &gt; Sicherung; bei iPhone: Einstellungen &gt; [dein Name] &gt; iCloud). So verlierst du bei Verlust oder Diebstahl deines Handys nicht alles.</p>"
+        },
+        {
+          "title": "Dein Handy aus der Ferne finden oder löschen",
+          "body": "<p>Aktiviere 'Mein Gerät suchen' (Android) oder 'Mein iPhone suchen' (Apple). Bei Verlust oder Diebstahl kannst du damit den Standort sehen, das Gerät klingeln lassen oder aus der Ferne alle Daten löschen.</p>"
+        },
+        {
+          "title": "Bildschirmsperre und Updates",
+          "body": "<p>Nutze eine PIN, ein Muster oder eine biometrische Sperre — niemals 'keine Sperre'. Installiere Software-Updates so schnell wie möglich: Sie schließen oft Sicherheitslücken.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Prüfe an deinem eigenen Handy, ob automatisches Backup und 'Gerät suchen' aktiviert sind.</p>"
+        }
+      ]
+    },
+    {
+      "id": "abonnementen-budget",
+      "title": "Abonnements und digitales Budget verwalten",
+      "steps": [
+        {
+          "title": "Schleichende Abo-Kosten",
+          "body": "<p>Streaming-Dienste, Apps, Cloud-Speicher — Abonnements summieren sich schnell, ohne dass man es merkt. Prüfe regelmäßig (zum Beispiel jedes Quartal) deinen Kontoauszug auf wiederkehrende Zahlungen, die du nicht mehr nutzt.</p>"
+        },
+        {
+          "title": "Abonnements kündigen",
+          "body": "<p>Bei einem App-Store-Abo (Apple/Google): gehe zu deinen Kontoeinstellungen &gt; Abonnements, um zu sehen, was aktiv ist, und zu kündigen. Vergiss kostenlose Testphasen nicht — setze eine Erinnerung, bevor sie automatisch in ein kostenpflichtiges Abo übergehen.</p>"
+        },
+        {
+          "title": "Budget-Apps",
+          "body": "<p>Viele Banking-Apps (oder eigenständige Apps) können deine Ausgaben automatisch kategorisieren, sodass du auf einen Blick siehst, wohin dein Geld fließt. Praktisch, um den Überblick zu behalten, ohne alles manuell zu verfolgen.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Schau dir deine aktiven Abonnements in den Einstellungen deines Handys an und prüfe, ob etwas dabei ist, das du nicht mehr nutzt.</p>"
+        }
+      ]
+    },
+    {
+      "id": "wachtwoordmanager-gewoonte",
+      "title": "Passwort-Manager als tägliche Gewohnheit",
+      "steps": [
+        {
+          "title": "Warum das jetzt zur Gewohnheit werden sollte",
+          "body": "<p>Wie wir im Sicherheitsmodul gesehen haben: Ein Passwort-Manager ist kein zusätzlicher Schritt mehr, sondern eine Grundgewohnheit — wie eine Zahnbürste. Er merkt sich, generiert und füllt deine Passwörter automatisch aus.</p>"
+        },
+        {
+          "title": "Alles an einem Ort",
+          "body": "<p>Neben Passwörtern kannst du in einem Passwort-Manager oft auch <strong>Bankdaten, Ausweisdokumente und sichere Notizen</strong> speichern — verschlüsselt und nur mit deinem Hauptpasswort zugänglich.</p>"
+        },
+        {
+          "title": "Teilen mit der Familie",
+          "body": "<p>Die meisten Passwort-Manager bieten ein Familienabo, mit dem du Passwörter sicher teilen kannst (zum Beispiel ein Streaming-Konto), ohne das Passwort wörtlich per Nachricht zu verschicken.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Falls du noch keinen Passwort-Manager nutzt: installiere heute einen und richte ihn für dein wichtigstes Konto ein.</p>"
+        }
+      ]
+    }
+  ]
+}

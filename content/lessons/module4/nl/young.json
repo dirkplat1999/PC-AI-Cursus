@@ -1,0 +1,94 @@
+{
+  "lessons": [
+    {
+      "id": "ai-werk",
+      "title": "AI op je werk: ChatGPT en Gemini slim inzetten",
+      "steps": [
+        {
+          "title": "AI als collega, niet als vervanging",
+          "body": "<p>ChatGPT en Gemini zijn sterk in: eerste opzetten schrijven, samenvatten, brainstormen, code checken, e-mails verbeteren. Zie het als een snelle collega die altijd tijd heeft — niet als een vervanging van je eigen beoordelingsvermogen.</p>"
+        },
+        {
+          "title": "Bedrijfsgegevens: wat mag wel, wat niet?",
+          "body": "<p>Check altijd het AI-beleid van je werkgever voordat je bedrijfsgegevens in een publieke AI-chatbot plakt. Vertrouwelijke klantgegevens, broncode of interne documenten horen niet zomaar in ChatGPT of Gemini thuis, tenzij je werkgever een zakelijke, beveiligde versie gebruikt.</p>"
+        },
+        {
+          "title": "AI-output altijd controleren",
+          "body": "<p>Gebruik je AI voor werk-gerelateerde teksten? Controleer feiten, cijfers en bronvermeldingen altijd zelf voordat je het verstuurt of publiceert — een AI kan overtuigend klinken terwijl het feitelijk onjuist is.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Probeer hieronder Gemini te vragen om een concept-e-mail te schrijven voor een situatie uit je eigen werk of dagelijks leven, en beoordeel kritisch of het antwoord klopt.</p>",
+          "practiceUrl": "https://gemini.google.com"
+        }
+      ]
+    },
+    {
+      "id": "prompten-productiviteit",
+      "title": "Slim prompten voor productiviteit",
+      "steps": [
+        {
+          "title": "Iteratief werken",
+          "body": "<p>Verwacht niet meteen het perfecte antwoord. Stuur bij: 'Maak het korter', 'Gebruik een informelere toon', 'Voeg een voorbeeld toe'. Dit heen-en-weer levert vaak een beter resultaat op dan één perfecte prompt proberen te bedenken.</p>"
+        },
+        {
+          "title": "Rolprompts",
+          "body": "<p>Geef de AI een rol: <em>'Reageer als een ervaren HR-manager en geef feedback op deze motivatiebrief'</em> of <em>'Leg dit uit alsof ik een junior ontwikkelaar ben'</em>. Dit stuurt de toon en het detailniveau van het antwoord.</p>"
+        },
+        {
+          "title": "Sjablonen hergebruiken",
+          "body": "<p>Werk je vaak met vergelijkbare taken (bijvoorbeeld wekelijkse verslagen)? Bewaar een goed werkende prompt als sjabloon, zodat je 'm steeds kunt hergebruiken met kleine aanpassingen in plaats van steeds opnieuw te beginnen.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Probeer hieronder een rolprompt: vraag Gemini om te reageren als een specifieke expert op een onderwerp dat jou interesseert.</p>",
+          "practiceUrl": "https://gemini.google.com"
+        }
+      ]
+    },
+    {
+      "id": "ai-privacy-deepfakes",
+      "title": "AI-privacyrisico's en deepfakes",
+      "steps": [
+        {
+          "title": "Wat een AI-bedrijf met jouw data doet",
+          "body": "<p>Standaard kan wat je in een AI-chat typt gebruikt worden om het model te trainen. Check de instellingen (bijvoorbeeld bij ChatGPT: Instellingen &gt; Data controls) om dit uit te zetten als je dat niet wilt.</p>"
+        },
+        {
+          "title": "Deepfakes herkennen",
+          "body": "<p>AI kan inmiddels overtuigende nepvideo's en -audio maken van bestaande personen. Wees kritisch bij spraakberichten of video's die je onder druk zetten om snel te handelen (zoals het 'CEO-fraude'-voorbeeld uit de veiligheidsmodule) — controleer altijd via een ander kanaal.</p>"
+        },
+        {
+          "title": "Wat je nooit deelt met een AI-chatbot",
+          "body": "<ul><li>Wachtwoorden, DigiD-gegevens, BSN</li><li>Bedrijfsvertrouwelijke informatie zonder toestemming</li><li>Medische of financiële gegevens van anderen</li><li>Foto's van officiële documenten (paspoort, rijbewijs)</li></ul>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Bekijk in je eigen AI-account (ChatGPT of Gemini) of je kunt instellen dat je gesprekken niet gebruikt worden om het model te trainen.</p>"
+        }
+      ]
+    },
+    {
+      "id": "ai-ethiek-bias",
+      "title": "AI-ethiek: bias, auteursrecht en wanneer niet te gebruiken",
+      "steps": [
+        {
+          "title": "Vooringenomenheid (bias) in AI",
+          "body": "<p>AI-modellen zijn getraind op bestaande data uit de wereld — inclusief bestaande vooroordelen. Bij gevoelige toepassingen (bijvoorbeeld cv-selectie) kan dit tot oneerlijke uitkomsten leiden. Gebruik AI hier hooguit als hulpmiddel, nooit als enige beslisser.</p>"
+        },
+        {
+          "title": "Auteursrecht en AI-gegenereerde content",
+          "body": "<p>Gebruik je AI om teksten, code of beelden te maken voor werk of publicatie? Wees je bewust dat auteursrecht op AI-content juridisch nog volop in ontwikkeling is, en dat sommige AI-tools getraind zijn op materiaal waarvan de rechten onduidelijk zijn. Check het beleid van je werkgever of opdrachtgever.</p>"
+        },
+        {
+          "title": "Wanneer gebruik je AI NIET",
+          "body": "<p>Niet voor: medisch, juridisch of financieel advies zonder een deskundige te raadplegen; officiële beslissingen; iets waarbij een fout ernstige gevolgen heeft. Zie AI als een sparringpartner, niet als eindverantwoordelijke.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Bedenk een situatie uit je eigen werk of leven waarbij je AI wél zou inzetten, en één waarbij je dat bewust niet zou doen. Waarom het verschil?</p>"
+        }
+      ]
+    }
+  ]
+}

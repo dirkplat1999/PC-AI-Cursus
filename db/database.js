@@ -22,6 +22,7 @@ CREATE TABLE IF NOT EXISTS students (
   password_hash TEXT NOT NULL,
   full_name TEXT NOT NULL,
   language TEXT NOT NULL DEFAULT 'nl',
+  age_group TEXT NOT NULL DEFAULT 'senior',
   font_size TEXT NOT NULL DEFAULT 'normal',
   high_contrast INTEGER NOT NULL DEFAULT 0,
   created_at TEXT NOT NULL DEFAULT (datetime('now'))
@@ -53,5 +54,12 @@ CREATE TABLE IF NOT EXISTS help_requests (
   resolved_at TEXT
 );
 `);
+
+// Migration for databases created before age_group existed (CREATE TABLE
+// IF NOT EXISTS above only applies to brand-new installs).
+const studentColumns = db.prepare("PRAGMA table_info(students)").all().map((c) => c.name);
+if (!studentColumns.includes('age_group')) {
+  db.exec("ALTER TABLE students ADD COLUMN age_group TEXT NOT NULL DEFAULT 'senior'");
+}
 
 module.exports = db;

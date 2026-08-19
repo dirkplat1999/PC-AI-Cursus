@@ -1,0 +1,94 @@
+{
+  "lessons": [
+    {
+      "id": "ai-werk",
+      "title": "KI bei der Arbeit: ChatGPT und Gemini klug einsetzen",
+      "steps": [
+        {
+          "title": "KI als Kollege, nicht als Ersatz",
+          "body": "<p>ChatGPT und Gemini sind stark bei: erste Entwürfe schreiben, zusammenfassen, brainstormen, Code prüfen, E-Mails verbessern. Betrachte es als schnellen Kollegen, der immer Zeit hat — nicht als Ersatz für dein eigenes Urteilsvermögen.</p>"
+        },
+        {
+          "title": "Firmendaten: was ist erlaubt, was nicht?",
+          "body": "<p>Prüfe immer die KI-Richtlinie deines Arbeitgebers, bevor du Firmendaten in einen öffentlichen KI-Chatbot einfügst. Vertrauliche Kundendaten, Quellcode oder interne Dokumente gehören nicht ohne Weiteres in ChatGPT oder Gemini, es sei denn, dein Arbeitgeber nutzt eine gesicherte Geschäftsversion.</p>"
+        },
+        {
+          "title": "KI-Ausgaben immer prüfen",
+          "body": "<p>Nutzt du KI für arbeitsbezogene Texte? Überprüfe Fakten, Zahlen und Quellenangaben immer selbst, bevor du sie versendest oder veröffentlichst — eine KI kann überzeugend klingen, obwohl sie sachlich falsch liegt.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Bitte Gemini unten, eine Entwurfs-E-Mail für eine Situation aus deiner Arbeit oder deinem Alltag zu schreiben, und beurteile kritisch, ob die Antwort stimmt.</p>",
+          "practiceUrl": "https://gemini.google.com"
+        }
+      ]
+    },
+    {
+      "id": "prompten-productiviteit",
+      "title": "Klug prompten für Produktivität",
+      "steps": [
+        {
+          "title": "Iterativ arbeiten",
+          "body": "<p>Erwarte nicht sofort die perfekte Antwort. Korrigiere nach: 'Mach es kürzer', 'Verwende einen lockereren Ton', 'Füge ein Beispiel hinzu'. Dieses Hin und Her liefert oft ein besseres Ergebnis, als zu versuchen, einen perfekten Prompt auf Anhieb zu formulieren.</p>"
+        },
+        {
+          "title": "Rollen-Prompts",
+          "body": "<p>Gib der KI eine Rolle: <em>'Antworte als erfahrener HR-Manager und gib Feedback zu diesem Anschreiben'</em> oder <em>'Erkläre das, als wäre ich ein Junior-Entwickler'</em>. Das steuert Ton und Detailgrad der Antwort.</p>"
+        },
+        {
+          "title": "Vorlagen wiederverwenden",
+          "body": "<p>Arbeitest du oft an ähnlichen Aufgaben (zum Beispiel wöchentliche Berichte)? Speichere einen gut funktionierenden Prompt als Vorlage, damit du ihn mit kleinen Anpassungen wiederverwenden kannst, statt jedes Mal von vorne anzufangen.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Probiere unten einen Rollen-Prompt: Bitte Gemini, als bestimmter Experte zu einem Thema zu antworten, das dich interessiert.</p>",
+          "practiceUrl": "https://gemini.google.com"
+        }
+      ]
+    },
+    {
+      "id": "ai-privacy-deepfakes",
+      "title": "KI-Datenschutzrisiken und Deepfakes",
+      "steps": [
+        {
+          "title": "Was ein KI-Unternehmen mit deinen Daten macht",
+          "body": "<p>Standardmäßig kann das, was du in einen KI-Chat eingibst, zum Training des Modells genutzt werden. Prüfe die Einstellungen (bei ChatGPT zum Beispiel: Einstellungen &gt; Data controls), um dies auszuschalten, falls du das nicht möchtest.</p>"
+        },
+        {
+          "title": "Deepfakes erkennen",
+          "body": "<p>KI kann inzwischen überzeugende gefälschte Videos und Audioaufnahmen echter Personen erstellen. Sei skeptisch bei Sprachnachrichten oder Videos, die dich unter Druck setzen, schnell zu handeln (wie beim 'CEO-Betrug'-Beispiel aus dem Sicherheitsmodul) — prüfe immer über einen anderen Kanal.</p>"
+        },
+        {
+          "title": "Was du niemals mit einem KI-Chatbot teilst",
+          "body": "<ul><li>Passwörter, DigiD-Daten, Sozialversicherungsnummer</li><li>Vertrauliche Unternehmensinformationen ohne Genehmigung</li><li>Medizinische oder finanzielle Daten anderer Personen</li><li>Fotos offizieller Dokumente (Reisepass, Führerschein)</li></ul>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Prüfe in deinem eigenen KI-Konto (ChatGPT oder Gemini), ob du einstellen kannst, dass deine Gespräche nicht zum Training des Modells verwendet werden.</p>"
+        }
+      ]
+    },
+    {
+      "id": "ai-ethiek-bias",
+      "title": "KI-Ethik: Bias, Urheberrecht und wann du KI nicht nutzen solltest",
+      "steps": [
+        {
+          "title": "Voreingenommenheit (Bias) in KI",
+          "body": "<p>KI-Modelle sind mit vorhandenen Daten aus der Welt trainiert — einschließlich vorhandener Vorurteile. Bei sensiblen Anwendungen (zum Beispiel Lebenslauf-Auswahl) kann dies zu unfairen Ergebnissen führen. Nutze KI hier höchstens als Hilfsmittel, niemals als alleinigen Entscheider.</p>"
+        },
+        {
+          "title": "Urheberrecht und KI-generierte Inhalte",
+          "body": "<p>Nutzt du KI, um Texte, Code oder Bilder für Arbeit oder Veröffentlichung zu erstellen? Sei dir bewusst, dass das Urheberrecht bei KI-Inhalten rechtlich noch stark in Entwicklung ist, und dass manche KI-Tools mit Material trainiert wurden, dessen Rechte unklar sind. Prüfe die Richtlinie deines Arbeitgebers oder Auftraggebers.</p>"
+        },
+        {
+          "title": "Wann du KI NICHT nutzen solltest",
+          "body": "<p>Nicht für: medizinische, rechtliche oder finanzielle Beratung ohne Rücksprache mit einem Experten; offizielle Entscheidungen; alles, wo ein Fehler ernsthafte Folgen hat. Betrachte KI als Sparringpartner, nicht als Letztverantwortlichen.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Überlege eine Situation aus deiner eigenen Arbeit oder deinem Leben, in der du KI einsetzen würdest, und eine, in der du das bewusst nicht tun würdest. Was ist der Unterschied?</p>"
+        }
+      ]
+    }
+  ]
+}

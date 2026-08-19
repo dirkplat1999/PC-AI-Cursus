@@ -17,6 +17,10 @@
           "body": "<p>Klik op de knop <strong>'Opstellen'</strong> of <strong>'Nieuw bericht'</strong>. Vul in:</p><ul><li><strong>Aan:</strong> het e-mailadres van de ontvanger</li><li><strong>Onderwerp:</strong> een korte samenvatting waar het bericht over gaat</li><li><strong>Bericht:</strong> de tekst zelf</li></ul><p>Klik daarna op <strong>'Verzenden'</strong>.</p>"
         },
         {
+          "title": "Een bericht dat je niet kunt vinden",
+          "body": "<p>Verwacht je een e-mail die maar niet komt? Kijk in de map <strong>'Spam'</strong> of <strong>'Ongewenste e-mail'</strong> (meestal links in het menu) — berichten die je mailprogramma verdacht vindt, belanden daar automatisch, ook als het een echt bericht is.</p><p>Staat het bericht daar wel? Klik op <strong>'Geen spam'</strong> om het terug te zetten naar je Postvak IN.</p>"
+        },
+        {
           "title": "Oefening",
           "body": "<p>Open hieronder je eigen mailbox en probeer een testbericht te sturen naar jezelf. Zo zie je precies hoe een verzonden bericht aankomt.</p>",
           "practiceUrl": "https://mail.google.com"
@@ -44,6 +48,10 @@
           "body": "<p>Foto's en video's kunnen groot zijn. Bij een te grote bijlage biedt bijvoorbeeld Gmail automatisch een downloadlink via Google Drive aan in plaats van een directe bijlage.</p>"
         },
         {
+          "title": "Een ontvangen bijlage openen en bewaren",
+          "body": "<p>Krijg jij een bijlage toegestuurd? Klik erop om 'm te bekijken. Wil je 'm bewaren op je computer of telefoon? Klik op het <strong>downloadpijltje ⬇️</strong> (verschijnt meestal als je met je muis over de bijlage beweegt, of als losse knop eronder). Het bestand komt dan in je map 'Downloads' te staan.</p>"
+        },
+        {
           "title": "Oefening",
           "body": "<p>Probeer in je eigen mailbox een nieuw bericht te openen en een foto als bijlage toe te voegen (zonder te versturen).</p>",
           "practiceUrl": "https://mail.google.com"
@@ -65,6 +73,10 @@
         {
           "title": "Terug- en vooruitknop",
           "body": "<p>Gebruik de pijltjes linksboven (⬅️ ➡️) om terug te gaan naar de vorige pagina of weer vooruit. Een nieuw <strong>tabblad</strong> open je met het plusje (+) naast je huidige tabblad.</p>"
+        },
+        {
+          "title": "Een website bewaren als favoriet",
+          "body": "<p>Bezoek je een website vaak (bijvoorbeeld je bank of nieuwssite)? Klik op het <strong>sterretje ☆</strong> rechts in de adresbalk om de pagina op te slaan als favoriet/bladwijzer. Je vindt je opgeslagen favorieten daarna terug via de ster of een menu met 'Favorieten' / 'Bladwijzers'.</p>"
         },
         {
           "title": "Oefening",

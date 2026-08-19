@@ -17,6 +17,10 @@
           "body": "<p>Click the <strong>'Compose'</strong> or <strong>'New message'</strong> button. Fill in:</p><ul><li><strong>To:</strong> the recipient's email address</li><li><strong>Subject:</strong> a short summary of what the message is about</li><li><strong>Message:</strong> the text itself</li></ul><p>Then click <strong>'Send'</strong>.</p>"
         },
         {
+          "title": "A message you can't find",
+          "body": "<p>Expecting an email that never arrives? Check the <strong>'Spam'</strong> or <strong>'Junk'</strong> folder (usually on the left in the menu) — messages your email program finds suspicious end up there automatically, even if it's a real message.</p><p>Is it there? Click <strong>'Not spam'</strong> to move it back to your Inbox.</p>"
+        },
+        {
           "title": "Exercise",
           "body": "<p>Open your own mailbox below and try sending a test message to yourself. This way you'll see exactly how a sent message arrives.</p>",
           "practiceUrl": "https://mail.google.com"
@@ -44,6 +48,10 @@
           "body": "<p>Photos and videos can be large. For a too-large attachment, Gmail for example automatically offers a download link via Google Drive instead of a direct attachment.</p>"
         },
         {
+          "title": "Opening and saving a received attachment",
+          "body": "<p>Received an attachment? Click it to view it. Want to save it to your computer or phone? Click the <strong>download arrow ⬇️</strong> (usually appears when you hover over the attachment, or as a separate button below it). The file will then be saved to your 'Downloads' folder.</p>"
+        },
+        {
           "title": "Exercise",
           "body": "<p>Try opening a new message in your own mailbox and adding a photo as an attachment (without sending it).</p>",
           "practiceUrl": "https://mail.google.com"
@@ -65,6 +73,10 @@
         {
           "title": "Back and forward buttons",
           "body": "<p>Use the arrows in the top left (⬅️ ➡️) to go back to the previous page or forward again. Open a new <strong>tab</strong> with the plus sign (+) next to your current tab.</p>"
+        },
+        {
+          "title": "Saving a website as a favorite",
+          "body": "<p>Visit a website often (like your bank or a news site)? Click the <strong>star ☆</strong> on the right of the address bar to save the page as a favorite/bookmark. You'll find your saved favorites again via that star or a 'Favorites'/'Bookmarks' menu.</p>"
         },
         {
           "title": "Exercise",

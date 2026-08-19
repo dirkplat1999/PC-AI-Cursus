@@ -1,0 +1,142 @@
+{
+  "lessons": [
+    {
+      "id": "maps-slim",
+      "title": "Google Maps: navigating smart",
+      "steps": [
+        {
+          "title": "More than just a route",
+          "body": "<p>Google Maps tracks <strong>live traffic</strong> (orange/red roads = busy) and adjusts your route accordingly. On a long drive you'll also see an estimated arrival time that updates as traffic changes.</p>"
+        },
+        {
+          "title": "Adding multiple stops",
+          "body": "<ol><li>Set a route as usual</li><li>Click the plus icon (⋮ or 'Add stop') next to the address field</li><li>Add a stop, for example a gas station or supermarket</li><li>Drag the stops into the order you want</li></ol>"
+        },
+        {
+          "title": "Downloading offline maps",
+          "body": "<p>Heading somewhere with poor signal? Download the area offline in advance: tap your profile picture &gt; <strong>Offline maps</strong> &gt; 'Select your own map'. This way navigation still works without an internet connection.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Plan a route below with at least two stops.</p>",
+          "practiceUrl": "https://maps.google.com"
+        }
+      ]
+    },
+    {
+      "id": "marktplaats-veilig",
+      "title": "Marktplaats: buying and selling safely",
+      "steps": [
+        {
+          "title": "Writing a good listing",
+          "body": "<p>Selling something (maybe as a side income)? A good listing has: sharp photos in daylight, an honest description of any flaws, and a realistic price — check similar listings before you set one.</p>"
+        },
+        {
+          "title": "Paying safely",
+          "body": "<p>When in doubt, use <strong>Marktplaats's secure payment option</strong> instead of a direct bank transfer. Selling through another platform? Be extra alert for buyers who agree too quickly to a high price, or who ask to communicate outside the platform — that's a known scam pattern.</p>"
+        },
+        {
+          "title": "Recognizable scam tricks",
+          "body": "<ul><li>The buyer sends a 'proof of payment' and asks you to front the shipping costs</li><li>A 'too good to be true' offer, immediately followed by time pressure</li><li>A link to a payment page that isn't on marktplaats.nl</li></ul><p>Not sure? Never agree to requests outside the platform, and ask family for a second opinion if in doubt.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Browse a category on Marktplaats below that interests you and note the price differences between similar listings.</p>",
+          "practiceUrl": "https://www.marktplaats.nl"
+        }
+      ]
+    },
+    {
+      "id": "funda-eerste-huis",
+      "title": "Funda: finding your first home",
+      "steps": [
+        {
+          "title": "Setting up search filters",
+          "body": "<p>Set filters for price range, number of rooms, and property type. Save your search and turn on an <strong>email alert</strong>, so you get notified as soon as a new property matches your criteria — popular homes sometimes only stay listed for a few hours.</p>"
+        },
+        {
+          "title": "What to pay attention to",
+          "body": "<ul><li>Energy label (affects your monthly costs)</li><li>Leasehold vs. owned land</li><li>Year built and any maintenance needs (foundation, roof)</li><li>Comparing the assessed value (WOZ) to the asking price</li></ul>"
+        },
+        {
+          "title": "Requesting a viewing",
+          "body": "<p>Click 'Request viewing' or contact the agent using the details on the listing. Prepare questions: why is the property being sold, how old is the boiler, are there any pending renovations?</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Set up a search below for your ideal first home and save it.</p>",
+          "practiceUrl": "https://www.funda.nl"
+        }
+      ]
+    },
+    {
+      "id": "streamen-slim",
+      "title": "Streaming: using NPO Start & YouTube smartly",
+      "steps": [
+        {
+          "title": "Recommended videos: how does it work?",
+          "body": "<p>YouTube and other platforms show videos based on an <strong>algorithm</strong>: what you watched before shapes what you see next. Handy for finding things quickly, but it can also keep you in a 'bubble'. Occasionally use the search function on purpose instead of only following recommendations.</p>"
+        },
+        {
+          "title": "Managing watch history and privacy",
+          "body": "<p>Don't want your watch history to keep shaping your recommendations? Go to your account &gt; <strong>History</strong> and delete items, or temporarily turn off 'watch history' via an incognito window.</p>"
+        },
+        {
+          "title": "Subscriptions and notifications",
+          "body": "<p>Subscribe to channels you find interesting via the 'Subscribe' button. Turn on the bell for instant notifications on new videos, or leave it off if you'd rather watch on your own schedule.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Check your watch history below and delete a few items you no longer find relevant.</p>",
+          "practiceUrl": "https://www.youtube.com"
+        }
+      ]
+    },
+    {
+      "id": "reisplanner-forenzen",
+      "title": "9292: commuting and travel",
+      "steps": [
+        {
+          "title": "Saving favorite routes",
+          "body": "<p>Traveling the same route regularly (like your commute)? Save it as a favorite, so you can pull it up again with one tap instead of typing everything in again.</p>"
+        },
+        {
+          "title": "Real-time disruptions and delays",
+          "body": "<p>9292 shows live delays and disruptions on the rail network. Check alternative routes before you leave if a disruption is reported, so you don't head to the station for nothing.</p>"
+        },
+        {
+          "title": "Transit cards and subscriptions",
+          "body": "<p>Consider a travel subscription if you take the same route often — it can save a lot compared to paying per trip. Compare the options on your carrier's website (NS, GVB, RET, HTM) against your average travel pattern.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Plan your regular commute below and save it as a favorite.</p>",
+          "practiceUrl": "https://www.9292.nl"
+        }
+      ]
+    },
+    {
+      "id": "social-privacy",
+      "title": "Social media: taking control of your privacy",
+      "steps": [
+        {
+          "title": "Who can see what you share?",
+          "body": "<p>Go to <strong>Settings &gt; Privacy</strong> on Facebook or Instagram and check who can see your posts, photos, and profile information: everyone, friends, or only you. Set this to 'friends' by default, not 'public'.</p>"
+        },
+        {
+          "title": "Not sharing your location automatically",
+          "body": "<p>Many apps automatically attach your location to photos and posts. Turn this off in your phone's app settings (for example, on Instagram: Settings &gt; Privacy &gt; Location Services), especially while traveling or at home.</p>"
+        },
+        {
+          "title": "Controlling tags",
+          "body": "<p>Set it so you must approve a photo before it appears on your timeline when someone tags you in it. This way you control what gets publicly linked to your name.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Check your privacy settings on Facebook below and adjust who can see your posts.</p>",
+          "practiceUrl": "https://www.facebook.com"
+        }
+      ]
+    }
+  ]
+}

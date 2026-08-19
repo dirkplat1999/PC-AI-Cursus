@@ -1,0 +1,96 @@
+{
+  "lessons": [
+    {
+      "id": "emailen-veilig",
+      "title": "E-mailen: slim en veilig",
+      "steps": [
+        {
+          "title": "Je mailbox meteen goed beveiligen",
+          "body": "<p>Voordat je aan de slag gaat: zet <strong>tweestapsverificatie (2FA)</strong> aan op je mailaccount. Dat is de eerste, belangrijkste stap — je mailbox is vaak de sleutel tot al je andere accounts (via 'wachtwoord vergeten').</p><p>Dit doe je bij Gmail via <em>Instellingen &gt; Beveiliging &gt; Tweestapsverificatie</em>.</p>"
+        },
+        {
+          "title": "Professioneel mailen",
+          "body": "<p>Voor sollicitaties, werk of officiële zaken:</p><ul><li>Duidelijk onderwerp, geen 'hoi' of 'vraagje'</li><li>Korte, directe tekst — kom snel to the point</li><li>Check je automatische handtekening (naam, functie, telefoonnummer)</li><li>Lees je mail één keer terug voor je verzendt</li></ul>"
+        },
+        {
+          "title": "Phishing herken je al hier",
+          "body": "<p>Een groot deel van phishing komt binnen via e-mail. Let al bij het lezen op:</p><ul><li>Klopt het afzenderadres echt, of lijkt het er alleen op?</li><li>Wordt er druk gezet ('nu direct actie ondernemen')?</li><li>Vraagt de mail om in te loggen via een link in plaats van de app/website zelf te openen?</li></ul><p>Verderop in de cursus (module Veiligheid) gaan we hier dieper op in — maar hoe eerder je dit patroon herkent, hoe beter.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Open hieronder je mailbox en check: staat 2FA al aan? Zo niet, zet 'm nu aan.</p>",
+          "practiceUrl": "https://mail.google.com"
+        }
+      ]
+    },
+    {
+      "id": "bijlagen-cloud",
+      "title": "Bijlagen en cloud delen",
+      "steps": [
+        {
+          "title": "Bijlagen versturen",
+          "body": "<p>Klik op het paperclip-icoon 📎 om een bestand toe te voegen. Bij grote bestanden (foto's, video's) biedt Gmail vaak automatisch een <strong>Google Drive-link</strong> aan in plaats van een directe bijlage.</p>"
+        },
+        {
+          "title": "Waarom een link delen slimmer is dan een bijlage",
+          "body": "<p>Deel je een document waar iemand op moet reageren of aan moet werken? Stuur dan een <strong>deel-link</strong> (Google Drive, Dropbox, OneDrive) in plaats van een bijlage. Voordeel: iedereen werkt in dezelfde, actuele versie, in plaats van drie losse bestanden 'document_definitief_v3.docx' te krijgen.</p>"
+        },
+        {
+          "title": "Rechten instellen bij delen",
+          "body": "<p>Bij het delen van een link kun je meestal kiezen: <strong>alleen bekijken</strong>, <strong>opmerkingen maken</strong> of <strong>bewerken</strong>. Geef nooit meer rechten dan nodig, en deel gevoelige documenten nooit met 'iedereen met de link' — kies specifieke personen.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Probeer in Google Drive een bestand te delen en de rechten in te stellen op 'alleen bekijken'.</p>",
+          "practiceUrl": "https://drive.google.com"
+        }
+      ]
+    },
+    {
+      "id": "surfen-prive",
+      "title": "Slim en privé surfen",
+      "steps": [
+        {
+          "title": "Efficiënt zoeken",
+          "body": "<p>Gebruik aanhalingstekens om exact te zoeken op een zin, bijvoorbeeld <code>\"beste laptop 2026\"</code>. Wil je een site uitsluiten? Typ <code>-woord</code>. Dit bespaart je veel scrollen door irrelevante resultaten.</p>"
+        },
+        {
+          "title": "Privacy-instellingen in je browser",
+          "body": "<p>Ga naar de instellingen van je browser (bijvoorbeeld Chrome: rechtsboven de drie puntjes &gt; Instellingen &gt; Privacy en beveiliging). Daar kun je:</p><ul><li>Cookies van derden blokkeren</li><li>Je browsegeschiedenis en zoekgeschiedenis beheren</li><li>Sitemachtigingen (locatie, camera, microfoon) per site controleren</li></ul>"
+        },
+        {
+          "title": "Meerdere tabbladen slim gebruiken",
+          "body": "<p>Open een link in een <strong>nieuw tabblad</strong> door er met het muiswiel op te klikken (of rechtermuisknop &gt; 'Openen in nieuw tabblad'). Zo blijft je huidige pagina open terwijl je iets anders bekijkt. <code>Ctrl+Tab</code> wisselt snel tussen tabbladen.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Zoek hieronder iets met aanhalingstekens, en open een resultaat in een nieuw tabblad.</p>",
+          "practiceUrl": "https://www.google.com"
+        }
+      ]
+    },
+    {
+      "id": "videobellen-werk",
+      "title": "Videobellen voor werk en privé",
+      "steps": [
+        {
+          "title": "Meer dan WhatsApp",
+          "body": "<p>Voor werk gebruik je vaak <strong>Microsoft Teams</strong>, <strong>Zoom</strong> of <strong>Google Meet</strong> in plaats van WhatsApp. Het principe is hetzelfde: camera en microfoon aanzetten, en de link of vergadering openen op het afgesproken tijdstip.</p>"
+        },
+        {
+          "title": "Een professionele indruk maken",
+          "body": "<ul><li>Check je achtergrond (of gebruik een virtuele achtergrond/vervaging)</li><li>Zet je microfoon op 'mute' als je niet aan het woord bent</li><li>Zorg voor goed licht — zit niet met je rug naar het raam</li></ul>"
+        },
+        {
+          "title": "Je scherm delen",
+          "body": "<p>Wil je een document of presentatie laten zien? Klik tijdens het gesprek op <strong>'Scherm delen'</strong> en kies het venster of scherm dat je wilt tonen. Vergeet niet het delen te stoppen als je klaar bent.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Bekijk hieronder Google Meet en maak jezelf vertrouwd met de knoppen voor microfoon, camera en schermdelen.</p>",
+          "practiceUrl": "https://meet.google.com"
+        }
+      ]
+    }
+  ]
+}

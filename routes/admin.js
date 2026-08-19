@@ -6,7 +6,7 @@ const fs = require('fs');
 const path = require('path');
 const db = require('../db/database');
 const { requireAdmin } = require('../middleware/auth');
-const { getUi, getModules, normalizeLang, SUPPORTED_LANGS } = require('../lib/content');
+const { getUi, getModules, normalizeLang, SUPPORTED_LANGS, AGE_GROUPS, normalizeAgeGroup, getRecommendedModules } = require('../lib/content');
 const backup = require('../lib/backup');
 const pkg = require('../package.json');
 
@@ -17,6 +17,8 @@ const upload = multer({
 
 const router = express.Router();
 router.use(requireAdmin);
+
+const RECOMMENDED_MODULES_MAP = { senior: getRecommendedModules('senior'), young: getRecommendedModules('young') };
 
 function withAdminLocals(req, res, next) {
   res.locals.adminLang = normalizeLang(req.query.lang || req.session.adminLang || 'nl');
@@ -69,17 +71,20 @@ router.get('/students', (req, res) => {
     students: studentsWithProgress(res.locals.lang),
     modules: getModules(),
     langs: SUPPORTED_LANGS,
+    ageGroups: AGE_GROUPS,
+    recommendedModules: RECOMMENDED_MODULES_MAP,
     error: null,
     formStudent: null
   });
 });
 
 router.post('/students', (req, res) => {
-  const { username, full_name, password, language, modules } = req.body;
+  const { username, full_name, password, language, age_group, modules } = req.body;
   const t = res.locals.t;
   if (!username || !full_name || !password) {
     return res.render('admin/students', {
       students: studentsWithProgress(res.locals.lang), modules: getModules(), langs: SUPPORTED_LANGS,
+      ageGroups: AGE_GROUPS, recommendedModules: RECOMMENDED_MODULES_MAP,
       error: 'Vul gebruikersnaam, naam en wachtwoord in.', formStudent: req.body
     });
   }
@@ -88,12 +93,13 @@ router.post('/students', (req, res) => {
   if (exists) {
     return res.render('admin/students', {
       students: studentsWithProgress(res.locals.lang), modules: getModules(), langs: SUPPORTED_LANGS,
+      ageGroups: AGE_GROUPS, recommendedModules: RECOMMENDED_MODULES_MAP,
       error: 'Gebruikersnaam bestaat al.', formStudent: req.body
     });
   }
   const hash = bcrypt.hashSync(password, 10);
-  const info = db.prepare('INSERT INTO students (username, password_hash, full_name, language) VALUES (?, ?, ?, ?)')
-    .run(uname, hash, full_name.trim(), normalizeLang(language));
+  const info = db.prepare('INSERT INTO students (username, password_hash, full_name, language, age_group) VALUES (?, ?, ?, ?, ?)')
+    .run(uname, hash, full_name.trim(), normalizeLang(language), normalizeAgeGroup(age_group));
 
   const selectedModules = Array.isArray(modules) ? modules : (modules ? [modules] : []);
   const insertMod = db.prepare('INSERT OR IGNORE INTO student_modules (student_id, module_key) VALUES (?, ?)');
@@ -104,9 +110,9 @@ router.post('/students', (req, res) => {
 
 router.post('/students/:id', (req, res) => {
   const id = Number(req.params.id);
-  const { full_name, language, modules, new_password } = req.body;
-  db.prepare('UPDATE students SET full_name = ?, language = ? WHERE id = ?')
-    .run(full_name.trim(), normalizeLang(language), id);
+  const { full_name, language, age_group, modules, new_password } = req.body;
+  db.prepare('UPDATE students SET full_name = ?, language = ?, age_group = ? WHERE id = ?')
+    .run(full_name.trim(), normalizeLang(language), normalizeAgeGroup(age_group), id);
 
   if (new_password && new_password.length >= 6) {
     db.prepare('UPDATE students SET password_hash = ? WHERE id = ?').run(bcrypt.hashSync(new_password, 10), id);

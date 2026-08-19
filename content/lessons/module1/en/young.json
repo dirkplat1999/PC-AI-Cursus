@@ -1,0 +1,96 @@
+{
+  "lessons": [
+    {
+      "id": "emailen-veilig",
+      "title": "Email: smart and secure",
+      "steps": [
+        {
+          "title": "Secure your mailbox first",
+          "body": "<p>Before anything else: turn on <strong>two-factor authentication (2FA)</strong> on your email account. This is the first, most important step — your mailbox is often the key to all your other accounts (via 'forgot password').</p><p>In Gmail this is under <em>Settings &gt; Security &gt; 2-Step Verification</em>.</p>"
+        },
+        {
+          "title": "Writing professional emails",
+          "body": "<p>For job applications, work, or official matters:</p><ul><li>A clear subject line, not 'hi' or 'question'</li><li>Short, direct text — get to the point quickly</li><li>Check your automatic signature (name, role, phone number)</li><li>Read your email once before sending</li></ul>"
+        },
+        {
+          "title": "Spotting phishing starts here",
+          "body": "<p>A large share of phishing arrives by email. Even while reading, watch for:</p><ul><li>Does the sender address really match, or does it just look similar?</li><li>Is there pressure to act ('take action right now')?</li><li>Does the email ask you to log in via a link instead of opening the app/website yourself?</li></ul><p>We'll go deeper into this later (Safety module) — but the sooner you recognize the pattern, the better.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Open your mailbox below and check: is 2FA already on? If not, turn it on now.</p>",
+          "practiceUrl": "https://mail.google.com"
+        }
+      ]
+    },
+    {
+      "id": "bijlagen-cloud",
+      "title": "Attachments and sharing via the cloud",
+      "steps": [
+        {
+          "title": "Sending attachments",
+          "body": "<p>Click the paperclip icon 📎 to add a file. For large files (photos, videos), Gmail often automatically offers a <strong>Google Drive link</strong> instead of a direct attachment.</p>"
+        },
+        {
+          "title": "Why a link beats an attachment",
+          "body": "<p>Sharing a document someone needs to respond to or work on? Send a <strong>share link</strong> (Google Drive, Dropbox, OneDrive) instead of an attachment. Benefit: everyone works on the same, current version, instead of getting three separate files named 'document_final_v3.docx'.</p>"
+        },
+        {
+          "title": "Setting permissions when sharing",
+          "body": "<p>When sharing a link you can usually choose: <strong>view only</strong>, <strong>comment</strong>, or <strong>edit</strong>. Never grant more access than needed, and never share sensitive documents with 'anyone with the link' — pick specific people instead.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Try sharing a file in Google Drive and setting the permissions to 'view only'.</p>",
+          "practiceUrl": "https://drive.google.com"
+        }
+      ]
+    },
+    {
+      "id": "surfen-prive",
+      "title": "Browsing smart and private",
+      "steps": [
+        {
+          "title": "Searching efficiently",
+          "body": "<p>Use quotation marks to search for an exact phrase, for example <code>\"best laptop 2026\"</code>. Want to exclude a site or word? Type <code>-word</code>. This saves you a lot of scrolling through irrelevant results.</p>"
+        },
+        {
+          "title": "Privacy settings in your browser",
+          "body": "<p>Go to your browser's settings (in Chrome: the three dots top right &gt; Settings &gt; Privacy and security). There you can:</p><ul><li>Block third-party cookies</li><li>Manage your browsing and search history</li><li>Review site permissions (location, camera, microphone) per site</li></ul>"
+        },
+        {
+          "title": "Using multiple tabs smartly",
+          "body": "<p>Open a link in a <strong>new tab</strong> by clicking it with your scroll wheel (or right-click &gt; 'Open in new tab'). This keeps your current page open while you check something else. <code>Ctrl+Tab</code> quickly switches between tabs.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Search below using quotation marks, and open a result in a new tab.</p>",
+          "practiceUrl": "https://www.google.com"
+        }
+      ]
+    },
+    {
+      "id": "videobellen-werk",
+      "title": "Video calling for work and personal life",
+      "steps": [
+        {
+          "title": "More than WhatsApp",
+          "body": "<p>For work you'll often use <strong>Microsoft Teams</strong>, <strong>Zoom</strong>, or <strong>Google Meet</strong> instead of WhatsApp. The principle is the same: turn on your camera and microphone, and open the link or meeting at the agreed time.</p>"
+        },
+        {
+          "title": "Making a professional impression",
+          "body": "<ul><li>Check your background (or use a virtual background/blur)</li><li>Mute your microphone when you're not speaking</li><li>Make sure you have good lighting — don't sit with your back to a window</li></ul>"
+        },
+        {
+          "title": "Sharing your screen",
+          "body": "<p>Want to show a document or presentation? During the call, click <strong>'Share screen'</strong> and choose the window or screen you want to show. Remember to stop sharing when you're done.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Browse Google Meet below and get familiar with the microphone, camera, and screen-share controls.</p>",
+          "practiceUrl": "https://meet.google.com"
+        }
+      ]
+    }
+  ]
+}

@@ -34,7 +34,7 @@ PORT=8080 npm start
 
 1. Open de server-URL in de browser. Je krijgt automatisch de installatiepagina te zien.
 2. Stel eenmalig een beheerderswachtwoord in.
-3. Je komt in het beheerdersdashboard. Ga naar **Cursisten** om cursistenaccounts aan te maken en modules toe te wijzen.
+3. Je komt in het beheerdersdashboard. Ga naar **Cursisten** om cursistenaccounts aan te maken, een leeftijdscategorie (50+ of jonger dan 50) in te stellen, en modules toe te wijzen — de knop "Aanbevolen modules voor deze leeftijdsgroep" vinkt in één klik een passende selectie aan.
 4. Cursisten loggen in via dezelfde URL, met de tab "Cursisten" op het inlogscherm.
 
 ## Projectstructuur
@@ -45,13 +45,13 @@ PORT=8080 npm start
 - `views/` — EJS-templates (pagina's).
 - `public/` — CSS, client-side JavaScript, service worker (offline-ondersteuning).
 - `content/modules.json` — de 5 cursusmodules (titel/omschrijving in NL/EN/DE).
-- `content/lessons/<module>/<taal>.json` — lesinhoud per module en taal. Alle 5 modules zijn volledig uitgewerkt in het Nederlands, Engels en Duits.
+- `content/lessons/<module>/<taal>/<leeftijdsgroep>.json` — lesinhoud per module, taal én leeftijdsgroep (`senior` = 50+, `young` = jonger dan 50). Alle 5 modules zijn volledig uitgewerkt voor beide leeftijdsgroepen, in het Nederlands, Engels en Duits (30 bestanden).
 - `content/glossary/<taal>.json` — digitale woordenlijst per taal.
 - `content/ui/<taal>.json` — vertaling van de interface-teksten (knoppen, labels).
 
 ### Lesinhoud uitbreiden
 
-Elk lesbestand (`content/lessons/<module>/<taal>.json`) heeft dit formaat:
+Elk lesbestand (`content/lessons/<module>/<taal>/<leeftijdsgroep>.json`) heeft dit formaat:
 
 ```json
 {

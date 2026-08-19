@@ -1,0 +1,93 @@
+{
+  "lessons": [
+    {
+      "id": "cloud-samenwerken",
+      "title": "Cloud storage and collaboration",
+      "steps": [
+        {
+          "title": "Why collaborating in the cloud is smarter",
+          "body": "<p>Instead of emailing a document back and forth, tools like Google Docs or Word Online let you work <strong>in the same file at the same time as others</strong>. Changes show up instantly, and you can see who changed what.</p>"
+        },
+        {
+          "title": "Using version history",
+          "body": "<p>Accidentally deleted or overwritten something? Via <strong>File &gt; Version history</strong> (Google Docs) you can view and restore an earlier version. No more need to keep separate backup files.</p>"
+        },
+        {
+          "title": "Organizing folders smartly",
+          "body": "<p>Use shared folders for projects you work on with others, and keep your personal files separate. Consistent naming (date + subject) saves you a lot of searching later.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Create a new document in Google Drive below and check out the sharing and version-history options.</p>",
+          "practiceUrl": "https://drive.google.com"
+        }
+      ]
+    },
+    {
+      "id": "telefoon-backup",
+      "title": "Backing up and securing your phone",
+      "steps": [
+        {
+          "title": "Setting up automatic backup",
+          "body": "<p>Turn on automatic backup for photos, contacts, and app data (Android: Settings &gt; System &gt; Backup; iPhone: Settings &gt; [your name] &gt; iCloud). This way you won't lose everything if your phone is lost or stolen.</p>"
+        },
+        {
+          "title": "Finding or wiping your phone remotely",
+          "body": "<p>Turn on 'Find My Device' (Android) or 'Find My iPhone' (Apple). If lost or stolen, you can use this to see its location, make it ring, or remotely wipe all data.</p>"
+        },
+        {
+          "title": "Screen lock and updates",
+          "body": "<p>Use a PIN, pattern, or biometric lock — never 'no lock'. Install software updates as soon as possible: they often close security gaps.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Check on your own phone whether automatic backup and 'find my phone' are turned on.</p>"
+        }
+      ]
+    },
+    {
+      "id": "abonnementen-budget",
+      "title": "Managing subscriptions and your digital budget",
+      "steps": [
+        {
+          "title": "Creeping subscription costs",
+          "body": "<p>Streaming services, apps, cloud storage — subscriptions add up quickly without you noticing. Periodically (every quarter, say) review your bank statement for recurring payments you no longer use.</p>"
+        },
+        {
+          "title": "Canceling subscriptions",
+          "body": "<p>For an app-store subscription (Apple/Google): go to your account settings &gt; Subscriptions to see what's active and cancel it. Don't forget free trials — set a reminder before they automatically convert to a paid subscription.</p>"
+        },
+        {
+          "title": "Budgeting apps",
+          "body": "<p>Many banking apps (or standalone apps) can automatically categorize your spending, so you can see at a glance where your money goes. Handy for staying in control without tracking everything manually.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Check your active subscriptions in your phone's settings and see if there's anything you no longer use.</p>"
+        }
+      ]
+    },
+    {
+      "id": "wachtwoordmanager-gewoonte",
+      "title": "Making a password manager a daily habit",
+      "steps": [
+        {
+          "title": "Why this should be a habit by now",
+          "body": "<p>As we saw in the Safety module: a password manager isn't an extra step anymore, it's a basic habit — like a toothbrush. It remembers, generates, and auto-fills your passwords.</p>"
+        },
+        {
+          "title": "Everything in one place",
+          "body": "<p>Besides passwords, a password manager often lets you store <strong>bank details, ID documents, and secure notes</strong> — encrypted, and accessible only with your master password.</p>"
+        },
+        {
+          "title": "Sharing with family",
+          "body": "<p>Most password managers offer a family plan that lets you securely share passwords (like a streaming account), without literally texting the password to someone.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>If you don't use a password manager yet: install one today and set it up for your most important account.</p>"
+        }
+      ]
+    }
+  ]
+}

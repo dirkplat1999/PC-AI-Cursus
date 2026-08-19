@@ -1,0 +1,111 @@
+{
+  "lessons": [
+    {
+      "id": "digid-mijnoverheid-snel",
+      "title": "DigiD & MijnOverheid, schnell und sicher",
+      "steps": [
+        {
+          "title": "DigiD in zwei Minuten einrichten",
+          "body": "<p>Installiere die DigiD-App, verknüpfe deine Gesichtserkennung oder deinen Fingerabdruck, und du bist fertig. Du nutzt DigiD unter anderem für das Finanzamt, DUO, deine Krankenkasse und MijnOverheid.</p>"
+        },
+        {
+          "title": "Nachrichtenbereich: E-Mail-Erinnerungen aktivieren",
+          "body": "<p>Gehe zu MijnOverheid &gt; <strong>Nachrichten</strong> und aktiviere eine E-Mail-Erinnerung, sobald neue Post eintrifft. So verpasst du keinen Steuerbescheid oder andere Frist, ohne die Website aktiv prüfen zu müssen.</p>"
+        },
+        {
+          "title": "DigiD ist persönlich — keine Ausnahmen",
+          "body": "<p>Auch wenn du digital versiert bist: DigiD-Daten teilst du niemals, mit niemandem, auch nicht 'kurz mal' für ein Elternteil oder den Partner. Die Regierung ruft oder schreibt dich <strong>niemals</strong> an, um nach einem DigiD-Code zu fragen.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Schau dir unten MijnOverheid an und prüfe, ob deine Erinnerungen für den Nachrichtenbereich aktiviert sind.</p>",
+          "practiceUrl": "https://www.mijnoverheid.nl"
+        }
+      ]
+    },
+    {
+      "id": "bankieren-fraude-geavanceerd",
+      "title": "Online-Banking: fortgeschrittenen Betrug erkennen",
+      "steps": [
+        {
+          "title": "Anlagebetrug",
+          "body": "<p>Du siehst eine Werbeanzeige in sozialen Medien: 'Schnell Geld verdienen mit Krypto/Aktien, empfohlen von einer bekannten Persönlichkeit.' Das ist fast immer Fälschung — oft mit einem Deepfake-Video eines bekannten Gesichts. Investiere niemals über einen Link aus einer Anzeige oder Nachricht; gehe immer zu einem anerkannten, regulierten Anbieter (prüfe die offizielle Registrierung).</p>"
+        },
+        {
+          "title": "Romance Scam und 'Freundschafts'-Betrug",
+          "body": "<p>Jemand, den du online kennenlernst (Dating-App, soziale Medien) und der nach einer Weile um Geld bittet — für einen 'Notfall', Reisekosten, um dich zu treffen, oder eine 'gemeinsame Investition' — ist fast immer ein Betrüger. Überweise niemals Geld an jemanden, den du nie persönlich getroffen hast.</p>"
+        },
+        {
+          "title": "WhatsApp-Betrug: 'Hallo Mama/Papa, neue Nummer'",
+          "body": "<p>Eine Nachricht von einem 'Kind' oder Familienmitglied mit neuer Nummer, die bittet, schnell Geld zu überweisen, weil eine Zahlung 'nicht klappt' — prüfe dies immer mit einem Anruf an die bekannte Nummer, nie durch eine Antwort an die neue Nummer.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Schau dir deine Banking-App an und prüfe, ob du bei ungewöhnlichen Transaktionen benachrichtigt wirst.</p>"
+        }
+      ]
+    },
+    {
+      "id": "phishing-2",
+      "title": "Phishing 2.0: Pakete, LinkedIn und Spear-Phishing",
+      "steps": [
+        {
+          "title": "Phishing wird persönlicher",
+          "body": "<p>Klassisches Phishing ist generisch ('Sehr geehrter Kunde'). <strong>Spear-Phishing</strong> zielt gezielt auf dich: eine Nachricht mit deinem echten Namen, basierend auf Infos von LinkedIn oder sozialen Medien — zum Beispiel ein falscher Kollege, falscher Recruiter, oder eine falsche Paketbenachrichtigung, die weiß, dass du kürzlich etwas bestellt hast.</p>"
+        },
+        {
+          "title": "Übung: eine Paketzustellungs-Masche",
+          "body": "<p>Unten siehst du ein <strong>nachgebautes Beispiel</strong> einer verbreiteten SMS/E-Mail-Masche über eine 'fehlgeschlagene Paketzustellung'. Klicke auf die Nachricht, um sie zu öffnen. Es gibt zwei Dinge, die du ausprobieren kannst: auf die Schaltfläche klicken, oder die Mail über das Menü (⋮) löschen.</p><div class=\"phish-sim\"><button type=\"button\" class=\"phish-inbox-item\" data-phish-open aria-expanded=\"false\"><span class=\"phish-avatar\" aria-hidden=\"true\">P</span><span class=\"phish-inbox-text\"><span class=\"phish-sender-name\">PostNL</span><span class=\"phish-subject\">Zustellung fehlgeschlagen: innerhalb von 24 Stunden neu planen</span><span class=\"phish-snippet\">Ihr Paket konnte nicht zugestellt werden. Offener Betrag: 0,49 €...</span></span><span class=\"phish-time\">11:32</span></button><div class=\"phish-email hidden\" data-phish-email><button type=\"button\" class=\"phish-more-btn\" data-phish-more aria-haspopup=\"true\" aria-expanded=\"false\" aria-label=\"Weitere Optionen\">⋮</button><div class=\"phish-more-menu hidden\" data-phish-menu role=\"menu\"><button type=\"button\" data-phish-delete role=\"menuitem\">🗑 Löschen</button></div><div class=\"phish-email-header\"><div><strong>Von:</strong> PostNL &lt;zustellung@<span class=\"phish-flag\">postnl-paket-verfolgen.info</span>&gt;</div><div><strong>An:</strong> du@beispiel.de</div><div><strong>Betreff:</strong> Zustellung fehlgeschlagen: innerhalb von 24 Stunden neu planen</div></div><div class=\"phish-email-body\"><p>Sehr geehrter Kunde,</p><p>Leider konnten wir Ihr Paket nicht zustellen. Es besteht noch ein offener Betrag von <strong>0,49 €</strong> an Versandkosten. Zahlen Sie diesen innerhalb von 24 Stunden, sonst wird Ihr Paket an den Absender zurückgeschickt.</p><button type=\"button\" class=\"phish-cta-btn\" data-phish-click>0,49 € zahlen und Zustellung neu planen</button></div></div><div class=\"phish-reveal phish-reveal-bad hidden\" data-phish-reveal-bad tabindex=\"-1\"><h4>⚠️ Zum Glück nur eine Übung!</h4><p>Diese Betrugsmasche ist gerade deshalb so beliebt, weil der Betrag so klein wirkt (0,49 €) — man denkt sich 'was kann da schon schiefgehen'. In Wirklichkeit werden hier deine Kartendaten gestohlen. Die Lehrkraft wurde automatisch benachrichtigt, damit ihr das gemeinsam besprechen könnt.</p><p><strong>Die Warnsignale:</strong></p><ul><li>Die vollständige E-Mail-Adresse ist nicht von PostNL: <code>postnl-paket-verfolgen.info</code></li><li>Ein kleiner Betrag, um die Hemmschwelle zum Klicken zu senken</li><li>Zeitdruck ('innerhalb von 24 Stunden')</li><li>Zustelldienste bitten niemals um eine Nachzahlung über einen Link</li></ul><p>Unsicher? Gehe immer selbst zur Website oder App des Zustelldienstes, indem du die Adresse selbst eingibst, und frage im Zweifel die Familie um eine zweite Meinung.</p><button type=\"button\" class=\"btn btn-ghost\" data-phish-reset>Nochmal versuchen</button></div><div class=\"phish-reveal phish-reveal-good hidden\" data-phish-reveal-good tabindex=\"-1\"><h4>✅ Gut gemacht!</h4><p>Du hast die verdächtige Nachricht <strong>gelöscht</strong>, ohne zu bezahlen. Genau richtig — solche 'Kleinbetrags'-Maschen sind gezielt darauf ausgelegt, deine Wachsamkeit zu umgehen.</p><p><strong>Die Warnsignale, die du erkannt hast:</strong></p><ul><li>Die vollständige E-Mail-Adresse war nicht von PostNL: <code>postnl-paket-verfolgen.info</code></li><li>Ein verdächtig kleiner Betrag, um die Hemmschwelle zu senken</li><li>Zeitdruck ('innerhalb von 24 Stunden')</li></ul><p>Unsicher bei einer Zustellnachricht? Gehe immer selbst zur Website oder App des Zustelldienstes.</p><button type=\"button\" class=\"btn btn-ghost\" data-phish-reset>Nochmal versuchen</button></div></div>"
+        },
+        {
+          "title": "LinkedIn und falsche Recruiter",
+          "body": "<p>Ein 'Recruiter', der sich mit einem zu guten Gehalt für zu wenig Arbeit meldet und schnell nach persönlichen Daten oder einer 'Anzahlung für Ausrüstung' fragt, ist ein Betrüger. Prüfe immer, ob das Unternehmen wirklich existiert und ob der Recruiter ein verifiziertes Profil mit einer gemeinsamen Verbindung hat.</p>"
+        }
+      ]
+    },
+    {
+      "id": "wachtwoordmanager-standaard",
+      "title": "Passwort-Manager und 2FA als Standard",
+      "steps": [
+        {
+          "title": "Warum das kein 'nice to have' mehr ist",
+          "body": "<p>Bei Dutzenden Konten (Arbeit, soziale Medien, Shops, Abonnements) ist es unrealistisch, sich für jede Seite ein einzigartiges, starkes Passwort zu merken. Ein Passwort-Manager (zum Beispiel Bitwarden, 1Password oder der eingebaute Manager deines Browsers) ist inzwischen Standardausrüstung.</p>"
+        },
+        {
+          "title": "Passkeys: der Nachfolger des Passworts",
+          "body": "<p>Immer mehr Dienste (Google, Apple, Banken) unterstützen <strong>Passkeys</strong>: Anmelden mit Fingerabdruck oder Gesicht, ohne Passwort. Das ist sicherer als ein Passwort, weil es nichts gibt, das über eine Phishing-Mail gestohlen werden kann. Aktiviere dies, wo immer möglich.</p>"
+        },
+        {
+          "title": "2FA mit einer App, nicht per SMS",
+          "body": "<p>Nutze für 2FA vorzugsweise eine <strong>Authenticator-App</strong> (Google Authenticator, Authy) statt SMS — SMS-Codes können durch 'SIM-Swapping' abgefangen werden (deine Nummer wird von einem Betrüger übernommen).</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Prüfe bei einem deiner wichtigsten Konten (E-Mail, Bank), ob 2FA über eine App eingerichtet ist, und aktiviere es, falls nicht.</p>"
+        }
+      ]
+    },
+    {
+      "id": "identiteitsdiefstal",
+      "title": "Identitätsdiebstahl und Social Engineering erkennen",
+      "steps": [
+        {
+          "title": "Was ist Social Engineering?",
+          "body": "<p>Social Engineering bedeutet, Menschen zu manipulieren, damit sie vertrauliche Informationen preisgeben — oft indem man dich unter Druck setzt, Dringlichkeit erzeugt, oder dich glauben lässt, der Absender habe Autorität (dein Chef, die Bank, die Polizei).</p>"
+        },
+        {
+          "title": "'CEO-Betrug' bei der Arbeit",
+          "body": "<p>Eine Nachricht oder Mail, die scheinbar von deiner Führungskraft kommt und dich bittet, schnell und diskret eine Zahlung zu leisten oder Geschenkkarten zu kaufen, ist eine bekannte Betrugsmasche gegen Angestellte. Prüfe immer über einen anderen Kanal (rufe deine Führungskraft an), bevor du etwas tust.</p>"
+        },
+        {
+          "title": "Was tun bei Identitätsdiebstahl?",
+          "body": "<ol><li>Ändere sofort deine Passwörter, beginnend mit deiner E-Mail</li><li>Melde es deiner Bank, wenn Finanzdaten betroffen sind</li><li>Erstatte Anzeige bei der Polizei</li><li>Prüfe <a href=\"https://www.mijnoverheid.nl\" target=\"_blank\" rel=\"noopener\">MijnOverheid</a> auf fremde Einträge unter deinem Namen</li></ol>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Überlege: Würdest du einer Nachricht von 'deiner Führungskraft' mit einer dringenden Bitte um Geschenkkarten sofort glauben, oder erst telefonisch nachfragen?</p>"
+        }
+      ]
+    }
+  ]
+}

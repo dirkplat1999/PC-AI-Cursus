@@ -2,6 +2,20 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [2.0.0] - 2026-08-19
+
+### Toegevoegd
+- **Leeftijdscategorie per cursist** (50+ / jonger dan 50), instelbaar bij het aanmaken of bewerken van een cursist. Elke van de 5 modules heeft nu een volledig aparte lesvariant per leeftijdsgroep, in alle 3 talen (30 lesbestanden in totaal):
+  - **50+**: het bestaande, patiënte, stap-voor-stap tempo — met een lichte kwaliteitsslag deze ronde (o.a. nieuwe stappen over de spamfolder, een ontvangen bijlage openen/bewaren, en een website als favoriet bewaren in module 1).
+  - **Jonger dan 50**: hoger tempo, minder uitleg van basisbegrippen, en merkbaar meer nadruk op veiligheid — met verdiepende onderwerpen als spear-phishing, investerings- en romance-fraude, CEO-fraude, passkeys en identiteitsdiefstal (module 3), en een werkgerichte insteek voor AI-gebruik (module 4) en cloud-samenwerken (module 5).
+- Nieuwe "Aanbevolen modules"-knop in het cursistenformulier: vinkt op basis van de gekozen leeftijdscategorie direct een passende moduleselectie aan (jonger: nadruk op Veiligheid + AI; 50+: Computerbasis + Apps + Veiligheid + Digitale Handigheidjes).
+- Tweede, thematisch andere phishing-oefening in de jongere variant van module 3 (pakketbezorging-scam i.p.v. bank-scam), met dezelfde interactieve open/verwijder/klik-mechaniek.
+- Leeftijdscategorie is nu zichtbaar als kolom op het beheerdersdashboard.
+
+### Technisch
+- Database-migratie: nieuwe kolom `age_group` op de cursistentabel (automatisch toegevoegd aan bestaande installaties bij de eerstvolgende start).
+- Lesinhoud is verplaatst van `content/lessons/<module>/<taal>.json` naar `content/lessons/<module>/<taal>/<leeftijdsgroep>.json`.
+
 ## [1.6.0] - 2026-08-19
 
 ### Toegevoegd

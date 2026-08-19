@@ -1,0 +1,142 @@
+{
+  "lessons": [
+    {
+      "id": "maps-slim",
+      "title": "Google Maps: slim navigeren",
+      "steps": [
+        {
+          "title": "Meer dan alleen een route",
+          "body": "<p>Google Maps houdt <strong>live verkeersdrukte</strong> bij (oranje/rode wegen = druk) en past je route daarop aan. Bij een lange rit zie je ook een geschatte aankomsttijd die meebeweegt met het verkeer.</p>"
+        },
+        {
+          "title": "Meerdere stops toevoegen",
+          "body": "<ol><li>Zet een route uit zoals gebruikelijk</li><li>Klik op het plusje (⋮ of 'Stop toevoegen') naast het adresveld</li><li>Voeg een tussenstop toe, bijvoorbeeld een tankstation of supermarkt</li><li>Sleep de stops in de gewenste volgorde</li></ol>"
+        },
+        {
+          "title": "Offline kaarten downloaden",
+          "body": "<p>Ga je naar een gebied met slecht bereik? Download het gebied vooraf offline: tik op je profielfoto &gt; <strong>Offline kaarten</strong> &gt; 'Eigen kaart selecteren'. Zo werkt navigatie ook zonder internetverbinding.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Plan hieronder een route met minstens twee tussenstops.</p>",
+          "practiceUrl": "https://maps.google.com"
+        }
+      ]
+    },
+    {
+      "id": "marktplaats-veilig",
+      "title": "Marktplaats: veilig kopen én verkopen",
+      "steps": [
+        {
+          "title": "Een goede advertentie maken",
+          "body": "<p>Wil je iets verkopen (bijvoorbeeld als bijverdienste)? Een goede advertentie heeft: scherpe foto's in daglicht, een eerlijke beschrijving van gebreken, en een realistische prijs — check vergelijkbare advertenties voor je een prijs bepaalt.</p>"
+        },
+        {
+          "title": "Veilig betalen",
+          "body": "<p>Gebruik bij twijfel <strong>Veilig betalen via Marktplaats</strong> in plaats van direct bankieren. Bij verkoop via een ander platform: wees extra alert bij kopers die te snel akkoord gaan met een hoge prijs, of die vragen om buiten het platform om te communiceren — dat is een bekend oplichtingspatroon.</p>"
+        },
+        {
+          "title": "Herkenbare oplichtingstrucs",
+          "body": "<ul><li>De koper stuurt een 'betaalbewijs' en vraagt jou de verzendkosten vast voor te schieten</li><li>Een 'te mooi om waar te zijn'-bod, direct gevolgd door tijdsdruk</li><li>Een link naar een betaalpagina die niet op marktplaats.nl staat</li></ul><p>Twijfel je? Ga nooit in op verzoeken buiten het platform om, en vraag bij twijfel familie om een tweede mening.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Bekijk hieronder een categorie op Marktplaats die je interesseert en let op de prijsverschillen tussen vergelijkbare advertenties.</p>",
+          "practiceUrl": "https://www.marktplaats.nl"
+        }
+      ]
+    },
+    {
+      "id": "funda-eerste-huis",
+      "title": "Funda: je eerste huis zoeken",
+      "steps": [
+        {
+          "title": "Zoekfilters instellen",
+          "body": "<p>Stel filters in op prijsklasse, aantal kamers en woningtype. Sla je zoekopdracht op en zet een <strong>e-mailalert</strong> aan, zodat je een melding krijgt zodra er een nieuwe woning aan je criteria voldoet — populaire woningen staan soms maar een paar uur online.</p>"
+        },
+        {
+          "title": "Waar je op moet letten",
+          "body": "<ul><li>Energielabel (invloed op je maandlasten)</li><li>Erfpacht of eigen grond</li><li>Bouwjaar en eventueel onderhoud (fundering, dak)</li><li>WOZ-waarde vergelijken met de vraagprijs</li></ul>"
+        },
+        {
+          "title": "Een bezichtiging aanvragen",
+          "body": "<p>Klik op 'Bezichtiging aanvragen' of neem contact op met de makelaar via de contactgegevens op de advertentie. Bereid vragen voor: waarom wordt de woning verkocht, hoe oud is de cv-ketel, zijn er nog openstaande verbouwingen?</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Stel hieronder een zoekopdracht in voor jouw ideale eerste woning en sla deze op.</p>",
+          "practiceUrl": "https://www.funda.nl"
+        }
+      ]
+    },
+    {
+      "id": "streamen-slim",
+      "title": "Streamen: NPO Start & YouTube slim gebruiken",
+      "steps": [
+        {
+          "title": "Aanbevolen video's: hoe werkt het?",
+          "body": "<p>YouTube en andere platforms tonen video's op basis van een <strong>algoritme</strong>: wat je eerder bekeek, bepaalt wat je daarna te zien krijgt. Handig om snel iets te vinden, maar het kan je ook in een 'bubbel' houden. Gebruik af en toe bewust de zoekfunctie in plaats van alleen aanbevolen video's te volgen.</p>"
+        },
+        {
+          "title": "Kijkgeschiedenis en privacy beheren",
+          "body": "<p>Wil je niet dat je kijkgeschiedenis je aanbevelingen blijft beïnvloeden? Ga naar je account &gt; <strong>Geschiedenis</strong> en verwijder items, of zet 'kijkgeschiedenis onthouden' tijdelijk uit via een incognitovenster.</p>"
+        },
+        {
+          "title": "Abonnementen en meldingen",
+          "body": "<p>Abonneer je op kanalen die je interessant vindt via de knop 'Abonneren'. Zet het belletje aan voor directe meldingen bij nieuwe video's, of uit als je liever zelf kijkt wanneer het jou uitkomt.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Bekijk hieronder je kijkgeschiedenis en verwijder een paar items die je niet meer relevant vindt.</p>",
+          "practiceUrl": "https://www.youtube.com"
+        }
+      ]
+    },
+    {
+      "id": "reisplanner-forenzen",
+      "title": "9292: forenzen en reizen",
+      "steps": [
+        {
+          "title": "Favoriete routes opslaan",
+          "body": "<p>Reis je regelmatig hetzelfde traject (bijvoorbeeld woon-werkverkeer)? Sla de route op als favoriet, zodat je 'm met één tik weer kunt opvragen zonder alles opnieuw te hoeven intypen.</p>"
+        },
+        {
+          "title": "Realtime storingen en vertragingen",
+          "body": "<p>9292 toont live vertragingen en storingen op het spoor. Bekijk alternatieve routes voordat je vertrekt als er een verstoring wordt gemeld, zodat je niet voor niets naar het station rijdt.</p>"
+        },
+        {
+          "title": "OV-chipkaart en abonnementen",
+          "body": "<p>Overweeg een reisabonnement als je vaak dezelfde route rijdt — dat kan flink besparen ten opzichte van losse ritjes. Vergelijk de opties op de website van de vervoerder (NS, GVB, RET, HTM) met je gemiddelde reisgedrag.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Plan hieronder je vaste woon-werktraject en sla het op als favoriet.</p>",
+          "practiceUrl": "https://www.9292.nl"
+        }
+      ]
+    },
+    {
+      "id": "social-privacy",
+      "title": "Social media: je privacy onder controle",
+      "steps": [
+        {
+          "title": "Wie ziet wat je deelt?",
+          "body": "<p>Ga naar <strong>Instellingen &gt; Privacy</strong> op Facebook of Instagram en controleer wie je berichten, foto's en profielinformatie kan zien: iedereen, vrienden, of alleen jijzelf. Zet dit standaard op 'vrienden', niet op 'openbaar'.</p>"
+        },
+        {
+          "title": "Locatie niet automatisch delen",
+          "body": "<p>Veel apps voegen automatisch je locatie toe aan foto's en berichten. Zet dit uit in de app-instellingen van je telefoon (bijvoorbeeld bij Instagram: Instellingen &gt; Privacy &gt; Locatieservices), zeker als je nog onderweg bent of thuis bent.</p>"
+        },
+        {
+          "title": "Getagd worden controleren",
+          "body": "<p>Stel in dat je eerst goedkeuring moet geven voordat een foto waarop jij getagd bent op je tijdlijn verschijnt. Zo bepaal jij wat er publiekelijk aan jouw naam gekoppeld wordt.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Controleer hieronder je privacy-instellingen op Facebook en pas aan wie je berichten kan zien.</p>",
+          "practiceUrl": "https://www.facebook.com"
+        }
+      ]
+    }
+  ]
+}

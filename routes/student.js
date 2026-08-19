@@ -32,7 +32,7 @@ router.get('/', (req, res) => {
   progressRows.forEach((p) => { progressByModule[p.module_key] = p; });
 
   const modulesWithProgress = modules.map((m) => {
-    const lessons = getLessons(m.key, res.locals.lang);
+    const lessons = getLessons(m.key, res.locals.lang, req.student.age_group);
     const totalSteps = lessons.reduce((sum, l) => sum + l.steps.length, 0);
     const p = progressByModule[m.key];
     return {
@@ -52,7 +52,7 @@ router.get('/module/:key', (req, res) => {
   const assigned = db.prepare('SELECT 1 FROM student_modules WHERE student_id = ? AND module_key = ?').get(req.student.id, req.params.key);
   if (!mod || !assigned) return res.status(404).render('student/dashboard', { modules: [], glossary: getGlossary(res.locals.lang) });
 
-  const lessons = getLessons(req.params.key, res.locals.lang);
+  const lessons = getLessons(req.params.key, res.locals.lang, req.student.age_group);
   const flatSteps = [];
   lessons.forEach((lesson) => {
     lesson.steps.forEach((step, idx) => {

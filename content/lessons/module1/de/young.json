@@ -1,0 +1,96 @@
+{
+  "lessons": [
+    {
+      "id": "emailen-veilig",
+      "title": "E-Mail: klug und sicher",
+      "steps": [
+        {
+          "title": "Dein Postfach zuerst absichern",
+          "body": "<p>Bevor du loslegst: aktiviere die <strong>Zwei-Faktor-Authentifizierung (2FA)</strong> für dein E-Mail-Konto. Das ist der erste, wichtigste Schritt — dein Postfach ist oft der Schlüssel zu all deinen anderen Konten (über 'Passwort vergessen').</p><p>Bei Gmail findest du das unter <em>Einstellungen &gt; Sicherheit &gt; Zwei-Faktor-Authentifizierung</em>.</p>"
+        },
+        {
+          "title": "Professionell mailen",
+          "body": "<p>Für Bewerbungen, Arbeit oder offizielle Angelegenheiten:</p><ul><li>Klarer Betreff, nicht 'Hallo' oder 'Frage'</li><li>Kurzer, direkter Text — komm schnell auf den Punkt</li><li>Prüfe deine automatische Signatur (Name, Funktion, Telefonnummer)</li><li>Lies deine Mail einmal durch, bevor du sie sendest</li></ul>"
+        },
+        {
+          "title": "Phishing erkennst du schon hier",
+          "body": "<p>Ein großer Teil von Phishing kommt per E-Mail an. Achte schon beim Lesen auf:</p><ul><li>Stimmt die Absenderadresse wirklich, oder sieht sie nur so ähnlich aus?</li><li>Wird Druck ausgeübt ('jetzt sofort handeln')?</li><li>Fordert die Mail dich auf, dich über einen Link anzumelden, statt die App/Website selbst zu öffnen?</li></ul><p>Später im Kurs (Modul Sicherheit) gehen wir tiefer darauf ein — aber je früher du dieses Muster erkennst, desto besser.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Öffne unten dein Postfach und prüfe: Ist 2FA schon aktiv? Falls nicht, aktiviere es jetzt.</p>",
+          "practiceUrl": "https://mail.google.com"
+        }
+      ]
+    },
+    {
+      "id": "bijlagen-cloud",
+      "title": "Anhänge und Teilen über die Cloud",
+      "steps": [
+        {
+          "title": "Anhänge versenden",
+          "body": "<p>Klicke auf das Büroklammer-Symbol 📎, um eine Datei hinzuzufügen. Bei großen Dateien (Fotos, Videos) bietet Gmail oft automatisch einen <strong>Google-Drive-Link</strong> statt eines direkten Anhangs an.</p>"
+        },
+        {
+          "title": "Warum ein Link besser ist als ein Anhang",
+          "body": "<p>Teilst du ein Dokument, an dem jemand mitarbeiten oder das jemand kommentieren soll? Sende dann einen <strong>Freigabe-Link</strong> (Google Drive, Dropbox, OneDrive) statt eines Anhangs. Vorteil: Alle arbeiten an derselben, aktuellen Version, statt drei einzelne Dateien wie 'dokument_final_v3.docx' zu bekommen.</p>"
+        },
+        {
+          "title": "Berechtigungen beim Teilen einstellen",
+          "body": "<p>Beim Teilen eines Links kannst du meist wählen: <strong>nur ansehen</strong>, <strong>kommentieren</strong> oder <strong>bearbeiten</strong>. Vergib nie mehr Rechte als nötig, und teile sensible Dokumente nie mit 'jedem mit dem Link' — wähle stattdessen bestimmte Personen aus.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Versuche, in Google Drive eine Datei zu teilen und die Berechtigung auf 'nur ansehen' zu setzen.</p>",
+          "practiceUrl": "https://drive.google.com"
+        }
+      ]
+    },
+    {
+      "id": "surfen-prive",
+      "title": "Klug und privat surfen",
+      "steps": [
+        {
+          "title": "Effizient suchen",
+          "body": "<p>Nutze Anführungszeichen, um exakt nach einem Satz zu suchen, zum Beispiel <code>\"bester Laptop 2026\"</code>. Möchtest du eine Website oder ein Wort ausschließen? Gib <code>-Wort</code> ein. Das erspart dir viel Scrollen durch irrelevante Ergebnisse.</p>"
+        },
+        {
+          "title": "Datenschutz-Einstellungen im Browser",
+          "body": "<p>Gehe zu den Einstellungen deines Browsers (bei Chrome: die drei Punkte oben rechts &gt; Einstellungen &gt; Datenschutz und Sicherheit). Dort kannst du:</p><ul><li>Cookies von Drittanbietern blockieren</li><li>Deinen Browser- und Suchverlauf verwalten</li><li>Website-Berechtigungen (Standort, Kamera, Mikrofon) pro Seite prüfen</li></ul>"
+        },
+        {
+          "title": "Mehrere Tabs klug nutzen",
+          "body": "<p>Öffne einen Link in einem <strong>neuen Tab</strong>, indem du mit dem Mausrad darauf klickst (oder rechte Maustaste &gt; 'Link in neuem Tab öffnen'). So bleibt deine aktuelle Seite offen, während du dir etwas anderes ansiehst. <code>Strg+Tab</code> wechselt schnell zwischen Tabs.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Suche unten mit Anführungszeichen und öffne ein Ergebnis in einem neuen Tab.</p>",
+          "practiceUrl": "https://www.google.com"
+        }
+      ]
+    },
+    {
+      "id": "videobellen-werk",
+      "title": "Videotelefonie für Arbeit und Privatleben",
+      "steps": [
+        {
+          "title": "Mehr als WhatsApp",
+          "body": "<p>Für die Arbeit nutzt du oft <strong>Microsoft Teams</strong>, <strong>Zoom</strong> oder <strong>Google Meet</strong> statt WhatsApp. Das Prinzip ist dasselbe: Kamera und Mikrofon einschalten und den Link oder die Besprechung zur vereinbarten Zeit öffnen.</p>"
+        },
+        {
+          "title": "Einen professionellen Eindruck machen",
+          "body": "<ul><li>Prüfe deinen Hintergrund (oder nutze einen virtuellen Hintergrund/Weichzeichner)</li><li>Stelle dein Mikrofon auf stumm, wenn du nicht sprichst</li><li>Sorge für gutes Licht — sitze nicht mit dem Rücken zum Fenster</li></ul>"
+        },
+        {
+          "title": "Deinen Bildschirm teilen",
+          "body": "<p>Möchtest du ein Dokument oder eine Präsentation zeigen? Klicke während des Gesprächs auf <strong>'Bildschirm teilen'</strong> und wähle das Fenster oder den Bildschirm, den du zeigen möchtest. Vergiss nicht, das Teilen zu beenden, wenn du fertig bist.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Schau dir unten Google Meet an und mach dich mit den Schaltflächen für Mikrofon, Kamera und Bildschirmfreigabe vertraut.</p>",
+          "practiceUrl": "https://meet.google.com"
+        }
+      ]
+    }
+  ]
+}

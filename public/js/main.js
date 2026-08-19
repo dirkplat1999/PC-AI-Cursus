@@ -113,6 +113,19 @@
     });
   });
 
+  // --- Aanbevolen modules per leeftijdsgroep (beheerder: cursistenformulier) ---
+  document.querySelectorAll('[data-recommend-btn]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const ageSelect = document.getElementById(btn.dataset.ageSelect);
+      const scope = document.getElementById(btn.dataset.checkboxScope);
+      if (!ageSelect || !scope || !window.RECOMMENDED_MODULES) return;
+      const recommended = window.RECOMMENDED_MODULES[ageSelect.value] || [];
+      scope.querySelectorAll('input[type="checkbox"][name="modules"]').forEach((cb) => {
+        cb.checked = recommended.includes(cb.value);
+      });
+    });
+  });
+
   // --- Phishing-mail oefening (nep-postvak-widget) ---
   function resetPhishSim(sim) {
     sim.querySelector('[data-phish-reveal-bad]')?.classList.add('hidden');
