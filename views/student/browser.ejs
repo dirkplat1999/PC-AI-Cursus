@@ -1,11 +1,23 @@
-<div class="browser-page">
-  <div class="browser-bar">
-    <a href="<%= back %>" class="btn btn-ghost"><%- icon('arrow-left', { size: 18 }) %> <%= t.backToLesson %></a>
+<div class="practice-launch">
+  <a href="<%= back %>" class="btn btn-ghost"><%- icon('arrow-left', { size: 18 }) %> <%= t.backToLesson %></a>
+
+  <div class="practice-card">
+    <div class="practice-icon"><%- icon('globe', { size: 40 }) %></div>
     <div class="browser-address"><%= url %></div>
-    <a href="<%= url %>" target="_blank" rel="noopener" class="btn btn-small"><%- icon('arrow-square-out', { size: 16 }) %> Nieuw tabblad</a>
+    <p><%= t.practiceIntro %></p>
+
+    <a href="<%= url %>" target="_blank" rel="noopener" id="practice-open-btn" class="btn btn-primary btn-large">
+      <%- icon('arrow-square-out', { size: 20 }) %> <%= t.practiceOpenBtn %>
+    </a>
   </div>
-  <p class="hint" id="frame-hint">Sommige websites (zoals Gmail, WhatsApp of banken) staan niet toe dat ze binnen dit platform worden getoond, om veiligheidsredenen. Werkt de site hieronder niet? Klik dan op "Nieuw tabblad".</p>
-  <div class="iframe-wrap">
-    <iframe src="<%= url %>" title="Oefensite" id="practice-frame" referrerpolicy="no-referrer"></iframe>
+
+  <div class="practice-return">
+    <h3><%- icon('check-circle', { size: 20, className: 'icon-inline' }) %> <%= t.practiceReturnTitle %></h3>
+    <ol>
+      <li><%= t.practiceReturnStep1 %></li>
+      <li><%= t.practiceReturnStep2 %></li>
+      <li><%= t.practiceReturnStep3 %></li>
+    </ol>
+    <a href="<%= back %>" class="btn btn-primary"><%- icon('arrow-left', { size: 18 }) %> <%= t.backToLesson %></a>
   </div>
 </div>

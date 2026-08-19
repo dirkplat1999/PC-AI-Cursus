@@ -48,5 +48,11 @@
   "setupButton": "Installatie voltooien",
   "passwordMismatch": "Wachtwoorden komen niet overeen.",
   "offline": "Je bent offline. Basisinstructies blijven beschikbaar.",
-  "welcome": "Welkom"
+  "welcome": "Welkom",
+  "practiceIntro": "Deze oefensite kan niet binnen de cursus getoond worden — dat blokkeren de meeste websites zelf, om veiligheidsredenen. Klik op de knop om de site in een nieuw tabblad te openen.",
+  "practiceOpenBtn": "Open in nieuw tabblad",
+  "practiceReturnTitle": "Zo kom je terug naar de les",
+  "practiceReturnStep1": "Bovenin je browser zie je nu twee tabbladen naast elkaar.",
+  "practiceReturnStep2": "Klik op het tabblad \"PC & AI Cursus\" om terug te gaan naar deze les.",
+  "practiceReturnStep3": "Of sluit het nieuwe tabblad met het kruisje (✕) erop — dan sta je automatisch weer hier."
 }

@@ -68,9 +68,9 @@ Elk lesbestand (`content/lessons/<module>/<taal>.json`) heeft dit formaat:
 }
 ```
 
-Een `practiceUrl` bij een stap toont automatisch een knop "Open oefensite" die de site binnen de ingebouwde oefenomgeving (iframe) opent, met een knop om terug te gaan naar de les.
+Een `practiceUrl` bij een stap toont automatisch een knop "Open oefensite". Die opent een tussenpagina die de site in een **nieuw tabblad** opent en expliciet uitlegt hoe de cursist terugkomt naar de les (via het tabblad bovenin, of door het nieuwe tabblad te sluiten).
 
-> Let op: sommige sites (Gmail, WhatsApp Web, banken, DigiD) staan insluiten in een iframe niet toe. De oefenomgeving biedt dan automatisch een "Nieuw tabblad"-link als alternatief.
+> Waarom geen ingebouwde iframe-weergave? De meeste websites (Gmail, WhatsApp Web, banken, DigiD, Google Maps, YouTube, enz.) blokkeren zelf het tonen binnen een iframe, om veiligheidsredenen (X-Frame-Options/CSP). Een poging tot inline weergave resulteert dan in een lege of geweigerde pagina, wat verwarrend is — vandaar de duidelijke "open in nieuw tabblad"-aanpak met terugkeer-instructies.
 
 ## Toegankelijkheid
 

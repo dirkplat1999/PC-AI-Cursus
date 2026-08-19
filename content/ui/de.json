@@ -48,5 +48,11 @@
   "setupButton": "Einrichtung abschließen",
   "passwordMismatch": "Passwörter stimmen nicht überein.",
   "offline": "Du bist offline. Grundlegende Anleitungen bleiben verfügbar.",
-  "welcome": "Willkommen"
+  "welcome": "Willkommen",
+  "practiceIntro": "Diese Übungsseite kann nicht innerhalb des Kurses angezeigt werden — das blockieren die meisten Websites aus Sicherheitsgründen selbst. Klicke auf die Schaltfläche, um die Seite in einem neuen Tab zu öffnen.",
+  "practiceOpenBtn": "In neuem Tab öffnen",
+  "practiceReturnTitle": "So kommst du zurück zur Lektion",
+  "practiceReturnStep1": "Oben in deinem Browser siehst du jetzt zwei Tabs nebeneinander.",
+  "practiceReturnStep2": "Klicke auf den Tab \"PC & KI Kurs\", um zu dieser Lektion zurückzukehren.",
+  "practiceReturnStep3": "Oder schließe den neuen Tab mit dem Kreuz (✕) darauf — dann landest du automatisch wieder hier."
 }

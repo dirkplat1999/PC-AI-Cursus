@@ -48,5 +48,11 @@
   "setupButton": "Complete setup",
   "passwordMismatch": "Passwords do not match.",
   "offline": "You are offline. Basic instructions remain available.",
-  "welcome": "Welcome"
+  "welcome": "Welcome",
+  "practiceIntro": "This practice site can't be shown inside the course — most websites block that themselves, for security reasons. Click the button to open the site in a new tab.",
+  "practiceOpenBtn": "Open in new tab",
+  "practiceReturnTitle": "How to get back to the lesson",
+  "practiceReturnStep1": "At the top of your browser you'll now see two tabs side by side.",
+  "practiceReturnStep2": "Click the \"PC & AI Course\" tab to go back to this lesson.",
+  "practiceReturnStep3": "Or close the new tab using the X on it — you'll automatically land back here."
 }

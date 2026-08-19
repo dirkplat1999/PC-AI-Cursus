@@ -2,6 +2,11 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [1.3.0] - 2026-08-19
+
+### Gewijzigd
+- De ingebouwde iframe-oefenomgeving is vervangen door een duidelijke tussenpagina: de meeste sites (Gmail, Google Maps, YouTube, banken, DigiD, enz.) weigerden sowieso getoond te worden in een iframe, wat een lege/geweigerde pagina opleverde. De "Open oefensite"-knop opent de site nu altijd in een nieuw tabblad, met expliciete stap-voor-stap uitleg hoe de cursist terugkeert naar de les.
+
 ## [1.2.1] - 2026-08-19
 
 ### Opgelost
