@@ -2,6 +2,11 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [1.1.0] - 2026-08-19
+
+### Toegevoegd
+- Volledige lesinhoud (in het Nederlands, Engels en Duits) voor de modules Praktische Apps, Overheid & Veiligheid, AI-gebruik & Ethiek en Digitale Handigheidjes — voorheen alleen een placeholder-structuur. Alle 5 modules zijn nu een kant-en-klaar lespakket.
+
 ## [1.0.0] - 2026-08-19
 
 ### Toegevoegd
@@ -12,7 +17,7 @@ Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehou
 - Live "Help"-knop voor cursisten met realtime pop-upmelding op het beheerdersdashboard (via Socket.IO).
 - Stapsgewijze lesweergave met 'Volgende'/'Vorige'-knoppen en voortgangsregistratie per module.
 - Ingebouwde oefenomgeving (iframe-browser) binnen het platform, met behoud van navigatie.
-- 5 cursusmodules: Computer- & Internetbasis (volledig uitgewerkt), Praktische Apps, Overheid & Veiligheid, AI-gebruik & Ethiek, Digitale Handigheidjes (structuur klaar, inhoud uit te breiden).
+- 5 cursusmodules: Computer- & Internetbasis, Praktische Apps, Overheid & Veiligheid, AI-gebruik & Ethiek, Digitale Handigheidjes.
 - Meertalige ondersteuning: Nederlands, Engels, Duits (interface, lesstof, woordenlijst).
 - Toegankelijkheid: voorleesfunctie (Text-to-Speech), aanpasbare lettergrootte, hoog-contrastmodus, digitale woordenlijst.
 - Basis offline-toegang via een service worker (cachet bezochte pagina's en basisbestanden).

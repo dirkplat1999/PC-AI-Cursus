@@ -41,7 +41,7 @@ PORT=8080 npm start
 - `views/` — EJS-templates (pagina's).
 - `public/` — CSS, client-side JavaScript, service worker (offline-ondersteuning).
 - `content/modules.json` — de 5 cursusmodules (titel/omschrijving in NL/EN/DE).
-- `content/lessons/<module>/<taal>.json` — lesinhoud per module en taal. Module 1 is volledig uitgewerkt als voorbeeld; modules 2 t/m 5 hebben een kant-en-klare structuur met een plaatshouder, klaar om aan te vullen.
+- `content/lessons/<module>/<taal>.json` — lesinhoud per module en taal. Alle 5 modules zijn volledig uitgewerkt in het Nederlands, Engels en Duits.
 - `content/glossary/<taal>.json` — digitale woordenlijst per taal.
 - `content/ui/<taal>.json` — vertaling van de interface-teksten (knoppen, labels).
 
