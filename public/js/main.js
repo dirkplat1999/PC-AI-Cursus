@@ -49,31 +49,35 @@
 
   // --- Text to speech ---
   const readBtn = document.getElementById('btn-read-aloud');
+  const readLabel = document.getElementById('read-aloud-label');
+  const readIconIdle = document.getElementById('read-aloud-icon-idle');
+  const readIconActive = document.getElementById('read-aloud-icon-active');
   const langMap = { nl: 'nl-NL', en: 'en-US', de: 'de-DE' };
+
+  function setReadAloudState(active) {
+    if (readLabel) readLabel.textContent = active
+      ? (readBtn.dataset.labelActive || 'Stop')
+      : (readBtn.dataset.labelIdle || 'Voorlezen');
+    readIconIdle?.classList.toggle('hidden', active);
+    readIconActive?.classList.toggle('hidden', !active);
+  }
+
   readBtn?.addEventListener('click', () => {
     if (!('speechSynthesis' in window)) {
       alert('Voorlezen wordt niet ondersteund in deze browser.');
       return;
     }
-    const setLabel = (text, icon) => {
-      readBtn.textContent = '';
-      readBtn.append(text + ' ');
-      const iconEl = document.createElement('span');
-      iconEl.setAttribute('aria-hidden', 'true');
-      iconEl.textContent = icon;
-      readBtn.append(iconEl);
-    };
     if (window.speechSynthesis.speaking) {
       window.speechSynthesis.cancel();
-      setLabel(window.APP_I18N.readAloud || 'Voorlezen', '🔊');
+      setReadAloudState(false);
       return;
     }
     const stepBody = document.getElementById('step-body');
     const text = stepBody ? stepBody.innerText : document.body.innerText;
     const utter = new SpeechSynthesisUtterance(text);
     utter.lang = langMap[readBtn.dataset.lang] || langMap[window.APP_LANG] || 'nl-NL';
-    utter.onend = () => setLabel(window.APP_I18N.readAloud || 'Voorlezen', '🔊');
-    setLabel(window.APP_I18N.stopReading || 'Stop', '⏹');
+    utter.onend = () => setReadAloudState(false);
+    setReadAloudState(true);
     window.speechSynthesis.speak(utter);
   });
 

@@ -1,6 +1,6 @@
 <div class="auth-page">
   <div class="auth-card">
-    <h1><span aria-hidden="true">🖥️</span> <%= t.appName %></h1>
+    <h1><%- icon('desktop', { size: 28 }) %> <%= t.appName %></h1>
 
     <form method="GET" class="lang-switch-inline">
       <select name="lang" onchange="this.form.submit()">

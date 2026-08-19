@@ -39,7 +39,7 @@ router.get('/', (req, res) => {
       totalSteps,
       stepIndex: p ? p.step_index : 0,
       completed: p ? !!p.completed : false,
-      percent: p && totalSteps ? Math.round((Math.min(p.step_index, totalSteps) / totalSteps) * 100) : 0
+      percent: !p || !totalSteps ? 0 : p.completed ? 100 : Math.round((Math.min(p.step_index, totalSteps - 1) / totalSteps) * 100)
     };
   });
 

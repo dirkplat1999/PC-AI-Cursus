@@ -2,6 +2,15 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [1.2.0] - 2026-08-19
+
+### Toegevoegd
+- Zelfgebouwde, consistente SVG-iconenset (`lib/icons.js`, Phosphor-stijl outline, `currentColor`) ter vervanging van alle functionele emoji-iconen (logo, moduleiconen, help-knop, voorlezen, woordenlijst, oefensite, vorige/volgende, afronden, nieuw tabblad, contrastknop). Geen externe icoonbibliotheek of internetverbinding nodig — past bij een offline-capable LAN-app.
+- De voorlees-knop wisselt nu tussen een luidspreker- en stopicoon i.p.v. tekst opnieuw op te bouwen.
+
+### Opgelost
+- Voortgangspercentage op het cursistendashboard toonde bij een afgeronde module soms net geen 100% (bijv. 94%) door een telfout; toont nu altijd 100% zodra een module is afgerond.
+
 ## [1.1.0] - 2026-08-19
 
 ### Toegevoegd

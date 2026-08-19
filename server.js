@@ -9,6 +9,7 @@ const http = require('http');
 const { Server } = require('socket.io');
 
 const db = require('./db/database');
+const { icon } = require('./lib/icons');
 const authRoutes = require('./routes/auth');
 const adminRoutes = require('./routes/admin');
 const studentRoutes = require('./routes/student');
@@ -17,6 +18,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server);
 app.set('io', io);
+app.locals.icon = icon;
 
 const PORT = process.env.PORT || 3000;
 const dataDir = path.join(__dirname, 'data');

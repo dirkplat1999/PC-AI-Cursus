@@ -38,7 +38,7 @@
         <% modules.forEach(m => { %>
           <label class="checkbox-pill">
             <input type="checkbox" name="modules" value="<%= m.key %>">
-            <span aria-hidden="true"><%= m.icon %></span> <%= m.title[lang] || m.title.nl %>
+            <%- icon(m.icon, { size: 18 }) %> <%= m.title[lang] || m.title.nl %>
           </label>
         <% }) %>
       </div>
@@ -73,7 +73,7 @@
             <% modules.forEach(m => { %>
               <label class="checkbox-pill">
                 <input type="checkbox" name="modules" value="<%= m.key %>" <%= s.assignedModules.includes(m.key) ? 'checked' : '' %>>
-                <span aria-hidden="true"><%= m.icon %></span> <%= m.title[lang] || m.title.nl %>
+                <%- icon(m.icon, { size: 18 }) %> <%= m.title[lang] || m.title.nl %>
               </label>
             <% }) %>
           </div>

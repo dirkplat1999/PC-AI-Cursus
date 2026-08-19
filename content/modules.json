@@ -1,7 +1,7 @@
 [
   {
     "key": "module1",
-    "icon": "🖥️",
+    "icon": "desktop",
     "title": { "nl": "Computer- & Internetbasis", "en": "Computer & Internet Basics", "de": "Computer- & Internetgrundlagen" },
     "description": {
       "nl": "E-mailen, bijlagen versturen, navigeren op het web, videobellen.",
@@ -11,7 +11,7 @@
   },
   {
     "key": "module2",
-    "icon": "📱",
+    "icon": "device-mobile",
     "title": { "nl": "Praktische Apps", "en": "Practical Apps", "de": "Praktische Apps" },
     "description": {
       "nl": "Google Maps/navigatie, Marktplaats, Funda, NPO Start/YouTube, 9292-reisoefeningen, Facebook/lokale groepen.",
@@ -21,7 +21,7 @@
   },
   {
     "key": "module3",
-    "icon": "🛡️",
+    "icon": "shield-check",
     "title": { "nl": "Overheid & Veiligheid", "en": "Government & Safety", "de": "Behörden & Sicherheit" },
     "description": {
       "nl": "DigiD, MijnOverheid, online bankieren, phishing herkennen, sterke wachtwoorden en 2FA.",
@@ -31,7 +31,7 @@
   },
   {
     "key": "module4",
-    "icon": "🤖",
+    "icon": "robot",
     "title": { "nl": "AI-gebruik & Ethiek", "en": "Using AI & Ethics", "de": "KI-Nutzung & Ethik" },
     "description": {
       "nl": "Werken met Gemini en ChatGPT, slimme vragen stellen, privacyrisico's en wanneer AI NIET te gebruiken.",
@@ -41,7 +41,7 @@
   },
   {
     "key": "module5",
-    "icon": "🧰",
+    "icon": "toolbox",
     "title": { "nl": "Digitale Handigheidjes", "en": "Digital Handy Tips", "de": "Digitale Helferlein" },
     "description": {
       "nl": "E-readers, foto's opslaan in de cloud, betrouwbare medische bronnen (Thuisarts.nl), wachtwoordmanagers.",
