@@ -2,6 +2,7 @@ const express = require('express');
 const db = require('../db/database');
 const { requireStudent } = require('../middleware/auth');
 const { getUi, getModules, getModule, getLessons, getGlossary, normalizeLang, SUPPORTED_LANGS } = require('../lib/content');
+const { detectDevice } = require('../lib/device');
 
 const router = express.Router();
 router.use(requireStudent);
@@ -124,7 +125,8 @@ router.post('/preferences', (req, res) => {
 router.get('/browser', (req, res) => {
   const url = req.query.url || 'https://www.google.com';
   const back = req.query.back || '/student';
-  res.render('student/browser', { url, back });
+  const device = detectDevice(req.headers['user-agent']);
+  res.render('student/browser', { url, back, device });
 });
 
 module.exports = router;

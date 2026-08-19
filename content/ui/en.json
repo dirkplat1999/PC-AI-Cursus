@@ -54,5 +54,10 @@
   "practiceReturnTitle": "How to get back to the lesson",
   "practiceReturnStep1": "At the top of your browser you'll now see two tabs side by side.",
   "practiceReturnStep2": "Click the \"PC & AI Course\" tab to go back to this lesson.",
-  "practiceReturnStep3": "Or close the new tab using the X on it — you'll automatically land back here."
+  "practiceReturnStep3": "Or close the new tab using the X on it — you'll automatically land back here.",
+  "practiceReturnStep1Android": "On Android you'll usually go back automatically: press the back button (arrow) at the bottom of your screen, or swipe in from the edge of the screen.",
+  "practiceReturnStep2Android": "Still don't see the lesson? Tap the tabs icon (with a number in it) at the top of your browser and choose \"PC & AI Course\".",
+  "practiceReturnStep1Ios": "Tap the tabs icon (two overlapping squares, usually at the bottom right of Safari).",
+  "practiceReturnStep2Ios": "Choose the \"PC & AI Course\" tab in the overview to go back to the lesson.",
+  "practiceReturnStep3Ios": "Want to close the practice site? Swipe that tab up in the overview, or tap the X."
 }

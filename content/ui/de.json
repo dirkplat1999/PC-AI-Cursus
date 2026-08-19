@@ -54,5 +54,10 @@
   "practiceReturnTitle": "So kommst du zurück zur Lektion",
   "practiceReturnStep1": "Oben in deinem Browser siehst du jetzt zwei Tabs nebeneinander.",
   "practiceReturnStep2": "Klicke auf den Tab \"PC & KI Kurs\", um zu dieser Lektion zurückzukehren.",
-  "practiceReturnStep3": "Oder schließe den neuen Tab mit dem Kreuz (✕) darauf — dann landest du automatisch wieder hier."
+  "practiceReturnStep3": "Oder schließe den neuen Tab mit dem Kreuz (✕) darauf — dann landest du automatisch wieder hier.",
+  "practiceReturnStep1Android": "Auf Android kommst du meist automatisch zurück: Drücke die Zurück-Taste (Pfeil) unten auf deinem Bildschirm, oder wische vom Bildschirmrand nach innen.",
+  "practiceReturnStep2Android": "Siehst du die Lektion immer noch nicht? Tippe oben im Browser auf das Tab-Symbol (mit einer Zahl darin) und wähle \"PC & KI Kurs\".",
+  "practiceReturnStep1Ios": "Tippe auf das Tab-Symbol (zwei überlappende Quadrate, meist unten rechts in Safari).",
+  "practiceReturnStep2Ios": "Wähle in der Übersicht den Tab \"PC & KI Kurs\", um zur Lektion zurückzukehren.",
+  "practiceReturnStep3Ios": "Möchtest du die Übungsseite schließen? Wische diesen Tab in der Übersicht nach oben, oder tippe auf das Kreuz."
 }

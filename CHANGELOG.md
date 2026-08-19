@@ -2,6 +2,11 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [1.3.1] - 2026-08-19
+
+### Toegevoegd
+- De "terug naar de les"-instructies op de oefensite-pagina zijn nu apparaatspecifiek: op basis van de browser-user-agent wordt automatisch onderscheid gemaakt tussen Android (waar de standaard terugknop/-gebaar meestal vanzelf terugbrengt), Apple/iOS (tik op het tabbladen-icoon in Safari) en desktop (tabblad bovenin de browser).
+
 ## [1.3.0] - 2026-08-19
 
 ### Gewijzigd

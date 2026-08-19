@@ -54,5 +54,10 @@
   "practiceReturnTitle": "Zo kom je terug naar de les",
   "practiceReturnStep1": "Bovenin je browser zie je nu twee tabbladen naast elkaar.",
   "practiceReturnStep2": "Klik op het tabblad \"PC & AI Cursus\" om terug te gaan naar deze les.",
-  "practiceReturnStep3": "Of sluit het nieuwe tabblad met het kruisje (✕) erop — dan sta je automatisch weer hier."
+  "practiceReturnStep3": "Of sluit het nieuwe tabblad met het kruisje (✕) erop — dan sta je automatisch weer hier.",
+  "practiceReturnStep1Android": "Op Android kom je meestal vanzelf terug: druk op de terugknop (pijltje) onderin je scherm, of veeg vanaf de rand van het scherm naar binnen.",
+  "practiceReturnStep2Android": "Zie je de les nog niet? Tik bovenin de browser op het tabbladen-icoon (met een cijfer erin) en kies \"PC & AI Cursus\".",
+  "practiceReturnStep1Ios": "Tik op het tabbladen-icoon (twee overlappende vierkantjes, meestal rechtsonder in Safari).",
+  "practiceReturnStep2Ios": "Kies het tabblad \"PC & AI Cursus\" in het overzicht om terug te gaan naar de les.",
+  "practiceReturnStep3Ios": "Wil je de oefensite sluiten? Veeg dat tabblad in het overzicht omhoog, of tik op het kruisje."
 }

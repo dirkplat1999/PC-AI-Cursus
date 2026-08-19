@@ -12,11 +12,20 @@
   </div>
 
   <div class="practice-return">
-    <h3><%- icon('check-circle', { size: 20, className: 'icon-inline' }) %> <%= t.practiceReturnTitle %></h3>
+    <h3><%- icon(device === 'desktop' ? 'desktop' : 'device-mobile', { size: 20 }) %> <%= t.practiceReturnTitle %></h3>
     <ol>
-      <li><%= t.practiceReturnStep1 %></li>
-      <li><%= t.practiceReturnStep2 %></li>
-      <li><%= t.practiceReturnStep3 %></li>
+      <% if (device === 'ios') { %>
+        <li><%= t.practiceReturnStep1Ios %></li>
+        <li><%= t.practiceReturnStep2Ios %></li>
+        <li><%= t.practiceReturnStep3Ios %></li>
+      <% } else if (device === 'android') { %>
+        <li><%= t.practiceReturnStep1Android %></li>
+        <li><%= t.practiceReturnStep2Android %></li>
+      <% } else { %>
+        <li><%= t.practiceReturnStep1 %></li>
+        <li><%= t.practiceReturnStep2 %></li>
+        <li><%= t.practiceReturnStep3 %></li>
+      <% } %>
     </ol>
     <a href="<%= back %>" class="btn btn-primary"><%- icon('arrow-left', { size: 18 }) %> <%= t.backToLesson %></a>
   </div>
