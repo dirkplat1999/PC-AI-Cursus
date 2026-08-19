@@ -2,6 +2,12 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [1.6.0] - 2026-08-19
+
+### Toegevoegd
+- De phishing-oefening (module 3) heeft nu een menu (⋮) op de nepmail met een "Verwijderen"-knop — de juíste actie. Kiest een cursist dit i.p.v. op de phishing-knop te klikken, dan verschijnt een positief leermoment ("Goed gedaan!") in plaats van de waarschuwing.
+- Klikt een cursist tóch op de nep-knop in de phishing-oefening, dan verschijnt er nu automatisch een live melding op het beheerdersdashboard (hergebruikt het bestaande "Hulpvragen"-systeem: rode pulserende stip, meteen zichtbaar in de lijst, met een "Afgehandeld"-knop), zodat de docent weet wie extra aandacht nodig heeft.
+
 ## [1.5.0] - 2026-08-19
 
 ### Toegevoegd

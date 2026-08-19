@@ -197,11 +197,31 @@ textarea:focus-visible,
 .phish-time { flex-shrink: 0; color: var(--color-muted); font-size: 0.85rem; }
 
 .phish-email {
-  background: var(--color-surface); border: 1px solid var(--color-border); border-radius: 10px; overflow: hidden;
+  position: relative;
+  background: var(--color-surface); border: 1px solid var(--color-border); border-radius: 10px; overflow: visible;
 }
+.phish-more-btn {
+  position: absolute; top: 10px; right: 10px; z-index: 2;
+  width: 36px; height: 36px; border-radius: 8px; border: 1px solid var(--color-border);
+  background: var(--color-surface); color: var(--color-text); font-size: 1.3rem; line-height: 1;
+  cursor: pointer; display: flex; align-items: center; justify-content: center;
+}
+.phish-more-btn:hover { border-color: var(--color-primary); background: var(--color-bg); }
+.phish-more-menu {
+  position: absolute; top: 50px; right: 10px; z-index: 3;
+  background: var(--color-surface); border: 1px solid var(--color-border); border-radius: 8px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.18); overflow: hidden; min-width: 160px;
+}
+.phish-more-menu button {
+  display: flex; align-items: center; gap: 8px; width: 100%; padding: 12px 14px;
+  border: none; background: var(--color-surface); color: var(--color-text); font-size: 1rem;
+  cursor: pointer; text-align: left; min-height: 44px;
+}
+.phish-more-menu button:hover { background: var(--color-bg); }
+.phish-more-menu.hidden { display: none; }
 .phish-email-header {
-  background: var(--color-bg); padding: 14px 16px; border-bottom: 1px solid var(--color-border);
-  font-size: 0.95rem; line-height: 1.7;
+  background: var(--color-bg); padding: 14px 56px 14px 16px; border-bottom: 1px solid var(--color-border);
+  font-size: 0.95rem; line-height: 1.7; border-radius: 10px 10px 0 0;
 }
 .phish-email-header code, .phish-email-header span.phish-flag { font-family: monospace; color: var(--color-danger); font-weight: 700; }
 .phish-email-body { padding: 18px 16px; }
@@ -219,6 +239,8 @@ textarea:focus-visible,
 .phish-reveal ul { padding-left: 22px; }
 
 .phish-inbox-item.hidden, .phish-email.hidden, .phish-reveal.hidden { display: none; }
+.phish-reveal-bad { border-color: var(--color-danger); }
+.phish-reveal-bad h4 { color: var(--color-danger); }
 .step-tools { display: flex; gap: 10px; margin-top: 18px; flex-wrap: wrap; }
 .step-tools button {
   display: inline-flex; align-items: center; gap: 8px;

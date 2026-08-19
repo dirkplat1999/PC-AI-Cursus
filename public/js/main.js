@@ -114,6 +114,18 @@
   });
 
   // --- Phishing-mail oefening (nep-postvak-widget) ---
+  function resetPhishSim(sim) {
+    sim.querySelector('[data-phish-reveal-bad]')?.classList.add('hidden');
+    sim.querySelector('[data-phish-reveal-good]')?.classList.add('hidden');
+    sim.querySelector('[data-phish-menu]')?.classList.add('hidden');
+    sim.querySelector('[data-phish-more]')?.setAttribute('aria-expanded', 'false');
+    sim.querySelector('[data-phish-email]')?.classList.add('hidden');
+    const openBtn = sim.querySelector('[data-phish-open]');
+    openBtn?.classList.remove('hidden');
+    openBtn?.setAttribute('aria-expanded', 'false');
+    return openBtn;
+  }
+
   document.querySelectorAll('[data-phish-open]').forEach((btn) => {
     btn.addEventListener('click', () => {
       const sim = btn.closest('.phish-sim');
@@ -122,22 +134,53 @@
       sim.querySelector('[data-phish-email]')?.classList.remove('hidden');
     });
   });
+
+  document.querySelectorAll('[data-phish-more]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const sim = btn.closest('.phish-sim');
+      const menu = sim.querySelector('[data-phish-menu]');
+      const nowOpen = menu?.classList.toggle('hidden') === false;
+      btn.setAttribute('aria-expanded', nowOpen ? 'true' : 'false');
+    });
+  });
+
+  // Clicking the CTA link is the "wrong" action: shows the warning reveal
+  // and alerts the teacher's dashboard, so they know who needs follow-up.
   document.querySelectorAll('[data-phish-click]').forEach((btn) => {
     btn.addEventListener('click', () => {
       const sim = btn.closest('.phish-sim');
       sim.querySelector('[data-phish-email]')?.classList.add('hidden');
-      sim.querySelector('[data-phish-reveal]')?.classList.remove('hidden');
-      sim.querySelector('[data-phish-reveal]')?.focus();
+      const reveal = sim.querySelector('[data-phish-reveal-bad]');
+      reveal?.classList.remove('hidden');
+      reveal?.focus();
+
+      if (window.APP_ROLE === 'student') {
+        const moduleMatch = window.location.pathname.match(/\/student\/module\/([^/]+)/);
+        fetch('/student/phishing-alert', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ module_key: moduleMatch ? moduleMatch[1] : null })
+        }).catch(() => {});
+      }
     });
   });
+
+  // Deleting the message (via the ⋮ menu) is the correct action.
+  document.querySelectorAll('[data-phish-delete]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const sim = btn.closest('.phish-sim');
+      sim.querySelector('[data-phish-menu]')?.classList.add('hidden');
+      sim.querySelector('[data-phish-email]')?.classList.add('hidden');
+      const reveal = sim.querySelector('[data-phish-reveal-good]');
+      reveal?.classList.remove('hidden');
+      reveal?.focus();
+    });
+  });
+
   document.querySelectorAll('[data-phish-reset]').forEach((btn) => {
     btn.addEventListener('click', () => {
       const sim = btn.closest('.phish-sim');
-      sim.querySelector('[data-phish-reveal]')?.classList.add('hidden');
-      const openBtn = sim.querySelector('[data-phish-open]');
-      openBtn?.classList.remove('hidden');
-      openBtn?.setAttribute('aria-expanded', 'false');
-      openBtn?.focus();
+      resetPhishSim(sim)?.focus();
     });
   });
 

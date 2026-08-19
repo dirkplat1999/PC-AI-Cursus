@@ -108,6 +108,27 @@ router.post('/help', (req, res) => {
   res.json({ ok: true });
 });
 
+// Fired by the phishing-mail practice widget when a student clicks the
+// simulated "bad" button, so the teacher can follow up with them.
+router.post('/phishing-alert', (req, res) => {
+  const { module_key } = req.body;
+  const message = 'Klikte op de knop in de phishing-oefening (viel voor de nepmail tijdens het oefenen).';
+  const info = db.prepare('INSERT INTO help_requests (student_id, module_key, message) VALUES (?, ?, ?)')
+    .run(req.student.id, module_key || null, message);
+  const io = req.app.get('io');
+  if (io) {
+    io.emit('help-request', {
+      id: info.lastInsertRowid,
+      studentName: req.student.full_name,
+      username: req.student.username,
+      message,
+      moduleKey: module_key || null,
+      createdAt: new Date().toISOString()
+    });
+  }
+  res.json({ ok: true });
+});
+
 router.post('/preferences', (req, res) => {
   const { language, font_size, high_contrast } = req.body;
   const updates = [];
