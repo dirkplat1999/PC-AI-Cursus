@@ -10,7 +10,7 @@
 <body class="font-normal">
   <header class="topbar">
     <div class="topbar-left">
-      <a href="/" class="brand">🖥️ <%= (typeof t !== 'undefined' && t.appName) ? t.appName : 'PC & AI Cursus' %></a>
+      <a href="/" class="brand"><span aria-hidden="true">🖥️</span> <%= (typeof t !== 'undefined' && t.appName) ? t.appName : 'PC & AI Cursus' %></a>
     </div>
     <div class="topbar-right">
       <% if (typeof session !== 'undefined' && session.role) { %>
@@ -38,7 +38,7 @@
   </main>
 
   <% if (typeof session !== 'undefined' && session.role === 'student') { %>
-    <button id="help-fab" class="help-fab" title="<%= t.help %>">🆘 <span><%= t.help %></span></button>
+    <button id="help-fab" class="help-fab" title="<%= t.help %>"><span aria-hidden="true">🆘</span> <span><%= t.help %></span></button>
     <div id="help-modal" class="modal hidden">
       <div class="modal-box">
         <h3><%= t.help %></h3>

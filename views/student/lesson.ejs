@@ -1,12 +1,12 @@
 <div class="lesson-page">
   <div class="lesson-top">
-    <a href="/student?lang=<%= lang %>" class="btn btn-ghost">← <%= t.yourModules %></a>
+    <a href="/student?lang=<%= lang %>" class="btn btn-ghost"><span aria-hidden="true">←</span> <%= t.yourModules %></a>
     <div class="lesson-progress-text"><%= t.step %> <%= currentIndex + 1 %> <%= t.of %> <%= total %></div>
   </div>
 
   <div class="progress-bar"><div class="progress-fill" style="width: <%= Math.round(((currentIndex + 1) / total) * 100) %>%"></div></div>
 
-  <h1><%= module.icon %> <%= module.title[lang] || module.title.nl %></h1>
+  <h1><span aria-hidden="true"><%= module.icon %></span> <%= module.title[lang] || module.title.nl %></h1>
   <h3 class="lesson-subtitle"><%= currentStep.lessonTitle %></h3>
 
   <div class="step-card">
@@ -15,25 +15,25 @@
 
     <% if (currentStep.practiceUrl) { %>
       <a class="btn btn-primary" href="/student/browser?url=<%= encodeURIComponent(currentStep.practiceUrl) %>&back=<%= encodeURIComponent('/student/module/' + module.key + '?step=' + currentIndex + '&lang=' + lang) %>">
-        🌐 <%= t.openPractice %>
+        <span aria-hidden="true">🌐</span> <%= t.openPractice %>
       </a>
     <% } %>
 
     <div class="step-tools">
-      <button type="button" id="btn-read-aloud" data-lang="<%= lang %>"><%= t.readAloud %> 🔊</button>
-      <button type="button" id="btn-open-glossary"><%= t.glossary %> 📖</button>
+      <button type="button" id="btn-read-aloud" data-lang="<%= lang %>"><%= t.readAloud %> <span aria-hidden="true">🔊</span></button>
+      <button type="button" id="btn-open-glossary"><%= t.glossary %> <span aria-hidden="true">📖</span></button>
     </div>
   </div>
 
   <div class="lesson-nav">
     <% if (currentIndex > 0) { %>
-      <a class="btn" href="?step=<%= currentIndex - 1 %>&lang=<%= lang %>">← <%= t.previous %></a>
+      <a class="btn" href="?step=<%= currentIndex - 1 %>&lang=<%= lang %>"><span aria-hidden="true">←</span> <%= t.previous %></a>
     <% } else { %><span></span><% } %>
 
     <% if (currentIndex < total - 1) { %>
-      <a class="btn btn-primary btn-large" href="?step=<%= currentIndex + 1 %>&lang=<%= lang %>"><%= t.next %> →</a>
+      <a class="btn btn-primary btn-large" href="?step=<%= currentIndex + 1 %>&lang=<%= lang %>"><%= t.next %> <span aria-hidden="true">→</span></a>
     <% } else { %>
-      <a class="btn btn-primary btn-large" href="/student?lang=<%= lang %>" id="finish-btn"><%= t.finishModule %> ✅</a>
+      <a class="btn btn-primary btn-large" href="/student?lang=<%= lang %>" id="finish-btn"><%= t.finishModule %> <span aria-hidden="true">✅</span></a>
     <% } %>
   </div>
 </div>

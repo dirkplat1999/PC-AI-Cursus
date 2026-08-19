@@ -55,17 +55,25 @@
       alert('Voorlezen wordt niet ondersteund in deze browser.');
       return;
     }
+    const setLabel = (text, icon) => {
+      readBtn.textContent = '';
+      readBtn.append(text + ' ');
+      const iconEl = document.createElement('span');
+      iconEl.setAttribute('aria-hidden', 'true');
+      iconEl.textContent = icon;
+      readBtn.append(iconEl);
+    };
     if (window.speechSynthesis.speaking) {
       window.speechSynthesis.cancel();
-      readBtn.textContent = (window.APP_I18N.readAloud || 'Voorlezen') + ' 🔊';
+      setLabel(window.APP_I18N.readAloud || 'Voorlezen', '🔊');
       return;
     }
     const stepBody = document.getElementById('step-body');
     const text = stepBody ? stepBody.innerText : document.body.innerText;
     const utter = new SpeechSynthesisUtterance(text);
     utter.lang = langMap[readBtn.dataset.lang] || langMap[window.APP_LANG] || 'nl-NL';
-    utter.onend = () => { readBtn.textContent = (window.APP_I18N.readAloud || 'Voorlezen') + ' 🔊'; };
-    readBtn.textContent = (window.APP_I18N.stopReading || 'Stop') + ' ⏹';
+    utter.onend = () => setLabel(window.APP_I18N.readAloud || 'Voorlezen', '🔊');
+    setLabel(window.APP_I18N.stopReading || 'Stop', '⏹');
     window.speechSynthesis.speak(utter);
   });
 

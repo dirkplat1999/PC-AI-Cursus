@@ -1,5 +1,5 @@
 <div class="student-page">
-  <h1><%= t.welcome %>, <%= student.full_name %> 👋</h1>
+  <h1><%= t.welcome %>, <%= student.full_name %> <span aria-hidden="true">👋</span></h1>
   <h2><%= t.yourModules %></h2>
 
   <div class="module-grid">
@@ -8,11 +8,11 @@
     <% } %>
     <% modules.forEach(m => { %>
       <a class="module-card <%= m.completed ? 'completed' : '' %>" href="/student/module/<%= m.key %>?lang=<%= lang %>">
-        <div class="module-icon"><%= m.icon %></div>
+        <div class="module-icon" aria-hidden="true"><%= m.icon %></div>
         <h3><%= m.title[lang] || m.title.nl %></h3>
         <p><%= m.description[lang] || m.description.nl %></p>
         <div class="progress-bar"><div class="progress-fill" style="width: <%= m.percent %>%"></div></div>
-        <small><%= m.percent %>% <%= t.progress.toLowerCase() %><% if (m.completed) { %> · ✅<% } %></small>
+        <small><%= m.percent %>% <%= t.progress.toLowerCase() %><% if (m.completed) { %> · <span aria-hidden="true">✅</span><% } %></small>
       </a>
     <% }) %>
   </div>
