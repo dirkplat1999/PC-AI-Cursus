@@ -2,6 +2,13 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [2.2.0] - 2026-08-19
+
+### Toegevoegd
+- Woordenlijst uitgebreid van 10 naar 38 termen (NL/EN/DE): o.a. spear-phishing, social engineering, deepfake, datalek, CEO-fraude, romancefraude, sim-swapping, passkey, authenticator-app, bias, algoritme, cookies, en diverse app-specifieke begrippen (WOZ-waarde, erfpacht, energielabel, berichtenbox).
+- `marketing/flyer.html`: printbare wervingsflyer (A4) voor de cursus, met de vijf modules, hoe het platform werkt, en praktische info (locatie, data, meenemen).
+- `marketing/opening-presentatie.pptx`: 10-dia PowerPoint-presentatie voor de openingsbijeenkomst — programma, waarom de cursus, de vijf onderwerpen, hoe een les werkt, hulp & toegankelijkheid, praktische afspraken en een startslide om samen in te loggen.
+
 ## [2.1.0] - 2026-08-19
 
 ### Toegevoegd

@@ -1,0 +1,349 @@
+<title>De Digitale Gids</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,680&family=Atkinson+Hyperlegible:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --paper: #eef4f0;
+    --paper-raised: #ffffff;
+    --ink: #17323a;
+    --ink-soft: #45585c;
+    --teal: #1c6e76;
+    --teal-deep: #124e54;
+    --marigold: #e2872f;
+    --marigold-ink: #4a2c05;
+    --moss: #5b8a63;
+    --line: #c7d6cd;
+    --ring: #1c6e76;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #10262b;
+      --paper-raised: #16333b;
+      --ink: #eef4f0;
+      --ink-soft: #b9cbc7;
+      --teal: #6fc3c9;
+      --teal-deep: #9fdadf;
+      --marigold: #f3a54e;
+      --marigold-ink: #3a2200;
+      --moss: #8fbf95;
+      --line: #2b4a4f;
+      --ring: #6fc3c9;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #10262b;
+    --paper-raised: #16333b;
+    --ink: #eef4f0;
+    --ink-soft: #b9cbc7;
+    --teal: #6fc3c9;
+    --teal-deep: #9fdadf;
+    --marigold: #f3a54e;
+    --marigold-ink: #3a2200;
+    --moss: #8fbf95;
+    --line: #2b4a4f;
+    --ring: #6fc3c9;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Atkinson Hyperlegible", -apple-system, "Segoe UI", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 32px 16px 64px;
+  }
+
+  a { color: var(--teal-deep); }
+  a:focus-visible, button:focus-visible { outline: 3px solid var(--ring); outline-offset: 2px; }
+
+  .sheet {
+    width: 210mm;
+    max-width: 100%;
+    background: var(--paper-raised);
+    border-radius: 22px;
+    box-shadow: 0 30px 70px -30px rgba(18, 47, 53, 0.35);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ---------- Masthead ---------- */
+  .masthead {
+    padding: 40px 48px 28px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    border-bottom: 1px solid var(--line);
+  }
+  .mark {
+    flex-shrink: 0;
+    width: 56px; height: 56px;
+    color: var(--teal);
+  }
+  .masthead-text h1 {
+    font-family: "Fraunces", Georgia, serif;
+    font-weight: 680;
+    font-optical-sizing: auto;
+    font-size: 2.6rem;
+    line-height: 1.02;
+    margin: 0 0 8px;
+    text-wrap: balance;
+    color: var(--ink);
+  }
+  .tagline {
+    margin: 0;
+    max-width: 62ch;
+    font-size: 1.08rem;
+    color: var(--ink-soft);
+    line-height: 1.5;
+  }
+
+  /* ---------- Intro ---------- */
+  .intro {
+    padding: 26px 48px 6px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px 28px;
+  }
+  .intro-card {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 16px 18px;
+  }
+  .intro-card .eyebrow {
+    display: block;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--teal-deep);
+    margin-bottom: 6px;
+  }
+  .intro-card p { margin: 0; color: var(--ink-soft); font-size: 0.95rem; line-height: 1.5; }
+  .intro-card strong { color: var(--ink); }
+
+  /* ---------- Waypoints (the 5 modules) ---------- */
+  .route {
+    padding: 30px 48px 8px;
+  }
+  .route > .section-label {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--teal-deep);
+    margin-bottom: 18px;
+  }
+  .waypoints {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .waypoints::before {
+    content: "";
+    position: absolute;
+    left: 23px;
+    top: 8px;
+    bottom: 8px;
+    width: 2px;
+    background: var(--line);
+  }
+  .waypoint {
+    position: relative;
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    column-gap: 18px;
+    padding: 12px 0;
+    align-items: start;
+  }
+  .waypoint .num {
+    position: relative;
+    z-index: 1;
+    width: 48px; height: 48px;
+    border-radius: 50%;
+    background: var(--teal);
+    color: var(--paper-raised);
+    display: flex; align-items: center; justify-content: center;
+    font-family: "Fraunces", Georgia, serif;
+    font-weight: 600;
+    font-size: 1.35rem;
+  }
+  .waypoint h3 {
+    font-family: "Fraunces", Georgia, serif;
+    font-weight: 600;
+    font-size: 1.22rem;
+    margin: 4px 0 4px;
+    color: var(--ink);
+  }
+  .waypoint p { margin: 0; color: var(--ink-soft); font-size: 0.95rem; line-height: 1.48; max-width: 60ch; }
+
+  /* ---------- How it works ---------- */
+  .how {
+    padding: 20px 48px 6px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+  .how-item {
+    border-top: 3px solid var(--moss);
+    padding-top: 12px;
+  }
+  .how-item .icon { color: var(--moss); margin-bottom: 8px; }
+  .how-item h4 {
+    margin: 0 0 4px;
+    font-size: 0.92rem;
+    font-weight: 700;
+    color: var(--ink);
+  }
+  .how-item p { margin: 0; font-size: 0.84rem; color: var(--ink-soft); line-height: 1.42; }
+
+  /* ---------- Footer / CTA band ---------- */
+  .cta {
+    margin-top: 26px;
+    background: var(--marigold);
+    color: var(--marigold-ink);
+    padding: 30px 48px 34px;
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+  }
+  .cta h2 {
+    font-family: "Fraunces", Georgia, serif;
+    font-weight: 680;
+    font-size: 1.7rem;
+    margin: 0 0 10px;
+  }
+  .cta p { margin: 0; font-size: 0.95rem; max-width: 42ch; line-height: 1.5; }
+  .practical {
+    flex-shrink: 0;
+    min-width: 230px;
+    font-size: 0.92rem;
+  }
+  .practical dl { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 6px 10px; }
+  .practical dt { font-weight: 700; }
+  .practical dd { margin: 0; min-width: 120px; }
+
+  @media (max-width: 640px) {
+    .intro, .how { grid-template-columns: 1fr; }
+    .masthead, .route, .how, .cta { padding-left: 24px; padding-right: 24px; }
+    .cta { flex-direction: column; }
+  }
+
+  @media print {
+    body { padding: 0; background: var(--paper-raised); }
+    .sheet { box-shadow: none; border-radius: 0; width: 210mm; }
+    @page { size: A4; margin: 0; }
+  }
+</style>
+
+<div class="sheet">
+  <header class="masthead">
+    <svg class="mark" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <circle cx="28" cy="28" r="25" stroke="currentColor" stroke-width="2.5"/>
+      <path d="M28 14v8M28 34v8M14 28h8M34 28h8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="28" cy="28" r="5.5" fill="currentColor"/>
+    </svg>
+    <div class="masthead-text">
+      <h1>PC &amp; AI Cursus</h1>
+      <p class="tagline">Een gids om je thuis te voelen achter beeldscherm en telefoon &mdash; stap voor stap, in je eigen tempo, met live hulp wanneer je vastloopt.</p>
+    </div>
+  </header>
+
+  <section class="intro">
+    <div class="intro-card">
+      <span class="eyebrow">Voor wie</span>
+      <p>Voor iedereen die zich prettiger wil voelen met computer, internet en de nieuwste AI-hulpmiddelen &mdash; van eerste stappen tot verdieping.</p>
+    </div>
+    <div class="intro-card">
+      <span class="eyebrow">Voor jong &eacute;n oud</span>
+      <p>De uitleg sluit aan bij jouw tempo en niveau, of je nu net begint of al aardig op weg bent &mdash; deze cursus is voor iedereen.</p>
+    </div>
+  </section>
+
+  <section class="route">
+    <span class="section-label">De route &mdash; vijf haltes</span>
+    <div class="waypoints">
+      <article class="waypoint">
+        <div class="num">1</div>
+        <div>
+          <h3>Computer- &amp; Internetbasis</h3>
+          <p>E-mailen, bijlagen versturen, navigeren op het web, videobellen.</p>
+        </div>
+      </article>
+      <article class="waypoint">
+        <div class="num">2</div>
+        <div>
+          <h3>Praktische Apps</h3>
+          <p>Google Maps, Marktplaats, Funda, NPO Start/YouTube, 9292-reisplanner, Facebook.</p>
+        </div>
+      </article>
+      <article class="waypoint">
+        <div class="num">3</div>
+        <div>
+          <h3>Overheid &amp; Veiligheid</h3>
+          <p>DigiD, MijnOverheid, veilig bankieren, phishing herkennen, sterke wachtwoorden &amp; 2FA.</p>
+        </div>
+      </article>
+      <article class="waypoint">
+        <div class="num">4</div>
+        <div>
+          <h3>AI-gebruik &amp; Ethiek</h3>
+          <p>Werken met ChatGPT en Gemini, slim vragen stellen, weten wanneer je AI juist niet gebruikt.</p>
+        </div>
+      </article>
+      <article class="waypoint">
+        <div class="num">5</div>
+        <div>
+          <h3>Digitale Handigheidjes</h3>
+          <p>E-readers, foto's bewaren in de cloud, betrouwbare medische info, een wachtwoordmanager.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="how">
+    <div class="how-item">
+      <svg class="icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      <h4>Stap voor stap</h4>
+      <p>Elke les in kleine, duidelijke stappen met een 'Volgende'-knop &mdash; geen overprikkeling.</p>
+    </div>
+    <div class="how-item">
+      <svg class="icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="M12 3v5M12 16v5M3 12h5M16 12h5"/></svg>
+      <h4>Live hulp</h4>
+      <p>Eén tik roept tijdens de les meteen de docent erbij.</p>
+    </div>
+    <div class="how-item">
+      <svg class="icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path d="M17 8a5 5 0 0 1 0 8"/></svg>
+      <h4>Voorlezen &amp; aanpasbaar</h4>
+      <p>Tekst wordt hardop voorgelezen; lettergrootte en contrast pas je zelf aan.</p>
+    </div>
+    <div class="how-item">
+      <svg class="icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg>
+      <h4>Overal te gebruiken</h4>
+      <p>Op pc, tablet of telefoon &mdash; in het Nederlands, Engels of Duits.</p>
+    </div>
+  </section>
+
+  <footer class="cta">
+    <div>
+      <h2>Doe mee</h2>
+      <p>Geen ervaring nodig &mdash; alleen nieuwsgierigheid. Neem je eigen laptop, tablet of telefoon mee (het makkelijkst werkt een laptop of tablet, vanwege het grotere scherm).</p>
+    </div>
+    <div class="practical">
+      <dl>
+        <dt>Waar</dt><dd>Buurthuis Nieuwediep 117</dd>
+        <dt>Deel 1</dt><dd>30 september 2026</dd>
+        <dt>Deel 2</dt><dd>28 oktober 2026</dd>
+      </dl>
+    </div>
+  </footer>
+</div>
