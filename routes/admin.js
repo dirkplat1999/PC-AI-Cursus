@@ -20,9 +20,11 @@ function withAdminLocals(req, res, next) {
 }
 router.use(withAdminLocals);
 
-function studentsWithProgress() {
+function studentsWithProgress(lang) {
   const students = db.prepare('SELECT * FROM students ORDER BY full_name COLLATE NOCASE').all();
   const modules = getModules();
+  const titleByKey = {};
+  modules.forEach((m) => { titleByKey[m.key] = m.title[lang] || m.title.nl; });
   return students.map((s) => {
     const assigned = db.prepare('SELECT module_key FROM student_modules WHERE student_id = ?').all(s.id).map((r) => r.module_key);
     const progressRows = db.prepare('SELECT * FROM progress WHERE student_id = ?').all(s.id);
@@ -32,6 +34,7 @@ function studentsWithProgress() {
     return {
       ...s,
       assignedModules: assigned,
+      assignedModuleTitles: assigned.map((k) => titleByKey[k] || k),
       progressByModule,
       completedCount,
       totalAssigned: assigned.length
@@ -45,7 +48,7 @@ router.get('/', (req, res) => {
     JOIN students s ON s.id = h.student_id
     WHERE h.status = 'open' ORDER BY h.created_at DESC
   `).all();
-  const students = studentsWithProgress();
+  const students = studentsWithProgress(res.locals.lang);
   res.render('admin/dashboard', {
     students,
     openHelp,
@@ -56,7 +59,7 @@ router.get('/', (req, res) => {
 
 router.get('/students', (req, res) => {
   res.render('admin/students', {
-    students: studentsWithProgress(),
+    students: studentsWithProgress(res.locals.lang),
     modules: getModules(),
     langs: SUPPORTED_LANGS,
     error: null,
@@ -69,7 +72,7 @@ router.post('/students', (req, res) => {
   const t = res.locals.t;
   if (!username || !full_name || !password) {
     return res.render('admin/students', {
-      students: studentsWithProgress(), modules: getModules(), langs: SUPPORTED_LANGS,
+      students: studentsWithProgress(res.locals.lang), modules: getModules(), langs: SUPPORTED_LANGS,
       error: 'Vul gebruikersnaam, naam en wachtwoord in.', formStudent: req.body
     });
   }
@@ -77,7 +80,7 @@ router.post('/students', (req, res) => {
   const exists = db.prepare('SELECT 1 FROM students WHERE username = ?').get(uname);
   if (exists) {
     return res.render('admin/students', {
-      students: studentsWithProgress(), modules: getModules(), langs: SUPPORTED_LANGS,
+      students: studentsWithProgress(res.locals.lang), modules: getModules(), langs: SUPPORTED_LANGS,
       error: 'Gebruikersnaam bestaat al.', formStudent: req.body
     });
   }

@@ -26,6 +26,9 @@
             <option value="de" <%= lang === 'de' ? 'selected' : '' %>>DE</option>
           </select>
         </form>
+        <% if (session.role === 'student') { %>
+          <button type="button" id="help-fab" class="btn btn-danger" title="<%= t.help %>"><%- icon('lifebuoy', { size: 20 }) %> <span><%= t.help %></span></button>
+        <% } %>
         <form action="/logout" method="POST">
           <button type="submit" class="btn btn-ghost"><%= t.logout %></button>
         </form>
@@ -38,7 +41,6 @@
   </main>
 
   <% if (typeof session !== 'undefined' && session.role === 'student') { %>
-    <button id="help-fab" class="help-fab" title="<%= t.help %>"><%- icon('lifebuoy', { size: 22 }) %> <span><%= t.help %></span></button>
     <div id="help-modal" class="modal hidden">
       <div class="modal-box">
         <h3><%= t.help %></h3>

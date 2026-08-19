@@ -63,7 +63,7 @@
               <td><%= s.full_name %></td>
               <td><%= s.username %></td>
               <td><%= s.language.toUpperCase() %></td>
-              <td><%= s.assignedModules.join(', ') || '—' %></td>
+              <td><%= s.assignedModuleTitles.join(', ') || '—' %></td>
               <td><%= s.completedCount %> / <%= s.totalAssigned %></td>
             </tr>
           <% }) %>

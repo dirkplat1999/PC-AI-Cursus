@@ -2,6 +2,12 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [1.2.1] - 2026-08-19
+
+### Opgelost
+- Help-knop overlapte op mobiele schermen de "Volgende"-knop van de lesnavigatie. De zwevende (fixed) knop is verplaatst naar de vaste header (naast Uitloggen), waar hij niet meer met paginacontent kan botsen, op geen enkele schermgrootte.
+- Het beheerdersoverzicht ("Cursisten — Voortgang") toonde ruwe interne modulesleutels (module1, module2, ...) i.p.v. de leesbare modulenamen.
+
 ## [1.2.0] - 2026-08-19
 
 ### Toegevoegd
