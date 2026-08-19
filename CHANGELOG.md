@@ -2,6 +2,12 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [2.1.0] - 2026-08-19
+
+### Toegevoegd
+- Nieuwe les "Check of jouw gegevens al eens gelekt zijn" in module 3 (Overheid & Veiligheid), voor beide leeftijdsgroepen en alle 3 talen: legt uit wat datalekken zijn en linkt (via de bestaande "open in nieuw tabblad"-pagina, niet ingebed) naar <strong>haveibeenpwned.com</strong> om het eigen e-mailadres te checken, met <strong>Check Je Hack van de politie</strong> als optionele tweede, officiële check.
+- Expliciete waarschuwing: komt een e-mailadres voor in een van beide lijsten, dan is de kans groter op phishing- en oplichtingsberichten via e-mail, sms én WhatsApp — met concrete vervolgstappen (wachtwoord wijzigen, 2FA aanzetten, extra alert zijn).
+
 ## [2.0.0] - 2026-08-19
 
 ### Toegevoegd

@@ -95,6 +95,34 @@
       ]
     },
     {
+      "id": "gegevens-gelekt",
+      "title": "Check of jouw gegevens al eens gelekt zijn",
+      "steps": [
+        {
+          "title": "Waarom zou je dit checken?",
+          "body": "<p>Grote bedrijven worden soms gehackt, waarbij lijsten met e-mailadressen (en soms wachtwoorden) buitgemaakt worden — vaak zonder dat je dat als klant merkt. Die gegevens kunnen vervolgens verhandeld worden onder criminelen.</p><p>Er zijn gratis, betrouwbare websites waarmee je kunt checken of jouw e-mailadres in zo'n gelekte lijst voorkomt.</p>"
+        },
+        {
+          "title": "Have I Been Pwned checken",
+          "body": "<p><strong>Have I Been Pwned</strong> (haveibeenpwned.com) is een wereldwijd bekende, betrouwbare dienst — gemaakt door een onafhankelijke beveiligingsexpert en al jarenlang de standaard voor dit soort checks.</p><ol><li>Ga naar de website</li><li>Typ jouw e-mailadres in het zoekvak</li><li>Klik op 'pwned?'</li></ol><p>Je krijgt direct te zien of, en bij welke bekende datalekken, jouw e-mailadres is aangetroffen. Er wordt niets van jou opgeslagen om je verder te identificeren.</p>",
+          "practiceUrl": "https://haveibeenpwned.com/"
+        },
+        {
+          "title": "Check Je Hack van de politie (optioneel)",
+          "body": "<p>De Nederlandse politie biedt met <strong>Check Je Hack</strong> een vergelijkbare, officiële check aan. Dit is helemaal optioneel — je hoeft niet allebei te doen, maar het kan geen kwaad om het ter controle nog een keer bij een andere, officiële bron te proberen.</p>",
+          "practiceUrl": "https://www.politie.nl/informatie/checkjehack.html"
+        },
+        {
+          "title": "Let op: alleen de echte website",
+          "body": "<p>Typ het adres altijd zelf in je browser, of gebruik de knoppen hierboven. Kom je via een linkje in een e-mail of appje op een 'controleer of je gehackt bent'-website terecht? Wees dan extra achterdochtig — dat kan zelf weer een phishingpoging zijn.</p>"
+        },
+        {
+          "title": "Je e-mailadres is gevonden — wat nu?",
+          "body": "<p>Staat jouw e-mailadres in een van deze lijsten? Dan is de kans <strong>groter</strong> dat je phishing- en oplichtingsberichten krijgt via e-mail, sms of WhatsApp — criminelen weten dan dat jouw adres 'actief' is.</p><ul><li>Wees extra alert bij onverwachte berichten, zeker als ze haast maken</li><li>Gebruik voor het gelekte account een nieuw, sterk wachtwoord (zie de volgende stappen)</li><li>Zet tweestapsverificatie (2FA) aan waar mogelijk</li><li>Gebruik nooit hetzelfde wachtwoord op meerdere plekken</li></ul><p>Niets gevonden? Ook prima — blijf sowieso alert, want nieuwe lekken kunnen altijd nog gebeuren.</p>"
+        }
+      ]
+    },
+    {
       "id": "wachtwoorden",
       "title": "Sterke wachtwoorden en 2FA",
       "steps": [

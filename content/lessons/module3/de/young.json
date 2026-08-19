@@ -64,6 +64,30 @@
       ]
     },
     {
+      "id": "gegevens-gelekt",
+      "title": "Prüfen, ob deine Daten schon einmal geleakt sind",
+      "steps": [
+        {
+          "title": "Have I Been Pwned: prüfe es selbst",
+          "body": "<p>Bei so gut wie jedem großen Datenleck (LinkedIn, Adobe, diverse Online-Shops) landen E-Mail-Adressen und manchmal Passwörter irgendwann auf <strong>haveibeenpwned.com</strong> — dem internationalen Standard, um zu prüfen, ob deine Daten dabei waren. Gib deine E-Mail-Adresse ein und du siehst sofort, bei welchen Lecks du vorkommst.</p>",
+          "practiceUrl": "https://haveibeenpwned.com/"
+        },
+        {
+          "title": "Check Je Hack der niederländischen Polizei (optional)",
+          "body": "<p>Die niederländische Polizei bietet mit <strong>Check Je Hack</strong> eine ähnliche, offizielle Prüfung an. Völlig optional neben Have I Been Pwned, aber eine gute zweite Prüfung bei einer anderen offiziellen Quelle.</p>",
+          "practiceUrl": "https://www.politie.nl/informatie/checkjehack.html"
+        },
+        {
+          "title": "Was es bedeutet, wenn du auftauchst",
+          "body": "<p>Stehst du auf einer dieser Listen? Dann ist die Wahrscheinlichkeit <strong>nachweislich größer</strong>, gezielte Phishing- und Betrugsnachrichten per E-Mail, SMS oder WhatsApp zu bekommen — deine Adresse gilt bei Kriminellen, die mit geleakten Listen arbeiten, als 'aktiv'. Reagiere darauf, indem du: das Passwort des betroffenen Kontos sofort änderst, 2FA aktivierst, wo das noch nicht der Fall ist, und in nächster Zeit besonders kritisch bei unerwarteten Nachrichten bist.</p>"
+        },
+        {
+          "title": "Laufende Überwachung",
+          "body": "<p>Manche Passwort-Manager (wie 1Password und Bitwarden) haben eine eingebaute <strong>Leck-Überwachung</strong>, die dich automatisch warnt, sobald eines deiner gespeicherten Konten in einem neuen Leck auftaucht — praktischer, als jedes Mal selbst manuell zu prüfen. Darauf gehen wir in der nächsten Lektion weiter ein.</p>"
+        }
+      ]
+    },
+    {
       "id": "wachtwoordmanager-standaard",
       "title": "Passwort-Manager und 2FA als Standard",
       "steps": [

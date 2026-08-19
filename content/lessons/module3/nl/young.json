@@ -64,6 +64,30 @@
       ]
     },
     {
+      "id": "gegevens-gelekt",
+      "title": "Check of jouw gegevens al eens gelekt zijn",
+      "steps": [
+        {
+          "title": "Have I Been Pwned: check het zelf",
+          "body": "<p>Bij vrijwel elk groot datalek (LinkedIn, Adobe, allerlei webshops) belanden e-mailadressen en soms wachtwoorden uiteindelijk op <strong>haveibeenpwned.com</strong> — de internationale standaard om te checken of jouw gegevens erbij zaten. Vul je e-mailadres in en je ziet direct bij welke lekken je voorkomt.</p>",
+          "practiceUrl": "https://haveibeenpwned.com/"
+        },
+        {
+          "title": "Check Je Hack van de politie (optioneel)",
+          "body": "<p>De Nederlandse politie biedt een vergelijkbare, officiële check aan via <strong>Check Je Hack</strong>. Volledig optioneel naast Have I Been Pwned, maar een goede tweede check bij een andere, officiële bron.</p>",
+          "practiceUrl": "https://www.politie.nl/informatie/checkjehack.html"
+        },
+        {
+          "title": "Wat het betekent als je erin voorkomt",
+          "body": "<p>Sta je in een van deze lijsten? Dan is de kans <strong>aantoonbaar groter</strong> dat je gerichte phishing- en oplichtingsberichten krijgt via e-mail, sms of WhatsApp — je adres staat te boek als 'actief' bij criminelen die met gelekte lijsten werken. Reageer hierop door: het wachtwoord van het gelekte account direct te wijzigen, 2FA aan te zetten waar dat nog niet zo is, en de komende tijd extra kritisch te zijn op onverwachte berichten.</p>"
+        },
+        {
+          "title": "Doorlopende monitoring",
+          "body": "<p>Sommige wachtwoordmanagers (zoals 1Password en Bitwarden) hebben ingebouwde <strong>lekcontrole</strong>, die je automatisch waarschuwt zodra een van je opgeslagen accounts in een nieuw lek opduikt — handiger dan zelf steeds handmatig te checken. We gaan hier in de volgende les verder op in.</p>"
+        }
+      ]
+    },
+    {
       "id": "wachtwoordmanager-standaard",
       "title": "Wachtwoordmanagers en 2FA als standaard",
       "steps": [

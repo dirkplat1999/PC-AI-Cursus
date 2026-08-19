@@ -64,6 +64,30 @@
       ]
     },
     {
+      "id": "gegevens-gelekt",
+      "title": "Check whether your data has already been leaked",
+      "steps": [
+        {
+          "title": "Have I Been Pwned: check it yourself",
+          "body": "<p>In virtually every major data breach (LinkedIn, Adobe, various web shops), email addresses and sometimes passwords eventually end up on <strong>haveibeenpwned.com</strong> — the international standard for checking whether your data was included. Enter your email address and you'll immediately see which breaches you appear in.</p>",
+          "practiceUrl": "https://haveibeenpwned.com/"
+        },
+        {
+          "title": "Check Je Hack from the Dutch police (optional)",
+          "body": "<p>The Dutch police offer a similar, official check called <strong>Check Je Hack</strong>. Entirely optional alongside Have I Been Pwned, but a good second check from another official source.</p>",
+          "practiceUrl": "https://www.politie.nl/informatie/checkjehack.html"
+        },
+        {
+          "title": "What it means if you show up",
+          "body": "<p>Are you on one of these lists? Then there's a <strong>demonstrably higher chance</strong> of receiving targeted phishing and scam messages via email, text, or WhatsApp — your address is marked as 'active' to criminals working with leaked lists. Respond by: changing the password of the leaked account right away, turning on 2FA wherever it isn't already, and staying extra critical of unexpected messages going forward.</p>"
+        },
+        {
+          "title": "Ongoing monitoring",
+          "body": "<p>Some password managers (like 1Password and Bitwarden) have built-in <strong>breach monitoring</strong>, which automatically warns you as soon as one of your saved accounts shows up in a new breach — more convenient than checking manually every time. We'll cover this further in the next lesson.</p>"
+        }
+      ]
+    },
+    {
       "id": "wachtwoordmanager-standaard",
       "title": "Password managers and 2FA as the default",
       "steps": [

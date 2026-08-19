@@ -95,6 +95,34 @@
       ]
     },
     {
+      "id": "gegevens-gelekt",
+      "title": "Check whether your data has already been leaked",
+      "steps": [
+        {
+          "title": "Why check this?",
+          "body": "<p>Large companies sometimes get hacked, exposing lists of email addresses (and sometimes passwords) — often without you noticing as a customer. That data can then be traded among criminals.</p><p>There are free, trustworthy websites where you can check whether your email address appears in one of these leaked lists.</p>"
+        },
+        {
+          "title": "Checking Have I Been Pwned",
+          "body": "<p><strong>Have I Been Pwned</strong> (haveibeenpwned.com) is a globally known, trustworthy service — built by an independent security expert and the standard for this kind of check for many years.</p><ol><li>Go to the website</li><li>Type your email address in the search box</li><li>Click 'pwned?'</li></ol><p>You'll immediately see whether, and in which known data breaches, your email address has been found. Nothing about you is stored to identify you further.</p>",
+          "practiceUrl": "https://haveibeenpwned.com/"
+        },
+        {
+          "title": "Check Je Hack from the Dutch police (optional)",
+          "body": "<p>The Dutch police offer a similar, official check called <strong>Check Je Hack</strong>. This is entirely optional — you don't need to do both, but it doesn't hurt to double-check with another official source.</p>",
+          "practiceUrl": "https://www.politie.nl/informatie/checkjehack.html"
+        },
+        {
+          "title": "Note: only use the real website",
+          "body": "<p>Always type the address yourself in your browser, or use the buttons above. Did you end up on a 'check if you've been hacked' website via a link in an email or chat message? Be extra suspicious — that could itself be a phishing attempt.</p>"
+        },
+        {
+          "title": "Your email address was found — now what?",
+          "body": "<p>Is your email address in one of these lists? Then there's a <strong>higher chance</strong> you'll receive phishing and scam messages by email, text, or WhatsApp — criminals know your address is 'active'.</p><ul><li>Be extra alert to unexpected messages, especially ones creating urgency</li><li>Use a new, strong password for the leaked account (see the next steps)</li><li>Turn on two-factor authentication (2FA) wherever possible</li><li>Never reuse the same password in multiple places</li></ul><p>Nothing found? Good — but stay alert regardless, since new leaks can always happen.</p>"
+        }
+      ]
+    },
+    {
       "id": "wachtwoorden",
       "title": "Strong passwords and 2FA",
       "steps": [

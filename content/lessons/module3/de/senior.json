@@ -95,6 +95,34 @@
       ]
     },
     {
+      "id": "gegevens-gelekt",
+      "title": "Prüfen, ob deine Daten schon einmal geleakt sind",
+      "steps": [
+        {
+          "title": "Warum solltest du das prüfen?",
+          "body": "<p>Große Unternehmen werden manchmal gehackt, wobei Listen mit E-Mail-Adressen (und manchmal Passwörtern) erbeutet werden — oft ohne dass du das als Kunde bemerkst. Diese Daten können dann unter Kriminellen gehandelt werden.</p><p>Es gibt kostenlose, vertrauenswürdige Websites, mit denen du prüfen kannst, ob deine E-Mail-Adresse in so einer geleakten Liste vorkommt.</p>"
+        },
+        {
+          "title": "Have I Been Pwned prüfen",
+          "body": "<p><strong>Have I Been Pwned</strong> (haveibeenpwned.com) ist ein weltweit bekannter, vertrauenswürdiger Dienst — erstellt von einem unabhängigen Sicherheitsexperten und seit Jahren der Standard für diese Art von Prüfung.</p><ol><li>Gehe zur Website</li><li>Gib deine E-Mail-Adresse in das Suchfeld ein</li><li>Klicke auf 'pwned?'</li></ol><p>Du siehst sofort, ob und bei welchen bekannten Datenlecks deine E-Mail-Adresse gefunden wurde. Es wird nichts von dir gespeichert, um dich weiter zu identifizieren.</p>",
+          "practiceUrl": "https://haveibeenpwned.com/"
+        },
+        {
+          "title": "Check Je Hack der niederländischen Polizei (optional)",
+          "body": "<p>Die niederländische Polizei bietet mit <strong>Check Je Hack</strong> eine ähnliche, offizielle Prüfung an. Das ist völlig optional — du musst nicht beide machen, aber es schadet nicht, es bei einer anderen, offiziellen Quelle noch einmal zu prüfen.</p>",
+          "practiceUrl": "https://www.politie.nl/informatie/checkjehack.html"
+        },
+        {
+          "title": "Achtung: nur die echte Website",
+          "body": "<p>Gib die Adresse immer selbst in deinen Browser ein, oder nutze die Schaltflächen oben. Landest du über einen Link in einer E-Mail oder Nachricht auf einer 'Prüfe, ob du gehackt wurdest'-Website? Sei dann besonders misstrauisch — das könnte selbst ein Phishing-Versuch sein.</p>"
+        },
+        {
+          "title": "Deine E-Mail-Adresse wurde gefunden — was jetzt?",
+          "body": "<p>Steht deine E-Mail-Adresse in einer dieser Listen? Dann ist die Wahrscheinlichkeit <strong>größer</strong>, dass du Phishing- und Betrugsnachrichten per E-Mail, SMS oder WhatsApp bekommst — Kriminelle wissen dann, dass deine Adresse 'aktiv' ist.</p><ul><li>Sei besonders wachsam bei unerwarteten Nachrichten, vor allem wenn sie Eile fordern</li><li>Nutze für das betroffene Konto ein neues, starkes Passwort (siehe die nächsten Schritte)</li><li>Aktiviere Zwei-Faktor-Authentifizierung (2FA), wo immer möglich</li><li>Verwende niemals dasselbe Passwort an mehreren Stellen</li></ul><p>Nichts gefunden? Auch gut — bleib trotzdem wachsam, denn neue Lecks können jederzeit passieren.</p>"
+        }
+      ]
+    },
+    {
       "id": "wachtwoorden",
       "title": "Starke Passwörter und 2FA",
       "steps": [
