@@ -1,0 +1,66 @@
+<div class="admin-page">
+  <div class="admin-header">
+    <h1>Back-up &amp; herstel</h1>
+    <nav class="admin-nav">
+      <a href="/admin"><%= t.adminDashboard %></a>
+      <a href="/admin/students"><%= t.students %></a>
+      <a href="/admin/backup" class="active">Back-up &amp; herstel</a>
+      <a href="/admin/changelog"><%= t.changelog %></a>
+    </nav>
+  </div>
+
+  <% if (restored) { %>
+    <section class="panel restore-success">
+      <h2><%- icon('check-circle', { size: 22 }) %> Herstel voltooid</h2>
+      <p>De gegevens (cursisten, voortgang, moduletoewijzingen, beheerderswachtwoord) zijn teruggezet vanuit het geüploade back-upbestand. Een veiligheidskopie van de vorige gegevens is automatisch bewaard.</p>
+      <p><strong>Belangrijk: herstart de server nu.</strong> Sluit dit venster en start de server opnieuw (dubbelklik op "Start PC en AI Cursus.bat", of draai <code>npm start</code> opnieuw) voordat je verdergaat. Andere pagina's werken pas weer na een herstart, en je bent automatisch uitgelogd.</p>
+    </section>
+  <% } else { %>
+
+    <% if (error) { %><p class="error"><%= error %></p><% } %>
+
+    <section class="panel">
+      <h2>Back-up maken</h2>
+      <p>Download een back-upbestand met alle cursistengegevens: accounts, wachtwoorden, toegewezen modules, voortgang en het beheerderswachtwoord. Bewaar dit bestand op een veilige plek (bijvoorbeeld een USB-stick of cloudopslag).</p>
+      <form method="POST" action="/admin/backup/create">
+        <button type="submit" class="btn btn-primary"><%- icon('arrow-square-out', { size: 18 }) %> Download back-up</button>
+      </form>
+    </section>
+
+    <section class="panel">
+      <h2>Back-up terugzetten</h2>
+      <p class="hint">Let op: dit vervangt <strong>alle huidige gegevens</strong> (cursisten, voortgang, wachtwoorden) door de inhoud van het geüploade back-upbestand. Er wordt automatisch een veiligheidskopie van de huidige gegevens gemaakt voordat dit gebeurt. Na het terugzetten moet de server opnieuw gestart worden.</p>
+      <form method="POST" action="/admin/backup/restore" enctype="multipart/form-data" class="student-form">
+        <label for="backupfile">Back-upbestand (.sqlite)</label>
+        <input type="file" id="backupfile" name="backupfile" accept=".sqlite" required>
+        <label class="checkbox-pill" style="margin-top: 12px;">
+          <input type="checkbox" name="confirm" value="1" required>
+          Ik begrijp dat dit alle huidige gegevens overschrijft.
+        </label>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-danger" onclick="return confirm('Weet je zeker dat je de huidige gegevens wilt overschrijven met dit back-upbestand?');">Herstel back-up</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="panel">
+      <h2>Automatische veiligheidskopieën</h2>
+      <p class="hint">Voor elk herstel wordt automatisch een kopie van de gegevens van dat moment bewaard op de server, in <code>data/backups/</code>.</p>
+      <% if (!safetyBackups.length) { %>
+        <p class="empty">Nog geen veiligheidskopieën.</p>
+      <% } else { %>
+        <ul class="help-list">
+          <% safetyBackups.forEach(b => { %>
+            <li class="help-item">
+              <div>
+                <strong><%= b.name %></strong>
+                <small><%= Math.round(b.size / 1024) %> KB &middot; <%= new Date(b.mtime).toLocaleString('nl-NL') %></small>
+              </div>
+            </li>
+          <% }) %>
+        </ul>
+      <% } %>
+    </section>
+
+  <% } %>
+</div>

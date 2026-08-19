@@ -79,6 +79,16 @@ Een `practiceUrl` bij een stap toont automatisch een knop "Open oefensite". Die 
 - Digitale woordenlijst, beschikbaar op het cursistendashboard en bij elke les.
 - Basis offline-toegang: eerder bezochte pagina's blijven beschikbaar zonder internet/LAN-verbinding, dankzij een service worker.
 
+## Back-up & herstel
+
+Ga als beheerder naar **Back-up & herstel** om:
+- een back-upbestand (`.sqlite`) te downloaden met alle cursistengegevens: accounts, wachtwoorden, moduletoewijzingen en voortgang;
+- een eerder gedownload back-upbestand terug te zetten. Dit overschrijft alle huidige gegevens; er wordt automatisch een veiligheidskopie van de huidige gegevens bewaard in `data/backups/` voordat dit gebeurt.
+
+> Belangrijk: na het terugzetten van een back-up moet de server **handmatig opnieuw gestart** worden (zelfde als na een update) voordat de omgeving weer gebruikt kan worden, en wordt de beheerder automatisch uitgelogd.
+
+De lesinhoud zelf (modules, teksten, vertalingen) zit niet in deze back-up — die staat in de `content/`-map en wordt via git/GitHub beheerd, niet via de database.
+
 ## Updates & wijzigingslog
 
 Ga als beheerder naar **Wijzigingslog & updates** om:

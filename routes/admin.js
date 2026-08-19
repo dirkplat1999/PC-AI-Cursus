@@ -1,12 +1,19 @@
 const express = require('express');
 const bcrypt = require('bcryptjs');
+const multer = require('multer');
 const { execFile } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 const db = require('../db/database');
 const { requireAdmin } = require('../middleware/auth');
 const { getUi, getModules, normalizeLang, SUPPORTED_LANGS } = require('../lib/content');
+const backup = require('../lib/backup');
 const pkg = require('../package.json');
+
+const upload = multer({
+  dest: path.join(backup.BACKUPS_DIR, '_incoming'),
+  limits: { fileSize: 200 * 1024 * 1024 }
+});
 
 const router = express.Router();
 router.use(requireAdmin);
@@ -156,6 +163,88 @@ router.post('/changelog/update', (req, res) => {
       ? `Bijwerken mislukt: ${stderr || err.message}`
       : `Bijgewerkt:\n${stdout}\n\nHerstart de server (stop en start npm start opnieuw) om de wijzigingen te laden.`;
     res.render('admin/changelog', { changelog, version: pkg.version, gitResult: result });
+  });
+});
+
+// --- Backup & restore ---
+router.get('/backup', (req, res) => {
+  res.render('admin/backup', {
+    safetyBackups: backup.listSafetyBackups(),
+    error: null,
+    restored: false
+  });
+});
+
+router.post('/backup/create', async (req, res) => {
+  const tmpPath = path.join(backup.BACKUPS_DIR, `_download-${Date.now()}.sqlite`);
+  try {
+    await backup.createBackupFile(tmpPath);
+    res.download(tmpPath, backup.downloadFileName(), (err) => {
+      fs.unlink(tmpPath, () => {});
+      if (err && !res.headersSent) {
+        res.status(500).render('admin/backup', {
+          safetyBackups: backup.listSafetyBackups(),
+          error: 'Downloaden van de back-up is mislukt.',
+          restored: false
+        });
+      }
+    });
+  } catch (err) {
+    fs.unlink(tmpPath, () => {});
+    res.status(500).render('admin/backup', {
+      safetyBackups: backup.listSafetyBackups(),
+      error: 'Back-up maken is mislukt: ' + err.message,
+      restored: false
+    });
+  }
+});
+
+router.post('/backup/restore', upload.single('backupfile'), async (req, res) => {
+  const cleanupUpload = () => { if (req.file) fs.unlink(req.file.path, () => {}); };
+
+  if (!req.file) {
+    return res.status(400).render('admin/backup', {
+      safetyBackups: backup.listSafetyBackups(),
+      error: 'Kies eerst een back-upbestand om te herstellen.',
+      restored: false
+    });
+  }
+  if (!req.body.confirm) {
+    cleanupUpload();
+    return res.status(400).render('admin/backup', {
+      safetyBackups: backup.listSafetyBackups(),
+      error: 'Bevestig eerst dat je begrijpt dat dit de huidige gegevens overschrijft.',
+      restored: false
+    });
+  }
+
+  const check = backup.validateBackupFile(req.file.path);
+  if (!check.ok) {
+    cleanupUpload();
+    return res.status(400).render('admin/backup', {
+      safetyBackups: backup.listSafetyBackups(),
+      error: check.reason,
+      restored: false
+    });
+  }
+
+  try {
+    await backup.replaceLiveDatabase(req.file.path);
+  } catch (err) {
+    cleanupUpload();
+    return res.status(500).render('admin/backup', {
+      safetyBackups: backup.listSafetyBackups(),
+      error: 'Herstellen is mislukt: ' + err.message,
+      restored: false
+    });
+  }
+  cleanupUpload();
+  // Render first (while the session is still intact for the layout's
+  // locals), then destroy the session, then send — so the admin is
+  // logged out only once the confirmation page is fully rendered.
+  res.render('admin/backup', { safetyBackups: [], error: null, restored: true }, (err, html) => {
+    if (err) return res.status(500).send('Herstel gelukt, maar de bevestigingspagina kon niet worden weergegeven. Herstart de server.');
+    req.session.destroy(() => res.send(html));
   });
 });
 

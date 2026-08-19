@@ -2,6 +2,17 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [1.4.0] - 2026-08-19
+
+### Toegevoegd
+- Nieuwe beheerderspagina **Back-up & herstel**:
+  - Back-up downloaden: een consistente `.sqlite`-momentopname van alle cursistengegevens (accounts, wachtwoorden, moduletoewijzingen, voortgang), gemaakt via SQLite's online backup-API (veilig, ook terwijl de app in gebruik is).
+  - Back-up terugzetten: upload van een eerder gedownload back-upbestand, met bestandsvalidatie (moet de verwachte tabellen bevatten) en een verplichte bevestiging. Vóór het terugzetten wordt automatisch een veiligheidskopie van de huidige gegevens bewaard in `data/backups/`.
+  - Na een restore is een handmatige herstart van de server nodig (zelfde patroon als bij "Nu bijwerken"), en wordt de beheerder automatisch uitgelogd.
+
+### Opgelost
+- De automatische veiligheidskopie vóór een restore gebruikte aanvankelijk een ruwe bestandskopie, wat in WAL-modus recente, nog niet weggeschreven wijzigingen kon missen. Nu gebruikt ook de veiligheidskopie de online backup-API.
+
 ## [1.3.1] - 2026-08-19
 
 ### Toegevoegd
