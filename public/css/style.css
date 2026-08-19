@@ -174,6 +174,51 @@ textarea:focus-visible,
 }
 .step-body { font-size: 1.05rem; }
 .step-body ul, .step-body ol { padding-left: 22px; }
+
+/* Phishing-mail oefening (nep-postvak-widget) */
+.phish-sim { margin-top: 12px; }
+.phish-instruction { color: var(--color-muted); font-style: italic; }
+.phish-inbox-item {
+  display: flex; align-items: center; gap: 12px; width: 100%;
+  background: var(--color-surface); border: 1px solid var(--color-border); border-radius: 10px;
+  padding: 14px; cursor: pointer; text-align: left; font-family: inherit; font-size: 1rem; color: var(--color-text);
+  transition: border-color 180ms ease, background-color 180ms ease;
+}
+.phish-inbox-item:hover { border-color: var(--color-primary); background: var(--color-bg); }
+.phish-avatar {
+  flex-shrink: 0; width: 40px; height: 40px; border-radius: 50%;
+  background: var(--color-primary); color: #fff; display: flex; align-items: center; justify-content: center;
+  font-weight: 700; font-size: 1.1rem;
+}
+.phish-inbox-text { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.phish-sender-name { font-weight: 700; }
+.phish-subject { font-weight: 600; }
+.phish-snippet { color: var(--color-muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.phish-time { flex-shrink: 0; color: var(--color-muted); font-size: 0.85rem; }
+
+.phish-email {
+  background: var(--color-surface); border: 1px solid var(--color-border); border-radius: 10px; overflow: hidden;
+}
+.phish-email-header {
+  background: var(--color-bg); padding: 14px 16px; border-bottom: 1px solid var(--color-border);
+  font-size: 0.95rem; line-height: 1.7;
+}
+.phish-email-header code, .phish-email-header span.phish-flag { font-family: monospace; color: var(--color-danger); font-weight: 700; }
+.phish-email-body { padding: 18px 16px; }
+.phish-cta-btn {
+  display: inline-block; margin-top: 12px; padding: 14px 24px; border: none; border-radius: 8px;
+  background: var(--color-danger); color: #fff; font-size: 1.05rem; font-weight: 700; cursor: pointer;
+  min-height: 44px;
+}
+.phish-cta-btn:hover { filter: brightness(0.92); }
+
+.phish-reveal {
+  background: var(--color-bg); border: 2px solid var(--color-success); border-radius: 10px; padding: 20px;
+}
+.phish-reveal h4 { display: flex; align-items: center; gap: 8px; color: var(--color-success); margin-top: 0; }
+.phish-reveal ul { padding-left: 22px; }
+
+.phish-inbox-item.hidden, .phish-email.hidden, .phish-reveal.hidden { display: none; }
 .step-tools { display: flex; gap: 10px; margin-top: 18px; flex-wrap: wrap; }
 .step-tools button {
   display: inline-flex; align-items: center; gap: 8px;

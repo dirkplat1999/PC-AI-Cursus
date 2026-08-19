@@ -50,7 +50,7 @@ router.get('/', (req, res) => {
 router.get('/module/:key', (req, res) => {
   const mod = getModule(req.params.key);
   const assigned = db.prepare('SELECT 1 FROM student_modules WHERE student_id = ? AND module_key = ?').get(req.student.id, req.params.key);
-  if (!mod || !assigned) return res.status(404).render('student/dashboard', { modules: [] });
+  if (!mod || !assigned) return res.status(404).render('student/dashboard', { modules: [], glossary: getGlossary(res.locals.lang) });
 
   const lessons = getLessons(req.params.key, res.locals.lang);
   const flatSteps = [];

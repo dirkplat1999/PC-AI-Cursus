@@ -10,7 +10,7 @@
         },
         {
           "title": "Anmelden mit der DigiD-App",
-          "body": "<ol><li>Installiere die kostenlose DigiD-App auf deinem Handy (einmalig, mit Hilfe der Lehrkraft)</li><li>Gehe am Computer zur Website, bei der du dich anmelden möchtest, und wähle 'Mit DigiD anmelden'</li><li>Öffne die DigiD-App auf deinem Handy und scanne den Code, oder folge den Anweisungen in der App</li><li>Bestätige mit deinem Gesicht, Fingerabdruck oder PIN</li></ol>"
+          "body": "<ol><li>Installiere die kostenlose DigiD-App auf deinem Handy (einmalig, am besten mit Hilfe der Familie)</li><li>Gehe am Computer zur Website, bei der du dich anmelden möchtest, und wähle 'Mit DigiD anmelden'</li><li>Öffne die DigiD-App auf deinem Handy und scanne den Code, oder folge den Anweisungen in der App</li><li>Bestätige mit deinem Gesicht, Fingerabdruck oder PIN</li></ol>"
         },
         {
           "title": "Wofür nutzt du DigiD?",
@@ -18,11 +18,11 @@
         },
         {
           "title": "Sicher mit DigiD umgehen",
-          "body": "<p><strong>Wichtig:</strong> DigiD ist genauso persönlich wie deine Bankkarte.</p><ul><li>Teile deine DigiD-Anmeldedaten oder deinen Code niemals mit jemandem, auch nicht mit der Familie</li><li>Die Regierung ruft dich <strong>niemals</strong> an, um nach deinem DigiD-Code zu fragen — das ist immer Betrug</li><li>Unsicher bei einer Nachricht oder einem Anruf? Nicht reagieren / auflegen und bei der Lehrkraft nachfragen</li></ul>"
+          "body": "<p><strong>Wichtig:</strong> DigiD ist genauso persönlich wie deine Bankkarte.</p><ul><li>Teile deine DigiD-Anmeldedaten oder deinen Code niemals mit jemandem, auch nicht mit der Familie</li><li>Die Regierung ruft dich <strong>niemals</strong> an, um nach deinem DigiD-Code zu fragen — das ist immer Betrug</li><li>Unsicher bei einer Nachricht oder einem Anruf? Nicht reagieren / auflegen und bei der Familie nachfragen</li></ul>"
         },
         {
           "title": "Erkunden",
-          "body": "<p>Schau dir unten die offizielle Informationsseite von DigiD an. Melde dich während des Unterrichts nicht mit deinem eigenen DigiD an, außer die Lehrkraft bittet dich darum.</p>",
+          "body": "<p>Schau dir unten die offizielle Informationsseite von DigiD an. Melde dich während des Unterrichts nicht mit deinem eigenen DigiD an — übe das lieber zu Hause zusammen mit der Familie.</p>",
           "practiceUrl": "https://www.digid.nl"
         }
       ]
@@ -45,7 +45,7 @@
         },
         {
           "title": "Übung",
-          "body": "<p>Schau dir unten die Website von MijnOverheid an. Melde dich nur an, wenn du selbst ein DigiD hast und die Lehrkraft dich darum bittet.</p>",
+          "body": "<p>Schau dir unten die Website von MijnOverheid an. Melde dich nur zu Hause, zusammen mit der Familie, an, wenn du selbst ein DigiD hast.</p>",
           "practiceUrl": "https://www.mijnoverheid.nl"
         }
       ]
@@ -86,11 +86,11 @@
         },
         {
           "title": "Was tun bei einer verdächtigen Nachricht?",
-          "body": "<ol><li>Klicke nicht auf den Link und öffne keinen Anhang</li><li>Gehe selbst zur offiziellen Website, indem du die Adresse selbst eingibst, statt auf den Link zu klicken</li><li>Unsicher? Frage Familie, die Lehrkraft, oder rufe die Organisation selbst über eine selbst herausgesuchte Nummer an</li><li>Lösche die verdächtige Nachricht</li></ol>"
+          "body": "<ol><li>Klicke nicht auf den Link und öffne keinen Anhang</li><li>Gehe selbst zur offiziellen Website, indem du die Adresse selbst eingibst, statt auf den Link zu klicken</li><li>Unsicher? Frage die Familie, oder rufe die Organisation selbst über eine selbst herausgesuchte Nummer an</li><li>Lösche die verdächtige Nachricht</li></ol>"
         },
         {
-          "title": "Übung: echt oder falsch?",
-          "body": "<p>Sieh dir diese Beispielnachricht an: <em>'Ihre Bankkarte wird gesperrt! Klicken Sie innerhalb von 2 Stunden auf diesen Link, um dies zu verhindern: bank-sicher-anmelden.info'</em></p><p>Erkennst du die Warnsignale? Großer Zeitdruck, ein seltsamer Link, der nicht zur echten Bank-Website passt... Das ist Phishing!</p>"
+          "title": "Übung: öffne eine realistische Phishing-Mail",
+          "body": "<p>Unten siehst du ein <strong>nachgebautes Beispiel</strong> einer Phishing-Mail, wie sie in echt aussehen könnte. Klicke auf die Nachricht, um sie zu öffnen.</p><div class=\"phish-sim\"><button type=\"button\" class=\"phish-inbox-item\" data-phish-open aria-expanded=\"false\"><span class=\"phish-avatar\" aria-hidden=\"true\">I</span><span class=\"phish-inbox-text\"><span class=\"phish-sender-name\">ING Bank</span><span class=\"phish-subject\">Wichtig: Bestätigen Sie Ihr Konto innerhalb von 24 Stunden</span><span class=\"phish-snippet\">Sehr geehrter Kunde, wir haben ungewöhnliche Aktivitäten auf Ihrem Konto festgestellt...</span></span><span class=\"phish-time\">08:14</span></button><div class=\"phish-email hidden\" data-phish-email><div class=\"phish-email-header\"><div><strong>Von:</strong> ING Bank &lt;kundenservice@<span class=\"phish-flag\">ing-sicher-anmelden.info</span>&gt;</div><div><strong>An:</strong> du@beispiel.de</div><div><strong>Betreff:</strong> Wichtig: Bestätigen Sie Ihr Konto innerhalb von 24 Stunden</div></div><div class=\"phish-email-body\"><p>Sehr geehrter Kunde,</p><p>Wir haben ungewöhnliche Aktivitäten auf Ihrem Konto festgestellt. Um Ihr Konto zu schützen, müssen Sie es <strong>innerhalb von 24 Stunden</strong> bestätigen. Tun Sie dies nicht, wird Ihr Konto gesperrt.</p><button type=\"button\" class=\"phish-cta-btn\" data-phish-click>Mein Konto bestätigen</button></div></div><div class=\"phish-reveal hidden\" data-phish-reveal tabindex=\"-1\"><h4>✅ Zum Glück nur eine Übung!</h4><p>Hättest du gerade auf eine <strong>echte</strong> Schaltfläche wie diese geklickt, wärst du auf einer gefälschten Website gelandet, die versucht, deine Anmeldedaten zu stehlen. Genau das solltest du <strong>nicht</strong> tun.</p><p><strong>Die Warnsignale, die du hättest erkennen können:</strong></p><ul><li>Die vollständige E-Mail-Adresse (erst nach dem Öffnen sichtbar!) ist nicht die offizielle Adresse der Bank: <code>ing-sicher-anmelden.info</code></li><li>Es wird Zeitdruck ausgeübt ('innerhalb von 24 Stunden')</li><li>Eine Schaltfläche, die zum Einloggen auffordert, obwohl du nichts angefragt hast</li></ul><p>Unsicher bei einer echten Nachricht? Klicke niemals auf die Schaltfläche oder den Link. Gehe selbst zur Website, indem du die Adresse selbst eingibst, und frage im Zweifel die Familie.</p><button type=\"button\" class=\"btn btn-ghost\" data-phish-reset>Nochmal versuchen</button></div></div>"
         }
       ]
     },

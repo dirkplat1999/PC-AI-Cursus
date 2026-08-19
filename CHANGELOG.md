@@ -2,6 +2,17 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [1.5.0] - 2026-08-19
+
+### Toegevoegd
+- Interactieve phishing-oefening in de les "Phishing herkennen" (module 3): een nagebouwd nep-postvak met een phishing-mail die je moet openen om het (verdachte) afzenderadres te zien, en een echt aanklikbare knop. Na het klikken volgt direct een leermoment: dit is precies wat je niet moet doen, met uitleg van de signalen die je had kunnen herkennen. Werkt volledig clientside — er wordt nergens echt iets verzonden of geopend.
+
+### Gewijzigd
+- Lesinhoud die adviseerde om bij twijfel "de docent" te vragen (module 1, 2 en 3) is aangepast: dat advies is bedoeld om ook na de cursus, thuis, bruikbaar te blijven, dus daar staat nu "vraag het aan familie". De live Help-knop (die tijdens de les echt een melding naar de docent stuurt) is hierbij ongewijzigd gebleven — dat blijft een aparte, accurate functie.
+
+### Opgelost
+- Een cursist die (bijvoorbeeld via een verouderde link) naar een module navigeert die niet aan hem/haar is toegewezen, kreeg een serverfout te zien in plaats van een nette 404-pagina, omdat de woordenlijst-data ontbrak bij het renderen van die pagina.
+
 ## [1.4.0] - 2026-08-19
 
 ### Toegevoegd

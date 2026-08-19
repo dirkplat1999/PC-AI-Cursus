@@ -113,6 +113,34 @@
     });
   });
 
+  // --- Phishing-mail oefening (nep-postvak-widget) ---
+  document.querySelectorAll('[data-phish-open]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const sim = btn.closest('.phish-sim');
+      btn.classList.add('hidden');
+      btn.setAttribute('aria-expanded', 'true');
+      sim.querySelector('[data-phish-email]')?.classList.remove('hidden');
+    });
+  });
+  document.querySelectorAll('[data-phish-click]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const sim = btn.closest('.phish-sim');
+      sim.querySelector('[data-phish-email]')?.classList.add('hidden');
+      sim.querySelector('[data-phish-reveal]')?.classList.remove('hidden');
+      sim.querySelector('[data-phish-reveal]')?.focus();
+    });
+  });
+  document.querySelectorAll('[data-phish-reset]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const sim = btn.closest('.phish-sim');
+      sim.querySelector('[data-phish-reveal]')?.classList.add('hidden');
+      const openBtn = sim.querySelector('[data-phish-open]');
+      openBtn?.classList.remove('hidden');
+      openBtn?.setAttribute('aria-expanded', 'false');
+      openBtn?.focus();
+    });
+  });
+
   // --- Service worker for basic offline access ---
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {

@@ -10,7 +10,7 @@
         },
         {
           "title": "Logging in with the DigiD app",
-          "body": "<ol><li>Install the free DigiD app on your phone (one time, with help from the teacher)</li><li>On the computer, go to the website where you want to log in and choose 'Log in with DigiD'</li><li>Open the DigiD app on your phone and scan the code, or follow the instructions in the app</li><li>Confirm with your face, fingerprint, or PIN</li></ol>"
+          "body": "<ol><li>Install the free DigiD app on your phone (one time, ideally with help from family)</li><li>On the computer, go to the website where you want to log in and choose 'Log in with DigiD'</li><li>Open the DigiD app on your phone and scan the code, or follow the instructions in the app</li><li>Confirm with your face, fingerprint, or PIN</li></ol>"
         },
         {
           "title": "What is DigiD used for?",
@@ -18,11 +18,11 @@
         },
         {
           "title": "Staying safe with DigiD",
-          "body": "<p><strong>Important:</strong> DigiD is just as personal as your bank card.</p><ul><li>Never share your DigiD login details or code with anyone, not even family</li><li>The government will <strong>never</strong> call you asking for your DigiD code — that is always a scam</li><li>Not sure about a message or call? Don't respond, hang up, and check with the teacher</li></ul>"
+          "body": "<p><strong>Important:</strong> DigiD is just as personal as your bank card.</p><ul><li>Never share your DigiD login details or code with anyone, not even family</li><li>The government will <strong>never</strong> call you asking for your DigiD code — that is always a scam</li><li>Not sure about a message or call? Don't respond, hang up, and check with family</li></ul>"
         },
         {
           "title": "Explore",
-          "body": "<p>Browse the official DigiD information page below. Don't log in with your own DigiD during class unless the teacher asks you to.</p>",
+          "body": "<p>Browse the official DigiD information page below. Don't log in with your own DigiD during class — practice that at home with family instead.</p>",
           "practiceUrl": "https://www.digid.nl"
         }
       ]
@@ -45,7 +45,7 @@
         },
         {
           "title": "Exercise",
-          "body": "<p>Browse the MijnOverheid website below. Only log in if you have your own DigiD and the teacher asks you to.</p>",
+          "body": "<p>Browse the MijnOverheid website below. Only log in at home, together with family, if you have your own DigiD.</p>",
           "practiceUrl": "https://www.mijnoverheid.nl"
         }
       ]
@@ -86,11 +86,11 @@
         },
         {
           "title": "What to do with a suspicious message",
-          "body": "<ol><li>Don't click the link and don't open the attachment</li><li>Go to the official website yourself by typing the address, instead of clicking the link</li><li>Not sure? Check with family, the teacher, or call the organization yourself using a number you looked up yourself</li><li>Delete the suspicious message</li></ol>"
+          "body": "<ol><li>Don't click the link and don't open the attachment</li><li>Go to the official website yourself by typing the address, instead of clicking the link</li><li>Not sure? Check with family, or call the organization yourself using a number you looked up yourself</li><li>Delete the suspicious message</li></ol>"
         },
         {
-          "title": "Exercise: real or fake?",
-          "body": "<p>Look at this example message: <em>'Your bank card will be blocked! Click this link within 2 hours to prevent this: bank-secure-login.info'</em></p><p>Do you spot the warning signs? Heavy time pressure, an odd link that doesn't match the real bank website... This is phishing!</p>"
+          "title": "Exercise: open a realistic phishing email",
+          "body": "<p>Below is a <strong>recreated example</strong> of a phishing email, the way it might really look. Click the message to open it.</p><div class=\"phish-sim\"><button type=\"button\" class=\"phish-inbox-item\" data-phish-open aria-expanded=\"false\"><span class=\"phish-avatar\" aria-hidden=\"true\">I</span><span class=\"phish-inbox-text\"><span class=\"phish-sender-name\">ING Bank</span><span class=\"phish-subject\">Important: verify your account within 24 hours</span><span class=\"phish-snippet\">Dear customer, we noticed unusual activity on your account...</span></span><span class=\"phish-time\">08:14</span></button><div class=\"phish-email hidden\" data-phish-email><div class=\"phish-email-header\"><div><strong>From:</strong> ING Bank &lt;customerservice@<span class=\"phish-flag\">ing-secure-login.info</span>&gt;</div><div><strong>To:</strong> you@example.com</div><div><strong>Subject:</strong> Important: verify your account within 24 hours</div></div><div class=\"phish-email-body\"><p>Dear customer,</p><p>We noticed unusual activity on your account. To protect your account, you must verify it <strong>within 24 hours</strong>. If you don't, your account will be blocked.</p><button type=\"button\" class=\"phish-cta-btn\" data-phish-click>Verify my account</button></div></div><div class=\"phish-reveal hidden\" data-phish-reveal tabindex=\"-1\"><h4>✅ Just an exercise — phew!</h4><p>If you had just clicked a <strong>real</strong> button like this, you would have landed on a fake website trying to steal your login details. This is exactly what you should <strong>not</strong> do.</p><p><strong>Warning signs you could have spotted:</strong></p><ul><li>The full email address (only visible after opening!) isn't the bank's official address: <code>ing-secure-login.info</code></li><li>Time pressure is used ('within 24 hours')</li><li>A button asking you to log in somewhere, even though you didn't request anything</li></ul><p>Not sure about a real message? Never click the button or link. Go to the website yourself by typing the address, and if in doubt, check with family.</p><button type=\"button\" class=\"btn btn-ghost\" data-phish-reset>Try again</button></div></div>"
         }
       ]
     },

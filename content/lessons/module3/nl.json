@@ -10,7 +10,7 @@
         },
         {
           "title": "Inloggen met de DigiD-app",
-          "body": "<ol><li>Installeer de gratis DigiD-app op je telefoon (eenmalig, met hulp van de docent)</li><li>Ga op de computer naar de website waar je wilt inloggen en kies 'Inloggen met DigiD'</li><li>Open de DigiD-app op je telefoon en scan de code, of volg de aanwijzingen in de app</li><li>Bevestig met je gezicht, vingerafdruk of pincode</li></ol>"
+          "body": "<ol><li>Installeer de gratis DigiD-app op je telefoon (eenmalig, het beste met hulp van familie)</li><li>Ga op de computer naar de website waar je wilt inloggen en kies 'Inloggen met DigiD'</li><li>Open de DigiD-app op je telefoon en scan de code, of volg de aanwijzingen in de app</li><li>Bevestig met je gezicht, vingerafdruk of pincode</li></ol>"
         },
         {
           "title": "Waarvoor gebruik je DigiD?",
@@ -18,11 +18,11 @@
         },
         {
           "title": "Veilig omgaan met DigiD",
-          "body": "<p><strong>Belangrijk:</strong> DigiD is net zo persoonlijk als je pinpas.</p><ul><li>Deel je DigiD-inloggegevens of -code nooit met iemand, ook niet met familie</li><li>De overheid belt je <strong>nooit</strong> om naar je DigiD-code te vragen — dat is altijd oplichting</li><li>Twijfel je over een bericht of telefoontje? Hang op / reageer niet, en vraag het na bij de docent</li></ul>"
+          "body": "<p><strong>Belangrijk:</strong> DigiD is net zo persoonlijk als je pinpas.</p><ul><li>Deel je DigiD-inloggegevens of -code nooit met iemand, ook niet met familie</li><li>De overheid belt je <strong>nooit</strong> om naar je DigiD-code te vragen — dat is altijd oplichting</li><li>Twijfel je over een bericht of telefoontje? Hang op / reageer niet, en vraag het na bij familie</li></ul>"
         },
         {
           "title": "Verkennen",
-          "body": "<p>Bekijk hieronder de officiële informatiepagina van DigiD. Log tijdens de les niet in met je eigen DigiD, tenzij de docent dat vraagt.</p>",
+          "body": "<p>Bekijk hieronder de officiële informatiepagina van DigiD. Log tijdens de les niet in met je eigen DigiD — oefen dat liever thuis samen met familie.</p>",
           "practiceUrl": "https://www.digid.nl"
         }
       ]
@@ -45,7 +45,7 @@
         },
         {
           "title": "Oefening",
-          "body": "<p>Bekijk hieronder de website van MijnOverheid. Inloggen doe je alleen als je zelf een DigiD hebt en de docent dit vraagt.</p>",
+          "body": "<p>Bekijk hieronder de website van MijnOverheid. Inloggen doe je alleen thuis, samen met familie, als je zelf een DigiD hebt.</p>",
           "practiceUrl": "https://www.mijnoverheid.nl"
         }
       ]
@@ -86,11 +86,11 @@
         },
         {
           "title": "Wat doe je bij een verdacht bericht?",
-          "body": "<ol><li>Klik niet op de link en open geen bijlage</li><li>Ga zelf naar de officiële website door het adres zelf in te typen, in plaats van op de link te klikken</li><li>Twijfel je? Vraag het na bij familie, de docent, of bel de organisatie zelf via een nummer dat je zelf hebt opgezocht</li><li>Verwijder het verdachte bericht</li></ol>"
+          "body": "<ol><li>Klik niet op de link en open geen bijlage</li><li>Ga zelf naar de officiële website door het adres zelf in te typen, in plaats van op de link te klikken</li><li>Twijfel je? Vraag het na bij familie, of bel de organisatie zelf via een nummer dat je zelf hebt opgezocht</li><li>Verwijder het verdachte bericht</li></ol>"
         },
         {
-          "title": "Oefening: echt of nep?",
-          "body": "<p>Bekijk dit voorbeeldbericht: <em>'Uw bankpas wordt geblokkeerd! Klik binnen 2 uur op deze link om dit te voorkomen: bank-veilig-inloggen.info'</em></p><p>Herken je de signalen? Grote tijdsdruk, een vreemde link die niet op de echte bank-website lijkt... Dit is phishing!</p>"
+          "title": "Oefening: open een echte phishing-mail",
+          "body": "<p>Hieronder staat een <strong>nagebouwd voorbeeld</strong> van een phishing-mail, zoals die er in het echt uit kan zien. Klik op het bericht om het te openen.</p><div class=\"phish-sim\"><button type=\"button\" class=\"phish-inbox-item\" data-phish-open aria-expanded=\"false\"><span class=\"phish-avatar\" aria-hidden=\"true\">I</span><span class=\"phish-inbox-text\"><span class=\"phish-sender-name\">ING Bank</span><span class=\"phish-subject\">Belangrijk: verifieer uw rekening binnen 24 uur</span><span class=\"phish-snippet\">Beste klant, wij hebben ongebruikelijke activiteit opgemerkt op uw rekening...</span></span><span class=\"phish-time\">08:14</span></button><div class=\"phish-email hidden\" data-phish-email><div class=\"phish-email-header\"><div><strong>Van:</strong> ING Bank &lt;klantenservice@<span class=\"phish-flag\">ing-veilig-inloggen.info</span>&gt;</div><div><strong>Aan:</strong> jij@voorbeeld.nl</div><div><strong>Onderwerp:</strong> Belangrijk: verifieer uw rekening binnen 24 uur</div></div><div class=\"phish-email-body\"><p>Beste klant,</p><p>Wij hebben ongebruikelijke activiteit op uw rekening opgemerkt. Om uw rekening te beschermen, dient u deze <strong>binnen 24 uur</strong> te verifiëren. Doet u dit niet, dan wordt uw rekening geblokkeerd.</p><button type=\"button\" class=\"phish-cta-btn\" data-phish-click>Verifieer mijn rekening</button></div></div><div class=\"phish-reveal hidden\" data-phish-reveal tabindex=\"-1\"><h4>✅ Gelukkig maar een oefening!</h4><p>Had je zojuist op een <strong>echte</strong> knop als deze geklikt, dan was je op een nepwebsite terechtgekomen die probeert je inloggegevens te stelen. Dit is precies wat je <strong>niet</strong> moet doen.</p><p><strong>De signalen die je had kunnen herkennen:</strong></p><ul><li>Het volledige e-mailadres (pas zichtbaar na het openen!) is niet het officiële adres van de bank: <code>ing-veilig-inloggen.info</code></li><li>Er wordt tijdsdruk gezet ('binnen 24 uur')</li><li>Een knop die vraagt om ergens in te loggen, terwijl je niets hebt aangevraagd</li></ul><p>Twijfel je ooit over een echt bericht? Klik nooit op de knop of link. Ga zelf naar de website door het adres zelf in te typen, en vraag het bij twijfel na bij familie.</p><button type=\"button\" class=\"btn btn-ghost\" data-phish-reset>Opnieuw proberen</button></div></div>"
         }
       ]
     },
