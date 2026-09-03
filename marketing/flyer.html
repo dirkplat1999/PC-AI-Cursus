@@ -186,6 +186,40 @@
   }
   .waypoint p { margin: 0; color: var(--ink-soft); font-size: 0.95rem; line-height: 1.48; max-width: 60ch; }
 
+  .route-secondary { padding-top: 6px; }
+  .route-secondary .section-label { margin-bottom: 10px; }
+  .route-note { margin: 0 0 14px; font-size: 0.88rem; color: var(--ink-soft); font-style: italic; }
+  .evening2-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+  }
+  .evening2-item {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 14px;
+  }
+  .evening2-item .mini-num {
+    width: 30px; height: 30px;
+    border-radius: 50%;
+    background: var(--marigold);
+    color: var(--marigold-ink);
+    display: flex; align-items: center; justify-content: center;
+    font-family: "Fraunces", Georgia, serif;
+    font-weight: 600;
+    font-size: 0.92rem;
+    margin-bottom: 10px;
+  }
+  .evening2-item h4 {
+    font-family: "Fraunces", Georgia, serif;
+    font-weight: 600;
+    font-size: 0.98rem;
+    margin: 0 0 4px;
+    color: var(--ink);
+  }
+  .evening2-item p { margin: 0; font-size: 0.8rem; color: var(--ink-soft); line-height: 1.38; }
+
   /* ---------- How it works ---------- */
   .how {
     padding: 20px 48px 6px;
@@ -233,7 +267,7 @@
   .practical dd { margin: 0; min-width: 120px; }
 
   @media (max-width: 640px) {
-    .intro, .how { grid-template-columns: 1fr; }
+    .intro, .how, .evening2-grid { grid-template-columns: 1fr; }
     .masthead, .route, .how, .cta { padding-left: 24px; padding-right: 24px; }
     .cta { flex-direction: column; }
   }
@@ -270,7 +304,7 @@
   </section>
 
   <section class="route">
-    <span class="section-label">De route &mdash; vijf haltes</span>
+    <span class="section-label">Avond 1 &mdash; vijf haltes</span>
     <div class="waypoints">
       <article class="waypoint">
         <div class="num">1</div>
@@ -310,6 +344,33 @@
     </div>
   </section>
 
+  <section class="route route-secondary">
+    <span class="section-label">Avond 2 &mdash; het vervolg</span>
+    <p class="route-note">Optioneel, voor wie verder wil na avond 1.</p>
+    <div class="evening2-grid">
+      <div class="evening2-item">
+        <div class="mini-num">6</div>
+        <h4>Foto's &amp; Video's</h4>
+        <p>Maken, bewerken, een album maken en delen met familie.</p>
+      </div>
+      <div class="evening2-item">
+        <div class="mini-num">7</div>
+        <h4>Veilig Online Winkelen</h4>
+        <p>Betrouwbare webshops, veilig betalen, bezorging en oplichting herkennen.</p>
+      </div>
+      <div class="evening2-item">
+        <div class="mini-num">8</div>
+        <h4>Slimme Telefoon &amp; AI</h4>
+        <p>Instellingen, apps, en AI op je telefoon voor alledaagse vragen.</p>
+      </div>
+      <div class="evening2-item">
+        <div class="mini-num">9</div>
+        <h4>Nepnieuws Herkennen</h4>
+        <p>Een bron checken en betrouwbaar nieuws van nep onderscheiden.</p>
+      </div>
+    </div>
+  </section>
+
   <section class="how">
     <div class="how-item">
       <svg class="icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
@@ -341,8 +402,8 @@
     <div class="practical">
       <dl>
         <dt>Waar</dt><dd>Buurthuis Nieuwediep 117</dd>
-        <dt>Deel 1</dt><dd>30 september 2026</dd>
-        <dt>Deel 2</dt><dd>28 oktober 2026</dd>
+        <dt>Deel 1</dt><dd>30 sept. 2026 &mdash; module 1&ndash;5</dd>
+        <dt>Deel 2</dt><dd>28 okt. 2026 &mdash; module 6&ndash;9</dd>
       </dl>
     </div>
   </footer>

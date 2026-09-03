@@ -2,6 +2,13 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [3.1.0] - 2026-09-03
+
+### Toegevoegd
+- Woordenlijst uitgebreid van 38 naar 54 termen (NL/EN/DE), met begrippen uit de vier nieuwe modules 6-9: o.a. abonnementval, achteraf betalen, bedenktijd, desinformatie, factcheck, filterbubbel, KVK-nummer, lateraal lezen, omgekeerde beeldzoekopdracht, reviewfraude, spraakassistent, Thuiswinkel Waarborg, track & trace, wettelijke garantie en widget.
+- `marketing/flyer.html`: de flyer toont nu beide cursusavonden — "Avond 1 — vijf haltes" (modules 1-5) én een nieuwe sectie "Avond 2 — het vervolg" met de vier nieuwe modules, plus een bijgewerkte praktische-infobalk (Waar / Deel 1 / Deel 2).
+- `marketing/opening-presentatie.pptx`: dia 5 heet nu "Avond 1: vijf onderwerpen"; een nieuwe dia 6 "Avond 2: het vervolg" toont de vier nieuwe modules in dezelfde kaartstijl (11 dia's in totaal); de praktische-afsprakendia vermeldt nu welke modules bij welke datum horen.
+
 ## [3.0.0] - 2026-08-19
 
 ### Toegevoegd
