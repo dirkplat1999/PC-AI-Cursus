@@ -59,6 +59,7 @@
     window.APP_I18N = <%- JSON.stringify(typeof t !== 'undefined' ? t : {}) %>;
     window.APP_LANG = "<%= typeof lang !== 'undefined' ? lang : 'nl' %>";
     window.APP_ROLE = "<%= (typeof session !== 'undefined' && session.role) ? session.role : '' %>";
+    window.APP_GLOSSARY = <%- JSON.stringify(typeof glossary !== 'undefined' ? glossary : []) %>;
   </script>
   <script src="/js/main.js"></script>
 </body>

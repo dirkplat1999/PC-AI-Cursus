@@ -76,7 +76,7 @@ Een `practiceUrl` bij een stap toont automatisch een knop "Open oefensite". Die 
 
 - Voorleesfunctie (Text-to-Speech) via de knop "Voorlezen" op elke lesstap.
 - Lettergrootte aanpassen (A- / A+) en hoog-contrastmodus via de knoppen rechtsboven.
-- Digitale woordenlijst, beschikbaar op het cursistendashboard en bij elke les.
+- Digitale woordenlijst, beschikbaar op het cursistendashboard en bij elke les. Moeilijke woorden krijgen automatisch een gestippelde onderstreping in de lesteksten en in de woordenlijst zelf; hover (of tik op tablet/telefoon) toont direct de uitleg, zonder de les te verlaten.
 - Basis offline-toegang: eerder bezochte pagina's blijven beschikbaar zonder internet/LAN-verbinding, dankzij een service worker.
 
 ## Back-up & herstel
@@ -116,3 +116,4 @@ Dit vereist een geldige SSH-sleutel die gekoppeld is aan het GitHub-account.
 - Socket.IO — realtime hulpvraag-meldingen
 - EJS — server-side templates
 - Geen build-stap nodig; puur server-side gerenderd voor eenvoud en brede compatibiliteit op oudere apparaten
+- Lesinhoud wordt in het geheugen gecached (niet bij elk verzoek opnieuw van schijf gelezen), reacties worden gecomprimeerd, en SQLite draait in WAL-modus — samen goed voor vlot gebruik door een volledige klas (getest tot 50 gelijktijdige cursisten, zie `CHANGELOG.md`)

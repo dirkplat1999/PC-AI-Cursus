@@ -2,6 +2,18 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [3.2.0] - 2026-09-03
+
+### Toegevoegd
+- Woordenlijst-tooltips: moeilijke woorden krijgen automatisch een gestippelde onderstreping in lesteksten én in de woordenlijst zelf (ook kruisverwijzingen tussen woordenlijsttermen onderling). Hover toont de uitleg direct; op tablet/telefoon werkt een tik. Volledig toetsenbord- en schermlezer-toegankelijk (focus, Escape, hoog-contrastmodus).
+
+### Verbeterd — prestaties bij gelijktijdig gebruik
+- Les-, module- en woordenlijstinhoud wordt nu één keer in het geheugen gecached in plaats van bij elk verzoek opnieuw van schijf gelezen en geparsed te worden.
+- Reacties (HTML/CSS/JS) worden nu gecomprimeerd verstuurd (`compression`), belangrijk op een gedeeld WiFi-netwerk met veel tegelijk verbonden apparaten.
+- Statische bestanden (CSS/JS/iconen) krijgen nu een cache-header, zodat browsers ze niet bij elke paginawissel opnieuw hoeven op te vragen.
+- SQLite-schrijfmodus afgestemd op WAL (`synchronous = NORMAL`) voor snellere voortgang-updates bij veel gelijktijdige cursisten.
+- Belast getest met een gesimuleerde klas van 50 gelijktijdige cursisten (autocannon, 50 verbindingen): gemiddelde reactietijd daalde van 408 ms naar 220 ms en de verwerkingscapaciteit verdubbelde nagenoeg (121 → 227 verzoeken/seconde), zonder fouten of timeouts.
+
 ## [3.1.0] - 2026-09-03
 
 ### Toegevoegd

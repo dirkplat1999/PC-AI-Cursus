@@ -1,6 +1,6 @@
 {
   "name": "pc-ai-cursus",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "description": "Lokale LAN-lesomgeving voor PC- en AI-cursus",
   "main": "server.js",
   "scripts": {
@@ -12,6 +12,7 @@
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "better-sqlite3": "^13.0.3",
+    "compression": "^1.8.1",
     "dotenv": "^17.4.2",
     "ejs": "^6.0.1",
     "express": "^5.2.1",
@@ -19,5 +20,8 @@
     "express-session": "^1.19.0",
     "multer": "^2.2.0",
     "socket.io": "^4.8.3"
+  },
+  "devDependencies": {
+    "autocannon": "^8.0.0"
   }
 }

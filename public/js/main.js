@@ -197,6 +197,189 @@
     });
   });
 
+  // --- Woordenlijst-tooltips: moeilijke woorden in lesteksten en de
+  // woordenlijst zelf krijgen automatisch een hover/tap-uitleg. ---
+  (function initGlossaryTooltips() {
+    const glossary = Array.isArray(window.APP_GLOSSARY) ? window.APP_GLOSSARY : [];
+    if (!glossary.length) return;
+
+    function escapeRegExp(str) {
+      return str.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    }
+
+    // Build a phrase -> definition lookup. A term like "2FA (tweestapsverificatie)"
+    // becomes two matchable phrases ("2FA" and "tweestapsverificatie") that both
+    // resolve to the same definition, so either wording in lesson text is caught.
+    const phraseToDefinition = new Map();
+    glossary.forEach((entry) => {
+      if (!entry || !entry.term || !entry.definition) return;
+      const parenMatch = entry.term.match(/^(.+?)\s*\(([^)]+)\)\s*$/);
+      const phrases = parenMatch ? [parenMatch[1].trim(), parenMatch[2].trim()] : [entry.term.trim()];
+      phrases.forEach((phrase) => {
+        if (phrase.length < 2) return;
+        const key = phrase.toLowerCase();
+        if (!phraseToDefinition.has(key)) {
+          phraseToDefinition.set(key, { phrase, definition: entry.definition });
+        }
+      });
+    });
+    if (!phraseToDefinition.size) return;
+
+    // Longest phrase first, so e.g. "Wachtwoordmanager" matches before "Wachtwoord".
+    const phrases = Array.from(phraseToDefinition.values()).sort((a, b) => b.phrase.length - a.phrase.length);
+    const pattern = new RegExp(
+      '(?<![\\p{L}\\p{N}])(' + phrases.map((p) => escapeRegExp(p.phrase)).join('|') + ')(?![\\p{L}\\p{N}])',
+      'giu'
+    );
+
+    // --- Shared tooltip element ---
+    let tooltipEl = null;
+    let openTrigger = null;
+
+    function getTooltip() {
+      if (tooltipEl) return tooltipEl;
+      tooltipEl = document.createElement('div');
+      tooltipEl.id = 'glossary-tooltip';
+      tooltipEl.className = 'glossary-tooltip hidden';
+      tooltipEl.setAttribute('role', 'tooltip');
+      document.body.appendChild(tooltipEl);
+      return tooltipEl;
+    }
+
+    function positionTooltip(target) {
+      const tip = getTooltip();
+      const targetRect = target.getBoundingClientRect();
+      const tipRect = tip.getBoundingClientRect();
+      const margin = 8;
+
+      let left = targetRect.left + targetRect.width / 2 - tipRect.width / 2;
+      left = Math.max(margin, Math.min(left, window.innerWidth - tipRect.width - margin));
+
+      let top = targetRect.top - tipRect.height - margin;
+      let placement = 'top';
+      if (top < margin) {
+        top = targetRect.bottom + margin;
+        placement = 'bottom';
+      }
+
+      tip.style.left = `${Math.round(left)}px`;
+      tip.style.top = `${Math.round(top)}px`;
+      tip.classList.toggle('glossary-tooltip-below', placement === 'bottom');
+    }
+
+    function showTooltip(target) {
+      const tip = getTooltip();
+      tip.textContent = target.dataset.definition || '';
+      tip.classList.remove('hidden');
+      positionTooltip(target);
+      openTrigger = target;
+      target.setAttribute('aria-expanded', 'true');
+    }
+
+    function hideTooltip() {
+      if (!tooltipEl) return;
+      tooltipEl.classList.add('hidden');
+      if (openTrigger) openTrigger.setAttribute('aria-expanded', 'false');
+      openTrigger = null;
+    }
+
+    // --- Wrap matching phrases inside a container's text nodes ---
+    function wrapContainer(root) {
+      if (!root || root.dataset.glossaryScanned === '1') return;
+      root.dataset.glossaryScanned = '1';
+
+      const seen = new Set();
+      const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+        acceptNode(node) {
+          const parentTag = node.parentElement ? node.parentElement.tagName : '';
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') return NodeFilter.FILTER_REJECT;
+          if (node.parentElement && node.parentElement.closest('.glossary-term')) return NodeFilter.FILTER_REJECT;
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      const textNodes = [];
+      let n;
+      while ((n = walker.nextNode())) textNodes.push(n);
+
+      textNodes.forEach((node) => {
+        const text = node.nodeValue;
+        pattern.lastIndex = 0;
+        if (!pattern.test(text)) return;
+        pattern.lastIndex = 0;
+
+        const frag = document.createDocumentFragment();
+        let lastIndex = 0;
+        let match;
+        let changed = false;
+        while ((match = pattern.exec(text))) {
+          const key = match[1].toLowerCase();
+          const entry = phraseToDefinition.get(key);
+          if (!entry || seen.has(key)) continue;
+
+          frag.appendChild(document.createTextNode(text.slice(lastIndex, match.index)));
+          const span = document.createElement('span');
+          span.className = 'glossary-term';
+          span.tabIndex = 0;
+          span.setAttribute('role', 'button');
+          span.setAttribute('aria-expanded', 'false');
+          span.dataset.definition = entry.definition;
+          span.textContent = match[1];
+          frag.appendChild(span);
+
+          seen.add(key);
+          lastIndex = match.index + match[1].length;
+          changed = true;
+        }
+        if (!changed) return;
+        frag.appendChild(document.createTextNode(text.slice(lastIndex)));
+        node.parentNode.replaceChild(frag, node);
+      });
+    }
+
+    function scanAll() {
+      document.querySelectorAll('#step-body').forEach(wrapContainer);
+      document.querySelectorAll('.glossary-item strong, .glossary-item p').forEach(wrapContainer);
+    }
+    scanAll();
+
+    // --- Interaction: hover (mouse), focus/blur (keyboard), tap (touch) ---
+    document.addEventListener('mouseover', (e) => {
+      const term = e.target.closest && e.target.closest('.glossary-term');
+      if (term) showTooltip(term);
+    });
+    document.addEventListener('mouseout', (e) => {
+      const term = e.target.closest && e.target.closest('.glossary-term');
+      if (term && term === openTrigger) hideTooltip();
+    });
+    document.addEventListener('focusin', (e) => {
+      const term = e.target.closest && e.target.closest('.glossary-term');
+      if (term) showTooltip(term);
+    });
+    document.addEventListener('focusout', (e) => {
+      const term = e.target.closest && e.target.closest('.glossary-term');
+      if (term && term === openTrigger) hideTooltip();
+    });
+    // Tap support for touch devices, which have no hover state. (Not a
+    // toggle: mouseover already opens it for pointer devices, so treating
+    // click as "open" too — rather than "open unless already open" — avoids
+    // a click right after a hover immediately closing the tooltip again.)
+    document.addEventListener('click', (e) => {
+      const term = e.target.closest && e.target.closest('.glossary-term');
+      if (term) { showTooltip(term); return; }
+      hideTooltip();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && openTrigger) {
+        const el = openTrigger;
+        hideTooltip();
+        el.focus();
+      }
+    });
+    window.addEventListener('scroll', () => { if (openTrigger) positionTooltip(openTrigger); }, true);
+    window.addEventListener('resize', () => { if (openTrigger) positionTooltip(openTrigger); });
+  })();
+
   // --- Service worker for basic offline access ---
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {

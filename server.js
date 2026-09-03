@@ -3,6 +3,7 @@ const fs = require('fs');
 const crypto = require('crypto');
 const os = require('os');
 const express = require('express');
+const compression = require('compression');
 const session = require('express-session');
 const expressLayouts = require('express-ejs-layouts');
 const http = require('http');
@@ -38,9 +39,14 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(expressLayouts);
 app.set('layout', 'layout');
 
+// Compresses HTML/CSS/JS/JSON responses — meaningful on a shared WiFi
+// network where dozens of devices connect during a live session, since it
+// cuts airtime per request rather than just server CPU.
+app.use(compression());
+
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public'), { maxAge: '1d' }));
 
 app.use(session({
   secret: sessionSecret,
