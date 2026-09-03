@@ -20,6 +20,7 @@ const server = http.createServer(app);
 const io = new Server(server);
 app.set('io', io);
 app.locals.icon = icon;
+app.locals.appVersion = require('./package.json').version;
 
 const PORT = process.env.PORT || 3000;
 const dataDir = path.join(__dirname, 'data');
@@ -46,6 +47,15 @@ app.use(compression());
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+
+// The service worker script itself must always be revalidated — browsers
+// already special-case this, but we say so explicitly so a stale cached
+// copy never keeps an old sw.js (and therefore its old cached assets) alive.
+app.use('/sw.js', (req, res, next) => {
+  res.setHeader('Cache-Control', 'no-cache');
+  next();
+});
+
 app.use(express.static(path.join(__dirname, 'public'), { maxAge: '1d' }));
 
 app.use(session({

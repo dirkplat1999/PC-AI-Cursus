@@ -2,6 +2,11 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [3.2.1] - 2026-09-03
+
+### Opgelost
+- De woordenlijst-tooltips uit v3.2.0 werkten niet bij iedereen: de nieuwe cache-headers op statische bestanden (`/js/main.js`, `/css/style.css`) zorgden ervoor dat browsers en de service worker die de app al eerder bezocht hadden, bleven een oudere, gecachete versie van `main.js` gebruiken — zonder de tooltip-code. `main.js` en `style.css` worden nu geladen met een versie-parameter (`?v=<versienummer>`) die bij elke release automatisch verandert, zodat elke update altijd meteen bij iedereen doorkomt zonder handmatig verversen. De service worker-cachenaam is ook opgehoogd, zodat eerder gecachete bestanden bij iedereen worden ververst.
+
 ## [3.2.0] - 2026-09-03
 
 ### Toegevoegd

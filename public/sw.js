@@ -1,6 +1,6 @@
 // Basic offline support: caches visited pages and static assets (network-first,
 // falls back to cache when the LAN server is unreachable).
-const CACHE_NAME = 'pcai-cursus-v1';
+const CACHE_NAME = 'pcai-cursus-v2';
 const CORE_ASSETS = ['/css/style.css', '/js/main.js', '/manifest.json'];
 
 self.addEventListener('install', (event) => {
