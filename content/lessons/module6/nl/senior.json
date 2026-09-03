@@ -1,0 +1,92 @@
+{
+  "lessons": [
+    {
+      "id": "foto-maken",
+      "title": "Een foto maken",
+      "steps": [
+        {
+          "title": "De camera-app openen",
+          "body": "<p>Zoek op je telefoon het icoon van een fototoestel 📷 en tik erop. Je ziet nu wat de camera ziet. Tik op de grote ronde knop onderin om een foto te maken.</p>"
+        },
+        {
+          "title": "Voor- en achterkant wisselen",
+          "body": "<p>Wil je een foto van jezelf maken (een 'selfie')? Tik op het draai-icoontje (twee pijltjes in een cirkel) om te wisselen tussen de camera aan de voorkant en de achterkant van je telefoon.</p>"
+        },
+        {
+          "title": "Inzoomen",
+          "body": "<p>Zet twee vingers op het scherm en beweeg ze uit elkaar om in te zoomen, of naar elkaar toe om uit te zoomen. Zo kun je iets dat verder weg is toch groot in beeld krijgen.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Maak hieronder, of op je eigen telefoon, een foto van iets in de kamer om je heen.</p>"
+        }
+      ]
+    },
+    {
+      "id": "bekijken-bewerken",
+      "title": "Foto's bekijken en bewerken",
+      "steps": [
+        {
+          "title": "De fotogalerij openen",
+          "body": "<p>Al je gemaakte foto's staan in de <strong>Foto's-app</strong> (Google Foto's op Android, Foto's op iPhone). Tik op een foto om hem groot te bekijken. Veeg naar links of rechts om door je foto's te bladeren.</p>"
+        },
+        {
+          "title": "Bijsnijden en draaien",
+          "body": "<p>Open een foto en tik op <strong>'Bewerken'</strong> (vaak een potloodje). Je kunt de foto dan bijsnijden (een stuk eraf halen) of rechtzetten als hij scheef is.</p>"
+        },
+        {
+          "title": "Licht en kleur aanpassen",
+          "body": "<p>In hetzelfde bewerkscherm vind je meestal schuifjes voor <strong>helderheid</strong> en <strong>kleur</strong>. Schuif voorzichtig heen en weer en bekijk wat er verandert. Niet tevreden? Tik op 'Ongedaan maken' of 'Annuleren'.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Open een foto uit je eigen galerij en probeer 'm iets lichter of donkerder te maken.</p>"
+        }
+      ]
+    },
+    {
+      "id": "album-maken",
+      "title": "Een album maken",
+      "steps": [
+        {
+          "title": "Waarom een album handig is",
+          "body": "<p>Met honderden losse foto's wordt het lastig zoeken. Een <strong>album</strong> is een verzameling foto's rond één thema, bijvoorbeeld 'Vakantie 2026' of 'Kleinkinderen'.</p>"
+        },
+        {
+          "title": "Een nieuw album maken",
+          "body": "<ol><li>Open de Foto's-app</li><li>Tik op 'Album' of het plusje (+)</li><li>Geef het album een naam</li><li>Kies de foto's die erin moeten</li></ol>"
+        },
+        {
+          "title": "Foto's later toevoegen",
+          "body": "<p>Bekijk je een foto en wil je hem alsnog in een album? Tik op het deel-icoon of de drie puntjes, en kies 'Toevoegen aan album'.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Maak een album aan met een thema dat jij leuk vindt, en voeg er twee foto's aan toe.</p>"
+        }
+      ]
+    },
+    {
+      "id": "delen-familie",
+      "title": "Foto's delen met familie",
+      "steps": [
+        {
+          "title": "Eén foto delen via WhatsApp",
+          "body": "<ol><li>Open de foto</li><li>Tik op het deel-icoon (vaak een pijltje omhoog uit een vierkantje)</li><li>Kies WhatsApp</li><li>Kies het contact of de groep</li><li>Tik op verzenden</li></ol>"
+        },
+        {
+          "title": "Een heel album delen",
+          "body": "<p>Wil je meteen een heel album delen, bijvoorbeeld met de hele familie? Open het album en tik op het deel-icoon. Je kunt dan een link maken die iedereen kan openen, zonder dat je elke foto los hoeft te versturen.</p>"
+        },
+        {
+          "title": "Laten afdrukken",
+          "body": "<p>Wil je een foto op papier? Bij veel drogisterijen en fotowinkels kun je via hun app of website foto's uploaden en laten afdrukken of ophalen in de winkel.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Deel een foto uit je album met een familielid via WhatsApp.</p>"
+        }
+      ]
+    }
+  ]
+}

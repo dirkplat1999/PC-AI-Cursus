@@ -1,0 +1,92 @@
+{
+  "lessons": [
+    {
+      "id": "foto-maken",
+      "title": "Taking a photo",
+      "steps": [
+        {
+          "title": "Opening the camera app",
+          "body": "<p>Find the camera icon 📷 on your phone and tap it. You'll now see what the camera sees. Tap the large round button at the bottom to take a photo.</p>"
+        },
+        {
+          "title": "Switching between front and back camera",
+          "body": "<p>Want to take a photo of yourself (a 'selfie')? Tap the rotate icon (two arrows in a circle) to switch between the front and back camera of your phone.</p>"
+        },
+        {
+          "title": "Zooming in",
+          "body": "<p>Place two fingers on the screen and move them apart to zoom in, or together to zoom out. This lets you make something further away appear larger in the frame.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Take a photo below, or on your own phone, of something in the room around you.</p>"
+        }
+      ]
+    },
+    {
+      "id": "bekijken-bewerken",
+      "title": "Viewing and editing photos",
+      "steps": [
+        {
+          "title": "Opening the photo gallery",
+          "body": "<p>All your photos are stored in the <strong>Photos app</strong> (Google Photos on Android, Photos on iPhone). Tap a photo to view it full-screen. Swipe left or right to browse through your photos.</p>"
+        },
+        {
+          "title": "Cropping and rotating",
+          "body": "<p>Open a photo and tap <strong>'Edit'</strong> (often a small pencil icon). You can then crop the photo (remove part of it) or straighten it if it's crooked.</p>"
+        },
+        {
+          "title": "Adjusting light and color",
+          "body": "<p>In the same edit screen you'll usually find sliders for <strong>brightness</strong> and <strong>color</strong>. Slide them gently and see what changes. Not happy with the result? Tap 'Undo' or 'Cancel'.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Open a photo from your own gallery and try making it a bit lighter or darker.</p>"
+        }
+      ]
+    },
+    {
+      "id": "album-maken",
+      "title": "Making an album",
+      "steps": [
+        {
+          "title": "Why an album is handy",
+          "body": "<p>With hundreds of loose photos, it gets hard to find things. An <strong>album</strong> is a collection of photos around one theme, for example 'Vacation 2026' or 'Grandchildren'.</p>"
+        },
+        {
+          "title": "Creating a new album",
+          "body": "<ol><li>Open the Photos app</li><li>Tap 'Album' or the plus sign (+)</li><li>Give the album a name</li><li>Choose the photos to include</li></ol>"
+        },
+        {
+          "title": "Adding photos later",
+          "body": "<p>Viewing a photo and want to add it to an album after all? Tap the share icon or the three dots, and choose 'Add to album'.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Create an album with a theme you like, and add two photos to it.</p>"
+        }
+      ]
+    },
+    {
+      "id": "delen-familie",
+      "title": "Sharing photos with family",
+      "steps": [
+        {
+          "title": "Sharing one photo via WhatsApp",
+          "body": "<ol><li>Open the photo</li><li>Tap the share icon (often an arrow pointing up out of a square)</li><li>Choose WhatsApp</li><li>Choose the contact or group</li><li>Tap send</li></ol>"
+        },
+        {
+          "title": "Sharing a whole album",
+          "body": "<p>Want to share an entire album at once, for example with the whole family? Open the album and tap the share icon. You can then create a link that anyone can open, without having to send every photo separately.</p>"
+        },
+        {
+          "title": "Getting prints made",
+          "body": "<p>Want a photo on paper? Many drugstores and photo shops let you upload photos via their app or website and have them printed or ready for pickup in store.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Share a photo from your album with a family member via WhatsApp.</p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "lessons": [
+    {
+      "id": "wat-is-nepnieuws",
+      "title": "Was sind Fake News?",
+      "steps": [
+        {
+          "title": "Eine Definition",
+          "body": "<p><strong>Fake News</strong> sind Nachrichten, die wie echte Nachrichten aussehen, aber ganz oder teilweise unwahr sind — gedacht, um dich zu täuschen, dir Angst zu machen oder dir eine bestimmte Meinung aufzudrängen.</p>"
+        },
+        {
+          "title": "Warum gibt es Fake News?",
+          "body": "<ul><li><strong>Aufmerksamkeit und Geld:</strong> schockierende Schlagzeilen bekommen mehr Klicks und damit mehr Werbeeinnahmen</li><li><strong>Beeinflussung:</strong> um Menschen von einer bestimmten Meinung zu überzeugen</li><li><strong>Spaß oder Chaos:</strong> manchmal einfach, um Verwirrung zu stiften</li></ul>"
+        },
+        {
+          "title": "Es sieht oft echt aus",
+          "body": "<p>Fake News nutzen oft ein Logo oder Layout, das einer bekannten Nachrichtenseite ähnelt, um glaubwürdig zu wirken. Schau deshalb immer genau auf die Quelle.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Überlege ein Beispiel für eine Nachricht, die du schon einmal gesehen hast und bei der du gezweifelt hast, ob sie wirklich stimmt.</p>"
+        }
+      ]
+    },
+    {
+      "id": "signalen-onbetrouwbaar",
+      "title": "Warnsignale einer unzuverlässigen Nachricht",
+      "steps": [
+        {
+          "title": "Übertriebene Schlagzeilen",
+          "body": "<p>Schlagzeilen voller Großbuchstaben, Ausrufezeichen oder Wörter wie 'SCHOCKIEREND' und 'DAS WOLLEN SIE DIR NICHT SAGEN' sind ein Zeichen, dass eine Nachricht eher auf Sensation als auf Fakten abzielt.</p>"
+        },
+        {
+          "title": "Keine Quellenangabe",
+          "body": "<p>Eine zuverlässige Nachricht nennt, woher die Information stammt: ein Name, eine Organisation oder eine Studie. Wird nirgendwo eine Quelle genannt, sei besonders kritisch.</p>"
+        },
+        {
+          "title": "Starke Emotionen auslösen",
+          "body": "<p>Macht dich eine Nachricht wütend, ängstlich oder empört? Genau das ist das Ziel vieler Fake News — sie sollen dich dazu bringen, sie schnell zu teilen, ohne nachzudenken.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Überlege: Welches dieser drei Anzeichen würdest du in einer Nachricht am schnellsten erkennen?</p>"
+        }
+      ]
+    },
+    {
+      "id": "bron-checken",
+      "title": "Eine Quelle prüfen",
+      "steps": [
+        {
+          "title": "Wer ist der Absender?",
+          "body": "<p>Klicke auf den Namen der Website oder des Kontos, das die Nachricht teilt. Gibt es diese Seite schon lange? Hat das Konto viele Follower und normale Beiträge, oder wurde es gerade erst erstellt?</p>"
+        },
+        {
+          "title": "Suche dieselbe Nachricht bei einer bekannten Quelle",
+          "body": "<p>Ist etwas wirklich wichtige Nachricht? Dann steht es fast immer auch bei bekannten, zuverlässigen Quellen wie großen Rundfunkanstalten oder überregionalen Zeitungen. Findest du es nirgendwo sonst, sei skeptisch.</p>"
+        },
+        {
+          "title": "Das Datum prüfen",
+          "body": "<p>Manchmal wird eine alte Nachricht erneut geteilt, als wäre sie neu. Achte immer auf das <strong>Datum</strong> des Artikels.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Schau dir unten eine bekannte Nachrichtenseite an und suche eine aktuelle Meldung.</p>",
+          "practiceUrl": "https://nos.nl"
+        }
+      ]
+    },
+    {
+      "id": "voordat-je-deelt",
+      "title": "Bevor du etwas teilst",
+      "steps": [
+        {
+          "title": "Kurz nachdenken, bevor du teilst",
+          "body": "<p>Siehst du eine schockierende Nachricht in einer WhatsApp- oder Facebook-Gruppe? Nimm dir einen Moment, bevor du auf 'Teilen' klickst: Stimmt das überhaupt, und habe ich die Quelle geprüft?</p>"
+        },
+        {
+          "title": "Verantwortung in Familiengruppen",
+          "body": "<p>Nachrichten in einer Familien-App-Gruppe werden oft schnell für wahr gehalten, gerade weil sie von Bekannten kommen. Das macht es besonders wichtig, auch bei Nachrichten von Menschen, denen du vertraust, kritisch zu bleiben.</p>"
+        },
+        {
+          "title": "Jemanden freundlich korrigieren",
+          "body": "<p>Hast du gesehen, dass jemand Fake News geteilt hat? Eine freundliche Nachricht mit der richtigen Quelle hilft meist mehr als eine wütende Antwort.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Überlege, wie du freundlich reagieren würdest, wenn ein Familienmitglied Fake News in der Familien-App-Gruppe teilt.</p>"
+        }
+      ]
+    }
+  ]
+}

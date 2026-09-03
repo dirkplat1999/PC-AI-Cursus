@@ -1,0 +1,93 @@
+{
+  "lessons": [
+    {
+      "id": "instellingen-tijdbesparen",
+      "title": "Instellingen die je tijd besparen",
+      "steps": [
+        {
+          "title": "Focusmodus instellen",
+          "body": "<p>Met een <strong>focusmodus</strong> (bijvoorbeeld 'Werk' of 'Slaap') bepaal je zelf welke meldingen wel of niet doorkomen op bepaalde momenten. Stel dit in bij Instellingen &gt; Concentratie / Focus.</p>"
+        },
+        {
+          "title": "Meldingen opruimen",
+          "body": "<p>Ga naar Instellingen &gt; Meldingen en zet per app uit wat je niet nodig hebt. Scheelt een hoop afleiding, zonder dat je belangrijke berichten mist.</p>"
+        },
+        {
+          "title": "Widgets gebruiken",
+          "body": "<p>Widgets zijn kleine, direct zichtbare stukjes van een app op je startscherm — bijvoorbeeld je agenda van vandaag of het weer — zodat je de app niet apart hoeft te openen.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Zet een focusmodus in en beperk de meldingen van minstens twee apps die je afleiden.</p>"
+        }
+      ]
+    },
+    {
+      "id": "apps-combineren",
+      "title": "Handige apps slim combineren",
+      "steps": [
+        {
+          "title": "Automatiseringen (routines)",
+          "body": "<p>Met bijvoorbeeld Google Assistent-routines of iPhone-'Opdrachten' kun je iets automatisch laten gebeuren, zoals: 's ochtends automatisch het weer en je agenda voorlezen.</p>"
+        },
+        {
+          "title": "Opslag slim beheren",
+          "body": "<p>Zet foto's en video's automatisch naar de cloud (zoals in module 6 besproken) en verwijder ze daarna van je telefoon zelf, om ruimte vrij te maken zonder iets kwijt te raken.</p>"
+        },
+        {
+          "title": "Apps groeperen in mappen",
+          "body": "<p>Sleep een app-icoon op een andere app om een map te maken. Zo houd je je startscherm overzichtelijk in plaats van tientallen losse iconen.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Maak een map aan op je startscherm en groepeer er een paar vergelijkbare apps in.</p>"
+        }
+      ]
+    },
+    {
+      "id": "ai-dagelijkse-taken",
+      "title": "AI op je telefoon voor dagelijkse taken",
+      "steps": [
+        {
+          "title": "Meer dan een spraakassistent",
+          "body": "<p>De Gemini-app (Google) of ChatGPT-app kunnen echte gesprekken voeren, teksten schrijven, en meedenken — bruikbaar voor veel meer dan alleen 'zet een wekker'.</p>"
+        },
+        {
+          "title": "Een foto laten uitleggen of vertalen",
+          "body": "<p>Maak een foto van bijvoorbeeld een menukaart in een andere taal, of een ingewikkeld formulier, en vraag de AI-app om het te vertalen of uit te leggen — via de camera-functie binnen de app.</p>"
+        },
+        {
+          "title": "Snel een conceptbericht laten schrijven",
+          "body": "<p>Moet je snel een mail of appje sturen maar weet je niet goed hoe te beginnen? Beschrijf kort de situatie aan de AI en vraag om een conceptversie, die je daarna zelf aanpast.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Vraag Gemini om een kort bericht te schrijven voor een situatie uit je eigen leven, en pas het daarna aan in je eigen stijl.</p>",
+          "practiceUrl": "https://gemini.google.com"
+        }
+      ]
+    },
+    {
+      "id": "grenzen-ai-telefoon",
+      "title": "Grenzen van AI op je telefoon",
+      "steps": [
+        {
+          "title": "Wat AI-assistenten niet goed kunnen",
+          "body": "<p>Een AI-app kan overtuigend klinken, ook als het antwoord feitelijk onjuist is. Vertrouw belangrijke informatie (medisch, financieel, juridisch) nooit blindelings — check het bij een betrouwbare bron.</p>"
+        },
+        {
+          "title": "Privacy van spraakopdrachten",
+          "body": "<p>Spraakopdrachten worden vaak (deels) verwerkt via de servers van het bedrijf. Zeg nooit hardop gevoelige informatie zoals wachtwoorden of pincodes tegen een spraakassistent.</p>"
+        },
+        {
+          "title": "Wanneer je zelf moet nadenken",
+          "body": "<p>Gebruik AI op je telefoon als snelle hulp of eerste opzet, maar neem zelf de uiteindelijke beslissing bij alles wat ertoe doet — een AI-app is geen vervanging voor je eigen beoordelingsvermogen.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Bedenk een situatie waarin je een AI-app op je telefoon wél zou gebruiken, en één waarin je dat bewust niet zou doen.</p>"
+        }
+      ]
+    }
+  ]
+}

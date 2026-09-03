@@ -1,0 +1,93 @@
+{
+  "lessons": [
+    {
+      "id": "webshop-vertrouwen",
+      "title": "Einem Online-Shop vertrauen",
+      "steps": [
+        {
+          "title": "Gütesiegel erkennen",
+          "body": "<p>Vertrauenswürdige niederländische Online-Shops zeigen oft ein <strong>Thuiswinkel Waarborg</strong>-Siegel unten auf der Website. Klicke darauf: es sollte zu einer echten, gültigen Registrierung führen.</p>"
+        },
+        {
+          "title": "Kennst du den Shop noch nicht?",
+          "body": "<p>Bestellst du bei einem Shop, den du noch nicht kennst? Suche den Namen zusammen mit dem Wort 'Erfahrungen' oder 'Betrug', um zu sehen, was andere darüber schreiben.</p>"
+        },
+        {
+          "title": "Kontaktdaten prüfen",
+          "body": "<p>Ein vertrauenswürdiger Online-Shop hat immer auffindbare <strong>Adresse, Telefonnummer und Handelsregisternummer</strong> auf der Website (oft unten bei 'Kontakt' oder 'Über uns'). Fehlt das komplett? Dann sei vorsichtig.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Schau dir unten einen Online-Shop an und suche nach den Kontaktdaten und dem Gütesiegel.</p>",
+          "practiceUrl": "https://www.bol.com"
+        }
+      ]
+    },
+    {
+      "id": "bestellen-betalen",
+      "title": "Bestellen und bezahlen",
+      "steps": [
+        {
+          "title": "Etwas in den Warenkorb legen",
+          "body": "<p>Klicke bei einem Produkt auf <strong>'In den Warenkorb'</strong> oder 'Bestellen'. Gehe danach zu deinem Warenkorb (oft ein Symbol oben rechts), um deine Bestellung anzusehen und abzuschließen.</p>"
+        },
+        {
+          "title": "Sicher bezahlen mit iDEAL",
+          "body": "<p><strong>iDEAL</strong> ist die am häufigsten genutzte, sichere Zahlungsmethode in den Niederlanden: Du bezahlst direkt über deine eigene Banking-App, ohne deine Kartendaten woanders einzugeben.</p>"
+        },
+        {
+          "title": "Bestätigungsmail aufbewahren",
+          "body": "<p>Nach der Bestellung erhältst du eine Bestätigungsmail mit deiner Bestellnummer. Bewahre sie auf — du brauchst sie, falls etwas schiefgeht oder du etwas zurücksenden möchtest.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Lege ein Produkt in den Warenkorb eines Online-Shops deiner Wahl, ohne die Bestellung abzuschließen.</p>"
+        }
+      ]
+    },
+    {
+      "id": "bezorging-retour",
+      "title": "Lieferung verfolgen und retournieren",
+      "steps": [
+        {
+          "title": "Sendungsverfolgung",
+          "body": "<p>In der Bestätigungsmail steht oft ein <strong>Sendungsverfolgungs-Link</strong>. Klicke darauf, um zu sehen, wo sich dein Paket befindet und wann es geliefert wird.</p>"
+        },
+        {
+          "title": "Dein Widerrufsrecht",
+          "body": "<p>Beim Online-Einkauf in den Niederlanden hast du meist <strong>14 Tage</strong> Zeit, etwas ohne Angabe von Gründen zurückzusenden — auch wenn nichts am Produkt falsch ist.</p>"
+        },
+        {
+          "title": "Etwas retournieren",
+          "body": "<ol><li>Gehe zu 'Meine Bestellungen' auf der Website</li><li>Wähle die Bestellung und klicke auf 'Retournieren'</li><li>Folge den Anweisungen für das Retourenlabel</li><li>Gib das Paket an der angegebenen Stelle ab (oft ein Paketshop oder Zustelldienst)</li></ol>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Suche bei einem Online-Shop nach dessen Rückgaberichtlinie: wie viele Tage Widerrufsrecht gewähren sie?</p>"
+        }
+      ]
+    },
+    {
+      "id": "reviews-oplichting",
+      "title": "Bewertungen und Betrug erkennen",
+      "steps": [
+        {
+          "title": "Gefälschte Bewertungen erkennen",
+          "body": "<p>Sind alle Bewertungen sehr kurz, übertrieben positiv und alle um dasselbe Datum herum veröffentlicht? Das kann auf gefälschte Bewertungen hindeuten. Lies auch die kritischen Bewertungen — sie geben oft ein ehrlicheres Bild.</p>"
+        },
+        {
+          "title": "Zu gut, um wahr zu sein",
+          "body": "<p>Ein neuer Fernseher für einen Spottpreis? Sei misstrauisch bei Preisen, die deutlich niedriger sind als bei bekannten Läden. Vergleiche den Preis mit mindestens zwei anderen Shops.</p>"
+        },
+        {
+          "title": "Nur sichere Zahlungsmethoden",
+          "body": "<p>Wird nur eine Vorauszahlung per Überweisung verlangt, ohne iDEAL oder Kreditkarte als Option? Das ist ein großes Warnsignal — bei Betrug bekommst du eine solche Überweisung meist nicht zurück.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Sieh dir die Bewertungen eines Produkts an, das dich interessiert, und achte darauf, ob sie ehrlich und vielfältig wirken.</p>"
+        }
+      ]
+    }
+  ]
+}

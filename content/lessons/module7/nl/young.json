@@ -1,0 +1,92 @@
+{
+  "lessons": [
+    {
+      "id": "slim-vergelijken",
+      "title": "Slim vergelijken en kopen",
+      "steps": [
+        {
+          "title": "Prijsvergelijkers gebruiken",
+          "body": "<p>Sites zoals <strong>Tweakers Pricewatch</strong> of Google Shopping laten in één overzicht zien waar een product het goedkoopst is, inclusief verzendkosten en beoordeling van de winkel.</p>"
+        },
+        {
+          "title": "Kortingscodes checken",
+          "body": "<p>Voordat je afrekent: zoek even op '[winkelnaam] kortingscode'. Vaak bestaat er een geldige code voor gratis verzending of een paar procent korting.</p>"
+        },
+        {
+          "title": "Prijshistorie bekijken",
+          "body": "<p>Sommige tools (zoals de Camelizer-browserextensie) laten zien of een 'aanbieding' echt een aanbieding is, of dat de prijs een paar weken geleden ook al zo laag was.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Vergelijk de prijs van een product dat je interesseert bij twee verschillende webshops.</p>"
+        }
+      ]
+    },
+    {
+      "id": "betalen-zonder-zorgen",
+      "title": "Betalen zonder zorgen",
+      "steps": [
+        {
+          "title": "iDEAL en creditcard",
+          "body": "<p>Bij bekende Nederlandse webshops betaal je meestal veilig met <strong>iDEAL</strong> (via je eigen bank) of creditcard. Beide bieden bescherming als er iets misgaat met je bestelling.</p>"
+        },
+        {
+          "title": "Achteraf betalen: ken de risico's",
+          "body": "<p>Diensten zoals Klarna of Riverty laten je 'nu kopen, later betalen'. Handig, maar let op: mis je een betaaltermijn, dan kunnen er snel incassokosten bijkomen. Zet een herinnering voor de betaaldatum.</p>"
+        },
+        {
+          "title": "Abonnementvallen",
+          "body": "<p>Een 'gratis proefperiode' die na een maand automatisch overgaat in een betaald abonnement is een bekende valkuil. Lees de kleine lettertjes en zet, indien nodig, meteen een herinnering om op tijd op te zeggen.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Bekijk bij een 'nu kopen, later betalen'-optie wanneer precies de betaaltermijn verloopt.</p>"
+        }
+      ]
+    },
+    {
+      "id": "bezorging-garantie",
+      "title": "Bezorging, retour en garantie",
+      "steps": [
+        {
+          "title": "Track & trace snel checken",
+          "body": "<p>De meeste bezorgdiensten hebben een app (PostNL, DHL) waarmee je in één overzicht al je pakketten kunt volgen, in plaats van losse track & trace-links op te zoeken.</p>"
+        },
+        {
+          "title": "Retourbeleid vergelijken",
+          "body": "<p>Niet elke winkel hanteert dezelfde termijn. Check dit vóór aankoop, vooral bij kleding of elektronica: sommige winkels bieden 30 of zelfs 100 dagen bedenktijd.</p>"
+        },
+        {
+          "title": "Wettelijke garantie kennen",
+          "body": "<p>Naast de garantie die een winkel zelf geeft, heb je bij een gebrekkig product altijd recht op <strong>wettelijke garantie</strong> — een product moet gewoon doen wat je ervan mag verwachten, ongeacht wat de winkel daarover zegt.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Zoek het retourbeleid op van een webshop waar je vaker besteld.</p>"
+        }
+      ]
+    },
+    {
+      "id": "nepwebshops-reviewfraude",
+      "title": "Nepwebshops en reviewfraude herkennen",
+      "steps": [
+        {
+          "title": "Een nepwebshop snel herkennen",
+          "body": "<p>Let op: een erg nieuw domein, geen KVK-nummer, alleen een contactformulier zonder telefoonnummer, en prijzen die te mooi zijn om waar te zijn. Check het domein op een tool zoals whois.com voor de registratiedatum.</p>"
+        },
+        {
+          "title": "Reviewfraude herkennen",
+          "body": "<p>Veel identieke reviews rond dezelfde datum, alleen 5 sterren zonder tekst, of reviews die precies dezelfde zinnen gebruiken — allemaal signalen van gekochte of nep-reviews.</p>"
+        },
+        {
+          "title": "Betaalmethode als waarschuwingssignaal",
+          "body": "<p>Wordt er alléén een bankoverschrijving vooraf gevraagd, zonder iDEAL, creditcard of PayPal als optie? Bij oplichting kun je zo'n overschrijving vrijwel nooit terugkrijgen — grote reden om af te haken.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Bedenk: aan welke drie signalen zou jij een nepwebshop het snelst herkennen?</p>"
+        }
+      ]
+    }
+  ]
+}

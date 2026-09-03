@@ -1,0 +1,93 @@
+{
+  "lessons": [
+    {
+      "id": "instellingen-begrijpen",
+      "title": "Understanding your phone's settings",
+      "steps": [
+        {
+          "title": "Where to find the settings",
+          "body": "<p>Find the gear icon ⚙️ on your home screen — this is the icon for <strong>Settings</strong>. This is where you control almost everything on your phone.</p>"
+        },
+        {
+          "title": "Checking storage space",
+          "body": "<p>Go to Settings &gt; Storage to see how much space is left. Is your phone almost full? It often runs slower. Remove old photos or apps you no longer use.</p>"
+        },
+        {
+          "title": "Saving battery",
+          "body": "<p>Under Settings &gt; Battery you can see which apps use the most battery. Turn on 'Battery saver' if your phone runs out of charge quickly.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Go to your own phone's settings and check how much storage space is left.</p>"
+        }
+      ]
+    },
+    {
+      "id": "apps-installeren",
+      "title": "Installing and removing apps",
+      "steps": [
+        {
+          "title": "Opening the app store",
+          "body": "<p>On Android this is the <strong>Play Store</strong>, on iPhone the <strong>App Store</strong>. Search for an app by name, check the reviews, and tap 'Install'.</p>"
+        },
+        {
+          "title": "Removing an app",
+          "body": "<p>Press and hold the app icon on your home screen until a menu appears, and choose 'Uninstall' or 'Remove app'. Your data within the app usually disappears too.</p>"
+        },
+        {
+          "title": "Keeping apps up to date",
+          "body": "<p>Apps regularly receive updates, often to close security gaps. Turn on automatic updates in your app store's settings, so you don't have to remember this yourself.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Search the app store for an app you're interested in, without installing it.</p>"
+        }
+      ]
+    },
+    {
+      "id": "spraakassistent",
+      "title": "Using a voice assistant",
+      "steps": [
+        {
+          "title": "What is a voice assistant?",
+          "body": "<p>A voice assistant (Siri on iPhone, Google Assistant on Android) listens to your voice and carries out a command, without you having to type.</p>"
+        },
+        {
+          "title": "Activating a voice assistant",
+          "body": "<p>Say 'Hey Siri' or 'Okay Google', or press and hold the power button or home button (depending on your device). Then calmly speak your question or command.</p>"
+        },
+        {
+          "title": "Asking or setting something",
+          "body": "<p>Try, for example: <em>'What's the weather today?'</em>, <em>'Set a 10-minute timer'</em>, or <em>'Call [contact name]'</em>.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Ask your phone's voice assistant out loud what time it is.</p>"
+        }
+      ]
+    },
+    {
+      "id": "ai-dagelijkse-vragen",
+      "title": "AI on your phone for everyday questions",
+      "steps": [
+        {
+          "title": "AI is more than just setting a timer",
+          "body": "<p>Modern voice assistants (like Google's Gemini app) can also hold real AI conversations: explaining things, summarizing something, or thinking through a problem with you — just like ChatGPT, but on your phone.</p>"
+        },
+        {
+          "title": "Having a text summarized or explained",
+          "body": "<p>Got a long, complicated message (for example from the government)? Paste the text into the Gemini app and ask: <em>'Can you summarize this in simple language?'</em></p>"
+        },
+        {
+          "title": "Getting help writing a message",
+          "body": "<p>Need to write something tricky, like a complaint or a birthday message? Ask the AI for a draft, then adjust it in your own words afterward.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Open the Gemini app or Google Assistant on your phone and ask for a short explanation of a topic you're interested in.</p>",
+          "practiceUrl": "https://gemini.google.com"
+        }
+      ]
+    }
+  ]
+}

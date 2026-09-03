@@ -1,0 +1,92 @@
+{
+  "lessons": [
+    {
+      "id": "camera-vaardigheden",
+      "title": "Camera-vaardigheden",
+      "steps": [
+        {
+          "title": "Portretmodus",
+          "body": "<p>Met <strong>portretmodus</strong> (vaak een icoontje van een hoofdje) wordt de achtergrond van je foto vervaagd, terwijl de persoon scherp blijft — net als bij een echte cameralens. Handig voor een mooi profielfoto.</p>"
+        },
+        {
+          "title": "Serie-opnames (burst)",
+          "body": "<p>Houd de ontspanknop ingedrukt (of veeg 'm naar links/rechts, afhankelijk van je toestel) om snel meerdere foto's achter elkaar te maken. Handig bij bewegende onderwerpen — je kiest achteraf de beste uit de reeks.</p>"
+        },
+        {
+          "title": "Panorama",
+          "body": "<p>Kies de panoramamodus om een breed landschap in één foto vast te leggen. Draai je langzaam in een cirkel terwijl je telefoon de foto's aan elkaar plakt.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Probeer een portretfoto en een panoramafoto te maken.</p>"
+        }
+      ]
+    },
+    {
+      "id": "snel-bewerken",
+      "title": "Snel bewerken op je telefoon",
+      "steps": [
+        {
+          "title": "Ingebouwde bewerktools",
+          "body": "<p>Elke Foto's-app heeft basisbewerking: bijsnijden, filters, en schuifjes voor licht, contrast en verzadiging. Begin hiermee voordat je een aparte app downloadt.</p>"
+        },
+        {
+          "title": "Meer controle met een app",
+          "body": "<p>Wil je meer? Apps zoals <strong>Snapseed</strong> (gratis) geven fijnere controle: selectief een deel van de foto aanpassen, storende details wegpoetsen, scherpte bijstellen.</p>"
+        },
+        {
+          "title": "Niet overdrijven",
+          "body": "<p>Een kleine aanpassing in licht en contrast maakt vaak al een groot verschil. Te veel filters of felle kleuren kunnen een foto juist onnatuurlijk laten ogen.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Bewerk een foto uit je galerij: pas licht en contrast aan, en bekijk het verschil met de originele foto.</p>"
+        }
+      ]
+    },
+    {
+      "id": "videos-monteren",
+      "title": "Video's monteren",
+      "steps": [
+        {
+          "title": "Een video inkorten",
+          "body": "<p>Open een video in je Foto's-app en tik op 'Bewerken'. Sleep de balkjes aan het begin en eind van de tijdlijn naar binnen om het overbodige stuk eraf te knippen.</p>"
+        },
+        {
+          "title": "Meerdere clips samenvoegen",
+          "body": "<p>Voor iets meer werk (bijvoorbeeld meerdere korte video's tot één filmpje maken) gebruik je een app zoals <strong>CapCut</strong> of de ingebouwde editor van je telefoon. Sleep de clips in de gewenste volgorde.</p>"
+        },
+        {
+          "title": "Muziek toevoegen",
+          "body": "<p>In dezelfde editor kun je vaak een muzieknummer onder je video zetten. Let op het geluidsniveau: de muziek mag de stemmen in je video niet overstemmen.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Knip een video in tot het belangrijkste stuk, en deel 'm daarna met iemand.</p>"
+        }
+      ]
+    },
+    {
+      "id": "delen-backup",
+      "title": "Slim delen en back-uppen",
+      "steps": [
+        {
+          "title": "Automatisch back-uppen",
+          "body": "<p>Zorg dat je foto's automatisch naar de cloud gaan (Google Foto's of iCloud), zodat je nooit iets kwijtraakt als je telefoon stuk gaat of verloren raakt. Zet dit eenmalig aan in de instellingen.</p>"
+        },
+        {
+          "title": "Een link delen in plaats van bestanden",
+          "body": "<p>Deel je veel foto's met iemand? Stuur een <strong>deel-link</strong> naar een album, in plaats van tientallen losse foto's. Dat is sneller en overzichtelijker voor de ontvanger.</p>"
+        },
+        {
+          "title": "Rechten instellen bij een gedeeld album",
+          "body": "<p>Bij een gedeeld album kun je vaak instellen of anderen ook foto's mogen <strong>toevoegen</strong>, bijvoorbeeld handig bij een gezamenlijke reis of feest waar iedereen foto's maakt.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Controleer of automatische back-up op je telefoon aanstaat, en maak een gedeeld album aan voor een groep vrienden of familie.</p>"
+        }
+      ]
+    }
+  ]
+}

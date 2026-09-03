@@ -2,6 +2,19 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [3.0.0] - 2026-08-19
+
+### Toegevoegd
+- Vier nieuwe modules (6 t/m 9), bedoeld als vervolgavond op de eerste vijf modules — de cursus omvat nu 9 modules in totaal, elk volledig uitgewerkt voor beide leeftijdsgroepen in NL/EN/DE (24 nieuwe lesbestanden):
+  - **Foto's & Video's** — foto's maken en bewerken, een album maken, delen met familie (senior); camera-vaardigheden, snel bewerken, video's monteren, slim delen en back-uppen (jong).
+  - **Veilig Online Winkelen** — een webshop vertrouwen, bestellen en betalen, bezorging en retourneren, reviews en oplichting herkennen (senior); slim vergelijken, achteraf-betalen-risico's en abonnementvallen, garantie, nepwebshops en reviewfraude (jong).
+  - **Slimme Telefoon & AI** — instellingen, apps, een spraakassistent gebruiken, en AI op je telefoon voor dagelijkse vragen (senior); tijdbesparende instellingen, apps combineren, AI voor dagelijkse taken, en de grenzen van AI op je telefoon (jong).
+  - **Nepnieuws & Betrouwbare Bronnen** — wat is nepnieuws, signalen van een onbetrouwbaar bericht, een bron checken, voordat je iets deelt (senior); filterbubbels, AI-gegenereerde nepcontent, feitencheck-technieken, verantwoord delen (jong).
+- Vier nieuwe iconen (camera, shopping-bag, sparkles, search) in de zelfgebouwde SVG-iconenset.
+
+### Opgemerkt
+- De "Aanbevolen modules"-knop blijft gericht op de oorspronkelijke 5 modules (avond 1); de nieuwe modules 6-9 wijs je bewust apart toe als vervolg.
+
 ## [2.2.0] - 2026-08-19
 
 ### Toegevoegd

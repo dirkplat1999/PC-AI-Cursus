@@ -48,5 +48,45 @@
       "en": "E-readers, storing photos in the cloud, trustworthy medical sources, password managers.",
       "de": "E-Reader, Fotos in der Cloud speichern, vertrauenswürdige medizinische Quellen, Passwort-Manager."
     }
+  },
+  {
+    "key": "module6",
+    "icon": "camera",
+    "title": { "nl": "Foto's & Video's", "en": "Photos & Videos", "de": "Fotos & Videos" },
+    "description": {
+      "nl": "Foto's en video's maken, bewerken, een album maken en delen met familie.",
+      "en": "Taking and editing photos and videos, making an album, and sharing with family.",
+      "de": "Fotos und Videos aufnehmen und bearbeiten, ein Album erstellen und mit der Familie teilen."
+    }
+  },
+  {
+    "key": "module7",
+    "icon": "shopping-bag",
+    "title": { "nl": "Veilig Online Winkelen", "en": "Safe Online Shopping", "de": "Sicher Online Einkaufen" },
+    "description": {
+      "nl": "Bestellen bij webshops, veilig betalen, bezorging volgen, retourneren en betrouwbare reviews herkennen.",
+      "en": "Ordering from web shops, paying safely, tracking delivery, returns, and spotting trustworthy reviews.",
+      "de": "Bei Online-Shops bestellen, sicher bezahlen, Lieferung verfolgen, retournieren und vertrauenswürdige Bewertungen erkennen."
+    }
+  },
+  {
+    "key": "module8",
+    "icon": "sparkles",
+    "title": { "nl": "Slimme Telefoon & AI", "en": "Smart Phone & AI", "de": "Smartphone & KI" },
+    "description": {
+      "nl": "Instellingen, apps en spraakassistenten begrijpen, en AI op je telefoon gebruiken voor alledaagse vragen en taken.",
+      "en": "Understanding settings, apps and voice assistants, and using AI on your phone for everyday questions and tasks.",
+      "de": "Einstellungen, Apps und Sprachassistenten verstehen, und KI auf deinem Handy für alltägliche Fragen und Aufgaben nutzen."
+    }
+  },
+  {
+    "key": "module9",
+    "icon": "search",
+    "title": { "nl": "Nepnieuws & Betrouwbare Bronnen", "en": "Fake News & Trustworthy Sources", "de": "Fake News & Vertrauenswürdige Quellen" },
+    "description": {
+      "nl": "Desinformatie herkennen, een bron checken voordat je iets deelt, het verschil tussen mening en feit online.",
+      "en": "Recognizing disinformation, checking a source before sharing, the difference between opinion and fact online.",
+      "de": "Desinformation erkennen, eine Quelle prüfen, bevor du etwas teilst, der Unterschied zwischen Meinung und Fakt online."
+    }
   }
 ]

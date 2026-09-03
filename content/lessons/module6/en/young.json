@@ -1,0 +1,92 @@
+{
+  "lessons": [
+    {
+      "id": "camera-vaardigheden",
+      "title": "Camera skills",
+      "steps": [
+        {
+          "title": "Portrait mode",
+          "body": "<p><strong>Portrait mode</strong> (often a small head icon) blurs the background of your photo while keeping the person in sharp focus — just like a real camera lens. Great for a nice profile picture.</p>"
+        },
+        {
+          "title": "Burst mode",
+          "body": "<p>Hold down the shutter button (or swipe it left/right, depending on your device) to quickly take several photos in a row. Handy for moving subjects — you pick the best one from the series afterward.</p>"
+        },
+        {
+          "title": "Panorama",
+          "body": "<p>Choose panorama mode to capture a wide landscape in a single photo. Turn slowly in a circle while your phone stitches the photos together.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Try taking a portrait photo and a panorama photo.</p>"
+        }
+      ]
+    },
+    {
+      "id": "snel-bewerken",
+      "title": "Quick editing on your phone",
+      "steps": [
+        {
+          "title": "Built-in editing tools",
+          "body": "<p>Every Photos app has basic editing: cropping, filters, and sliders for light, contrast, and saturation. Start here before downloading a separate app.</p>"
+        },
+        {
+          "title": "More control with an app",
+          "body": "<p>Want more? Apps like <strong>Snapseed</strong> (free) give finer control: selectively adjust part of a photo, remove distracting details, fine-tune sharpness.</p>"
+        },
+        {
+          "title": "Don't overdo it",
+          "body": "<p>A small adjustment to light and contrast often already makes a big difference. Too many filters or overly bright colors can make a photo look unnatural.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Edit a photo from your gallery: adjust the light and contrast, and compare it to the original.</p>"
+        }
+      ]
+    },
+    {
+      "id": "videos-monteren",
+      "title": "Editing videos",
+      "steps": [
+        {
+          "title": "Trimming a video",
+          "body": "<p>Open a video in your Photos app and tap 'Edit'. Drag the handles at the start and end of the timeline inward to cut off the unnecessary part.</p>"
+        },
+        {
+          "title": "Combining multiple clips",
+          "body": "<p>For a bit more (like turning several short videos into one), use an app such as <strong>CapCut</strong> or your phone's built-in editor. Drag the clips into the order you want.</p>"
+        },
+        {
+          "title": "Adding music",
+          "body": "<p>In the same editor you can usually add a music track under your video. Watch the volume level: the music shouldn't drown out the voices in your video.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Trim a video down to the most important part, then share it with someone.</p>"
+        }
+      ]
+    },
+    {
+      "id": "delen-backup",
+      "title": "Sharing and backing up smartly",
+      "steps": [
+        {
+          "title": "Automatic backup",
+          "body": "<p>Make sure your photos automatically upload to the cloud (Google Photos or iCloud), so you never lose anything if your phone breaks or gets lost. Turn this on once in the settings.</p>"
+        },
+        {
+          "title": "Sharing a link instead of files",
+          "body": "<p>Sharing a lot of photos with someone? Send a <strong>share link</strong> to an album, instead of dozens of separate photos. It's faster and clearer for the recipient.</p>"
+        },
+        {
+          "title": "Setting permissions on a shared album",
+          "body": "<p>With a shared album you can often choose whether others can also <strong>add</strong> photos — handy for a group trip or party where everyone is taking pictures.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Check whether automatic backup is turned on on your phone, and create a shared album for a group of friends or family.</p>"
+        }
+      ]
+    }
+  ]
+}

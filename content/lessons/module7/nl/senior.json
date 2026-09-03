@@ -1,0 +1,93 @@
+{
+  "lessons": [
+    {
+      "id": "webshop-vertrouwen",
+      "title": "Een webshop vertrouwen",
+      "steps": [
+        {
+          "title": "Keurmerken herkennen",
+          "body": "<p>Betrouwbare Nederlandse webshops hebben vaak een <strong>Thuiswinkel Waarborg</strong>-logo onderaan de website. Klik erop: het moet doorlinken naar een echte, geldige registratie.</p>"
+        },
+        {
+          "title": "Ken je de winkel al?",
+          "body": "<p>Bestel je bij een winkel die je nog niet kent? Zoek de naam samen met het woord 'ervaringen' of 'oplichting' op om te zien wat anderen erover schrijven.</p>"
+        },
+        {
+          "title": "Contactgegevens checken",
+          "body": "<p>Een betrouwbare webshop heeft altijd een vindbaar <strong>adres, telefoonnummer en KVK-nummer</strong> op de website staan (vaak onderaan bij 'Contact' of 'Over ons'). Ontbreekt dit helemaal? Wees dan voorzichtig.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Bekijk hieronder een webwinkel en zoek de contactgegevens en het keurmerk op.</p>",
+          "practiceUrl": "https://www.bol.com"
+        }
+      ]
+    },
+    {
+      "id": "bestellen-betalen",
+      "title": "Bestellen en betalen",
+      "steps": [
+        {
+          "title": "Iets in je winkelmandje leggen",
+          "body": "<p>Klik bij een product op <strong>'In winkelmandje'</strong> of 'Bestellen'. Ga daarna naar je winkelmandje (vaak een icoontje rechtsboven) om je bestelling te bekijken en af te ronden.</p>"
+        },
+        {
+          "title": "Veilig betalen met iDEAL",
+          "body": "<p><strong>iDEAL</strong> is de meest gebruikte, veilige betaalmethode in Nederland: je betaalt direct via je eigen bank-app, zonder je kaartgegevens ergens anders in te vullen.</p>"
+        },
+        {
+          "title": "Bevestigingsmail bewaren",
+          "body": "<p>Na het bestellen krijg je een bevestigingsmail met je bestelnummer. Bewaar deze — je hebt hem nodig als er iets misgaat of als je iets wilt terugsturen.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Leg een product in je winkelmandje op een webshop naar keuze, zonder de bestelling af te ronden.</p>"
+        }
+      ]
+    },
+    {
+      "id": "bezorging-retour",
+      "title": "Bezorging volgen en retourneren",
+      "steps": [
+        {
+          "title": "Track & trace",
+          "body": "<p>In de bevestigingsmail staat vaak een <strong>track & trace-link</strong>. Klik hierop om te zien waar je pakket is en wanneer het wordt bezorgd.</p>"
+        },
+        {
+          "title": "Je bedenktijd",
+          "body": "<p>Bij online bestellen heb je in Nederland meestal <strong>14 dagen bedenktijd</strong> om iets terug te sturen, zonder opgaaf van reden — ook als er niets mis is met het product.</p>"
+        },
+        {
+          "title": "Iets retourneren",
+          "body": "<ol><li>Ga naar 'Mijn bestellingen' op de website</li><li>Kies de bestelling en klik op 'Retourneren'</li><li>Volg de instructies voor het retourlabel</li><li>Lever het pakket in bij het aangegeven punt (vaak een pakketpunt of PostNL)</li></ol>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Zoek op een webshop naar hun retourbeleid: hoeveel dagen bedenktijd hanteren zij?</p>"
+        }
+      ]
+    },
+    {
+      "id": "reviews-oplichting",
+      "title": "Reviews en oplichting herkennen",
+      "steps": [
+        {
+          "title": "Nep-reviews herkennen",
+          "body": "<p>Zijn alle reviews erg kort en overdreven positief, en allemaal rond dezelfde datum geplaatst? Dat kan wijzen op nep-reviews. Lees ook de kritische reviews — die geven vaak een eerlijker beeld.</p>"
+        },
+        {
+          "title": "Te mooi om waar te zijn",
+          "body": "<p>Een nieuw televisietoestel voor een schijntje? Wees achterdochtig bij prijzen die veel lager zijn dan bij bekende winkels. Vergelijk de prijs met minstens twee andere winkels.</p>"
+        },
+        {
+          "title": "Alleen veilige betaalmethoden",
+          "body": "<p>Wordt er alléén vooruitbetaling via bankoverschrijving gevraagd, zonder iDEAL of creditcard als optie? Dat is een grote waarschuwing — bij oplichting kun je je geld dan niet terugkrijgen.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Bekijk de reviews van een product dat je interesseert, en let op of ze eerlijk en gevarieerd overkomen.</p>"
+        }
+      ]
+    }
+  ]
+}

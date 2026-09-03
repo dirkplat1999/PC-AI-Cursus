@@ -1,0 +1,92 @@
+{
+  "lessons": [
+    {
+      "id": "camera-vaardigheden",
+      "title": "Kamera-Fähigkeiten",
+      "steps": [
+        {
+          "title": "Porträtmodus",
+          "body": "<p>Der <strong>Porträtmodus</strong> (oft ein kleines Kopf-Symbol) verwischt den Hintergrund deines Fotos, während die Person scharf bleibt — genau wie bei einem echten Kameraobjektiv. Praktisch für ein schönes Profilfoto.</p>"
+        },
+        {
+          "title": "Serienaufnahme",
+          "body": "<p>Halte den Auslöser gedrückt (oder wische ihn nach links/rechts, je nach Gerät), um schnell mehrere Fotos hintereinander zu machen. Praktisch bei bewegten Motiven — du wählst danach das beste aus der Reihe.</p>"
+        },
+        {
+          "title": "Panorama",
+          "body": "<p>Wähle den Panoramamodus, um eine weite Landschaft in einem Foto festzuhalten. Drehe dich langsam im Kreis, während dein Handy die Fotos zusammensetzt.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Versuche, ein Porträtfoto und ein Panoramafoto zu machen.</p>"
+        }
+      ]
+    },
+    {
+      "id": "snel-bewerken",
+      "title": "Schnelles Bearbeiten auf dem Handy",
+      "steps": [
+        {
+          "title": "Eingebaute Bearbeitungswerkzeuge",
+          "body": "<p>Jede Fotos-App hat eine Grundbearbeitung: Zuschneiden, Filter und Regler für Licht, Kontrast und Sättigung. Fang hiermit an, bevor du eine separate App herunterlädst.</p>"
+        },
+        {
+          "title": "Mehr Kontrolle mit einer App",
+          "body": "<p>Möchtest du mehr? Apps wie <strong>Snapseed</strong> (kostenlos) bieten feinere Kontrolle: einen Teil des Fotos gezielt anpassen, störende Details entfernen, Schärfe feinjustieren.</p>"
+        },
+        {
+          "title": "Nicht übertreiben",
+          "body": "<p>Eine kleine Anpassung bei Licht und Kontrast macht oft schon einen großen Unterschied. Zu viele Filter oder zu kräftige Farben können ein Foto unnatürlich wirken lassen.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Bearbeite ein Foto aus deiner Galerie: passe Licht und Kontrast an und vergleiche es mit dem Original.</p>"
+        }
+      ]
+    },
+    {
+      "id": "videos-monteren",
+      "title": "Videos schneiden",
+      "steps": [
+        {
+          "title": "Ein Video kürzen",
+          "body": "<p>Öffne ein Video in deiner Fotos-App und tippe auf 'Bearbeiten'. Ziehe die Griffe am Anfang und Ende der Zeitleiste nach innen, um den überflüssigen Teil abzuschneiden.</p>"
+        },
+        {
+          "title": "Mehrere Clips zusammenfügen",
+          "body": "<p>Für etwas mehr (zum Beispiel mehrere kurze Videos zu einem Film zusammenfügen) nutzt du eine App wie <strong>CapCut</strong> oder den eingebauten Editor deines Handys. Ziehe die Clips in die gewünschte Reihenfolge.</p>"
+        },
+        {
+          "title": "Musik hinzufügen",
+          "body": "<p>Im selben Editor kannst du meist einen Musiktitel unter dein Video legen. Achte auf die Lautstärke: Die Musik sollte die Stimmen in deinem Video nicht übertönen.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Kürze ein Video auf den wichtigsten Teil und teile es danach mit jemandem.</p>"
+        }
+      ]
+    },
+    {
+      "id": "delen-backup",
+      "title": "Klug teilen und sichern",
+      "steps": [
+        {
+          "title": "Automatisches Backup",
+          "body": "<p>Sorge dafür, dass deine Fotos automatisch in die Cloud hochgeladen werden (Google Fotos oder iCloud), damit du nie etwas verlierst, wenn dein Handy kaputtgeht oder verloren geht. Aktiviere das einmalig in den Einstellungen.</p>"
+        },
+        {
+          "title": "Einen Link statt Dateien teilen",
+          "body": "<p>Teilst du viele Fotos mit jemandem? Sende einen <strong>Freigabe-Link</strong> zu einem Album, statt Dutzender einzelner Fotos. Das ist schneller und übersichtlicher für den Empfänger.</p>"
+        },
+        {
+          "title": "Berechtigungen bei einem geteilten Album",
+          "body": "<p>Bei einem geteilten Album kannst du oft festlegen, ob andere auch Fotos <strong>hinzufügen</strong> dürfen — praktisch bei einer gemeinsamen Reise oder Feier, bei der alle Fotos machen.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Prüfe, ob das automatische Backup auf deinem Handy aktiviert ist, und erstelle ein geteiltes Album für eine Gruppe von Freunden oder Familie.</p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "lessons": [
+    {
+      "id": "foto-maken",
+      "title": "Ein Foto machen",
+      "steps": [
+        {
+          "title": "Die Kamera-App öffnen",
+          "body": "<p>Suche auf deinem Handy das Kamera-Symbol 📷 und tippe darauf. Du siehst jetzt, was die Kamera sieht. Tippe auf die große runde Taste unten, um ein Foto zu machen.</p>"
+        },
+        {
+          "title": "Zwischen Vorder- und Rückkamera wechseln",
+          "body": "<p>Möchtest du ein Foto von dir selbst machen (ein 'Selfie')? Tippe auf das Dreh-Symbol (zwei Pfeile im Kreis), um zwischen der vorderen und hinteren Kamera deines Handys zu wechseln.</p>"
+        },
+        {
+          "title": "Hineinzoomen",
+          "body": "<p>Setze zwei Finger auf den Bildschirm und bewege sie auseinander, um hineinzuzoomen, oder zusammen, um herauszuzoomen. So bekommst du etwas, das weiter weg ist, trotzdem groß ins Bild.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Mach unten, oder auf deinem eigenen Handy, ein Foto von etwas im Zimmer um dich herum.</p>"
+        }
+      ]
+    },
+    {
+      "id": "bekijken-bewerken",
+      "title": "Fotos ansehen und bearbeiten",
+      "steps": [
+        {
+          "title": "Die Fotogalerie öffnen",
+          "body": "<p>Alle deine Fotos befinden sich in der <strong>Fotos-App</strong> (Google Fotos bei Android, Fotos beim iPhone). Tippe auf ein Foto, um es groß anzusehen. Wische nach links oder rechts, um durch deine Fotos zu blättern.</p>"
+        },
+        {
+          "title": "Zuschneiden und drehen",
+          "body": "<p>Öffne ein Foto und tippe auf <strong>'Bearbeiten'</strong> (oft ein kleiner Stift). Du kannst das Foto dann zuschneiden (ein Stück entfernen) oder geraderücken, wenn es schief ist.</p>"
+        },
+        {
+          "title": "Licht und Farbe anpassen",
+          "body": "<p>Im selben Bearbeitungsbildschirm findest du meist Regler für <strong>Helligkeit</strong> und <strong>Farbe</strong>. Schiebe vorsichtig hin und her und schau, was sich ändert. Nicht zufrieden? Tippe auf 'Rückgängig' oder 'Abbrechen'.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Öffne ein Foto aus deiner eigenen Galerie und versuche, es etwas heller oder dunkler zu machen.</p>"
+        }
+      ]
+    },
+    {
+      "id": "album-maken",
+      "title": "Ein Album erstellen",
+      "steps": [
+        {
+          "title": "Warum ein Album praktisch ist",
+          "body": "<p>Bei Hunderten einzelnen Fotos wird die Suche mühsam. Ein <strong>Album</strong> ist eine Sammlung von Fotos zu einem Thema, zum Beispiel 'Urlaub 2026' oder 'Enkelkinder'.</p>"
+        },
+        {
+          "title": "Ein neues Album erstellen",
+          "body": "<ol><li>Öffne die Fotos-App</li><li>Tippe auf 'Album' oder das Plus-Zeichen (+)</li><li>Gib dem Album einen Namen</li><li>Wähle die Fotos aus, die hinein sollen</li></ol>"
+        },
+        {
+          "title": "Fotos später hinzufügen",
+          "body": "<p>Siehst du dir ein Foto an und möchtest es nachträglich in ein Album aufnehmen? Tippe auf das Teilen-Symbol oder die drei Punkte und wähle 'Zu Album hinzufügen'.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Erstelle ein Album zu einem Thema, das dir gefällt, und füge zwei Fotos hinzu.</p>"
+        }
+      ]
+    },
+    {
+      "id": "delen-familie",
+      "title": "Fotos mit der Familie teilen",
+      "steps": [
+        {
+          "title": "Ein Foto über WhatsApp teilen",
+          "body": "<ol><li>Öffne das Foto</li><li>Tippe auf das Teilen-Symbol (oft ein Pfeil nach oben aus einem Quadrat)</li><li>Wähle WhatsApp</li><li>Wähle den Kontakt oder die Gruppe</li><li>Tippe auf Senden</li></ol>"
+        },
+        {
+          "title": "Ein ganzes Album teilen",
+          "body": "<p>Möchtest du gleich ein ganzes Album teilen, zum Beispiel mit der ganzen Familie? Öffne das Album und tippe auf das Teilen-Symbol. Du kannst dann einen Link erstellen, den jeder öffnen kann, ohne jedes Foto einzeln zu versenden.</p>"
+        },
+        {
+          "title": "Fotos ausdrucken lassen",
+          "body": "<p>Möchtest du ein Foto auf Papier? Bei vielen Drogerien und Fotogeschäften kannst du über deren App oder Website Fotos hochladen und ausdrucken lassen oder im Laden abholen.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Teile ein Foto aus deinem Album mit einem Familienmitglied über WhatsApp.</p>"
+        }
+      ]
+    }
+  ]
+}

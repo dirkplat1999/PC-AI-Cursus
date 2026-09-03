@@ -1,0 +1,93 @@
+{
+  "lessons": [
+    {
+      "id": "wat-is-nepnieuws",
+      "title": "What is fake news?",
+      "steps": [
+        {
+          "title": "A definition",
+          "body": "<p><strong>Fake news</strong> is a message that looks like real news, but is wholly or partly untrue — meant to mislead you, scare you, or push a particular opinion.</p>"
+        },
+        {
+          "title": "Why does fake news exist?",
+          "body": "<ul><li><strong>Attention and money:</strong> shocking headlines get more clicks, and therefore more ad revenue</li><li><strong>Influence:</strong> to make people believe a certain opinion</li><li><strong>A joke or chaos:</strong> sometimes simply to sow confusion</li></ul>"
+        },
+        {
+          "title": "It often looks real",
+          "body": "<p>Fake news often uses a logo or layout resembling a well-known news site, to appear credible. Always look closely at the source.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Think of an example of a message you once saw where you doubted whether it was actually true.</p>"
+        }
+      ]
+    },
+    {
+      "id": "signalen-onbetrouwbaar",
+      "title": "Warning signs of an unreliable message",
+      "steps": [
+        {
+          "title": "Exaggerated headlines",
+          "body": "<p>Headlines full of capital letters, exclamation marks, or words like 'SHOCKING' and 'WHAT THEY DON'T WANT YOU TO KNOW' are a sign a message is aimed more at sensation than facts.</p>"
+        },
+        {
+          "title": "No source cited",
+          "body": "<p>A reliable message states where the information comes from: a name, organization, or study. If no source is mentioned anywhere, be extra critical.</p>"
+        },
+        {
+          "title": "Triggering strong emotions",
+          "body": "<p>Does a message make you angry, scared, or outraged? That's exactly the goal of a lot of fake news — it prompts you to share it quickly, without thinking.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Think about it: which of these three signs would you spot fastest in a message?</p>"
+        }
+      ]
+    },
+    {
+      "id": "bron-checken",
+      "title": "Checking a source",
+      "steps": [
+        {
+          "title": "Who is the sender?",
+          "body": "<p>Click on the name of the website or account sharing the message. Has this site been around for a long time? Does the account have many followers and normal posts, or was it just created?</p>"
+        },
+        {
+          "title": "Look for the same news at a well-known source",
+          "body": "<p>Is something really important news? Then it's almost always also covered by well-known, reliable sources such as national broadcasters or major newspapers. Can't find it anywhere else? Be skeptical.</p>"
+        },
+        {
+          "title": "Checking the date",
+          "body": "<p>Sometimes an old message gets shared again as if it were new. Always check the <strong>date</strong> of the article.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Browse a well-known news website below and find a current news story.</p>",
+          "practiceUrl": "https://nos.nl"
+        }
+      ]
+    },
+    {
+      "id": "voordat-je-deelt",
+      "title": "Before you share something",
+      "steps": [
+        {
+          "title": "Pause before you share",
+          "body": "<p>See a shocking message in a WhatsApp or Facebook group? Take a moment before clicking 'Share': is this actually true, and have I checked the source?</p>"
+        },
+        {
+          "title": "Responsibility in family groups",
+          "body": "<p>Messages in a family app group are often quickly assumed to be true, precisely because they come from people you know. That makes it extra important to stay critical yourself, even with messages from people you trust.</p>"
+        },
+        {
+          "title": "Correcting someone kindly",
+          "body": "<p>Noticed someone sharing fake news? A friendly message with the correct source usually helps more than an angry reply.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Think about how you would kindly respond if a family member shared fake news in the family app group.</p>"
+        }
+      ]
+    }
+  ]
+}

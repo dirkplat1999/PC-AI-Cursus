@@ -1,0 +1,93 @@
+{
+  "lessons": [
+    {
+      "id": "webshop-vertrouwen",
+      "title": "Trusting a web shop",
+      "steps": [
+        {
+          "title": "Recognizing trust marks",
+          "body": "<p>Trustworthy Dutch web shops often show a <strong>Thuiswinkel Waarborg</strong> logo at the bottom of the website. Click it: it should link to a real, valid registration.</p>"
+        },
+        {
+          "title": "Don't know the shop yet?",
+          "body": "<p>Ordering from a shop you don't know yet? Search the name together with the word 'reviews' or 'scam' to see what others write about it.</p>"
+        },
+        {
+          "title": "Checking contact details",
+          "body": "<p>A trustworthy web shop always has a findable <strong>address, phone number, and company registration number</strong> on the website (often at the bottom, under 'Contact' or 'About us'). Missing entirely? Be careful.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Browse a web shop below and look for its contact details and trust mark.</p>",
+          "practiceUrl": "https://www.bol.com"
+        }
+      ]
+    },
+    {
+      "id": "bestellen-betalen",
+      "title": "Ordering and paying",
+      "steps": [
+        {
+          "title": "Adding something to your cart",
+          "body": "<p>Click <strong>'Add to cart'</strong> or 'Order' on a product. Then go to your cart (often an icon top right) to review and complete your order.</p>"
+        },
+        {
+          "title": "Paying safely with iDEAL",
+          "body": "<p><strong>iDEAL</strong> is the most widely used, safe payment method in the Netherlands: you pay directly through your own banking app, without entering your card details anywhere else.</p>"
+        },
+        {
+          "title": "Keeping the confirmation email",
+          "body": "<p>After ordering you'll receive a confirmation email with your order number. Keep it — you'll need it if something goes wrong or if you want to return something.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Add a product to your cart on a web shop of your choice, without completing the order.</p>"
+        }
+      ]
+    },
+    {
+      "id": "bezorging-retour",
+      "title": "Tracking delivery and returning items",
+      "steps": [
+        {
+          "title": "Track & trace",
+          "body": "<p>The confirmation email often includes a <strong>track & trace link</strong>. Click it to see where your parcel is and when it will be delivered.</p>"
+        },
+        {
+          "title": "Your right to change your mind",
+          "body": "<p>When shopping online in the Netherlands, you usually have <strong>14 days</strong> to return something, no reason needed — even if there's nothing wrong with the product.</p>"
+        },
+        {
+          "title": "Returning something",
+          "body": "<ol><li>Go to 'My orders' on the website</li><li>Choose the order and click 'Return'</li><li>Follow the instructions for the return label</li><li>Drop off the parcel at the indicated point (often a parcel point or delivery service)</li></ol>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Look up a web shop's return policy: how many days do they allow?</p>"
+        }
+      ]
+    },
+    {
+      "id": "reviews-oplichting",
+      "title": "Recognizing reviews and scams",
+      "steps": [
+        {
+          "title": "Recognizing fake reviews",
+          "body": "<p>Are all the reviews very short, overly positive, and posted around the same date? That can point to fake reviews. Also read the critical reviews — they often give a more honest picture.</p>"
+        },
+        {
+          "title": "Too good to be true",
+          "body": "<p>A new TV for next to nothing? Be suspicious of prices far lower than at well-known stores. Compare the price with at least two other shops.</p>"
+        },
+        {
+          "title": "Only safe payment methods",
+          "body": "<p>Is advance payment only accepted via bank transfer, with no iDEAL or credit card option? That's a major warning sign — with a scam, you usually can't get that money back.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Look at the reviews of a product you're interested in, and check whether they seem honest and varied.</p>"
+        }
+      ]
+    }
+  ]
+}

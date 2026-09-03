@@ -1,0 +1,93 @@
+{
+  "lessons": [
+    {
+      "id": "instellingen-tijdbesparen",
+      "title": "Settings that save you time",
+      "steps": [
+        {
+          "title": "Setting up focus mode",
+          "body": "<p>With a <strong>focus mode</strong> (like 'Work' or 'Sleep') you decide which notifications come through at certain times and which don't. Set this up under Settings &gt; Focus.</p>"
+        },
+        {
+          "title": "Cleaning up notifications",
+          "body": "<p>Go to Settings &gt; Notifications and turn off what you don't need, per app. Cuts a lot of distraction without missing important messages.</p>"
+        },
+        {
+          "title": "Using widgets",
+          "body": "<p>Widgets are small, instantly visible pieces of an app on your home screen — like today's calendar or the weather — so you don't have to open the app separately.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Set up a focus mode and limit notifications from at least two apps that distract you.</p>"
+        }
+      ]
+    },
+    {
+      "id": "apps-combineren",
+      "title": "Combining handy apps smartly",
+      "steps": [
+        {
+          "title": "Automations (routines)",
+          "body": "<p>With Google Assistant routines or iPhone 'Shortcuts', for example, you can have something happen automatically, like: reading out the weather and your calendar automatically every morning.</p>"
+        },
+        {
+          "title": "Managing storage smartly",
+          "body": "<p>Have photos and videos automatically go to the cloud (as covered in module 6) and then delete them from your phone itself, to free up space without losing anything.</p>"
+        },
+        {
+          "title": "Grouping apps into folders",
+          "body": "<p>Drag one app icon onto another to create a folder. This keeps your home screen tidy instead of dozens of loose icons.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Create a folder on your home screen and group a few similar apps into it.</p>"
+        }
+      ]
+    },
+    {
+      "id": "ai-dagelijkse-taken",
+      "title": "AI on your phone for everyday tasks",
+      "steps": [
+        {
+          "title": "More than a voice assistant",
+          "body": "<p>The Gemini app (Google) or ChatGPT app can hold real conversations, write text, and think things through with you — useful for much more than just 'set an alarm'.</p>"
+        },
+        {
+          "title": "Having a photo explained or translated",
+          "body": "<p>Take a photo of, say, a menu in another language, or a complicated form, and ask the AI app to translate or explain it — via the camera feature built into the app.</p>"
+        },
+        {
+          "title": "Quickly drafting a message",
+          "body": "<p>Need to send an email or message quickly but not sure how to start? Briefly describe the situation to the AI and ask for a draft, which you then adjust yourself.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Ask Gemini to write a short message for a situation from your own life, then adjust it to your own style.</p>",
+          "practiceUrl": "https://gemini.google.com"
+        }
+      ]
+    },
+    {
+      "id": "grenzen-ai-telefoon",
+      "title": "The limits of AI on your phone",
+      "steps": [
+        {
+          "title": "What AI assistants aren't good at",
+          "body": "<p>An AI app can sound convincing even when the answer is factually wrong. Never blindly trust important information (medical, financial, legal) — check it with a reliable source.</p>"
+        },
+        {
+          "title": "Privacy of voice commands",
+          "body": "<p>Voice commands are often (partly) processed via the company's servers. Never say sensitive information like passwords or PINs out loud to a voice assistant.</p>"
+        },
+        {
+          "title": "When you need to think for yourself",
+          "body": "<p>Use AI on your phone as quick help or a first draft, but make the final decision yourself on anything that matters — an AI app is no substitute for your own judgment.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Think of a situation where you would use an AI app on your phone, and one where you would deliberately choose not to.</p>"
+        }
+      ]
+    }
+  ]
+}

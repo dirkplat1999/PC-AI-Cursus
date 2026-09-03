@@ -1,0 +1,92 @@
+{
+  "lessons": [
+    {
+      "id": "slim-vergelijken",
+      "title": "Klug vergleichen und kaufen",
+      "steps": [
+        {
+          "title": "Preisvergleichsseiten nutzen",
+          "body": "<p>Seiten wie <strong>Tweakers Pricewatch</strong> oder Google Shopping zeigen in einer Übersicht, wo ein Produkt am günstigsten ist, inklusive Versandkosten und Bewertung des Shops.</p>"
+        },
+        {
+          "title": "Rabattcodes prüfen",
+          "body": "<p>Bevor du bezahlst: suche kurz nach '[Shopname] Rabattcode'. Oft gibt es einen gültigen Code für kostenlosen Versand oder ein paar Prozent Rabatt.</p>"
+        },
+        {
+          "title": "Preisverlauf ansehen",
+          "body": "<p>Manche Tools (wie die Camelizer-Browsererweiterung) zeigen, ob ein 'Angebot' wirklich eins ist, oder der Preis vor ein paar Wochen genauso niedrig war.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Vergleiche den Preis eines Produkts, das dich interessiert, bei zwei verschiedenen Online-Shops.</p>"
+        }
+      ]
+    },
+    {
+      "id": "betalen-zonder-zorgen",
+      "title": "Bezahlen ohne Sorgen",
+      "steps": [
+        {
+          "title": "iDEAL und Kreditkarte",
+          "body": "<p>Bei bekannten niederländischen Online-Shops bezahlst du meist sicher mit <strong>iDEAL</strong> (über deine eigene Bank) oder Kreditkarte. Beide bieten Schutz, falls bei deiner Bestellung etwas schiefgeht.</p>"
+        },
+        {
+          "title": "Später bezahlen: kenne die Risiken",
+          "body": "<p>Dienste wie Klarna oder Riverty lassen dich 'jetzt kaufen, später bezahlen'. Praktisch, aber Achtung: Verpasst du eine Zahlungsfrist, können schnell Mahngebühren anfallen. Setze dir eine Erinnerung für das Zahlungsdatum.</p>"
+        },
+        {
+          "title": "Abo-Fallen",
+          "body": "<p>Eine 'kostenlose Testphase', die nach einem Monat automatisch in ein kostenpflichtiges Abo übergeht, ist eine bekannte Falle. Lies das Kleingedruckte und setze dir bei Bedarf sofort eine Erinnerung, um rechtzeitig zu kündigen.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Prüfe bei einer 'jetzt kaufen, später bezahlen'-Option, wann genau die Zahlungsfrist abläuft.</p>"
+        }
+      ]
+    },
+    {
+      "id": "bezorging-garantie",
+      "title": "Lieferung, Rückgabe und Garantie",
+      "steps": [
+        {
+          "title": "Sendungsverfolgung schnell prüfen",
+          "body": "<p>Die meisten Zustelldienste haben eine App (PostNL, DHL), mit der du alle deine Pakete in einer Übersicht verfolgen kannst, statt einzelne Sendungsverfolgungs-Links zu suchen.</p>"
+        },
+        {
+          "title": "Rückgaberichtlinien vergleichen",
+          "body": "<p>Nicht jeder Shop nutzt dieselbe Frist. Prüfe das vor dem Kauf, besonders bei Kleidung oder Elektronik: manche Shops bieten 30 oder sogar 100 Tage Bedenkzeit.</p>"
+        },
+        {
+          "title": "Gesetzliche Gewährleistung kennen",
+          "body": "<p>Neben der Garantie, die ein Shop selbst gibt, hast du bei einem mangelhaften Produkt immer Anspruch auf <strong>gesetzliche Gewährleistung</strong> — ein Produkt muss einfach das tun, was du erwarten darfst, unabhängig davon, was der Shop dazu sagt.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Suche die Rückgaberichtlinie eines Online-Shops, bei dem du öfter bestellst.</p>"
+        }
+      ]
+    },
+    {
+      "id": "nepwebshops-reviewfraude",
+      "title": "Gefälschte Shops und Bewertungsbetrug erkennen",
+      "steps": [
+        {
+          "title": "Einen gefälschten Online-Shop schnell erkennen",
+          "body": "<p>Achte auf: eine sehr neue Domain, keine Handelsregisternummer, nur ein Kontaktformular ohne Telefonnummer, und Preise, die zu gut sind, um wahr zu sein. Prüfe die Domain mit einem Tool wie whois.com auf das Registrierungsdatum.</p>"
+        },
+        {
+          "title": "Bewertungsbetrug erkennen",
+          "body": "<p>Viele identische Bewertungen um dasselbe Datum, nur 5 Sterne ohne Text, oder Bewertungen mit exakt denselben Sätzen — alles Anzeichen für gekaufte oder gefälschte Bewertungen.</p>"
+        },
+        {
+          "title": "Zahlungsmethode als Warnsignal",
+          "body": "<p>Wird nur eine Vorab-Überweisung verlangt, ohne iDEAL, Kreditkarte oder PayPal als Option? Bei Betrug bekommst du eine solche Überweisung so gut wie nie zurück — ein großer Grund, abzubrechen.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Überlege: An welchen drei Anzeichen würdest du einen gefälschten Online-Shop am schnellsten erkennen?</p>"
+        }
+      ]
+    }
+  ]
+}

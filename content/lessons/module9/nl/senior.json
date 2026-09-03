@@ -1,0 +1,93 @@
+{
+  "lessons": [
+    {
+      "id": "wat-is-nepnieuws",
+      "title": "Wat is nepnieuws?",
+      "steps": [
+        {
+          "title": "Een definitie",
+          "body": "<p><strong>Nepnieuws</strong> is een bericht dat eruitziet als echt nieuws, maar geheel of gedeeltelijk onwaar is — bedoeld om je te misleiden, bang te maken, of een bepaalde mening op te dringen.</p>"
+        },
+        {
+          "title": "Waarom bestaat nepnieuws?",
+          "body": "<ul><li><strong>Aandacht en geld:</strong> schokkende koppen krijgen meer klikken, en dus meer advertentie-inkomsten</li><li><strong>Beïnvloeding:</strong> om mensen een bepaalde mening te laten geloven</li><li><strong>Grap of chaos:</strong> soms simpelweg om verwarring te zaaien</li></ul>"
+        },
+        {
+          "title": "Het lijkt vaak echt",
+          "body": "<p>Nepnieuws gebruikt vaak een logo of opmaak die lijkt op een bekende nieuwssite, om geloofwaardig over te komen. Kijk daarom altijd goed naar de bron.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Bedenk een voorbeeld van een bericht dat je weleens hebt gezien en waar je aan twijfelde of het wel klopte.</p>"
+        }
+      ]
+    },
+    {
+      "id": "signalen-onbetrouwbaar",
+      "title": "Signalen van een onbetrouwbaar bericht",
+      "steps": [
+        {
+          "title": "Overdreven koppen",
+          "body": "<p>Koppen vol hoofdletters, uitroeptekens, of woorden als 'SCHOKKEND' en 'DIT WIL DE OVERHEID NIET DAT JE WEET' zijn een teken dat een bericht meer op sensatie dan op feiten is gericht.</p>"
+        },
+        {
+          "title": "Geen bronvermelding",
+          "body": "<p>Een betrouwbaar bericht noemt waar de informatie vandaan komt: een naam, organisatie, of onderzoek. Staat er nergens een bron genoemd, wees dan extra kritisch.</p>"
+        },
+        {
+          "title": "Sterke emoties oproepen",
+          "body": "<p>Wordt je boos, bang of verontwaardigd van een bericht? Dat is precies het doel van veel nepnieuws — het zet je aan om het snel te delen, zonder na te denken.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Bedenk: welke van deze drie signalen zou jij het snelst herkennen in een bericht?</p>"
+        }
+      ]
+    },
+    {
+      "id": "bron-checken",
+      "title": "Een bron checken",
+      "steps": [
+        {
+          "title": "Wie is de afzender?",
+          "body": "<p>Klik op de naam van de website of het account dat het bericht deelt. Bestaat deze site al lang? Heeft het account veel volgers en normale berichten, of is het net aangemaakt?</p>"
+        },
+        {
+          "title": "Zoek hetzelfde nieuws bij een bekende bron",
+          "body": "<p>Is iets echt belangrijk nieuws? Dan staat het vrijwel altijd ook bij bekende, betrouwbare bronnen zoals de NOS, NU.nl of een landelijke krant. Vind je het nergens anders, wees dan sceptisch.</p>"
+        },
+        {
+          "title": "Datum checken",
+          "body": "<p>Soms wordt een oud bericht opnieuw gedeeld alsof het nieuw is. Kijk altijd naar de <strong>datum</strong> van het artikel.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Bekijk hieronder de website van de NOS en zoek een actueel nieuwsbericht.</p>",
+          "practiceUrl": "https://nos.nl"
+        }
+      ]
+    },
+    {
+      "id": "voordat-je-deelt",
+      "title": "Voordat je iets deelt",
+      "steps": [
+        {
+          "title": "Even nadenken voor je deelt",
+          "body": "<p>Zie je een schokkend bericht in een WhatsApp- of Facebook-groep? Neem een moment voordat je op 'Delen' klikt: klopt dit wel, en heb ik de bron gecheckt?</p>"
+        },
+        {
+          "title": "Verantwoordelijkheid in familiegroepen",
+          "body": "<p>Berichten in een familie-app-groep worden vaak snel als waar aangenomen, juist omdat ze van bekenden komen. Dat maakt het extra belangrijk om zelf kritisch te blijven, ook bij berichten van mensen die je vertrouwt.</p>"
+        },
+        {
+          "title": "Iemand vriendelijk corrigeren",
+          "body": "<p>Zag je dat iemand nepnieuws deelde? Een vriendelijk berichtje met de juiste bron erbij helpt vaak meer dan een boze reactie.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Bedenk hoe jij vriendelijk zou reageren als een familielid nepnieuws deelt in de familie-app-groep.</p>"
+        }
+      ]
+    }
+  ]
+}

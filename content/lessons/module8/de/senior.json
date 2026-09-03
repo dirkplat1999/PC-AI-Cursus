@@ -1,0 +1,93 @@
+{
+  "lessons": [
+    {
+      "id": "instellingen-begrijpen",
+      "title": "Die Einstellungen deines Handys verstehen",
+      "steps": [
+        {
+          "title": "Wo findest du die Einstellungen?",
+          "body": "<p>Suche das Zahnrad-Symbol ⚙️ auf deinem Startbildschirm — das ist das Symbol für <strong>Einstellungen</strong>. Hier regelst du fast alles auf deinem Handy.</p>"
+        },
+        {
+          "title": "Speicherplatz prüfen",
+          "body": "<p>Gehe zu Einstellungen &gt; Speicher, um zu sehen, wie viel Platz noch frei ist. Ist dein Handy fast voll? Dann läuft es oft langsamer. Lösche alte Fotos oder Apps, die du nicht mehr nutzt.</p>"
+        },
+        {
+          "title": "Akku sparen",
+          "body": "<p>Unter Einstellungen &gt; Akku siehst du, welche Apps am meisten Akku verbrauchen. Aktiviere den 'Energiesparmodus', wenn dein Handy schnell leer ist.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Gehe zu den Einstellungen deines eigenen Handys und schau, wie viel Speicherplatz noch frei ist.</p>"
+        }
+      ]
+    },
+    {
+      "id": "apps-installeren",
+      "title": "Apps installieren und entfernen",
+      "steps": [
+        {
+          "title": "Den App Store öffnen",
+          "body": "<p>Bei Android ist das der <strong>Play Store</strong>, beim iPhone der <strong>App Store</strong>. Suche eine App nach Namen, sieh dir die Bewertungen an und tippe auf 'Installieren'.</p>"
+        },
+        {
+          "title": "Eine App entfernen",
+          "body": "<p>Halte das App-Symbol auf deinem Startbildschirm gedrückt, bis ein Menü erscheint, und wähle 'Deinstallieren' oder 'App entfernen'. Deine Daten in der App verschwinden dabei meist auch.</p>"
+        },
+        {
+          "title": "Apps aktuell halten",
+          "body": "<p>Apps erhalten regelmäßig Updates, oft um Sicherheitslücken zu schließen. Aktiviere automatische Updates in den Einstellungen des App Store, damit du das nicht selbst im Blick behalten musst.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Suche im App Store nach einer App, die dich interessiert, ohne sie zu installieren.</p>"
+        }
+      ]
+    },
+    {
+      "id": "spraakassistent",
+      "title": "Einen Sprachassistenten nutzen",
+      "steps": [
+        {
+          "title": "Was ist ein Sprachassistent?",
+          "body": "<p>Ein Sprachassistent (Siri beim iPhone, Google Assistant bei Android) hört deine Stimme und führt einen Befehl aus, ohne dass du tippen musst.</p>"
+        },
+        {
+          "title": "Einen Sprachassistenten aktivieren",
+          "body": "<p>Sage 'Hey Siri' oder 'Hey Google', oder halte die Ein-/Aus-Taste oder die Home-Taste gedrückt (je nach Gerät). Sprich danach ruhig deine Frage oder deinen Befehl aus.</p>"
+        },
+        {
+          "title": "Etwas fragen oder einstellen",
+          "body": "<p>Probiere zum Beispiel: <em>'Wie ist das Wetter heute?'</em>, <em>'Stelle einen Timer für 10 Minuten'</em>, oder <em>'Ruf [Name des Kontakts] an'</em>.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Frage laut den Sprachassistenten deines Handys, wie spät es ist.</p>"
+        }
+      ]
+    },
+    {
+      "id": "ai-dagelijkse-vragen",
+      "title": "KI auf dem Handy für alltägliche Fragen",
+      "steps": [
+        {
+          "title": "KI ist mehr als nur ein Timer stellen",
+          "body": "<p>Moderne Sprachassistenten (wie die Gemini-App von Google) können auch richtige KI-Gespräche führen: Dinge erklären, etwas zusammenfassen oder bei einem Problem mitdenken — genau wie ChatGPT, nur auf deinem Handy.</p>"
+        },
+        {
+          "title": "Einen Text zusammenfassen oder erklären lassen",
+          "body": "<p>Hast du eine lange, komplizierte Nachricht bekommen (zum Beispiel von einer Behörde)? Füge den Text in die Gemini-App ein und frage: <em>'Kannst du das in einfacher Sprache zusammenfassen?'</em></p>"
+        },
+        {
+          "title": "Hilfe beim Schreiben einer Nachricht",
+          "body": "<p>Musst du etwas Schwieriges schreiben, wie eine Beschwerde oder einen Geburtstagsgruß? Bitte die KI um einen Entwurf und passe ihn danach mit deinen eigenen Worten an.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Öffne die Gemini-App oder den Google Assistant auf deinem Handy und bitte um eine kurze Erklärung zu einem Thema, das dich interessiert.</p>",
+          "practiceUrl": "https://gemini.google.com"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "lessons": [
+    {
+      "id": "algoritmes-nieuwsbeeld",
+      "title": "Wie Algorithmen dein Nachrichtenbild färben",
+      "steps": [
+        {
+          "title": "Was war noch mal ein Algorithmus?",
+          "body": "<p>Soziale Medien und News-Apps zeigen dir nicht einfach alles — ein <strong>Algorithmus</strong> wählt aus, was du siehst, basierend darauf, was du vorher angeklickt, geliked oder lange angesehen hast.</p>"
+        },
+        {
+          "title": "Die Filterblase",
+          "body": "<p>Weil der Algorithmus dir vor allem Dinge zeigt, die zu dem passen, was dir schon gefällt, kannst du in einer <strong>Filterblase</strong> landen: Du siehst immer mehr von derselben Art Meinung und immer weniger Gegenstimmen.</p>"
+        },
+        {
+          "title": "Bewusst aus der Blase heraustreten",
+          "body": "<p>Folge bewusst ein paar Quellen mit einem anderen Blickwinkel als gewohnt, und nutze ab und zu gezielte Suche, statt nur durch deinen 'Für dich'-Feed zu scrollen.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Überlege: Welche drei Quellen siehst du am häufigsten in sozialen Medien? Sind das unterschiedliche Blickwinkel, oder vor allem dieselbe Stimme?</p>"
+        }
+      ]
+    },
+    {
+      "id": "ai-nepnieuws",
+      "title": "Fake News und KI-generierte Inhalte",
+      "steps": [
+        {
+          "title": "Gefälschte Fotos und Videos",
+          "body": "<p>Wie bei den Deepfakes aus dem Sicherheitsmodul: KI kann überzeugende gefälschte Fotos und Videos von Ereignissen erstellen, die nie stattgefunden haben. Achte auf unnatürliche Details — merkwürdige Hände, falsch fallende Schatten, unnatürlich glatte 'Plastik'-Haut.</p>"
+        },
+        {
+          "title": "KI-geschriebene Artikel erkennen",
+          "body": "<p>Manche Fake-News-Seiten lassen KI massenhaft Artikel erstellen. Achte auf: sehr generische Sprache, keinen klaren Autor, und Inhalte, die vor allem aus umgeschriebenen Ausschnitten anderer Seiten bestehen.</p>"
+        },
+        {
+          "title": "Umgekehrte Bildersuche",
+          "body": "<p>Unsicher bei einem Foto? Nutze <strong>Google Lens</strong> oder eine umgekehrte Bildersuche, um zu prüfen, ob das Foto schon früher, in einem anderen Zusammenhang, online war.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Schau dir unten ein aktuelles Foto an und versuche, dessen Quelle über eine Suchmaschine zurückzuverfolgen.</p>",
+          "practiceUrl": "https://www.google.com"
+        }
+      ]
+    },
+    {
+      "id": "feitencheck-technieken",
+      "title": "Faktencheck-Techniken",
+      "steps": [
+        {
+          "title": "Faktencheck-Seiten nutzen",
+          "body": "<p>Seiten wie <strong>Nieuwscheckers</strong> oder internationale Faktenchecker untersuchen viel geteilte Behauptungen und erklären, was stimmt und was nicht.</p>"
+        },
+        {
+          "title": "Die Technik des lateralen Lesens",
+          "body": "<p>Statt nur die Seite selbst zu beurteilen, öffnest du einen <strong>neuen Tab</strong> und suchst, was andere über diese Seite oder Nachricht sagen. So bekommst du schnell einen Eindruck von der Zuverlässigkeit.</p>"
+        },
+        {
+          "title": "Mehrere Quellen vergleichen",
+          "body": "<p>Suche dieselbe Nachricht bei mindestens zwei unabhängigen, bekannten Quellen. Erzählen sie dieselbe Geschichte, mit denselben Fakten? Dann ist die Wahrscheinlichkeit größer, dass es stimmt.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Wähle eine Nachricht, die du kürzlich gesehen hast, und suche sie bei mindestens zwei anderen Quellen.</p>"
+        }
+      ]
+    },
+    {
+      "id": "verantwoord-delen",
+      "title": "Verantwortungsvoll teilen",
+      "steps": [
+        {
+          "title": "Warum schnelles Teilen schädlich sein kann",
+          "body": "<p>Studien zeigen, dass sich Fake News oft schneller verbreiten als die spätere Richtigstellung. Einmal geteilt, lässt sich eine falsche Nachricht schwer zurücknehmen — auch wenn du sie später löschst.</p>"
+        },
+        {
+          "title": "Prüfen, bevor du teilst",
+          "body": "<p>Ein paar Sekunden extra prüfen, bevor du auf 'Teilen' klickst, verhindert, dass du selbst zur Verbreitung von etwas Falschem beiträgst.</p>"
+        },
+        {
+          "title": "Jemanden freundlich korrigieren",
+          "body": "<p>Hast du gesehen, dass jemand Fake News geteilt hat? Antworte freundlich mit einer zuverlässigen Quelle, statt die Person sofort bloßzustellen — das funktioniert fast immer besser.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Überlege eine kurze, freundliche Antwort, die du geben würdest, wenn jemand in deinem Gruppenchat eine falsche Nachricht teilt.</p>"
+        }
+      ]
+    }
+  ]
+}

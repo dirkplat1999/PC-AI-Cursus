@@ -1,0 +1,93 @@
+{
+  "lessons": [
+    {
+      "id": "instellingen-begrijpen",
+      "title": "Je telefoon-instellingen begrijpen",
+      "steps": [
+        {
+          "title": "Waar vind je de instellingen?",
+          "body": "<p>Zoek het tandwiel-icoon ⚙️ op je startscherm — dit is het icoon voor <strong>Instellingen</strong>. Hier regel je bijna alles op je telefoon.</p>"
+        },
+        {
+          "title": "Opslagruimte checken",
+          "body": "<p>Ga naar Instellingen &gt; Opslag om te zien hoeveel ruimte er nog vrij is. Is je telefoon bijna vol? Dan werkt hij vaak trager. Verwijder oude foto's of apps die je niet meer gebruikt.</p>"
+        },
+        {
+          "title": "Batterij sparen",
+          "body": "<p>Bij Instellingen &gt; Batterij zie je welke apps de meeste batterij gebruiken. Zet 'Batterijbesparing' aan als je telefoon snel leeg is.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Ga naar de instellingen van je eigen telefoon en kijk hoeveel opslagruimte er nog vrij is.</p>"
+        }
+      ]
+    },
+    {
+      "id": "apps-installeren",
+      "title": "Apps installeren en verwijderen",
+      "steps": [
+        {
+          "title": "De app store openen",
+          "body": "<p>Op Android is dit de <strong>Play Store</strong>, op iPhone de <strong>App Store</strong>. Zoek een app op naam, bekijk de beoordelingen, en tik op 'Installeren'.</p>"
+        },
+        {
+          "title": "Een app verwijderen",
+          "body": "<p>Houd het app-icoon op je startscherm ingedrukt tot er een menu verschijnt, en kies 'Verwijderen' of 'App verwijderen'. Je gegevens in de app verdwijnen dan meestal ook.</p>"
+        },
+        {
+          "title": "Apps up-to-date houden",
+          "body": "<p>Apps krijgen regelmatig updates, vaak om beveiligingslekken te dichten. Zet automatisch bijwerken aan in de instellingen van de app store, zodat je dit niet zelf hoeft te onthouden.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Zoek in de app store naar een app die je interesseert, zonder 'm te installeren.</p>"
+        }
+      ]
+    },
+    {
+      "id": "spraakassistent",
+      "title": "Een spraakassistent gebruiken",
+      "steps": [
+        {
+          "title": "Wat is een spraakassistent?",
+          "body": "<p>Een spraakassistent (Siri op iPhone, Google Assistent op Android) luistert naar je stem en voert een opdracht uit, zonder dat je hoeft te typen.</p>"
+        },
+        {
+          "title": "Een spraakassistent activeren",
+          "body": "<p>Zeg 'Hé Siri' of 'Oké Google', of houd de aan/uit-knop of thuisknop ingedrukt (afhankelijk van je toestel). Spreek daarna rustig je vraag of opdracht uit.</p>"
+        },
+        {
+          "title": "Iets vragen of instellen",
+          "body": "<p>Probeer bijvoorbeeld: <em>'Wat is het weer vandaag?'</em>, <em>'Zet een timer van 10 minuten'</em>, of <em>'Bel [naam contactpersoon]'</em>.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Vraag hardop aan de spraakassistent van je telefoon hoe laat het is.</p>"
+        }
+      ]
+    },
+    {
+      "id": "ai-dagelijkse-vragen",
+      "title": "AI op je telefoon voor dagelijkse vragen",
+      "steps": [
+        {
+          "title": "AI is meer dan alleen een timer zetten",
+          "body": "<p>Moderne spraakassistenten (zoals de Gemini-app van Google) kunnen ook echte AI-gesprekken voeren: uitleg geven, iets samenvatten, of meedenken over een probleem — net als ChatGPT, maar dan op je telefoon.</p>"
+        },
+        {
+          "title": "Een tekst laten samenvatten of uitleggen",
+          "body": "<p>Kreeg je een lang, ingewikkeld bericht (bijvoorbeeld van de gemeente)? Plak de tekst in de Gemini-app en vraag: <em>'Kun je dit in simpele taal samenvatten?'</em></p>"
+        },
+        {
+          "title": "Hulp bij het schrijven van een bericht",
+          "body": "<p>Moet je iets lastigs schrijven, zoals een klacht of een verjaardagswens? Vraag de AI om een concepttekst, en pas 'm daarna aan in je eigen woorden.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Open de Gemini-app of Google Assistent op je telefoon en vraag om een korte uitleg van een onderwerp dat je interesseert.</p>",
+          "practiceUrl": "https://gemini.google.com"
+        }
+      ]
+    }
+  ]
+}

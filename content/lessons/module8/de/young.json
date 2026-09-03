@@ -1,0 +1,93 @@
+{
+  "lessons": [
+    {
+      "id": "instellingen-tijdbesparen",
+      "title": "Einstellungen, die dir Zeit sparen",
+      "steps": [
+        {
+          "title": "Fokusmodus einrichten",
+          "body": "<p>Mit einem <strong>Fokusmodus</strong> (zum Beispiel 'Arbeit' oder 'Schlafen') bestimmst du selbst, welche Benachrichtigungen zu welchen Zeiten durchkommen. Richte das unter Einstellungen &gt; Fokus ein.</p>"
+        },
+        {
+          "title": "Benachrichtigungen aufräumen",
+          "body": "<p>Gehe zu Einstellungen &gt; Benachrichtigungen und schalte pro App aus, was du nicht brauchst. Das spart viel Ablenkung, ohne dass du wichtige Nachrichten verpasst.</p>"
+        },
+        {
+          "title": "Widgets nutzen",
+          "body": "<p>Widgets sind kleine, sofort sichtbare Ausschnitte einer App auf deinem Startbildschirm — zum Beispiel dein heutiger Kalender oder das Wetter —, sodass du die App nicht extra öffnen musst.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Richte einen Fokusmodus ein und beschränke die Benachrichtigungen von mindestens zwei Apps, die dich ablenken.</p>"
+        }
+      ]
+    },
+    {
+      "id": "apps-combineren",
+      "title": "Praktische Apps klug kombinieren",
+      "steps": [
+        {
+          "title": "Automatisierungen (Routinen)",
+          "body": "<p>Mit Google Assistant-Routinen oder iPhone-'Kurzbefehlen' kannst du etwas automatisch geschehen lassen, zum Beispiel: morgens automatisch das Wetter und deinen Kalender vorlesen lassen.</p>"
+        },
+        {
+          "title": "Speicher klug verwalten",
+          "body": "<p>Lass Fotos und Videos automatisch in die Cloud gehen (wie in Modul 6 besprochen) und lösche sie danach von deinem Handy selbst, um Platz freizumachen, ohne etwas zu verlieren.</p>"
+        },
+        {
+          "title": "Apps in Ordnern gruppieren",
+          "body": "<p>Ziehe ein App-Symbol auf ein anderes, um einen Ordner zu erstellen. So bleibt dein Startbildschirm übersichtlich, statt Dutzende einzelner Symbole zu haben.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Erstelle einen Ordner auf deinem Startbildschirm und gruppiere ein paar ähnliche Apps darin.</p>"
+        }
+      ]
+    },
+    {
+      "id": "ai-dagelijkse-taken",
+      "title": "KI auf dem Handy für alltägliche Aufgaben",
+      "steps": [
+        {
+          "title": "Mehr als ein Sprachassistent",
+          "body": "<p>Die Gemini-App (Google) oder die ChatGPT-App können echte Gespräche führen, Texte schreiben und mitdenken — nützlich für viel mehr als nur 'stelle einen Wecker'.</p>"
+        },
+        {
+          "title": "Ein Foto erklären oder übersetzen lassen",
+          "body": "<p>Mach ein Foto zum Beispiel von einer Speisekarte in einer anderen Sprache oder einem komplizierten Formular, und bitte die KI-App, es zu übersetzen oder zu erklären — über die Kamerafunktion in der App.</p>"
+        },
+        {
+          "title": "Schnell einen Nachrichtenentwurf schreiben lassen",
+          "body": "<p>Musst du schnell eine Mail oder Nachricht schreiben, weißt aber nicht genau, wie du anfangen sollst? Beschreibe der KI kurz die Situation und bitte um einen Entwurf, den du danach selbst anpasst.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Bitte Gemini, eine kurze Nachricht für eine Situation aus deinem eigenen Leben zu schreiben, und passe sie danach an deinen eigenen Stil an.</p>",
+          "practiceUrl": "https://gemini.google.com"
+        }
+      ]
+    },
+    {
+      "id": "grenzen-ai-telefoon",
+      "title": "Grenzen von KI auf dem Handy",
+      "steps": [
+        {
+          "title": "Was KI-Assistenten nicht gut können",
+          "body": "<p>Eine KI-App kann überzeugend klingen, auch wenn die Antwort sachlich falsch ist. Vertraue wichtigen Informationen (medizinisch, finanziell, rechtlich) nie blind — prüfe sie bei einer zuverlässigen Quelle.</p>"
+        },
+        {
+          "title": "Datenschutz bei Sprachbefehlen",
+          "body": "<p>Sprachbefehle werden oft (teilweise) über die Server des Unternehmens verarbeitet. Sage niemals sensible Informationen wie Passwörter oder PINs laut zu einem Sprachassistenten.</p>"
+        },
+        {
+          "title": "Wann du selbst nachdenken musst",
+          "body": "<p>Nutze KI auf deinem Handy als schnelle Hilfe oder ersten Entwurf, triff aber bei allem, was wichtig ist, die endgültige Entscheidung selbst — eine KI-App ersetzt nicht dein eigenes Urteilsvermögen.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Überlege eine Situation, in der du eine KI-App auf deinem Handy nutzen würdest, und eine, in der du das bewusst nicht tun würdest.</p>"
+        }
+      ]
+    }
+  ]
+}
