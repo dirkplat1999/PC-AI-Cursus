@@ -22,6 +22,10 @@ app.set('io', io);
 app.locals.icon = icon;
 app.locals.appVersion = require('./package.json').version;
 
+// Correct req.ip/req.protocol when running behind a reverse proxy (e.g.
+// Dokploy's Traefik), which is harmless and a no-op for direct/LAN use.
+app.set('trust proxy', 1);
+
 const PORT = process.env.PORT || 3000;
 const dataDir = path.join(__dirname, 'data');
 if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir, { recursive: true });
@@ -69,6 +73,10 @@ app.use((req, res, next) => {
   res.locals.session = req.session;
   next();
 });
+
+// Lightweight, dependency-free health check for Dokploy's container health
+// checks and load balancer — always 200, no database or view rendering.
+app.get('/health', (req, res) => res.status(200).json({ ok: true }));
 
 app.get('/', (req, res) => {
   const adminExists = !!db.prepare('SELECT 1 FROM admin WHERE id = 1').get();

@@ -98,6 +98,22 @@ Ga als beheerder naar **Wijzigingslog & updates** om:
 
 Dit vereist dat de map als git-repository is geïnitialiseerd met een geconfigureerde remote (zie hieronder) en netwerktoegang tot GitHub.
 
+> Dit is de update-methode voor de lokale/LAN-installatie (`Start PC en AI Cursus.bat`). Draai je de cursus via Dokploy (zie hieronder), gebruik dan de "Deploy"-knop in het Dokploy-dashboard in plaats van deze pagina — daar staat in een gehost/Docker-omgeving geen `.git`-map, dus deze knop toont dan netjes "kon niet verbinden" in plaats van iets te doen.
+
+## Hosten via Dokploy
+
+De cursus kan ook gehost worden als Docker-container via [Dokploy](https://dokploy.com), zodat je updates met één klik vanuit een webinterface kunt uitrollen in plaats van via SSH/`.bat`-bestand. De repository bevat hiervoor een `Dockerfile`.
+
+**Eenmalig instellen:**
+1. Maak in Dokploy een nieuwe **Application** aan en koppel 'm aan `dirkplat1999/PC-AI-Cursus` (branch `main`).
+2. Kies build-type **Dockerfile** (wordt automatisch gevonden in de root van de repository).
+3. Zet de poort op **3000** (dit is de poort die de container intern gebruikt; Dokploy regelt zelf de buitenkant/domein/HTTPS).
+4. **Belangrijk — voeg een Volume/Mount toe:** container-pad `/app/data`. Hier staan de SQLite-database, het sessiegeheim en back-ups. Zonder deze mount ben je bij elke update al je cursisten, voortgang en het beheerderswachtwoord kwijt, omdat de container zelf bij elke deploy vervangen wordt.
+5. (Optioneel) Stel bij "Health Check" het pad `/health` in, zodat Dokploy zelf detecteert of de container gezond opstart.
+6. Klik op **Deploy**. Bij de allereerste keer is de `data`-map nog leeg, dus je krijgt automatisch het installatiescherm (`/setup`) te zien om het beheerderswachtwoord in te stellen — net als bij een lokale installatie.
+
+**Updaten vanuit de webinterface:** zodra er nieuwe wijzigingen op GitHub staan (bijvoorbeeld na een sessie met Claude), open je de Application in Dokploy en klik je op **Deploy** (of **Redeploy**). Dokploy haalt de laatste commit op, bouwt een nieuwe image en vervangt de draaiende container — je cursistengegevens blijven staan dankzij de volume-mount uit stap 4. Wil je dit automatisch laten gebeuren bij elke `git push`? Dokploy kan ook een webhook-URL genereren die je als GitHub-webhook instelt, zodat een deploy vanzelf start; dat is niet nodig als je liever zelf op de knop drukt.
+
 ## Git & GitHub
 
 Dit project is gekoppeld aan `git@github.com:dirkplat1999/PC-AI-Cursus.git`. Om te pushen vanaf een nieuwe machine:
@@ -117,3 +133,4 @@ Dit vereist een geldige SSH-sleutel die gekoppeld is aan het GitHub-account.
 - EJS — server-side templates
 - Geen build-stap nodig; puur server-side gerenderd voor eenvoud en brede compatibiliteit op oudere apparaten
 - Lesinhoud wordt in het geheugen gecached (niet bij elk verzoek opnieuw van schijf gelezen), reacties worden gecomprimeerd, en SQLite draait in WAL-modus — samen goed voor vlot gebruik door een volledige klas (getest tot 50 gelijktijdige cursisten, zie `CHANGELOG.md`)
+- `Dockerfile` aanwezig voor containerhosting (bv. via Dokploy, zie hierboven); `better-sqlite3` gebruikt hierbij meegeleverde prebuilt binaries, dus geen compiler nodig in de image

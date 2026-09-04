@@ -2,6 +2,16 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [3.3.0] - 2026-09-04
+
+### Toegevoegd
+- `Dockerfile` en `.dockerignore` om de cursus als container te hosten (bv. via Dokploy), met een `README.md`-sectie "Hosten via Dokploy" die stap voor stap uitlegt hoe je de app koppelt, de persistente datamap (`/app/data`) instelt, en updates met één klik ("Deploy") vanuit de webinterface uitrolt.
+- `/health`-endpoint: lichte, database-loze statuscheck voor Dokploy's health check.
+- `app.set('trust proxy', 1)` zodat het client-IP en protocol correct blijven achter een reverse proxy (Traefik/Dokploy).
+
+### Opgemerkt
+- De bestaande "Wijzigingslog & updates"-pagina in het beheerdersdashboard (git fetch/pull) blijft de update-methode voor de lokale/LAN-installatie; in een Dokploy-omgeving gebruik je in plaats daarvan de "Deploy"-knop van Dokploy zelf.
+
 ## [3.2.1] - 2026-09-03
 
 ### Opgelost
