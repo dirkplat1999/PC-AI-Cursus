@@ -3,7 +3,7 @@ setlocal
 cd /d "%~dp0"
 title PC & AI Cursus - Server
 
-if not exist "node_modules" (
+if not exist "node_modules\express\package.json" (
   echo Eenmalige installatie van benodigde bestanden, dit duurt even...
   call npm install
   if errorlevel 1 (

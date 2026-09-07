@@ -2,6 +2,13 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [3.3.1] - 2026-09-04
+
+### Opgelost
+- `Start PC en AI Cursus.bat` controleerde alleen of de map `node_modules` bestond, niet of de installatie ook echt volledig gelukt was. Na een eerdere onderbroken/mislukte installatie (bijvoorbeeld door een tijdelijk netwerkprobleem) bleef die lege of onvolledige map staan, waardoor het script de installatiestap oversloeg en de server meteen crashte met `Cannot find module 'express'`. Het script controleert nu specifiek op een daadwerkelijk geïnstalleerd pakket (`node_modules\express\package.json`) en herhaalt de installatie automatisch als die eerder niet volledig gelukt is.
+
+> Ter verduidelijking: dit stond los van de Dockerfile/Dokploy-toevoeging uit v3.3.0 — die bestanden hebben geen enkel effect op de lokale Windows-installatie. Eén repository ondersteunt beide manieren van draaien (lokaal via het `.bat`-bestand, gehost via Dokploy met de `Dockerfile`) zonder dat ze elkaar in de weg zitten.
+
 ## [3.3.0] - 2026-09-04
 
 ### Toegevoegd
