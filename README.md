@@ -4,7 +4,7 @@ Lokale webserver, bereikbaar op het LAN-netwerk, als interactieve lesomgeving vo
 
 ## Starten
 
-**Snelste manier (Windows):** dubbelklik op `Start PC en AI Cursus.bat` in de projectmap. Dit installeert bij de eerste keer automatisch de benodigde bestanden, start de server en opent na een paar seconden automatisch de browser. Laat het zwarte venster openstaan zolang de cursus gebruikt wordt; sluit het venster om de server te stoppen.
+**Snelste manier (Windows):** dubbelklik op `Start PC en AI Cursus.bat` in de projectmap. Als Node.js nog niet op de computer staat, wordt dat bij de eerste keer automatisch gedownload (geen installatie of admin-rechten nodig — het komt in een map `node-portable` naast het project te staan). Daarna worden de benodigde bestanden geïnstalleerd, start de server en opent na een paar seconden automatisch de browser. Laat het zwarte venster openstaan zolang de cursus gebruikt wordt; sluit het venster om de server te stoppen.
 
 **Handmatig (alle platforms):**
 

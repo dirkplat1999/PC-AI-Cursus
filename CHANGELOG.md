@@ -2,6 +2,15 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [3.4.0] - 2026-09-07
+
+### Toegevoegd
+- `Start PC en AI Cursus.bat` installeert nu ook Node.js zelf als dat nog niet op de computer staat: `scripts/ensure-node.ps1` detecteert of Node.js al aanwezig is, en downloadt anders automatisch de nieuwste LTS-versie als portable (zip-)installatie naar `node-portable\` — zonder installatie, zonder admin-rechten. Python is bewust niet toegevoegd: de cursus-app zelf heeft daar niets aan (puur Node.js), Python werd alleen incidenteel gebruikt voor marketingmateriaal buiten de app om.
+
+### Opgelost
+- De eigenlijke oorzaak van de eerdere "Cannot find module 'express'"-fout gevonden en opgelost: `better-sqlite3` heeft geen eigen `install`-script, waardoor npm daar standaard `node-gyp rebuild` (compileren vanaf broncode) voor probeert — terwijl het pakket al kant-en-klare binaries meelevert voor elk platform. Op computers zonder Visual Studio Build Tools/Python (zoals de meeste niet-ontwikkelaars-pc's) liet dat de hele installatie mislukken. Een nieuwe `.npmrc` (`ignore-scripts=true`) schakelt dat compileerstapje project-breed uit; niets anders in de dependency-boom heeft een install-script nodig, dus dit is veilig.
+- `title PC & AI Cursus - Server` in het startscript liet Windows de `&` verkeerd interpreteren (als commandoscheiding), wat een onschuldige maar verwarrende `'AI' is not recognized...`-foutmelding gaf voordat de rest gewoon doorging. De `&` wordt nu correct ge-escaped.
+
 ## [3.3.1] - 2026-09-04
 
 ### Opgelost

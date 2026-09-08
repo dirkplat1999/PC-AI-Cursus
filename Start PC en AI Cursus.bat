@@ -1,7 +1,33 @@
 @echo off
-setlocal
+setlocal enabledelayedexpansion
 cd /d "%~dp0"
-title PC & AI Cursus - Server
+title PC ^& AI Cursus - Server
+
+set "RESULT_FILE=%TEMP%\pcai-node-bin.txt"
+if exist "%RESULT_FILE%" del "%RESULT_FILE%" >nul 2>&1
+
+echo Node.js wordt gecontroleerd...
+powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0scripts\ensure-node.ps1" -ResultFile "%RESULT_FILE%"
+if errorlevel 1 (
+  echo.
+  echo Kon Node.js niet automatisch downloaden ^(bijvoorbeeld door geen internetverbinding^).
+  echo Installeer Node.js handmatig via https://nodejs.org en start dit bestand daarna opnieuw.
+  echo.
+  pause
+  exit /b 1
+)
+
+if not exist "%RESULT_FILE%" (
+  echo.
+  echo Er ging iets onverwachts mis bij het voorbereiden van Node.js.
+  echo.
+  pause
+  exit /b 1
+)
+
+set /p NODE_BIN=<"%RESULT_FILE%"
+del "%RESULT_FILE%" >nul 2>&1
+set "PATH=%NODE_BIN%;%PATH%"
 
 if not exist "node_modules\express\package.json" (
   echo Eenmalige installatie van benodigde bestanden, dit duurt even...
