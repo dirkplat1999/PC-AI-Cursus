@@ -1,0 +1,78 @@
+<div class="admin-page">
+  <div class="admin-header">
+    <h1>Instellingen</h1>
+    <nav class="admin-nav">
+      <a href="/admin"><%= t.adminDashboard %></a>
+      <a href="/admin/students"><%= t.students %></a>
+      <a href="/admin/backup">Back-up &amp; herstel</a>
+      <a href="/admin/changelog"><%= t.changelog %></a>
+      <a href="/admin/settings" class="active">Instellingen</a>
+    </nav>
+  </div>
+
+  <% if (error) { %><p class="error"><%= error %></p><% } %>
+  <% if (notice) { %><p class="notice"><%= notice %></p><% } %>
+
+  <section class="panel">
+    <h2>E-mail (SMTP)</h2>
+    <p class="hint">Nodig om cursisten hun inloggegevens per e-mail te kunnen sturen (bijvoorbeeld bij het aanmaken van een account, of als iemand het wachtwoord kwijt is). Vraag deze gegevens op bij je e-mailprovider — bij de meeste providers heet dit "SMTP-instellingen" of "app-wachtwoord".</p>
+    <form method="POST" action="/admin/settings" class="student-form">
+      <div class="form-row">
+        <div>
+          <label>SMTP-server (host)</label>
+          <input type="text" name="smtp_host" value="<%= settings.smtp_host %>" placeholder="smtp.voorbeeld.nl">
+        </div>
+        <div>
+          <label>Poort</label>
+          <input type="number" name="smtp_port" value="<%= settings.smtp_port %>" placeholder="587">
+        </div>
+        <div>
+          <label class="checkbox-pill" style="margin-top: 24px;">
+            <input type="checkbox" name="smtp_secure" value="1" <%= settings.smtp_secure === '1' ? 'checked' : '' %>>
+            Beveiligde verbinding (SSL, meestal poort 465)
+          </label>
+        </div>
+      </div>
+      <div class="form-row">
+        <div>
+          <label>SMTP-gebruikersnaam</label>
+          <input type="text" name="smtp_user" value="<%= settings.smtp_user %>" autocomplete="off">
+        </div>
+        <div>
+          <label>SMTP-wachtwoord</label>
+          <input type="password" name="smtp_pass" placeholder="<%= settings.smtp_pass ? '•••••••• (ongewijzigd laten om te behouden)' : '' %>" autocomplete="off">
+        </div>
+      </div>
+      <div class="form-row">
+        <div>
+          <label>Afzendernaam</label>
+          <input type="text" name="mail_from_name" value="<%= settings.mail_from_name %>" placeholder="PC & AI Cursus">
+        </div>
+        <div>
+          <label>Afzenderadres</label>
+          <input type="email" name="mail_from_address" value="<%= settings.mail_from_address %>" placeholder="cursus@voorbeeld.nl">
+        </div>
+      </div>
+      <div class="form-row">
+        <div style="flex: 2;">
+          <label>Cursus-URL (in de e-mail aan cursisten)</label>
+          <input type="text" name="course_url" value="<%= settings.course_url %>" placeholder="https://cursus.voorbeeld.nl">
+          <p class="hint">Leeg laten gebruikt automatisch het adres waarmee je nu bij dit beheerdersdashboard bent — handig bij lokaal/LAN-gebruik, maar vul een vast adres in als je de cursus via internet host (bijvoorbeeld met Dokploy).</p>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Opslaan</button>
+    </form>
+
+    <hr>
+
+    <form method="POST" action="/admin/settings/test" class="student-form">
+      <div class="form-row">
+        <div>
+          <label>Testmail versturen naar</label>
+          <input type="email" name="test_email" value="<%= testEmail %>" placeholder="jouw@e-mailadres.nl">
+        </div>
+      </div>
+      <button type="submit" class="btn btn-small">Testmail versturen</button>
+    </form>
+  </section>
+</div>

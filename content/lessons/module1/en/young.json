@@ -6,7 +6,15 @@
       "steps": [
         {
           "title": "Secure your mailbox first",
-          "body": "<p>Before anything else: turn on <strong>two-factor authentication (2FA)</strong> on your email account. This is the first, most important step — your mailbox is often the key to all your other accounts (via 'forgot password').</p><p>In Gmail this is under <em>Settings &gt; Security &gt; 2-Step Verification</em>.</p>"
+          "body": "<p>Before anything else: turn on <strong>two-factor authentication (2FA)</strong> on your email account. This is the first, most important step — your mailbox is often the key to all your other accounts (via 'forgot password').</p>",
+          "providerNotes": {
+            "gmail": "Go to your Google account (myaccount.google.com) &gt; Security &gt; 2-Step Verification.",
+            "outlook": "Go to your Microsoft account &gt; Security &gt; Advanced security options &gt; Two-step verification.",
+            "kpn": "Check 'Mijn KPN' under Settings/Security for available options; if 2FA isn't offered, at least use a long, unique password.",
+            "icloud": "Go to Settings &gt; your name &gt; Sign-In & Security — two-factor authentication is often already on by default for an Apple ID.",
+            "yahoo": "Go to your Yahoo account security settings and turn on 'Two-step verification'.",
+            "default": "Look in your email provider's settings for 'Security' or 'Two-factor authentication' (sometimes called '2FA')."
+          }
         },
         {
           "title": "Writing professional emails",
@@ -19,7 +27,14 @@
         {
           "title": "Exercise",
           "body": "<p>Open your mailbox below and check: is 2FA already on? If not, turn it on now.</p>",
-          "practiceUrl": "https://mail.google.com"
+          "practiceUrl": "https://mail.google.com",
+          "practiceUrlByProvider": {
+            "gmail": "https://mail.google.com",
+            "outlook": "https://outlook.live.com/mail/",
+            "kpn": "https://mail.kpnmail.nl",
+            "icloud": "https://www.icloud.com/mail",
+            "yahoo": "https://mail.yahoo.com"
+          }
         }
       ]
     },
@@ -29,7 +44,15 @@
       "steps": [
         {
           "title": "Sending attachments",
-          "body": "<p>Click the paperclip icon 📎 to add a file. For large files (photos, videos), Gmail often automatically offers a <strong>Google Drive link</strong> instead of a direct attachment.</p>"
+          "body": "<p>Click the paperclip icon 📎 to add a file. For large files (photos, videos), providers like Gmail often automatically offer a <strong>Google Drive link</strong> instead of a direct attachment.</p>",
+          "providerNotes": {
+            "gmail": "In Gmail, the paperclip icon is at the bottom of the message window; for large files Gmail offers a Drive link itself.",
+            "outlook": "In Outlook, click 'Insert' at the top, or the paperclip icon at the bottom; for large files Outlook offers a OneDrive link.",
+            "kpn": "In KPN Mail, the paperclip icon is in the toolbar above your message.",
+            "icloud": "In iCloud Mail, tap or click the attachment icon in the toolbar; large files are sent automatically via 'Mail Drop'.",
+            "yahoo": "In Yahoo Mail, the paperclip icon is at the bottom of the compose window.",
+            "default": "Look for a paperclip icon in or below the window where you type your message."
+          }
         },
         {
           "title": "Why a link beats an attachment",

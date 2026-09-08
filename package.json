@@ -1,6 +1,6 @@
 {
   "name": "pc-ai-cursus",
-  "version": "3.4.0",
+  "version": "3.5.0",
   "description": "Lokale LAN-lesomgeving voor PC- en AI-cursus",
   "main": "server.js",
   "scripts": {
@@ -19,6 +19,7 @@
     "express-ejs-layouts": "^2.5.1",
     "express-session": "^1.19.0",
     "multer": "^2.2.0",
+    "nodemailer": "^10.0.1",
     "socket.io": "^4.8.3"
   },
   "devDependencies": {

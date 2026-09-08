@@ -10,7 +10,15 @@
         },
         {
           "title": "Opening your inbox",
-          "body": "<p>Open your email program (for example Gmail) through the browser or app. You will see your <strong>Inbox</strong>: a list of received messages. Unread messages are usually shown in <strong>bold</strong>.</p><p>Click on a message to open and read it.</p>"
+          "body": "<p>Open your email program through the browser or app. You will see your <strong>Inbox</strong>: a list of received messages. Unread messages are usually shown in <strong>bold</strong>.</p><p>Click on a message to open and read it.</p>",
+          "providerNotes": {
+            "gmail": "Go to mail.google.com or open the Gmail app and sign in with your Google account.",
+            "outlook": "Go to outlook.live.com or open the Outlook app and sign in with your Microsoft account (this also works with an older Hotmail or Live address).",
+            "kpn": "Go to mail.kpnmail.nl and sign in with your KPN username and password.",
+            "icloud": "Go to icloud.com/mail, or open the Mail app on your iPhone, iPad or Mac — you're usually already signed in with your Apple ID there.",
+            "yahoo": "Go to mail.yahoo.com or open the Yahoo Mail app and sign in with your Yahoo account.",
+            "default": "Sign in through your own email provider's website or app — the buttons look a bit different, but the idea is the same."
+          }
         },
         {
           "title": "Writing a new message",
@@ -23,7 +31,14 @@
         {
           "title": "Exercise",
           "body": "<p>Open your own mailbox below and try sending a test message to yourself. This way you'll see exactly how a sent message arrives.</p>",
-          "practiceUrl": "https://mail.google.com"
+          "practiceUrl": "https://mail.google.com",
+          "practiceUrlByProvider": {
+            "gmail": "https://mail.google.com",
+            "outlook": "https://outlook.live.com/mail/",
+            "kpn": "https://mail.kpnmail.nl",
+            "icloud": "https://www.icloud.com/mail",
+            "yahoo": "https://mail.yahoo.com"
+          }
         },
         {
           "title": "Note: staying safe by email",
@@ -41,7 +56,15 @@
         },
         {
           "title": "Adding a file",
-          "body": "<ol><li>Click the paperclip icon in your email</li><li>Find the file on your computer or phone</li><li>Click 'Open' or 'Select'</li><li>Wait until the file has fully uploaded (you'll see a progress bar or checkmark)</li></ol>"
+          "body": "<ol><li>Click the paperclip icon in your email</li><li>Find the file on your computer or phone</li><li>Click 'Open' or 'Select'</li><li>Wait until the file has fully uploaded (you'll see a progress bar or checkmark)</li></ol>",
+          "providerNotes": {
+            "gmail": "In Gmail, the paperclip icon is at the bottom of the message window.",
+            "outlook": "In Outlook, click 'Insert' at the top, or the paperclip icon at the bottom of the compose window.",
+            "kpn": "In KPN Mail, the paperclip icon is in the toolbar above your message.",
+            "icloud": "In iCloud Mail, tap or click the attachment icon in the toolbar of your new message.",
+            "yahoo": "In Yahoo Mail, the paperclip icon is at the bottom of the compose window.",
+            "default": "Look for a paperclip icon in or below the window where you type your message."
+          }
         },
         {
           "title": "Large files",
@@ -54,7 +77,14 @@
         {
           "title": "Exercise",
           "body": "<p>Try opening a new message in your own mailbox and adding a photo as an attachment (without sending it).</p>",
-          "practiceUrl": "https://mail.google.com"
+          "practiceUrl": "https://mail.google.com",
+          "practiceUrlByProvider": {
+            "gmail": "https://mail.google.com",
+            "outlook": "https://outlook.live.com/mail/",
+            "kpn": "https://mail.kpnmail.nl",
+            "icloud": "https://www.icloud.com/mail",
+            "yahoo": "https://mail.yahoo.com"
+          }
         }
       ]
     },

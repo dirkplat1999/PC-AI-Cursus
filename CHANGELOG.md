@@ -2,6 +2,13 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [3.5.0] - 2026-09-08
+
+### Toegevoegd
+- **E-mail (SMTP) vanuit het beheerdersdashboard**: nieuwe pagina **Instellingen** om SMTP-gegevens (server, poort, gebruikersnaam/wachtwoord, afzender) en een vast cursus-adres in te vullen, met een testmail-knop. Gebruikt `nodemailer` (geen native afhankelijkheden, dus geen compiler-risico zoals bij `better-sqlite3`).
+- **Inloggegevens per e-mail versturen**: cursisten krijgen nu een optioneel e-mailadres-veld. Zodra dat en de SMTP-instellingen zijn ingevuld, verschijnt een knop **"Verstuur inloggegevens"** per cursist op de Cursisten-pagina — genereert een nieuw wachtwoord en mailt gebruikersnaam, wachtwoord en de cursus-URL. Werkt zowel voor het eerste account als om een vergeten wachtwoord te herstellen.
+- **Provider-specifieke tips in de e-mailles** (module 1): op basis van het e-maildomein van de cursist (Gmail, Outlook/Hotmail/Live, KPN Mail, iCloud, Yahoo) tonen de lesstappen over het postvak openen, bijlagen toevoegen en (bij de jongere leeftijdsgroep) tweestapsverificatie een passende tip mét een knop die direct naar de juiste inlogpagina van die provider gaat, in plaats van standaard Gmail. Geen herkende provider? Dan valt de les terug op een generieke tip. Beschikbaar in NL/EN/DE, voor beide leeftijdsgroepen.
+
 ## [3.4.0] - 2026-09-07
 
 ### Toegevoegd

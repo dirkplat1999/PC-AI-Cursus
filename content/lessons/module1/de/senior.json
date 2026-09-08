@@ -10,7 +10,15 @@
         },
         {
           "title": "Dein Postfach öffnen",
-          "body": "<p>Öffne dein E-Mail-Programm (zum Beispiel Gmail) über den Browser oder die App. Du siehst dann deinen <strong>Posteingang</strong>: eine Liste eingegangener Nachrichten. Ungelesene Nachrichten sind meist <strong>fett gedruckt</strong>.</p><p>Klicke auf eine Nachricht, um sie zu öffnen und zu lesen.</p>"
+          "body": "<p>Öffne dein E-Mail-Programm über den Browser oder die App. Du siehst dann deinen <strong>Posteingang</strong>: eine Liste eingegangener Nachrichten. Ungelesene Nachrichten sind meist <strong>fett gedruckt</strong>.</p><p>Klicke auf eine Nachricht, um sie zu öffnen und zu lesen.</p>",
+          "providerNotes": {
+            "gmail": "Gehe zu mail.google.com oder öffne die Gmail-App und melde dich mit deinem Google-Konto an.",
+            "outlook": "Gehe zu outlook.live.com oder öffne die Outlook-App und melde dich mit deinem Microsoft-Konto an (funktioniert auch mit einer älteren Hotmail- oder Live-Adresse).",
+            "kpn": "Gehe zu mail.kpnmail.nl und melde dich mit deinem KPN-Benutzernamen und Passwort an.",
+            "icloud": "Gehe zu icloud.com/mail, oder öffne die Mail-App auf deinem iPhone, iPad oder Mac — dort bist du meist schon mit deiner Apple-ID angemeldet.",
+            "yahoo": "Gehe zu mail.yahoo.com oder öffne die Yahoo Mail-App und melde dich mit deinem Yahoo-Konto an.",
+            "default": "Melde dich über die Website oder App deines eigenen E-Mail-Anbieters an — die Schaltflächen sehen etwas anders aus, aber das Prinzip ist dasselbe."
+          }
         },
         {
           "title": "Eine neue Nachricht verfassen",
@@ -23,7 +31,14 @@
         {
           "title": "Übung",
           "body": "<p>Öffne unten dein eigenes Postfach und versuche, eine Testnachricht an dich selbst zu senden. So siehst du genau, wie eine gesendete Nachricht ankommt.</p>",
-          "practiceUrl": "https://mail.google.com"
+          "practiceUrl": "https://mail.google.com",
+          "practiceUrlByProvider": {
+            "gmail": "https://mail.google.com",
+            "outlook": "https://outlook.live.com/mail/",
+            "kpn": "https://mail.kpnmail.nl",
+            "icloud": "https://www.icloud.com/mail",
+            "yahoo": "https://mail.yahoo.com"
+          }
         },
         {
           "title": "Achtung: sicher mailen",
@@ -41,7 +56,15 @@
         },
         {
           "title": "Eine Datei hinzufügen",
-          "body": "<ol><li>Klicke in deiner E-Mail auf das Büroklammer-Symbol</li><li>Suche die Datei auf deinem Computer oder Handy</li><li>Klicke auf 'Öffnen' oder 'Auswählen'</li><li>Warte, bis die Datei vollständig hochgeladen ist (du siehst einen Ladebalken oder ein Häkchen)</li></ol>"
+          "body": "<ol><li>Klicke in deiner E-Mail auf das Büroklammer-Symbol</li><li>Suche die Datei auf deinem Computer oder Handy</li><li>Klicke auf 'Öffnen' oder 'Auswählen'</li><li>Warte, bis die Datei vollständig hochgeladen ist (du siehst einen Ladebalken oder ein Häkchen)</li></ol>",
+          "providerNotes": {
+            "gmail": "In Gmail steht das Büroklammer-Symbol unten im Nachrichtenfenster.",
+            "outlook": "In Outlook klickst du oben auf 'Einfügen', oder auf das Büroklammer-Symbol unten im Fenster.",
+            "kpn": "In KPN Mail steht das Büroklammer-Symbol in der Werkzeugleiste über deiner Nachricht.",
+            "icloud": "In iCloud Mail tippst oder klickst du auf das Anhang-Symbol in der Werkzeugleiste der neuen Nachricht.",
+            "yahoo": "In Yahoo Mail steht das Büroklammer-Symbol unten im Nachrichtenfenster.",
+            "default": "Suche nach einem Büroklammer-Symbol im oder unter dem Fenster, in dem du deine Nachricht schreibst."
+          }
         },
         {
           "title": "Große Dateien",
@@ -54,7 +77,14 @@
         {
           "title": "Übung",
           "body": "<p>Versuche, in deinem eigenen Postfach eine neue Nachricht zu öffnen und ein Foto als Anhang hinzuzufügen (ohne sie zu senden).</p>",
-          "practiceUrl": "https://mail.google.com"
+          "practiceUrl": "https://mail.google.com",
+          "practiceUrlByProvider": {
+            "gmail": "https://mail.google.com",
+            "outlook": "https://outlook.live.com/mail/",
+            "kpn": "https://mail.kpnmail.nl",
+            "icloud": "https://www.icloud.com/mail",
+            "yahoo": "https://mail.yahoo.com"
+          }
         }
       ]
     },

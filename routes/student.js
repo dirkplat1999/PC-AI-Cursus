@@ -3,6 +3,7 @@ const db = require('../db/database');
 const { requireStudent } = require('../middleware/auth');
 const { getUi, getModules, getModule, getLessons, getGlossary, normalizeLang, SUPPORTED_LANGS } = require('../lib/content');
 const { detectDevice } = require('../lib/device');
+const { detectProvider, providerName, providerWebmailUrl } = require('../lib/email-provider');
 
 const router = express.Router();
 router.use(requireStudent);
@@ -52,11 +53,19 @@ router.get('/module/:key', (req, res) => {
   const assigned = db.prepare('SELECT 1 FROM student_modules WHERE student_id = ? AND module_key = ?').get(req.student.id, req.params.key);
   if (!mod || !assigned) return res.status(404).render('student/dashboard', { modules: [], glossary: getGlossary(res.locals.lang) });
 
+  const provider = detectProvider(req.student.email);
+
   const lessons = getLessons(req.params.key, res.locals.lang, req.student.age_group);
   const flatSteps = [];
   lessons.forEach((lesson) => {
     lesson.steps.forEach((step, idx) => {
-      flatSteps.push({ ...step, lessonTitle: lesson.title, lessonId: lesson.id, isFirstOfLesson: idx === 0 });
+      const flat = { ...step, lessonTitle: lesson.title, lessonId: lesson.id, isFirstOfLesson: idx === 0 };
+      // Als de cursist een herkende e-mailprovider heeft, wijst de oefenlink
+      // naar die provider zelf in plaats van standaard Gmail.
+      if (provider && step.practiceUrlByProvider && step.practiceUrlByProvider[provider]) {
+        flat.practiceUrl = step.practiceUrlByProvider[provider];
+      }
+      flatSteps.push(flat);
     });
   });
 
@@ -65,13 +74,27 @@ router.get('/module/:key', (req, res) => {
   if (Number.isNaN(stepIndex) || stepIndex < 0) stepIndex = 0;
   if (stepIndex >= flatSteps.length) stepIndex = flatSteps.length - 1;
 
+  const currentStep = flatSteps[stepIndex];
+  let providerTip = null;
+  if (currentStep && currentStep.providerNotes) {
+    const text = currentStep.providerNotes[provider] || currentStep.providerNotes.default;
+    if (text) {
+      providerTip = {
+        text,
+        providerLabel: (provider && providerName(provider)) || null,
+        url: (provider && providerWebmailUrl(provider)) || null
+      };
+    }
+  }
+
   res.render('student/lesson', {
     module: mod,
     steps: flatSteps,
     currentIndex: stepIndex,
-    currentStep: flatSteps[stepIndex],
+    currentStep,
     total: flatSteps.length,
-    glossary: getGlossary(res.locals.lang)
+    glossary: getGlossary(res.locals.lang),
+    providerTip
   });
 });
 

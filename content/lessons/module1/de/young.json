@@ -6,7 +6,15 @@
       "steps": [
         {
           "title": "Dein Postfach zuerst absichern",
-          "body": "<p>Bevor du loslegst: aktiviere die <strong>Zwei-Faktor-Authentifizierung (2FA)</strong> für dein E-Mail-Konto. Das ist der erste, wichtigste Schritt — dein Postfach ist oft der Schlüssel zu all deinen anderen Konten (über 'Passwort vergessen').</p><p>Bei Gmail findest du das unter <em>Einstellungen &gt; Sicherheit &gt; Zwei-Faktor-Authentifizierung</em>.</p>"
+          "body": "<p>Bevor du loslegst: aktiviere die <strong>Zwei-Faktor-Authentifizierung (2FA)</strong> für dein E-Mail-Konto. Das ist der erste, wichtigste Schritt — dein Postfach ist oft der Schlüssel zu all deinen anderen Konten (über 'Passwort vergessen').</p>",
+          "providerNotes": {
+            "gmail": "Gehe zu deinem Google-Konto (myaccount.google.com) &gt; Sicherheit &gt; Zwei-Faktor-Authentifizierung.",
+            "outlook": "Gehe zu deinem Microsoft-Konto &gt; Sicherheit &gt; Erweiterte Sicherheitsoptionen &gt; Zweistufige Überprüfung.",
+            "kpn": "Schau bei 'Mijn KPN' unter Einstellungen/Sicherheit, welche Optionen es gibt; gibt es kein 2FA, wähle zumindest ein langes, einzigartiges Passwort.",
+            "icloud": "Gehe zu Einstellungen &gt; dein Name &gt; Anmeldung &amp; Sicherheit — bei einer Apple-ID ist die Zwei-Faktor-Authentifizierung meist schon automatisch aktiv.",
+            "yahoo": "Gehe zu den Sicherheitseinstellungen deines Yahoo-Kontos und aktiviere die 'Zwei-Stufen-Verifizierung'.",
+            "default": "Suche in den Einstellungen deines E-Mail-Anbieters nach 'Sicherheit' oder 'Zwei-Faktor-Authentifizierung' (manchmal '2FA' genannt)."
+          }
         },
         {
           "title": "Professionell mailen",
@@ -19,7 +27,14 @@
         {
           "title": "Übung",
           "body": "<p>Öffne unten dein Postfach und prüfe: Ist 2FA schon aktiv? Falls nicht, aktiviere es jetzt.</p>",
-          "practiceUrl": "https://mail.google.com"
+          "practiceUrl": "https://mail.google.com",
+          "practiceUrlByProvider": {
+            "gmail": "https://mail.google.com",
+            "outlook": "https://outlook.live.com/mail/",
+            "kpn": "https://mail.kpnmail.nl",
+            "icloud": "https://www.icloud.com/mail",
+            "yahoo": "https://mail.yahoo.com"
+          }
         }
       ]
     },
@@ -29,7 +44,15 @@
       "steps": [
         {
           "title": "Anhänge versenden",
-          "body": "<p>Klicke auf das Büroklammer-Symbol 📎, um eine Datei hinzuzufügen. Bei großen Dateien (Fotos, Videos) bietet Gmail oft automatisch einen <strong>Google-Drive-Link</strong> statt eines direkten Anhangs an.</p>"
+          "body": "<p>Klicke auf das Büroklammer-Symbol 📎, um eine Datei hinzuzufügen. Bei großen Dateien (Fotos, Videos) bieten Anbieter wie Gmail oft automatisch einen <strong>Google-Drive-Link</strong> statt eines direkten Anhangs an.</p>",
+          "providerNotes": {
+            "gmail": "In Gmail steht das Büroklammer-Symbol unten im Nachrichtenfenster; bei großen Dateien schlägt Gmail selbst einen Drive-Link vor.",
+            "outlook": "In Outlook klickst du oben auf 'Einfügen', oder auf das Büroklammer-Symbol unten; bei großen Dateien bietet Outlook einen OneDrive-Link an.",
+            "kpn": "In KPN Mail steht das Büroklammer-Symbol in der Werkzeugleiste über deiner Nachricht.",
+            "icloud": "In iCloud Mail tippst oder klickst du auf das Anhang-Symbol in der Werkzeugleiste; große Dateien verschickt Apple automatisch über 'Mail Drop'.",
+            "yahoo": "In Yahoo Mail steht das Büroklammer-Symbol unten im Nachrichtenfenster.",
+            "default": "Suche nach einem Büroklammer-Symbol im oder unter dem Fenster, in dem du deine Nachricht schreibst."
+          }
         },
         {
           "title": "Warum ein Link besser ist als ein Anhang",

@@ -13,6 +13,20 @@
     <h2><%= currentStep.title %></h2>
     <div class="step-body" id="step-body"><%- currentStep.body %></div>
 
+    <% if (providerTip) { %>
+      <div class="provider-tip">
+        <%- icon('mail', { size: 18 }) %>
+        <div>
+          <p><% if (providerTip.providerLabel) { %><strong><%= providerTip.providerLabel %>:</strong> <% } %><%- providerTip.text %></p>
+          <% if (providerTip.url) { %>
+            <a class="btn btn-small" href="/student/browser?url=<%= encodeURIComponent(providerTip.url) %>&back=<%= encodeURIComponent('/student/module/' + module.key + '?step=' + currentIndex + '&lang=' + lang) %>">
+              <%- icon('arrow-square-out', { size: 16 }) %> <%= t.openProviderPrefix %> <%= providerTip.providerLabel %>
+            </a>
+          <% } %>
+        </div>
+      </div>
+    <% } %>
+
     <% if (currentStep.practiceUrl) { %>
       <a class="btn btn-primary" href="/student/browser?url=<%= encodeURIComponent(currentStep.practiceUrl) %>&back=<%= encodeURIComponent('/student/module/' + module.key + '?step=' + currentIndex + '&lang=' + lang) %>">
         <%- icon('globe', { size: 18 }) %> <%= t.openPractice %>

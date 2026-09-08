@@ -137,6 +137,7 @@ textarea:focus-visible,
 }
 .role-tab.active { background: var(--color-primary); color: #fff; border-color: var(--color-primary); }
 .error { color: var(--color-danger); font-weight: 600; }
+.notice { color: var(--color-success); font-weight: 600; }
 
 .module-grid {
   display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
@@ -165,6 +166,16 @@ textarea:focus-visible,
 }
 .restore-success h2 { display: flex; align-items: center; gap: 8px; color: var(--color-success); margin-top: 0; }
 .restore-success p { font-size: 1.05rem; }
+
+.provider-tip {
+  display: flex; align-items: flex-start; gap: 10px;
+  background: var(--color-bg); border: 2px solid var(--color-primary); border-radius: var(--radius);
+  padding: 12px 16px; margin: 14px 0;
+}
+.provider-tip svg { flex-shrink: 0; color: var(--color-primary); margin-top: 2px; }
+.provider-tip p { margin: 0 0 10px; }
+.provider-tip > div { flex: 1; }
+.provider-tip .btn:last-child { margin: 0; }
 
 .lesson-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; flex-wrap: wrap; gap: 8px; }
 .lesson-subtitle { color: var(--color-muted); margin-top: -8px; }
@@ -358,6 +369,7 @@ textarea:focus-visible,
 .form-actions { display: flex; gap: 10px; margin-top: 10px; }
 .student-edit { background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius); padding: 14px; margin-bottom: 10px; }
 .student-edit summary { cursor: pointer; font-weight: 600; padding: 6px 0; }
+.student-row-actions { display: flex; align-items: center; gap: 12px; margin-top: 10px; flex-wrap: wrap; }
 
 .changelog-body, .git-result {
   white-space: pre-wrap; background: var(--color-bg); border: 1px solid var(--color-border);

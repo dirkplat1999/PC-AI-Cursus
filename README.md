@@ -37,6 +37,16 @@ PORT=8080 npm start
 3. Je komt in het beheerdersdashboard. Ga naar **Cursisten** om cursistenaccounts aan te maken, een leeftijdscategorie (50+ of jonger dan 50) in te stellen, en modules toe te wijzen — de knop "Aanbevolen modules voor deze leeftijdsgroep" vinkt in één klik een passende selectie aan.
 4. Cursisten loggen in via dezelfde URL, met de tab "Cursisten" op het inlogscherm.
 
+## Inloggegevens per e-mail versturen
+
+Ga als beheerder naar **Instellingen** om eenmalig de SMTP-gegevens van je e-mailprovider in te vullen (server, poort, gebruikersnaam/wachtwoord, afzender, en optioneel een vast cursus-adres). Test de instellingen met de knop "Testmail versturen".
+
+Zodra dit is ingesteld, verschijnt bij elke cursist met een e-mailadres (in te vullen bij het aanmaken of bewerken van een cursist) de knop **"Verstuur inloggegevens"** op de Cursisten-pagina. Dit genereert een nieuw wachtwoord voor die cursist en mailt de gebruikersnaam, het nieuwe wachtwoord en de cursus-URL — handig bij het aanmaken van een account, of als iemand het wachtwoord kwijt is (dit vervangt altijd het wachtwoord, ook bij een cursist die al eerder inlogde).
+
+### Provider-specifieke tips in de les
+
+Heeft een cursist een e-mailadres bij een herkende provider (Gmail, Outlook/Hotmail, KPN Mail, iCloud, Yahoo) ingevuld, dan tonen de e-maillessen in module 1 automatisch een tip die precies bij die provider past (bijvoorbeeld waar het paperclip-icoon staat, of hoe je inlogt), inclusief een knop die direct naar de juiste inlogpagina van die provider gaat. Geen (herkend) e-mailadres ingevuld? Dan blijft de les gewoon generiek werken.
+
 ## Projectstructuur
 
 - `server.js` — opstartpunt van de applicatie (Express + Socket.IO).

@@ -6,10 +6,15 @@
       <a href="/admin/students" class="active"><%= t.students %></a>
       <a href="/admin/backup">Back-up &amp; herstel</a>
       <a href="/admin/changelog"><%= t.changelog %></a>
+      <a href="/admin/settings">Instellingen</a>
     </nav>
   </div>
 
   <% if (error) { %><p class="error"><%= error %></p><% } %>
+  <% if (notice) { %><p class="notice"><%= notice %></p><% } %>
+  <% if (!mailConfigured) { %>
+    <p class="hint">E-mail is nog niet ingesteld — ga naar <a href="/admin/settings">Instellingen</a> om inloggegevens per e-mail te kunnen versturen.</p>
+  <% } %>
 
   <section class="panel">
     <h2><%= t.addStudent %></h2>
@@ -22,6 +27,10 @@
         <div>
           <label><%= t.username %></label>
           <input type="text" name="username" required>
+        </div>
+        <div>
+          <label>E-mailadres (optioneel)</label>
+          <input type="email" name="email" placeholder="naam@voorbeeld.nl">
         </div>
         <div>
           <label><%= t.password %></label>
@@ -70,6 +79,10 @@
               <input type="text" name="full_name" value="<%= s.full_name %>" required>
             </div>
             <div>
+              <label>E-mailadres (optioneel)</label>
+              <input type="email" name="email" value="<%= s.email || '' %>" placeholder="naam@voorbeeld.nl">
+            </div>
+            <div>
               <label><%= t.language %></label>
               <select name="language">
                 <% langs.forEach(l => { %><option value="<%= l %>" <%= s.language === l ? 'selected' : '' %>><%= l.toUpperCase() %></option><% }) %>
@@ -102,9 +115,18 @@
             <button type="submit" class="btn btn-primary"><%= t.save %></button>
           </div>
         </form>
-        <form method="POST" action="/admin/students/<%= s.id %>/delete" onsubmit="return confirm('<%= t.delete %> <%= s.full_name %>?');">
-          <button type="submit" class="btn btn-danger btn-small"><%= t.delete %></button>
-        </form>
+        <div class="student-row-actions">
+          <% if (s.email) { %>
+            <form method="POST" action="/admin/students/<%= s.id %>/send-credentials" onsubmit="return confirm('Nieuw wachtwoord genereren en inloggegevens mailen naar <%= s.email %>?');">
+              <button type="submit" class="btn btn-small" <%= mailConfigured ? '' : 'disabled title="Stel eerst e-mail in bij Instellingen"' %>><%- icon('mail', { size: 16 }) %> Verstuur inloggegevens</button>
+            </form>
+          <% } else { %>
+            <span class="hint">Vul een e-mailadres in om inloggegevens te kunnen versturen.</span>
+          <% } %>
+          <form method="POST" action="/admin/students/<%= s.id %>/delete" onsubmit="return confirm('<%= t.delete %> <%= s.full_name %>?');">
+            <button type="submit" class="btn btn-danger btn-small"><%= t.delete %></button>
+          </form>
+        </div>
       </details>
     <% }) %>
   </section>
