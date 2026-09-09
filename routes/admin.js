@@ -1,7 +1,6 @@
 const express = require('express');
 const bcrypt = require('bcryptjs');
 const multer = require('multer');
-const { execFile } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 const db = require('../db/database');
@@ -12,6 +11,7 @@ const pkg = require('../package.json');
 const { getSettings, setSettings, isMailConfigured } = require('../lib/settings');
 const { sendMail } = require('../lib/mailer');
 const { detectProvider, providerName } = require('../lib/email-provider');
+const updater = require('../lib/updater');
 
 // Avoids visually ambiguous characters (0/O, 1/l/I) so a hand-typed
 // temporary password is easy to read correctly off an email or screen.
@@ -215,31 +215,26 @@ router.get('/changelog', (req, res) => {
   res.render('admin/changelog', { changelog, version: pkg.version, gitResult: null });
 });
 
-router.post('/changelog/check', (req, res) => {
-  execFile('git', ['fetch'], { cwd: path.join(__dirname, '..') }, (fetchErr) => {
-    const changelogPath = path.join(__dirname, '..', 'CHANGELOG.md');
-    const changelog = fs.existsSync(changelogPath) ? fs.readFileSync(changelogPath, 'utf8') : 'Geen CHANGELOG.md gevonden.';
-    if (fetchErr) {
-      return res.render('admin/changelog', { changelog, version: pkg.version, gitResult: 'Kon niet verbinden met de remote repository (geen internet of geen git-remote geconfigureerd).' });
-    }
-    execFile('git', ['log', 'HEAD..@{u}', '--oneline'], { cwd: path.join(__dirname, '..') }, (logErr, stdout) => {
-      const result = logErr
-        ? 'Geen remote/upstream branch gevonden.'
-        : (stdout.trim() ? `Nieuwe commits beschikbaar:\n${stdout.trim()}` : 'Je hebt de laatste versie al.');
-      res.render('admin/changelog', { changelog, version: pkg.version, gitResult: result });
-    });
-  });
+router.post('/changelog/check', async (req, res) => {
+  const changelogPath = path.join(__dirname, '..', 'CHANGELOG.md');
+  const changelog = fs.existsSync(changelogPath) ? fs.readFileSync(changelogPath, 'utf8') : 'Geen CHANGELOG.md gevonden.';
+  try {
+    const result = await updater.checkForUpdate();
+    res.render('admin/changelog', { changelog, version: pkg.version, gitResult: result.message });
+  } catch (err) {
+    res.render('admin/changelog', { changelog, version: pkg.version, gitResult: `Kon niet controleren op updates: ${err.message} (geen internetverbinding?)` });
+  }
 });
 
-router.post('/changelog/update', (req, res) => {
-  execFile('git', ['pull'], { cwd: path.join(__dirname, '..') }, (err, stdout, stderr) => {
-    const changelogPath = path.join(__dirname, '..', 'CHANGELOG.md');
-    const changelog = fs.existsSync(changelogPath) ? fs.readFileSync(changelogPath, 'utf8') : 'Geen CHANGELOG.md gevonden.';
-    const result = err
-      ? `Bijwerken mislukt: ${stderr || err.message}`
-      : `Bijgewerkt:\n${stdout}\n\nHerstart de server (stop en start npm start opnieuw) om de wijzigingen te laden.`;
-    res.render('admin/changelog', { changelog, version: pkg.version, gitResult: result });
-  });
+router.post('/changelog/update', async (req, res) => {
+  const changelogPath = path.join(__dirname, '..', 'CHANGELOG.md');
+  const changelog = fs.existsSync(changelogPath) ? fs.readFileSync(changelogPath, 'utf8') : 'Geen CHANGELOG.md gevonden.';
+  try {
+    const result = await updater.performUpdate();
+    res.render('admin/changelog', { changelog, version: pkg.version, gitResult: result.message });
+  } catch (err) {
+    res.render('admin/changelog', { changelog, version: pkg.version, gitResult: `Bijwerken mislukt: ${err.message} (geen internetverbinding?)` });
+  }
 });
 
 // --- Backup & restore ---

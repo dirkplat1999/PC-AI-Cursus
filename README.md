@@ -103,12 +103,16 @@ De lesinhoud zelf (modules, teksten, vertalingen) zit niet in deze back-up — d
 
 Ga als beheerder naar **Wijzigingslog & updates** om:
 - de huidige versie en `CHANGELOG.md` te bekijken;
-- te controleren op updates vanaf de GitHub-repository (`git fetch`);
-- bij te werken naar de laatste versie (`git pull`). Herstart daarna de server handmatig om de wijzigingen te laden.
+- te controleren op updates vanaf de GitHub-repository;
+- bij te werken naar de laatste versie. Herstart daarna de server handmatig om de wijzigingen te laden.
 
-Dit vereist dat de map als git-repository is geïnitialiseerd met een geconfigureerde remote (zie hieronder) en netwerktoegang tot GitHub.
+Dit werkt op twee manieren, automatisch gekozen naargelang wat beschikbaar is:
+1. **Via git** (`git fetch`/`git pull`) — gebruikt als de map als git-repository is geïnitialiseerd met een geconfigureerde remote. Sneller, en behoudt precies welke bestanden zijn verwijderd tussen versies.
+2. **Via directe download** — gebruikt als git niet beschikbaar is (bijvoorbeeld na het downloaden van de ZIP van GitHub in plaats van een `git clone`, of in een gehoste omgeving zonder `.git`-map). Haalt de nieuwste broncode op als `.zip` via een gewone HTTPS-download — geen git nodig, alleen een internetverbinding — en installeert daarna automatisch eventueel nieuwe benodigde bestanden.
 
-> Dit is de update-methode voor de lokale/LAN-installatie (`Start PC en AI Cursus.bat`). Draai je de cursus via Dokploy (zie hieronder), gebruik dan de "Deploy"-knop in het Dokploy-dashboard in plaats van deze pagina — daar staat in een gehost/Docker-omgeving geen `.git`-map, dus deze knop toont dan netjes "kon niet verbinden" in plaats van iets te doen.
+In beide gevallen is alleen een gewone internetverbinding nodig; cursistengegevens, voortgang en instellingen (in `data/`) blijven altijd staan, ongeacht welke methode gebruikt wordt.
+
+> Draai je de cursus via Dokploy (zie hieronder)? Dan werkt deze pagina ook (via de downloadmethode), maar de **"Deploy"-knop** in het Dokploy-dashboard is daar de nettere keuze: die bouwt een volledig verse container, in plaats van bestanden in de draaiende container te overschrijven.
 
 ## Hosten via Dokploy
 

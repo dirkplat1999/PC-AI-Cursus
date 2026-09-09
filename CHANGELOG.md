@@ -2,6 +2,14 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [3.6.0] - 2026-09-09
+
+### Toegevoegd
+- **Bijwerken werkt nu ook zonder git**: "Controleren op updates" en "Bijwerken" in het beheerdersdashboard gebruiken git (fetch/pull) als dat beschikbaar is, en vallen er automatisch op terug als dat niet zo is (bijvoorbeeld na het downloaden van de ZIP van GitHub in plaats van een `git clone`, of in een gehoste omgeving zonder `.git`-map) — dan wordt de nieuwste broncode gewoon als `.zip` gedownload via een gewone HTTPS-verbinding en over de huidige installatie heen gekopieerd, met automatische installatie van eventueel nieuwe benodigde bestanden. Cursistengegevens, voortgang en instellingen blijven bij beide methodes altijd staan. Zie `lib/updater.js`.
+
+### Opgelost
+- `multer` bijgewerkt naar 2.3.0 (loste een ernstige kwetsbaarheid op qua denial-of-service bij bestandsuploads op — gevonden tijdens het toevoegen van `adm-zip`, losstaand van de update-functie zelf).
+
 ## [3.5.0] - 2026-09-08
 
 ### Toegevoegd
