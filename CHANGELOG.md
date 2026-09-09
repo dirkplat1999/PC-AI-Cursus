@@ -2,6 +2,12 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [3.6.1] - 2026-09-09
+
+### Opgelost
+- De automatische `npm install` na een download-update (zonder git) faalde op Windows: `npm.cmd` is een batchbestand en kan niet rechtstreeks gestart worden zonder shell, en shell-uitvoering met een pad met spaties (het standaard `C:\Program Files\nodejs`) gaf op zijn beurt weer een fout. Lost dit op door in plaats daarvan `node.exe` rechtstreeks aan te roepen met `npm-cli.js` als argument — een normaal programma, geen shell nodig, werkt ook automatisch met de portable Node.js-installatie.
+- Het versienummer in het bevestigingsbericht na een download-update kon een paar minuten achterlopen (kwam van een cachende GitHub-CDN). Toont nu het versienummer uit het zojuist gekopieerde `package.json` op de eigen schijf.
+
 ## [3.6.0] - 2026-09-09
 
 ### Toegevoegd
