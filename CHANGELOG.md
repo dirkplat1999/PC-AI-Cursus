@@ -2,6 +2,11 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [3.6.3] - 2026-09-11
+
+### Opgelost
+- De container crashte direct na het opstarten op de eerste echte Dokploy-deploy (crash-loop, geen logs zichtbaar). Vermoedelijke oorzaak: `better-sqlite3`'s musl/Alpine-binary faalt soms stil bij het laden op een minimale Alpine-image, ook al matcht het bestand zelf het platform. De `Dockerfile` gebruikt nu `node:20-bookworm-slim` (Debian/glibc) in plaats van `node:20-alpine` — een veel vaker geteste combinatie voor native Node-modules.
+
 ## [3.6.2] - 2026-09-11
 
 ### Opgelost
