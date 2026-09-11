@@ -2,6 +2,11 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [3.6.5] - 2026-09-11
+
+### Opgelost
+- De echte, definitieve oorzaak van de crash-loop op Dokploy: `better-sqlite3` crasht met een segmentation fault specifiek op **Node.js 20.20.2** (bevestigd door in een draaiende container plain SQLite via `apt` te installeren — dat werkte prima, wat het CPU/platform zelf uitsloot; en door zowel de prebuilt binary als een verse from-source compilatie te testen — beide crashten identiek, wat een ABI/prebuild-probleem uitsloot). De Docker-image gebruikt nu `node:22-bookworm-slim` in plaats van `node:20-bookworm-slim` — dezelfde Node-hoofdversie-klasse (22/24) waarmee dit project lokaal de hele tijd al is getest, zonder dit probleem.
+
 ## [3.6.4] - 2026-09-11
 
 ### Opgelost
