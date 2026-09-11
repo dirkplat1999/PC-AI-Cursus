@@ -1,6 +1,6 @@
 {
   "name": "pc-ai-cursus",
-  "version": "3.6.3",
+  "version": "3.6.4",
   "description": "Lokale LAN-lesomgeving voor PC- en AI-cursus",
   "main": "server.js",
   "scripts": {

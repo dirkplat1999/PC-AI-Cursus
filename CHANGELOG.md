@@ -2,6 +2,11 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [3.6.4] - 2026-09-11
+
+### Opgelost
+- De echte oorzaak van de crash-loop op Dokploy gevonden door handmatig in een draaiende container in te loggen: `better-sqlite3`'s meegeleverde prebuilt binary crasht met een segmentation fault zodra de database daadwerkelijk geopend wordt (het inladen van de module zelf ging wel goed) — een ABI-mismatch met deze exacte Node-build, niet gerelateerd aan Alpine/Debian of CPU-architectuur (beide al uitgesloten). De Docker-build compileert `better-sqlite3` nu vanaf broncode (met een compiler in de build-stage), gegarandeerd passend bij de exacte runtime, terwijl lokale Windows-installaties de prebuilt binary blijven gebruiken (die daar wel prima werkt).
+
 ## [3.6.3] - 2026-09-11
 
 ### Opgelost
