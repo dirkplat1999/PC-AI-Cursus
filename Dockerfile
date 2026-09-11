@@ -2,11 +2,12 @@
 #
 # better-sqlite3 ships prebuilt native binaries for both glibc and musl
 # linux (see node_modules/better-sqlite3/prebuilds/), so no compiler
-# toolchain is needed here — a plain `npm ci` is enough.
-
+# toolchain is needed here — a plain `npm ci` is enough, PROVIDED .npmrc
+# (ignore-scripts=true) is present, otherwise npm falls back to its default
+# "run node-gyp rebuild" behavior and fails (no compiler in this image).
 FROM node:20-alpine AS deps
 WORKDIR /app
-COPY package.json package-lock.json ./
+COPY package.json package-lock.json .npmrc ./
 RUN npm ci --omit=dev
 
 FROM node:20-alpine

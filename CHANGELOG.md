@@ -2,6 +2,11 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [3.6.2] - 2026-09-11
+
+### Opgelost
+- De Dockerfile kopieerde `.npmrc` niet mee naar de build-stage, waardoor `npm ci` daar alsnog de standaard node-gyp-compilatie van `better-sqlite3` probeerde (er is geen compiler in de Alpine-image) — dezelfde soort bug als eerder opgelost voor lokale Windows-installaties (v3.4.0), nu ontdekt bij de eerste echte Dokploy-deploy.
+
 ## [3.6.1] - 2026-09-09
 
 ### Opgelost
