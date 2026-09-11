@@ -31,4 +31,7 @@ COPY . .
 VOLUME ["/app/data"]
 
 EXPOSE 3000
-CMD ["node", "server.js"]
+# TEMPORARY diagnostic (round 2): still segfaulting after compiling from
+# source, so this isn't a prebuild-ABI issue after all. Keep the container
+# alive to test further from a shell. Will be reverted right after.
+CMD ["tail", "-f", "/dev/null"]
