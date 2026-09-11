@@ -28,4 +28,8 @@ COPY . .
 VOLUME ["/app/data"]
 
 EXPOSE 3000
-CMD ["node", "server.js"]
+# TEMPORARY diagnostic: keep the container alive instead of running the app,
+# so we can exec in and run `node server.js` manually to see the real crash
+# output (Dokploy's log viewer isn't showing anything for the crash-looping
+# container). Will be reverted to `CMD ["node", "server.js"]` right after.
+CMD ["tail", "-f", "/dev/null"]
