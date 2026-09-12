@@ -5,6 +5,7 @@
   "password": "Passwort",
   "loginButton": "Anmelden",
   "loginError": "Falscher Benutzername oder falsches Passwort.",
+  "magicLinkExpired": "Dieser Login-Link ist abgelaufen oder wurde bereits verwendet. Melde dich unten mit Benutzername und Passwort an.",
   "logout": "Abmelden",
   "next": "Weiter",
   "previous": "Zurück",

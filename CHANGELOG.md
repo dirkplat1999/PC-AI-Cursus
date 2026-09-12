@@ -2,6 +2,11 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [3.7.1] - 2026-09-12
+
+### Toegevoegd
+- De e-mail met inloggegevens bevat nu ook een **"Direct inloggen"-knop**. Klik je daarop binnen 30 minuten na het versturen van de mail, dan log je zonder wachtwoord in te typen meteen in. De link werkt maar één keer en verloopt na 30 minuten — daarna log je gewoon in met de gebruikersnaam en het wachtwoord die ook in de mail staan.
+
 ## [3.7.0] - 2026-09-12
 
 ### Toegevoegd

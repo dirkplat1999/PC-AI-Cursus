@@ -65,6 +65,30 @@ router.post('/login', (req, res) => {
   return res.render('login', { t, lang, error: t.loginError });
 });
 
+// Eenmalige inloglink uit de "inloggegevens versturen"-e-mail (zie
+// routes/admin.js) — logt de cursist direct in zonder wachtwoord, mits de
+// link nog geldig is (binnen MAGIC_LOGIN_MINUTES na versturen, en nog niet
+// eerder gebruikt).
+router.get('/login/token/:token', (req, res) => {
+  const student = db.prepare('SELECT * FROM students WHERE login_token = ?').get(req.params.token);
+  const lang = normalizeLang(student ? student.language : (req.query.lang || 'nl'));
+  const t = getUi(lang);
+
+  const invalidate = () => {
+    if (student) db.prepare('UPDATE students SET login_token = NULL, login_token_expires = NULL WHERE id = ?').run(student.id);
+  };
+
+  if (!student || !student.login_token_expires || new Date(student.login_token_expires).getTime() < Date.now()) {
+    invalidate();
+    return res.render('login', { t, lang, error: t.magicLinkExpired });
+  }
+
+  invalidate();
+  req.session.role = 'student';
+  req.session.studentId = student.id;
+  res.redirect('/student');
+});
+
 router.post('/logout', (req, res) => {
   req.session.destroy(() => res.redirect('/login'));
 });

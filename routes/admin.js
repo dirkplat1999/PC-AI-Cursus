@@ -1,5 +1,6 @@
 const express = require('express');
 const bcrypt = require('bcryptjs');
+const crypto = require('crypto');
 const multer = require('multer');
 const fs = require('fs');
 const path = require('path');
@@ -16,6 +17,7 @@ const updater = require('../lib/updater');
 // Avoids visually ambiguous characters (0/O, 1/l/I) so a hand-typed
 // temporary password is easy to read correctly off an email or screen.
 const PASSWORD_CHARS = 'ABCDEFGHJKMNPQRSTUVWXYZabcdefghjkmnpqrstuvwxyz23456789';
+const MAGIC_LOGIN_MINUTES = 30;
 function generatePassword(length = 10) {
   let out = '';
   for (let i = 0; i < length; i++) out += PASSWORD_CHARS[Math.floor(Math.random() * PASSWORD_CHARS.length)];
@@ -166,6 +168,10 @@ router.post('/students/:id/send-credentials', async (req, res) => {
   const settings = getSettings();
   const courseUrl = settings.course_url || `${req.protocol}://${req.get('host')}`;
 
+  const loginToken = crypto.randomBytes(32).toString('hex');
+  const loginTokenExpires = new Date(Date.now() + MAGIC_LOGIN_MINUTES * 60 * 1000).toISOString();
+  const magicUrl = `${courseUrl}/login/token/${loginToken}`;
+
   const text = [
     `Hallo ${student.full_name},`,
     '',
@@ -175,7 +181,9 @@ router.post('/students/:id/send-credentials', async (req, res) => {
     `Gebruikersnaam: ${student.username}`,
     `Wachtwoord: ${newPassword}`,
     '',
-    'Open de website, kies "Cursisten" en log in met de gegevens hierboven.',
+    `Of log direct in met deze link (werkt tot ${MAGIC_LOGIN_MINUTES} minuten na het versturen van deze e-mail): ${magicUrl}`,
+    '',
+    'Open de website, kies "Cursisten" en log in met de gegevens hierboven — of gebruik de link hierboven om in één keer in te loggen.',
     '',
     'Tot snel!'
   ].join('\n');
@@ -187,7 +195,10 @@ router.post('/students/:id/send-credentials', async (req, res) => {
       Gebruikersnaam: <strong>${student.username}</strong><br>
       Wachtwoord: <strong>${newPassword}</strong>
     </p>
-    <p>Open de website, kies "Cursisten" en log in met de gegevens hierboven.</p>
+    <p style="margin: 20px 0;">
+      <a href="${magicUrl}" style="display:inline-block;background:#0369a1;color:#fff;text-decoration:none;padding:12px 22px;border-radius:8px;font-weight:bold;">Direct inloggen</a>
+    </p>
+    <p style="color:#666;font-size:0.9em;">Deze knop werkt tot ${MAGIC_LOGIN_MINUTES} minuten na het versturen van deze e-mail. Daarna kun je altijd inloggen met de gebruikersnaam en het wachtwoord hierboven.</p>
     <p>Tot snel!</p>
   `;
 
@@ -197,7 +208,8 @@ router.post('/students/:id/send-credentials', async (req, res) => {
     return renderError(`Versturen mislukt: ${err.message}`);
   }
 
-  db.prepare('UPDATE students SET password_hash = ? WHERE id = ?').run(bcrypt.hashSync(newPassword, 10), id);
+  db.prepare('UPDATE students SET password_hash = ?, login_token = ?, login_token_expires = ? WHERE id = ?')
+    .run(bcrypt.hashSync(newPassword, 10), loginToken, loginTokenExpires, id);
   res.redirect(`/admin/students?sent=${encodeURIComponent(student.email)}`);
 });
 

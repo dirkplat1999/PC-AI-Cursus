@@ -5,6 +5,7 @@
   "password": "Wachtwoord",
   "loginButton": "Inloggen",
   "loginError": "Onjuiste gebruikersnaam of wachtwoord.",
+  "magicLinkExpired": "Deze inloglink is verlopen of al gebruikt. Log hieronder in met je gebruikersnaam en wachtwoord.",
   "logout": "Uitloggen",
   "next": "Volgende",
   "previous": "Vorige",

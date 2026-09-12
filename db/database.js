@@ -71,5 +71,11 @@ if (!studentColumns.includes('age_group')) {
 if (!studentColumns.includes('email')) {
   db.exec("ALTER TABLE students ADD COLUMN email TEXT");
 }
+if (!studentColumns.includes('login_token')) {
+  db.exec("ALTER TABLE students ADD COLUMN login_token TEXT");
+}
+if (!studentColumns.includes('login_token_expires')) {
+  db.exec("ALTER TABLE students ADD COLUMN login_token_expires TEXT");
+}
 
 module.exports = db;
