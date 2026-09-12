@@ -1,0 +1,93 @@
+{
+  "lessons": [
+    {
+      "id": "algoritmes-nieuwsbeeld",
+      "title": "How algorithms shape your 'for you' feed",
+      "steps": [
+        {
+          "title": "What's an algorithm again?",
+          "body": "<p>TikTok, Instagram, and YouTube don't just show you everything — an <strong>algorithm</strong> selects what you see, based on what you clicked, liked, or watched for a long time before. These days, news often reaches you through a feed like this, rather than a newspaper or news site you look up yourself.</p>"
+        },
+        {
+          "title": "The filter bubble",
+          "body": "<p>Because the algorithm mostly shows you things that match what you already like, you can end up in a <strong>filter bubble</strong>: seeing more and more of the same kind of opinions, and less and less of the opposite view — without even noticing.</p>"
+        },
+        {
+          "title": "Deliberately stepping outside the bubble",
+          "body": "<p>Deliberately follow a few accounts with a different angle than you're used to, and occasionally use targeted search instead of just scrolling your 'for you' feed.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Think about it: which three sources do you see most often on TikTok or Instagram? Are those different angles, or mostly the same voice?</p>"
+        }
+      ]
+    },
+    {
+      "id": "ai-nepnieuws",
+      "title": "Fake news and AI-generated content",
+      "steps": [
+        {
+          "title": "Fake photos and videos",
+          "body": "<p>AI can create convincing fake photos and videos of events that never happened, or of well-known faces saying things they never said. Watch for unnatural details — odd hands, shadows that don't line up right, unnaturally smooth 'plastic' skin.</p>"
+        },
+        {
+          "title": "Spotting AI-written articles and 'fake influencers'",
+          "body": "<p>Some fake news sites use AI to generate articles in bulk, and fully AI-generated 'influencers' now exist and run ads. Watch for: very generic language, no clear author, and content that's mostly rewritten snippets from other sites.</p>"
+        },
+        {
+          "title": "Reverse image search",
+          "body": "<p>Not sure about a photo or screenshot going around in a group chat? Use <strong>Google Lens</strong> or a reverse image search to check whether the photo already appeared online before, in a different context.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Browse a recent photo below and try to trace its source using a search engine.</p>",
+          "practiceUrl": "https://www.google.com"
+        }
+      ]
+    },
+    {
+      "id": "feitencheck-technieken",
+      "title": "Fact-checking techniques",
+      "steps": [
+        {
+          "title": "Using fact-check sites",
+          "body": "<p>Sites like <strong>Nieuwscheckers</strong> or international fact-checkers investigate widely shared claims (viral TikTok and Instagram claims included) and explain what's true and what isn't.</p>"
+        },
+        {
+          "title": "Lateral reading",
+          "body": "<p>Instead of only judging the post or site itself, open a <strong>new tab</strong> and search for what others say about that source or message. This quickly gives you a sense of its reliability.</p>"
+        },
+        {
+          "title": "Comparing multiple sources",
+          "body": "<p>Look for the same news at at least two independent, well-known sources. Do they tell the same story, with the same facts? Then it's more likely to be true.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Pick a news story or viral moment you saw recently on social media, and look it up at at least two other sources.</p>"
+        }
+      ]
+    },
+    {
+      "id": "verantwoord-delen",
+      "title": "Sharing responsibly",
+      "steps": [
+        {
+          "title": "Why sharing quickly can be harmful",
+          "body": "<p>Research shows fake news often spreads faster than the correction that follows it — especially on platforms that reward speed and engagement. Once shared, a false message is hard to undo, even if you delete it later.</p>"
+        },
+        {
+          "title": "Check before you share (or repost)",
+          "body": "<p>A few extra seconds of checking before clicking 'Share' or 'Repost' prevents you from contributing to the spread of something false.</p>"
+        },
+        {
+          "title": "Correcting someone kindly",
+          "body": "<p>Noticed someone in your group chat sharing fake news? Reply kindly with a reliable source, instead of immediately calling them out — that almost always works better.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Think of a short, friendly reply you'd give if someone in your group chat shared a fake message.</p>"
+        }
+      ]
+    }
+  ]
+}

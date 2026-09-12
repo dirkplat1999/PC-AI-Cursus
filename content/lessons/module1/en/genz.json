@@ -1,0 +1,113 @@
+{
+  "lessons": [
+    {
+      "id": "mail-setup-snel",
+      "title": "Setting up and securing your mailbox (5 minutes, tops)",
+      "steps": [
+        {
+          "title": "Your email is the key to everything",
+          "body": "<p>Spotify, Instagram, your bank, your student portal — everything eventually logs in through 'forgot password' back to your email. If someone else can get into your mailbox, they can get into almost all your other accounts too. So the first move: turn on <strong>two-factor authentication (2FA)</strong>.</p>",
+          "providerNotes": {
+            "gmail": "Go to your Google account (myaccount.google.com) &gt; Security &gt; 2-Step Verification. Takes about 2 minutes.",
+            "outlook": "Go to your Microsoft account &gt; Security &gt; Advanced security options &gt; Two-step verification.",
+            "kpn": "Check 'Mijn KPN' under Settings/Security. No 2FA option? At least pick a long, unique password.",
+            "icloud": "Settings &gt; your name &gt; Sign-In & Security — it's often already on by default for an Apple ID.",
+            "yahoo": "Go to your Yahoo account security settings and turn on 'Two-step verification'.",
+            "default": "Look in your email provider's settings for 'Security' or '2FA'."
+          }
+        },
+        {
+          "title": "Applying for a job or contacting a company? Switch gears",
+          "body": "<p>Texting your friends can be half-sentences and emoji. An email to a company, teacher, or internship supervisor is a different story:</p><ul><li>A clear subject line — not blank, not just 'hi'</li><li>Get to the point, no wall of text</li><li>Check your automatic signature (name, phone number)</li><li>Read it once before hitting send — a typo in an application email sticks around</li></ul>"
+        },
+        {
+          "title": "Phishing targets you, not just your grandparents",
+          "body": "<p>Scammers specifically target young people: fake job listings with absurdly high pay, 'your parcel couldn't be delivered' for something you just bought secondhand online, or an email that looks like an Instagram/TikTok verification notice. Always check:</p><ul><li>Does the full sender address really match, or does it just look similar?</li><li>Is there time pressure ('within 24 hours' or else...)?</li><li>Does it ask you to log in via a link instead of opening the app/website yourself?</li></ul><p>We'll go deeper into this later (Safety module).</p>"
+        },
+        {
+          "title": "Required exercise: send a test message",
+          "body": "<p>Open your mailbox below, check that 2FA is on, then send yourself a test message. This way you know everything works before you use it for something that actually matters (like a job application or linking DigiD). Only tick the box below once the test message has arrived.</p>",
+          "practiceUrl": "https://mail.google.com",
+          "practiceUrlByProvider": {
+            "gmail": "https://mail.google.com",
+            "outlook": "https://outlook.live.com/mail/",
+            "kpn": "https://mail.kpnmail.nl",
+            "icloud": "https://www.icloud.com/mail",
+            "yahoo": "https://mail.yahoo.com"
+          },
+          "requireConfirm": true,
+          "confirmLabel": "I sent myself a test message and it arrived."
+        }
+      ]
+    },
+    {
+      "id": "cloud-samen-delen",
+      "title": "Sharing files without the chaos",
+      "steps": [
+        {
+          "title": "Say goodbye to 'document_FINAL_v3_ACTUALLYFINAL.docx'",
+          "body": "<p>Working with others on an assignment, planning, or side hustle? Use Google Docs/Sheets or Word Online instead of emailing a file back and forth. Everyone works in the <strong>same, current version</strong>, and you can see exactly who changed what.</p>"
+        },
+        {
+          "title": "Permissions: view, comment, or edit",
+          "body": "<p>When sharing a link you choose: <strong>view only</strong>, <strong>comment</strong>, or <strong>edit</strong>. Never grant more access than needed by default — and never set sensitive stuff to 'anyone with the link', pick specific people.</p>"
+        },
+        {
+          "title": "Group projects without 15 versions in the group chat",
+          "body": "<p>Make one shared folder for the project and keep it separate from your personal stuff. Consistent file names (date + subject) save you a lot of searching later — especially right before a deadline.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Create a new document in Google Drive below, share it with yourself (or a friend), and set the permissions to 'view only'.</p>",
+          "practiceUrl": "https://drive.google.com"
+        }
+      ]
+    },
+    {
+      "id": "surfen-slim-prive",
+      "title": "Browsing smart and private",
+      "steps": [
+        {
+          "title": "Google-fu: finding your answer faster",
+          "body": "<p>Search an exact phrase using quotation marks, for example <code>\"best laptop for students 2026\"</code>. Want to exclude a site or word? Type <code>-word</code>. Saves you endless scrolling through ads and irrelevant results.</p>"
+        },
+        {
+          "title": "Privacy settings worth checking right now",
+          "body": "<p>In your browser (Chrome, for example: three dots top right &gt; Settings &gt; Privacy and security), you can:</p><ul><li>Block third-party cookies</li><li>Manage your browsing and search history</li><li>Check per site which apps have access to location, camera, and microphone</li></ul>"
+        },
+        {
+          "title": "Tabs and shortcuts that save you time",
+          "body": "<p>Open a link in a <strong>new tab</strong> with your scroll wheel, or right-click &gt; 'Open in new tab'. <code>Ctrl+Tab</code> quickly switches between tabs, and <code>Ctrl+Shift+T</code> reopens a tab you just accidentally closed.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Search below using quotation marks, and open a result in a new tab.</p>",
+          "practiceUrl": "https://www.google.com"
+        }
+      ]
+    },
+    {
+      "id": "videobellen-mixed",
+      "title": "Video calling: from group chats to job interviews",
+      "steps": [
+        {
+          "title": "More than FaceTiming your friends",
+          "body": "<p>For school, an internship, or work you'll often use <strong>Microsoft Teams</strong>, <strong>Zoom</strong>, or <strong>Google Meet</strong> instead of FaceTime or Instagram video calls. The idea is the same: turn on your camera and mic, and open the link on time.</p>"
+        },
+        {
+          "title": "Yes, you make an impression through a screen too",
+          "body": "<ul><li>Check your background (or use a virtual background/blur — not your bedroom with laundry visible)</li><li>Mute your mic when you're not speaking</li><li>Get good lighting — don't sit with your back to a window</li></ul>"
+        },
+        {
+          "title": "Sharing your screen without cringe moments",
+          "body": "<p>During the call, click <strong>'Share screen'</strong> and pick the specific window you want to show (not your whole desktop — that avoids a private chat or tab accidentally popping into view). Remember to stop sharing when you're done.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Browse Google Meet below and get familiar with the microphone, camera, and screen-share controls.</p>",
+          "practiceUrl": "https://meet.google.com"
+        }
+      ]
+    }
+  ]
+}

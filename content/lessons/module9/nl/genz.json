@@ -1,0 +1,93 @@
+{
+  "lessons": [
+    {
+      "id": "algoritmes-nieuwsbeeld",
+      "title": "Hoe algoritmes je 'voor jou'-feed kleuren",
+      "steps": [
+        {
+          "title": "Wat is een algoritme ook alweer?",
+          "body": "<p>TikTok, Instagram en YouTube tonen je niet zomaar alles — een <strong>algoritme</strong> selecteert wat jij te zien krijgt, gebaseerd op wat je eerder aanklikte, liket of lang bekeek. Ook nieuws bereikt je tegenwoordig vaak via zo'n feed, niet via een krant of nieuwssite die je zelf opzoekt.</p>"
+        },
+        {
+          "title": "De filterbubbel",
+          "body": "<p>Omdat het algoritme je vooral dingen laat zien die aansluiten bij wat je al leuk vindt, kun je in een <strong>filterbubbel</strong> terechtkomen: je ziet steeds meer van hetzelfde soort meningen, en steeds minder tegengeluid — zonder dat je het doorhebt.</p>"
+        },
+        {
+          "title": "Bewust uit de bubbel stappen",
+          "body": "<p>Volg bewust een paar accounts met een andere invalshoek dan je gewend bent, en gebruik af en toe gericht zoeken in plaats van alleen je 'voor jou'-feed te scrollen.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Bedenk: welke drie bronnen zie jij het vaakst voorbijkomen op TikTok of Instagram? Zijn dat verschillende invalshoeken, of vooral hetzelfde geluid?</p>"
+        }
+      ]
+    },
+    {
+      "id": "ai-nepnieuws",
+      "title": "Nepnieuws en AI-gegenereerde content",
+      "steps": [
+        {
+          "title": "Nepfoto's en -video's",
+          "body": "<p>AI kan overtuigende nepfoto's en -video's maken van gebeurtenissen die nooit plaatsvonden, of van bekende gezichten die iets zeggen wat ze nooit gezegd hebben. Let op onnatuurlijke details — vreemde handen, verkeerd lopende schaduwen, een gladde 'plastic' huid.</p>"
+        },
+        {
+          "title": "AI-geschreven artikelen en 'nep-influencers' herkennen",
+          "body": "<p>Sommige nepnieuwssites laten AI in bulk artikelen genereren, en er bestaan zelfs volledig AI-gegenereerde 'influencers' die reclame maken. Let op: erg generieke taal, geen duidelijke auteur, en content die vooral bestaat uit herschreven stukjes van andere sites.</p>"
+        },
+        {
+          "title": "Omgekeerd beeldzoeken",
+          "body": "<p>Twijfel je aan een foto of screenshot dat rondgaat in een groepschat? Gebruik <strong>Google Lens</strong> of een omgekeerde beeldzoekopdracht om te checken of de foto al eerder, in een andere context, online stond.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Bekijk hieronder een recente foto en probeer de bron ervan terug te vinden via een zoekmachine.</p>",
+          "practiceUrl": "https://www.google.com"
+        }
+      ]
+    },
+    {
+      "id": "feitencheck-technieken",
+      "title": "Feitencheck-technieken",
+      "steps": [
+        {
+          "title": "Factcheck-sites gebruiken",
+          "body": "<p>Sites zoals <strong>Nieuwscheckers</strong> of internationale factcheckers onderzoeken veelgedeelde beweringen (ook virale TikTok- en Instagram-claims) en leggen uit wat er wel en niet klopt.</p>"
+        },
+        {
+          "title": "De lateraal-leestechniek",
+          "body": "<p>In plaats van alleen de post of site zelf te beoordelen, open je een <strong>nieuw tabblad</strong> en zoek je naar wat anderen over die bron of dat bericht zeggen. Zo krijg je snel een beeld van de betrouwbaarheid.</p>"
+        },
+        {
+          "title": "Meerdere bronnen vergelijken",
+          "body": "<p>Zoek hetzelfde nieuws bij minstens twee onafhankelijke, bekende bronnen. Vertellen zij hetzelfde verhaal, met dezelfde feiten? Dan is de kans groter dat het klopt.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Kies een nieuwsbericht of viral moment dat je onlangs zag op social media, en zoek het op bij minstens twee andere bronnen.</p>"
+        }
+      ]
+    },
+    {
+      "id": "verantwoord-delen",
+      "title": "Verantwoord delen",
+      "steps": [
+        {
+          "title": "Waarom snel delen schadelijk kan zijn",
+          "body": "<p>Onderzoek laat zien dat nepnieuws zich vaak sneller verspreidt dan de rectificatie erna — zeker op platforms die beloningen geven voor snelheid en engagement. Eenmaal gedeeld, is een fout bericht moeilijk terug te draaien, ook al verwijder je het later.</p>"
+        },
+        {
+          "title": "Check voor je deelt (of reposts)",
+          "body": "<p>Een paar seconden extra checken voordat je op 'Delen' of 'Repost' klikt, voorkomt dat jij zelf bijdraagt aan de verspreiding van iets onjuists.</p>"
+        },
+        {
+          "title": "Iemand vriendelijk corrigeren",
+          "body": "<p>Zag je dat iemand in je groepschat nepnieuws deelde? Reageer vriendelijk met een betrouwbare bron erbij, in plaats van iemand meteen af te vallen — dat werkt vrijwel altijd beter.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Bedenk een korte, vriendelijke reactie die je zou geven als iemand in jouw groepschat een nep-bericht deelt.</p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "lessons": [
+    {
+      "id": "camera-vaardigheden",
+      "title": "Camera-vaardigheden voor beter content maken",
+      "steps": [
+        {
+          "title": "Portretmodus voor je profielfoto",
+          "body": "<p>Met <strong>portretmodus</strong> (vaak een icoontje van een hoofdje) wordt de achtergrond vervaagd, terwijl jij scherp in beeld blijft — net als bij een echte cameralens. Perfect voor een profielfoto die opvalt.</p>"
+        },
+        {
+          "title": "Serie-opnames (burst) voor die ene perfecte foto",
+          "body": "<p>Houd de ontspanknop ingedrukt (of veeg 'm naar links/rechts) om snel meerdere foto's achter elkaar te maken. Onmisbaar bij een springende vriendengroep of een huisdier dat niet stilzit — je kiest achteraf de beste uit de reeks.</p>"
+        },
+        {
+          "title": "Panorama voor festival- of reisfoto's",
+          "body": "<p>Kies de panoramamodus om een breed landschap of een volle festivalcrowd in één foto vast te leggen. Draai je langzaam in een cirkel terwijl je telefoon de foto's aan elkaar plakt.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Probeer een portretfoto en een panoramafoto te maken.</p>"
+        }
+      ]
+    },
+    {
+      "id": "snel-bewerken",
+      "title": "Snel bewerken voor Instagram en TikTok",
+      "steps": [
+        {
+          "title": "Ingebouwde bewerktools",
+          "body": "<p>Elke Foto's-app heeft basisbewerking: bijsnijden, filters, en schuifjes voor licht, contrast en verzadiging. Begin hiermee voordat je een aparte app downloadt.</p>"
+        },
+        {
+          "title": "Meer controle met een app",
+          "body": "<p>Wil je meer? Apps zoals <strong>Snapseed</strong> (gratis) of de bewerktools binnen Instagram/TikTok zelf geven fijnere controle: selectief een deel van de foto aanpassen, storende details wegpoetsen, scherpte bijstellen.</p>"
+        },
+        {
+          "title": "Niet overdrijven met filters",
+          "body": "<p>Een kleine aanpassing in licht en contrast maakt vaak al een groot verschil. Te veel filters, gladstrijken of felle kleuren kunnen een foto juist onnatuurlijk of nep laten ogen — en dat prikt mensen er tegenwoordig snel doorheen.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Bewerk een foto uit je galerij: pas licht en contrast aan, en bekijk het verschil met de originele foto.</p>"
+        }
+      ]
+    },
+    {
+      "id": "videos-monteren",
+      "title": "Video's monteren voor Reels en TikTok",
+      "steps": [
+        {
+          "title": "Een video inkorten",
+          "body": "<p>Open een video in je Foto's-app en tik op 'Bewerken'. Sleep de balkjes aan het begin en eind van de tijdlijn naar binnen om het overbodige stuk eraf te knippen.</p>"
+        },
+        {
+          "title": "Clips samenvoegen en snel snijden",
+          "body": "<p>Voor een Reel of TikTok gebruik je een app zoals <strong>CapCut</strong> — hierin sleep je clips in volgorde, snijd je op het ritme van muziek, en voeg je tekst of overgangen toe zonder dure software.</p>"
+        },
+        {
+          "title": "Muziek en geluidsniveau",
+          "body": "<p>In dezelfde editor zet je vaak een muzieknummer onder je video. Let op het geluidsniveau: de muziek mag stemmen in je video niet overstemmen, en check auteursrechtelijke muziek — platforms als TikTok/Instagram bieden meestal een ingebouwde, toegestane muziekbibliotheek.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Knip een video in tot het belangrijkste stuk, en deel 'm daarna met iemand.</p>"
+        }
+      ]
+    },
+    {
+      "id": "delen-backup",
+      "title": "Slim delen en back-uppen",
+      "steps": [
+        {
+          "title": "Automatisch back-uppen",
+          "body": "<p>Zorg dat je foto's automatisch naar de cloud gaan (Google Foto's of iCloud), zodat je nooit je herinneringen kwijtraakt als je telefoon stuk gaat, gestolen wordt of je 'm kwijtraakt op een festival. Zet dit eenmalig aan in de instellingen.</p>"
+        },
+        {
+          "title": "Een link delen in plaats van tientallen losse foto's",
+          "body": "<p>Deel je veel foto's van een avondje uit of een reis? Stuur een <strong>deel-link</strong> naar een album, in plaats van tientallen losse foto's in de groepschat. Sneller en overzichtelijker voor iedereen.</p>"
+        },
+        {
+          "title": "Rechten instellen bij een gedeeld album",
+          "body": "<p>Bij een gedeeld album kun je vaak instellen of anderen ook foto's mogen <strong>toevoegen</strong> — handig bij een festival, vakantie of feest waar iedereen foto's maakt en je alles op één plek wilt.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Controleer of automatische back-up op je telefoon aanstaat, en maak een gedeeld album aan voor een groep vrienden of familie.</p>"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "lessons": [
+    {
+      "id": "cloud-samenwerken",
+      "title": "Cloud-opslag en samenwerken aan een project",
+      "steps": [
+        {
+          "title": "Waarom cloud-samenwerken slimmer is",
+          "body": "<p>In plaats van een document heen en weer te appen of mailen, werk je met Google Docs, Sheets of Word Online <strong>tegelijk met anderen in hetzelfde bestand</strong>. Wijzigingen zijn direct zichtbaar, en je ziet wie wat heeft aangepast — ideaal voor groepswerk.</p>"
+        },
+        {
+          "title": "Versiegeschiedenis: je reddingsboei voor een deadline",
+          "body": "<p>Iets per ongeluk verwijderd of overschreven, vlak voor het inleveren? Via <strong>Bestand &gt; Versiegeschiedenis</strong> (Google Docs) zie en herstel je een eerdere versie. Geen reden meer om losse back-upbestanden bij te houden.</p>"
+        },
+        {
+          "title": "Mappen slim organiseren",
+          "body": "<p>Gebruik gedeelde mappen voor projecten waar je met anderen aan werkt, en houd je persoonlijke bestanden gescheiden. Een consistente naamgeving (datum + onderwerp) bespaart je later veel zoektijd.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Maak hieronder een nieuw document aan in Google Drive en bekijk de deel- en versiegeschiedenis-opties.</p>",
+          "practiceUrl": "https://drive.google.com"
+        }
+      ]
+    },
+    {
+      "id": "telefoon-backup",
+      "title": "Je telefoon backuppen en beveiligen",
+      "steps": [
+        {
+          "title": "Automatische back-up instellen",
+          "body": "<p>Zet automatische back-up aan voor foto's, contacten en app-data (bij Android: Instellingen &gt; Systeem &gt; Back-up; bij iPhone: Instellingen &gt; [je naam] &gt; iCloud). Zo ben je bij een kapotte of gestolen telefoon niet al je foto's en chats kwijt.</p>"
+        },
+        {
+          "title": "Je telefoon op afstand vinden of wissen",
+          "body": "<p>Zet 'Mijn telefoon zoeken' (Android) of 'Zoek mijn iPhone' (Apple) aan. Bij verlies of diefstal (bijvoorbeeld op een festival of in het uitgaansleven) kun je hiermee de locatie zien, het toestel laten overgaan, of op afstand alle gegevens wissen.</p>"
+        },
+        {
+          "title": "Schermvergrendeling en updates",
+          "body": "<p>Gebruik een pincode, patroon of biometrische vergrendeling — nooit 'geen vergrendeling', ook al vertrouw je je huisgenoten of vrienden. Installeer software-updates zo snel mogelijk: die dichten vaak beveiligingslekken.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Controleer op je eigen telefoon of automatische back-up en 'telefoon zoeken' zijn ingeschakeld.</p>"
+        }
+      ]
+    },
+    {
+      "id": "abonnementen-budget",
+      "title": "Abonnementenjungle: grip op Spotify, Netflix & co.",
+      "steps": [
+        {
+          "title": "Sluipende abonnementskosten",
+          "body": "<p>Spotify, Netflix, Disney+, cloudopslag, gym-app, gaming-abonnementen — het telt sneller op dan je denkt. Loop periodiek (bijvoorbeeld elk kwartaal) je bankafschrift na op terugkerende betalingen die je niet meer gebruikt.</p>"
+        },
+        {
+          "title": "Samen delen zonder ruzie",
+          "body": "<p>Een gezins- of duo-abonnement delen met huisgenoten of vrienden is voordeliger, maar spreek vooraf af wie wanneer betaalt (bijvoorbeeld via Tikkie) — dat voorkomt latere discussies over 'wie is die 3 euro nog schuldig'.</p>"
+        },
+        {
+          "title": "Proefperiodes: zet altijd een herinnering",
+          "body": "<p>Een 'gratis proefmaand' die automatisch overgaat in een betaald abonnement is een klassieke valkuil. Zet meteen bij het aanmelden een herinnering in je agenda of telefoon om op tijd op te zeggen als je 'm niet wilt houden.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Bekijk je actieve abonnementen in de instellingen van je telefoon (of app store-account) en check of er iets tussen zit dat je niet meer gebruikt.</p>"
+        }
+      ]
+    },
+    {
+      "id": "wachtwoordmanager-gewoonte",
+      "title": "Wachtwoordmanager als dagelijkse gewoonte",
+      "steps": [
+        {
+          "title": "Waarom dit nu een gewoonte moet worden",
+          "body": "<p>Zoals we bij Veiligheid al zagen: een wachtwoordmanager is geen extra stap meer, maar een basisgewoonte — net als je scherm vergrendelen. Hij onthoudt, genereert en vult je wachtwoorden automatisch in, voor al je apps en accounts.</p>"
+        },
+        {
+          "title": "Alles op één plek",
+          "body": "<p>Naast wachtwoorden kun je in een wachtwoordmanager vaak ook <strong>bankgegevens, identiteitsbewijzen en beveiligde notities</strong> opslaan — versleuteld, en alleen toegankelijk met je hoofdwachtwoord.</p>"
+        },
+        {
+          "title": "Delen met huisgenoten of familie",
+          "body": "<p>De meeste wachtwoordmanagers bieden een gezins- of groepsabonnement waarmee je veilig wachtwoorden kunt delen (bijvoorbeeld een streamingaccount), zonder het wachtwoord letterlijk door te appen in de groepschat.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Als je nog geen wachtwoordmanager gebruikt: installeer er vandaag één en zet 'm in voor je belangrijkste account.</p>"
+        }
+      ]
+    }
+  ]
+}

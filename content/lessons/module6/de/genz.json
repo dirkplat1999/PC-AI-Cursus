@@ -1,0 +1,92 @@
+{
+  "lessons": [
+    {
+      "id": "camera-vaardigheden",
+      "title": "Kamera-Fähigkeiten für besseren Content",
+      "steps": [
+        {
+          "title": "Porträtmodus für dein Profilbild",
+          "body": "<p>Der <strong>Porträtmodus</strong> (oft ein kleines Kopf-Symbol) verwischt den Hintergrund, während du scharf im Bild bleibst — genau wie bei einem echten Kameraobjektiv. Perfekt für ein Profilbild, das auffällt.</p>"
+        },
+        {
+          "title": "Serienaufnahme für den einen perfekten Schuss",
+          "body": "<p>Halte den Auslöser gedrückt (oder wische ihn nach links/rechts), um schnell mehrere Fotos hintereinander zu machen. Unverzichtbar bei einer springenden Freundesgruppe oder einem Haustier, das nicht stillsitzt — du wählst danach das beste aus der Reihe.</p>"
+        },
+        {
+          "title": "Panorama für Festival- oder Reisefotos",
+          "body": "<p>Wähle den Panoramamodus, um eine weite Landschaft oder eine volle Festivalmenge in einem Foto festzuhalten. Drehe dich langsam im Kreis, während dein Handy die Fotos zusammensetzt.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Versuche, ein Porträtfoto und ein Panoramafoto zu machen.</p>"
+        }
+      ]
+    },
+    {
+      "id": "snel-bewerken",
+      "title": "Schnelles Bearbeiten für Instagram und TikTok",
+      "steps": [
+        {
+          "title": "Eingebaute Bearbeitungswerkzeuge",
+          "body": "<p>Jede Fotos-App hat eine Grundbearbeitung: Zuschneiden, Filter und Regler für Licht, Kontrast und Sättigung. Fang hiermit an, bevor du eine separate App herunterlädst.</p>"
+        },
+        {
+          "title": "Mehr Kontrolle mit einer App",
+          "body": "<p>Möchtest du mehr? Apps wie <strong>Snapseed</strong> (kostenlos) oder die Bearbeitungstools direkt in Instagram/TikTok bieten feinere Kontrolle: einen Teil des Fotos gezielt anpassen, störende Details entfernen, Schärfe feinjustieren.</p>"
+        },
+        {
+          "title": "Nicht mit Filtern übertreiben",
+          "body": "<p>Eine kleine Anpassung bei Licht und Kontrast macht oft schon einen großen Unterschied. Zu viele Filter, Weichzeichner oder zu kräftige Farben lassen ein Foto schnell unnatürlich oder fake wirken — und das fällt heutzutage schnell auf.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Bearbeite ein Foto aus deiner Galerie: passe Licht und Kontrast an und vergleiche es mit dem Original.</p>"
+        }
+      ]
+    },
+    {
+      "id": "videos-monteren",
+      "title": "Videos schneiden für Reels und TikTok",
+      "steps": [
+        {
+          "title": "Ein Video kürzen",
+          "body": "<p>Öffne ein Video in deiner Fotos-App und tippe auf 'Bearbeiten'. Ziehe die Griffe am Anfang und Ende der Zeitleiste nach innen, um den überflüssigen Teil abzuschneiden.</p>"
+        },
+        {
+          "title": "Clips zusammenfügen und schnell schneiden",
+          "body": "<p>Für ein Reel oder TikTok nutzt du eine App wie <strong>CapCut</strong> — ziehe Clips in die Reihenfolge, schneide im Takt der Musik, und füge Text oder Übergänge hinzu, ohne teure Software.</p>"
+        },
+        {
+          "title": "Musik und Lautstärke",
+          "body": "<p>Im selben Editor legst du meist einen Musiktitel unter dein Video. Achte auf die Lautstärke: Die Musik sollte Stimmen in deinem Video nicht übertönen, und prüfe urheberrechtlich geschützte Musik — Plattformen wie TikTok/Instagram bieten meist eine eingebaute, lizenzierte Musikbibliothek.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Kürze ein Video auf den wichtigsten Teil und teile es danach mit jemandem.</p>"
+        }
+      ]
+    },
+    {
+      "id": "delen-backup",
+      "title": "Klug teilen und sichern",
+      "steps": [
+        {
+          "title": "Automatisches Backup",
+          "body": "<p>Sorge dafür, dass deine Fotos automatisch in die Cloud hochgeladen werden (Google Fotos oder iCloud), damit du deine Erinnerungen nicht verlierst, wenn dein Handy kaputtgeht, gestohlen wird oder du es auf einem Festival verlierst. Aktiviere das einmalig in den Einstellungen.</p>"
+        },
+        {
+          "title": "Einen Link statt Dutzender einzelner Fotos teilen",
+          "body": "<p>Teilst du viele Fotos von einem Abend oder einer Reise? Sende einen <strong>Freigabe-Link</strong> zu einem Album, statt Dutzender einzelner Fotos im Gruppenchat. Schneller und übersichtlicher für alle.</p>"
+        },
+        {
+          "title": "Berechtigungen bei einem geteilten Album",
+          "body": "<p>Bei einem geteilten Album kannst du oft festlegen, ob andere auch Fotos <strong>hinzufügen</strong> dürfen — praktisch bei einem Festival, Urlaub oder einer Feier, bei der alle Fotos machen und du alles an einem Ort haben willst.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Prüfe, ob das automatische Backup auf deinem Handy aktiviert ist, und erstelle ein geteiltes Album für eine Gruppe von Freunden oder Familie.</p>"
+        }
+      ]
+    }
+  ]
+}

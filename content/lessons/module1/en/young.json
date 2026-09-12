@@ -35,6 +35,20 @@
             "icloud": "https://www.icloud.com/mail",
             "yahoo": "https://mail.yahoo.com"
           }
+        },
+        {
+          "title": "Required exercise: send a test message",
+          "body": "<p>Now send a test message to yourself and check that it arrives properly. This way you know your mailbox works as expected before you use it for something important.</p>",
+          "practiceUrl": "https://mail.google.com",
+          "practiceUrlByProvider": {
+            "gmail": "https://mail.google.com",
+            "outlook": "https://outlook.live.com/mail/",
+            "kpn": "https://mail.kpnmail.nl",
+            "icloud": "https://www.icloud.com/mail",
+            "yahoo": "https://mail.yahoo.com"
+          },
+          "requireConfirm": true,
+          "confirmLabel": "I sent myself a test message and it arrived."
         }
       ]
     },

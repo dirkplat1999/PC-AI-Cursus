@@ -12,6 +12,7 @@
 
   <% if (error) { %><p class="error"><%= error %></p><% } %>
   <% if (notice) { %><p class="notice"><%= notice %></p><% } %>
+  <% const ageGroupLabel = (a) => a === 'young' ? t.ageGroupYoung : a === 'genz' ? t.ageGroupGenz : t.ageGroupSenior; %>
   <% if (!mailConfigured) { %>
     <p class="hint">E-mail is nog niet ingesteld — ga naar <a href="/admin/settings">Instellingen</a> om inloggegevens per e-mail te kunnen versturen.</p>
   <% } %>
@@ -45,7 +46,7 @@
         <div>
           <label><%= t.ageGroup %></label>
           <select name="age_group" id="age-group-new">
-            <% ageGroups.forEach(a => { %><option value="<%= a %>"><%= a === 'young' ? t.ageGroupYoung : t.ageGroupSenior %></option><% }) %>
+            <% ageGroups.forEach(a => { %><option value="<%= a %>"><%= ageGroupLabel(a) %></option><% }) %>
           </select>
         </div>
       </div>
@@ -91,7 +92,7 @@
             <div>
               <label><%= t.ageGroup %></label>
               <select name="age_group" id="age-group-<%= s.id %>">
-                <% ageGroups.forEach(a => { %><option value="<%= a %>" <%= s.age_group === a ? 'selected' : '' %>><%= a === 'young' ? t.ageGroupYoung : t.ageGroupSenior %></option><% }) %>
+                <% ageGroups.forEach(a => { %><option value="<%= a %>" <%= s.age_group === a ? 'selected' : '' %>><%= ageGroupLabel(a) %></option><% }) %>
               </select>
             </div>
             <div>

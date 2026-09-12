@@ -1,0 +1,135 @@
+{
+  "lessons": [
+    {
+      "id": "digid-mijnoverheid-snel",
+      "title": "DigiD & MijnOverheid sorted in 2 minutes",
+      "steps": [
+        {
+          "title": "Setting up DigiD",
+          "body": "<p>Install the DigiD app, link face recognition or a fingerprint, and you're set. You'll use it for DUO (student finance!), the Tax Office, your health insurer, and MijnOverheid, among others.</p>"
+        },
+        {
+          "title": "Message box: never miss a DUO or tax deadline",
+          "body": "<p>Go to MijnOverheid &gt; <strong>Message box</strong> and turn on an email reminder. This way you won't miss a message from DUO about your student debt or funding, without having to actively check the site.</p>"
+        },
+        {
+          "title": "DigiD is personal — not even 'just quickly' for a housemate",
+          "body": "<p>Never share your DigiD details with anyone — not even 'just quickly' for a housemate who lost their own. The government will <strong>never</strong> call or message you asking for a DigiD code.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Browse MijnOverheid below and check whether your message box reminders are turned on.</p>",
+          "practiceUrl": "https://www.mijnoverheid.nl"
+        }
+      ]
+    },
+    {
+      "id": "bankieren-fraude-geavanceerd",
+      "title": "Scams that specifically target you",
+      "steps": [
+        {
+          "title": "Crypto and 'finfluencer' scams",
+          "body": "<p>A TikTok or Instagram account promises quick riches with crypto or stocks, sometimes using a fake video of a well-known influencer or celebrity. Almost always fake. Never invest via a link from an ad or DM; always go to a recognized, regulated provider (check its official registration).</p>"
+        },
+        {
+          "title": "A 'side gig' that's actually money laundering (money mule)",
+          "body": "<p>An offer to 'simply' receive money in your account and forward it for a small commission is <strong>money laundering</strong> — even if you don't think of it that way. You end up in criminal trouble yourself, and your bank account can get frozen. Never agree to this, no matter how tempting the offer sounds.</p>"
+        },
+        {
+          "title": "Ticket and 'too-good-to-be-true' scams",
+          "body": "<p>A festival ticket, concert seat, or console that's sold out everywhere, yet somehow 'just' available via a DM or unknown site — assume it's a scam. Only buy through official sellers or platforms with buyer protection (like verified resale on Ticketswap).</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Check your banking app and see whether you get notified of unusual transactions.</p>"
+        }
+      ]
+    },
+    {
+      "id": "phishing-2",
+      "title": "Phishing 2.0: parcels, DMs, and spear-phishing",
+      "steps": [
+        {
+          "title": "Phishing is getting more personal",
+          "body": "<p>Classic phishing is generic ('Dear customer'). <strong>Spear-phishing</strong> targets you specifically: a DM from a 'friend' whose account got hacked, a fake recruiter on LinkedIn, or a fake delivery notice that knows you recently bought something on Vinted or Marktplaats.</p>"
+        },
+        {
+          "title": "Exercise: a parcel-delivery scam",
+          "body": "<p>Below is a <strong>recreated example</strong> of a common SMS/email scam about a 'failed parcel delivery'. Click the message to open it. There are two things you can try: click the button, or delete the email via the menu (⋮).</p><div class=\"phish-sim\"><button type=\"button\" class=\"phish-inbox-item\" data-phish-open aria-expanded=\"false\"><span class=\"phish-avatar\" aria-hidden=\"true\">P</span><span class=\"phish-inbox-text\"><span class=\"phish-sender-name\">PostNL</span><span class=\"phish-subject\">Delivery failed: reschedule within 24 hours</span><span class=\"phish-snippet\">We were unable to deliver your parcel. Amount due: €0.49...</span></span><span class=\"phish-time\">11:32</span></button><div class=\"phish-email hidden\" data-phish-email><button type=\"button\" class=\"phish-more-btn\" data-phish-more aria-haspopup=\"true\" aria-expanded=\"false\" aria-label=\"More options\">⋮</button><div class=\"phish-more-menu hidden\" data-phish-menu role=\"menu\"><button type=\"button\" data-phish-delete role=\"menuitem\">🗑 Delete</button></div><div class=\"phish-email-header\"><div><strong>From:</strong> PostNL &lt;delivery@<span class=\"phish-flag\">postnl-track-parcel.info</span>&gt;</div><div><strong>To:</strong> you@example.com</div><div><strong>Subject:</strong> Delivery failed: reschedule within 24 hours</div></div><div class=\"phish-email-body\"><p>Dear customer,</p><p>Unfortunately we were unable to deliver your parcel. There is an outstanding amount of <strong>€0.49</strong> in shipping costs. Pay this within 24 hours or your parcel will be returned to the sender.</p><button type=\"button\" class=\"phish-cta-btn\" data-phish-click>Pay €0.49 and reschedule delivery</button></div></div><div class=\"phish-reveal phish-reveal-bad hidden\" data-phish-reveal-bad tabindex=\"-1\"><h4>⚠️ Just an exercise — phew!</h4><p>This type of scam is hugely popular precisely because the amount seems so small (€0.49) — people think 'what harm could it do'. In reality, this steals your card details. The teacher has automatically been notified, so you can go over it together.</p><p><strong>The warning signs:</strong></p><ul><li>The full email address isn't PostNL's: <code>postnl-track-parcel.info</code></li><li>A tiny amount, designed to lower your guard</li><li>Time pressure ('within 24 hours')</li><li>Delivery services never ask you to pay extra online via a link</li></ul><p>Not sure? Always go to the delivery service's own site or app by typing the address yourself, and ask someone for a second opinion if in doubt.</p><button type=\"button\" class=\"btn btn-ghost\" data-phish-reset>Try again</button></div><div class=\"phish-reveal phish-reveal-good hidden\" data-phish-reveal-good tabindex=\"-1\"><h4>✅ Well done!</h4><p>You <strong>deleted</strong> the suspicious message without paying. Exactly right — these 'small amount' scams are specifically designed to bypass your guard.</p><p><strong>Warning signs you spotted:</strong></p><ul><li>The full email address wasn't PostNL's: <code>postnl-track-parcel.info</code></li><li>A suspiciously small amount to lower your guard</li><li>Time pressure ('within 24 hours')</li></ul><p>Not sure about a delivery message? Always go to the delivery service's own site or app.</p><button type=\"button\" class=\"btn btn-ghost\" data-phish-reset>Try again</button></div></div>"
+        },
+        {
+          "title": "Fake recruiters and 'too easy' side gigs",
+          "body": "<p>A 'recruiter' who reaches out on LinkedIn, Instagram, or WhatsApp with too-good-to-be-true pay for too little work, and quickly asks for personal details or a 'deposit for equipment', is a scammer. Always check whether the company really exists and whether the recruiter has a verified profile with a shared connection.</p>"
+        }
+      ]
+    },
+    {
+      "id": "gegevens-gelekt",
+      "title": "Check whether your data has already been leaked",
+      "steps": [
+        {
+          "title": "Have I Been Pwned: check it yourself",
+          "body": "<p>In virtually every major data breach (LinkedIn, Discord, various web shops), email addresses and sometimes passwords eventually end up on <strong>haveibeenpwned.com</strong> — the international standard for checking whether your data was included. Enter your email address and you'll immediately see which breaches you appear in.</p>",
+          "practiceUrl": "https://haveibeenpwned.com/"
+        },
+        {
+          "title": "Check Je Hack from the Dutch police (optional)",
+          "body": "<p>The Dutch police offer a similar, official check called <strong>Check Je Hack</strong>. Entirely optional alongside Have I Been Pwned, but a good second check from another official source.</p>",
+          "practiceUrl": "https://www.politie.nl/informatie/checkjehack.html"
+        },
+        {
+          "title": "What it means if you show up",
+          "body": "<p>Are you on one of these lists? Then there's a <strong>demonstrably higher chance</strong> of receiving targeted phishing and scam messages via email, text, WhatsApp, or DM — your address is marked as 'active' to criminals working with leaked lists. Respond by: changing the password of the leaked account right away, turning on 2FA wherever it isn't already, and staying extra critical of unexpected messages going forward.</p>"
+        },
+        {
+          "title": "Ongoing monitoring",
+          "body": "<p>Some password managers (like 1Password and Bitwarden) have built-in <strong>breach monitoring</strong>, which automatically warns you as soon as one of your saved accounts shows up in a new breach — more convenient than checking manually every time. We'll cover this further in the next lesson.</p>"
+        }
+      ]
+    },
+    {
+      "id": "wachtwoordmanager-standaard",
+      "title": "Password managers and 2FA: standard, not a luxury",
+      "steps": [
+        {
+          "title": "Why there's no getting around this anymore",
+          "body": "<p>With dozens of accounts (school, work, social media, streaming, gaming), memorizing a unique, strong password for every site by hand just isn't realistic. A password manager (like Bitwarden, 1Password, or the one built into your browser/phone) is now standard gear — like a screen protector.</p>"
+        },
+        {
+          "title": "Passkeys: the password's successor",
+          "body": "<p>More and more services (Google, Apple, Instagram, banks) now support <strong>passkeys</strong>: logging in with your fingerprint or face, no password needed. More secure than a password, since there's nothing that can be stolen via a phishing email. Turn this on wherever you can.</p>"
+        },
+        {
+          "title": "2FA via an app, not SMS",
+          "body": "<p>For 2FA, prefer an <strong>authenticator app</strong> (Google Authenticator, Authy) over SMS — SMS codes can be intercepted via 'SIM swapping' (your number gets taken over by a scammer, something that happens more often to young, active social-media users specifically).</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Check one of your most important accounts (email, bank, Instagram) to see whether app-based 2FA is set up, and turn it on if it isn't yet.</p>"
+        }
+      ]
+    },
+    {
+      "id": "identiteitsdiefstal",
+      "title": "Recognizing identity theft and social engineering",
+      "steps": [
+        {
+          "title": "What is social engineering?",
+          "body": "<p>Social engineering means manipulating people into giving up confidential information — often by putting you under pressure, creating urgency, or making you believe the sender has authority (your internship supervisor, the bank, the police) or is someone you trust.</p>"
+        },
+        {
+          "title": "'Hey, it's me! New number' — even among friends",
+          "body": "<p>A message from a 'friend' or housemate with a new number, asking you to quickly transfer money because a payment 'isn't going through' — always verify this with a phone call to the known number or through another channel (like a shared group chat), never by replying directly to the new number.</p>"
+        },
+        {
+          "title": "What to do if your identity is stolen",
+          "body": "<ol><li>Change your passwords immediately, starting with your email</li><li>Report it to your bank if financial details are involved</li><li>File a police report</li><li>Check <a href=\"https://www.mijnoverheid.nl\" target=\"_blank\" rel=\"noopener\">MijnOverheid</a> for unfamiliar entries under your name</li></ol>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Think about it: would you immediately believe a message from a 'friend' with a new number and an urgent request for money, or check first through another channel?</p>"
+        }
+      ]
+    }
+  ]
+}

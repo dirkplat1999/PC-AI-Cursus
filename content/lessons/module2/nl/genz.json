@@ -1,0 +1,142 @@
+{
+  "lessons": [
+    {
+      "id": "maps-slim",
+      "title": "Google Maps: sneller van A naar B",
+      "steps": [
+        {
+          "title": "Live drukte en ETA",
+          "body": "<p>Google Maps houdt <strong>live verkeersdrukte</strong> bij (oranje/rode wegen = druk) en past je route en aankomsttijd daarop aan — handig als je niet te laat wilt komen op je bijbaan of afspraak.</p>"
+        },
+        {
+          "title": "Meerdere stops in één route",
+          "body": "<ol><li>Zet een route uit zoals gebruikelijk</li><li>Tik op het plusje (⋮ of 'Stop toevoegen') naast het adresveld</li><li>Voeg een tussenstop toe, bijvoorbeeld de supermarkt of een vriend die meerijdt</li><li>Sleep de stops in de gewenste volgorde</li></ol>"
+        },
+        {
+          "title": "Offline kaarten voor een festival of reis",
+          "body": "<p>Naar een festival, camping of buitenland met slecht bereik? Download het gebied vooraf offline: tik op je profielfoto &gt; <strong>Offline kaarten</strong> &gt; 'Eigen kaart selecteren'. Zo werkt navigatie ook zonder internet.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Plan hieronder een route met minstens twee tussenstops.</p>",
+          "practiceUrl": "https://maps.google.com"
+        }
+      ]
+    },
+    {
+      "id": "marktplaats-veilig",
+      "title": "Tweedehands scoren en verkopen: Marktplaats & Vinted",
+      "steps": [
+        {
+          "title": "Een advertentie die opvalt",
+          "body": "<p>Wil je kleding, meubels of spullen verkopen (leuke bijverdienste)? Scherpe foto's in daglicht, een eerlijke beschrijving van gebreken, en een realistische prijs — check vergelijkbare advertenties voordat je een prijs bepaalt.</p>"
+        },
+        {
+          "title": "Veilig betalen, ook onder tijdsdruk",
+          "body": "<p>Gebruik bij twijfel <strong>Veilig betalen via Marktplaats</strong> of Vinted's ingebouwde betaling, in plaats van direct te bankieren. Let extra op bij kopers/verkopers die je onder druk zetten om snel te reageren, of die willen afspreken buiten het platform om — klassiek oplichtingspatroon.</p>"
+        },
+        {
+          "title": "Bekende trucs",
+          "body": "<ul><li>Een 'betaalbewijs' gevolgd door het verzoek om zelf de verzendkosten voor te schieten</li><li>Een bod dat te mooi is om waar te zijn, gevolgd door tijdsdruk</li><li>Een betaallink die niet op marktplaats.nl of vinted.nl staat</li></ul><p>Twijfel je? Ga nooit in op verzoeken buiten het platform, en vraag bij twijfel iemand om een tweede mening.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Bekijk hieronder een categorie die je interesseert en let op prijsverschillen tussen vergelijkbare advertenties.</p>",
+          "practiceUrl": "https://www.marktplaats.nl"
+        }
+      ]
+    },
+    {
+      "id": "kamer-studio-zoeken",
+      "title": "Op kamers: veilig een kamer of studio zoeken",
+      "steps": [
+        {
+          "title": "Filters instellen en een alert aanzetten",
+          "body": "<p>Stel filters in op prijs, locatie en type (kamer, studio, appartement) op sites als Kamernet of Funda Huur. Zet een <strong>e-mailalert</strong> aan — populaire kamers staan soms maar een paar uur online voor iedereen wegkaapt.</p>"
+        },
+        {
+          "title": "De klassieke kamer-scam",
+          "body": "<p>Een 'huisbaas in het buitenland' die vraagt om borg + eerste maand huur over te maken vóórdat je de kamer ooit hebt gezien — is bijna altijd oplichting. Bezichtig altijd eerst in persoon (of via een betrouwbare videocall met de huidige bewoners) voordat je geld overmaakt.</p>"
+        },
+        {
+          "title": "Waar je op moet letten",
+          "body": "<ul><li>Staat het huurcontract op naam, en klopt de borg met wat wettelijk is toegestaan?</li><li>Wie zijn de huisgenoten, en is er een proefperiode?</li><li>Wat zit er wel/niet in de huur (gas, water, licht, internet)?</li></ul>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Stel hieronder een zoekopdracht in voor jouw ideale kamer of studio en sla deze op.</p>",
+          "practiceUrl": "https://www.kamernet.nl"
+        }
+      ]
+    },
+    {
+      "id": "streamen-slim",
+      "title": "TikTok, YouTube & je algoritme doorzien",
+      "steps": [
+        {
+          "title": "Waarom je 'voor jou'-feed is wat hij is",
+          "body": "<p>TikTok, Instagram Reels en YouTube tonen content op basis van een <strong>algoritme</strong>: wat je liket, hoe lang je kijkt en wat je overslaat, bepaalt wat je daarna te zien krijgt. Handig om leuke content te vinden, maar het kan je ook in een 'bubbel' houden.</p>"
+        },
+        {
+          "title": "Kijkgeschiedenis opschonen",
+          "body": "<p>Merk je dat je feed te eenzijdig wordt (of dat je steeds dezelfde soort video's ziet die je eigenlijk niet meer wilt)? Ga naar je account &gt; <strong>Geschiedenis</strong> en verwijder items, of gebruik af en toe bewust 'niet geïnteresseerd' op een video.</p>"
+        },
+        {
+          "title": "Abonnementen en meldingen onder controle",
+          "body": "<p>Abonneer je op kanalen/accounts die je echt interessant vindt. Zet het belletje aan voor directe meldingen, of uit als je liever zelf kiest wanneer je kijkt — scheelt een hoop 'even snel checken' momenten.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Bekijk hieronder je kijkgeschiedenis op YouTube en verwijder een paar items die je niet meer relevant vindt.</p>",
+          "practiceUrl": "https://www.youtube.com"
+        }
+      ]
+    },
+    {
+      "id": "reisplanner-forenzen",
+      "title": "9292: reizen naar school, werk of erop uit",
+      "steps": [
+        {
+          "title": "Favoriete routes opslaan",
+          "body": "<p>Reis je regelmatig hetzelfde traject (school, stage, werk)? Sla de route op als favoriet, zodat je 'm met één tik weer kunt opvragen zonder alles opnieuw in te typen.</p>"
+        },
+        {
+          "title": "Storingen checken voordat je vertrekt",
+          "body": "<p>9292 toont live vertragingen en storingen op het spoor. Check alternatieve routes voordat je vertrekt als er een verstoring wordt gemeld — scheelt onnodig wachten op een verlaten perron.</p>"
+        },
+        {
+          "title": "Studenten-OV en abonnementen",
+          "body": "<p>Reis je vaak buiten je studenten-OV-uren, of ben je klaar met studeren? Vergelijk reisabonnementen op de site van je vervoerder (NS, GVB, RET, HTM) met je gemiddelde reisgedrag — dat kan flink schelen.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Plan hieronder je vaste route naar school, stage of werk en sla 'm op als favoriet.</p>",
+          "practiceUrl": "https://www.9292.nl"
+        }
+      ]
+    },
+    {
+      "id": "social-privacy",
+      "title": "Instagram, TikTok & Snapchat: je privacy onder controle",
+      "steps": [
+        {
+          "title": "Wie ziet wat je post?",
+          "body": "<p>Ga naar <strong>Instellingen &gt; Privacy</strong> op Instagram of TikTok en check wie je posts, verhalen en profiel kan zien: iedereen, alleen volgers, of een selectie. Overweeg een privéaccount als je niet wilt dat vreemden alles kunnen zien.</p>"
+        },
+        {
+          "title": "Locatie niet automatisch delen",
+          "body": "<p>Veel apps voegen automatisch je locatie toe aan foto's en stories. Zet dit uit in de instellingen (bijvoorbeeld Instagram: Instellingen &gt; Privacy &gt; Locatieservices) — zeker handig als je niet wilt dat mensen precies zien waar je woont of uithangt.</p>"
+        },
+        {
+          "title": "Wat toekomstige werkgevers (en jijzelf over 5 jaar) zien",
+          "body": "<p>Een openbaar profiel kan door iedereen bekeken worden — ook een stagebegeleider of recruiter die je naam googelt. Check af en toe je eigen profiel als 'vreemde' door uit te loggen en te kijken wat zichtbaar is, en bedenk of je oude posts nog steeds passen bij hoe je gezien wilt worden.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Controleer hieronder je privacy-instellingen op Instagram en pas aan wie je posts kan zien.</p>",
+          "practiceUrl": "https://www.instagram.com"
+        }
+      ]
+    }
+  ]
+}

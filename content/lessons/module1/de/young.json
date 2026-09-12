@@ -35,6 +35,20 @@
             "icloud": "https://www.icloud.com/mail",
             "yahoo": "https://mail.yahoo.com"
           }
+        },
+        {
+          "title": "Pflichtübung: sende eine Testnachricht",
+          "body": "<p>Sende jetzt eine Testnachricht an dich selbst und prüfe, ob sie richtig ankommt. So weißt du sicher, dass dein Postfach wie erwartet funktioniert, bevor du es für etwas Wichtiges nutzt.</p>",
+          "practiceUrl": "https://mail.google.com",
+          "practiceUrlByProvider": {
+            "gmail": "https://mail.google.com",
+            "outlook": "https://outlook.live.com/mail/",
+            "kpn": "https://mail.kpnmail.nl",
+            "icloud": "https://www.icloud.com/mail",
+            "yahoo": "https://mail.yahoo.com"
+          },
+          "requireConfirm": true,
+          "confirmLabel": "Ich habe mir selbst eine Testnachricht gesendet und sie ist angekommen."
         }
       ]
     },

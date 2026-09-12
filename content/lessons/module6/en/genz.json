@@ -1,0 +1,92 @@
+{
+  "lessons": [
+    {
+      "id": "camera-vaardigheden",
+      "title": "Camera skills for better content",
+      "steps": [
+        {
+          "title": "Portrait mode for your profile picture",
+          "body": "<p><strong>Portrait mode</strong> (often a small head icon) blurs the background while keeping you in sharp focus — just like a real camera lens. Perfect for a profile picture that stands out.</p>"
+        },
+        {
+          "title": "Burst mode for that one perfect shot",
+          "body": "<p>Hold down the shutter button (or swipe it left/right) to quickly take several photos in a row. Essential for a group of friends jumping, or a pet that won't sit still — you pick the best one from the series afterward.</p>"
+        },
+        {
+          "title": "Panorama for festival or travel photos",
+          "body": "<p>Choose panorama mode to capture a wide landscape or a packed festival crowd in a single photo. Turn slowly in a circle while your phone stitches the photos together.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Try taking a portrait photo and a panorama photo.</p>"
+        }
+      ]
+    },
+    {
+      "id": "snel-bewerken",
+      "title": "Quick editing for Instagram and TikTok",
+      "steps": [
+        {
+          "title": "Built-in editing tools",
+          "body": "<p>Every Photos app has basic editing: cropping, filters, and sliders for light, contrast, and saturation. Start here before downloading a separate app.</p>"
+        },
+        {
+          "title": "More control with an app",
+          "body": "<p>Want more? Apps like <strong>Snapseed</strong> (free), or the editing tools built into Instagram/TikTok themselves, give finer control: selectively adjust part of a photo, remove distracting details, fine-tune sharpness.</p>"
+        },
+        {
+          "title": "Don't overdo the filters",
+          "body": "<p>A small adjustment to light and contrast often already makes a big difference. Too many filters, smoothing, or overly bright colors can make a photo look unnatural or fake — and people spot that pretty fast these days.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Edit a photo from your gallery: adjust the light and contrast, and compare it to the original.</p>"
+        }
+      ]
+    },
+    {
+      "id": "videos-monteren",
+      "title": "Editing videos for Reels and TikTok",
+      "steps": [
+        {
+          "title": "Trimming a video",
+          "body": "<p>Open a video in your Photos app and tap 'Edit'. Drag the handles at the start and end of the timeline inward to cut off the unnecessary part.</p>"
+        },
+        {
+          "title": "Combining clips and cutting fast",
+          "body": "<p>For a Reel or TikTok, use an app like <strong>CapCut</strong> — drag clips into order, cut to the beat of the music, and add text or transitions without expensive software.</p>"
+        },
+        {
+          "title": "Music and volume levels",
+          "body": "<p>In the same editor you can usually add a music track under your video. Watch the volume level: the music shouldn't drown out voices in your video, and check copyrighted music — platforms like TikTok/Instagram usually offer a built-in, licensed music library.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Trim a video down to the most important part, then share it with someone.</p>"
+        }
+      ]
+    },
+    {
+      "id": "delen-backup",
+      "title": "Sharing and backing up smartly",
+      "steps": [
+        {
+          "title": "Automatic backup",
+          "body": "<p>Make sure your photos automatically upload to the cloud (Google Photos or iCloud), so you never lose your memories if your phone breaks, gets stolen, or you lose it at a festival. Turn this on once in the settings.</p>"
+        },
+        {
+          "title": "Sharing a link instead of dozens of separate photos",
+          "body": "<p>Sharing a lot of photos from a night out or a trip? Send a <strong>share link</strong> to an album, instead of dozens of separate photos in the group chat. Faster and clearer for everyone.</p>"
+        },
+        {
+          "title": "Setting permissions on a shared album",
+          "body": "<p>With a shared album you can often choose whether others can also <strong>add</strong> photos — handy for a festival, holiday, or party where everyone's taking pictures and you want it all in one place.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Check whether automatic backup is turned on on your phone, and create a shared album for a group of friends or family.</p>"
+        }
+      ]
+    }
+  ]
+}

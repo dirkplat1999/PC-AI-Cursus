@@ -1,0 +1,135 @@
+{
+  "lessons": [
+    {
+      "id": "digid-mijnoverheid-snel",
+      "title": "DigiD & MijnOverheid in 2 Minuten erledigt",
+      "steps": [
+        {
+          "title": "DigiD einrichten",
+          "body": "<p>Installiere die DigiD-App, verknüpfe Gesichtserkennung oder Fingerabdruck, und du bist fertig. Du nutzt sie unter anderem für DUO (Studienfinanzierung!), das Finanzamt, deine Krankenkasse und MijnOverheid.</p>"
+        },
+        {
+          "title": "Nachrichtenbereich: verpasse nie eine DUO- oder Steuerfrist",
+          "body": "<p>Gehe zu MijnOverheid &gt; <strong>Nachrichten</strong> und aktiviere eine E-Mail-Erinnerung. So verpasst du keine Nachricht von DUO zu deiner Studienfinanzierung, ohne die Website aktiv prüfen zu müssen.</p>"
+        },
+        {
+          "title": "DigiD ist persönlich — auch nicht 'kurz mal' für Mitbewohner",
+          "body": "<p>Teile DigiD-Daten niemals, mit niemandem — auch nicht 'kurz mal' für einen Mitbewohner, der seine eigene verloren hat. Die Regierung ruft oder schreibt dich <strong>niemals</strong> an, um nach einem DigiD-Code zu fragen.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Schau dir unten MijnOverheid an und prüfe, ob deine Erinnerungen für den Nachrichtenbereich aktiviert sind.</p>",
+          "practiceUrl": "https://www.mijnoverheid.nl"
+        }
+      ]
+    },
+    {
+      "id": "bankieren-fraude-geavanceerd",
+      "title": "Betrugsmaschen, die gezielt auf dich abzielen",
+      "steps": [
+        {
+          "title": "Krypto- und 'Finfluencer'-Betrug",
+          "body": "<p>Ein TikTok- oder Instagram-Account verspricht schnellen Reichtum mit Krypto oder Aktien, manchmal mit einem Fake-Video eines bekannten Influencers oder Prominenten. So gut wie immer Fälschung. Investiere niemals über einen Link aus einer Anzeige oder DM; gehe immer zu einem anerkannten, regulierten Anbieter (prüfe die offizielle Registrierung).</p>"
+        },
+        {
+          "title": "Ein 'Nebenjob', der eigentlich Geldwäsche ist (Money Mule)",
+          "body": "<p>Ein Angebot, 'einfach' Geld auf deinem Konto zu empfangen und gegen eine kleine Provision weiterzuleiten, ist <strong>Geldwäsche</strong> — auch wenn du es selbst nicht so nennst. Du bekommst dadurch selbst strafrechtliche Probleme, und dein Konto kann gesperrt werden. Geh darauf niemals ein, egal wie verlockend das Angebot klingt.</p>"
+        },
+        {
+          "title": "Ticket- und 'zu-gut-um-wahr'-Maschen",
+          "body": "<p>Ein Festivalticket, Konzertticket oder eine Konsole, die überall ausverkauft ist, aber 'zufällig' über eine DM oder unbekannte Seite verfügbar ist — geh von Betrug aus. Kaufe nur über offizielle Verkaufsstellen oder Plattformen mit Käuferschutz (wie verifizierten Weiterverkauf bei Ticketswap).</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Schau dir deine Banking-App an und prüfe, ob du bei ungewöhnlichen Transaktionen benachrichtigt wirst.</p>"
+        }
+      ]
+    },
+    {
+      "id": "phishing-2",
+      "title": "Phishing 2.0: Pakete, DMs und Spear-Phishing",
+      "steps": [
+        {
+          "title": "Phishing wird persönlicher",
+          "body": "<p>Klassisches Phishing ist generisch ('Sehr geehrter Kunde'). <strong>Spear-Phishing</strong> zielt gezielt auf dich: eine DM von einer 'Freundin/einem Freund', deren/dessen Account gehackt wurde, ein falscher Recruiter auf LinkedIn, oder eine falsche Paketbenachrichtigung, die weiß, dass du kürzlich etwas auf Vinted oder Marktplaats gekauft hast.</p>"
+        },
+        {
+          "title": "Übung: eine Paketzustellungs-Masche",
+          "body": "<p>Unten siehst du ein <strong>nachgebautes Beispiel</strong> einer verbreiteten SMS/E-Mail-Masche über eine 'fehlgeschlagene Paketzustellung'. Klicke auf die Nachricht, um sie zu öffnen. Es gibt zwei Dinge, die du ausprobieren kannst: auf die Schaltfläche klicken, oder die Mail über das Menü (⋮) löschen.</p><div class=\"phish-sim\"><button type=\"button\" class=\"phish-inbox-item\" data-phish-open aria-expanded=\"false\"><span class=\"phish-avatar\" aria-hidden=\"true\">P</span><span class=\"phish-inbox-text\"><span class=\"phish-sender-name\">PostNL</span><span class=\"phish-subject\">Zustellung fehlgeschlagen: innerhalb von 24 Stunden neu planen</span><span class=\"phish-snippet\">Ihr Paket konnte nicht zugestellt werden. Offener Betrag: 0,49 €...</span></span><span class=\"phish-time\">11:32</span></button><div class=\"phish-email hidden\" data-phish-email><button type=\"button\" class=\"phish-more-btn\" data-phish-more aria-haspopup=\"true\" aria-expanded=\"false\" aria-label=\"Weitere Optionen\">⋮</button><div class=\"phish-more-menu hidden\" data-phish-menu role=\"menu\"><button type=\"button\" data-phish-delete role=\"menuitem\">🗑 Löschen</button></div><div class=\"phish-email-header\"><div><strong>Von:</strong> PostNL &lt;zustellung@<span class=\"phish-flag\">postnl-paket-verfolgen.info</span>&gt;</div><div><strong>An:</strong> du@beispiel.de</div><div><strong>Betreff:</strong> Zustellung fehlgeschlagen: innerhalb von 24 Stunden neu planen</div></div><div class=\"phish-email-body\"><p>Sehr geehrter Kunde,</p><p>Leider konnten wir Ihr Paket nicht zustellen. Es besteht noch ein offener Betrag von <strong>0,49 €</strong> an Versandkosten. Zahlen Sie diesen innerhalb von 24 Stunden, sonst wird Ihr Paket an den Absender zurückgeschickt.</p><button type=\"button\" class=\"phish-cta-btn\" data-phish-click>0,49 € zahlen und Zustellung neu planen</button></div></div><div class=\"phish-reveal phish-reveal-bad hidden\" data-phish-reveal-bad tabindex=\"-1\"><h4>⚠️ Zum Glück nur eine Übung!</h4><p>Diese Betrugsmasche ist gerade deshalb so beliebt, weil der Betrag so klein wirkt (0,49 €) — man denkt sich 'was kann da schon schiefgehen'. In Wirklichkeit werden hier deine Kartendaten gestohlen. Die Lehrkraft wurde automatisch benachrichtigt, damit ihr das gemeinsam besprechen könnt.</p><p><strong>Die Warnsignale:</strong></p><ul><li>Die vollständige E-Mail-Adresse ist nicht von PostNL: <code>postnl-paket-verfolgen.info</code></li><li>Ein kleiner Betrag, um die Hemmschwelle zum Klicken zu senken</li><li>Zeitdruck ('innerhalb von 24 Stunden')</li><li>Zustelldienste bitten niemals um eine Nachzahlung über einen Link</li></ul><p>Unsicher? Gehe immer selbst zur Website oder App des Zustelldienstes, indem du die Adresse selbst eingibst, und hol dir im Zweifel eine zweite Meinung.</p><button type=\"button\" class=\"btn btn-ghost\" data-phish-reset>Nochmal versuchen</button></div><div class=\"phish-reveal phish-reveal-good hidden\" data-phish-reveal-good tabindex=\"-1\"><h4>✅ Gut gemacht!</h4><p>Du hast die verdächtige Nachricht <strong>gelöscht</strong>, ohne zu bezahlen. Genau richtig — solche 'Kleinbetrags'-Maschen sind gezielt darauf ausgelegt, deine Wachsamkeit zu umgehen.</p><p><strong>Die Warnsignale, die du erkannt hast:</strong></p><ul><li>Die vollständige E-Mail-Adresse war nicht von PostNL: <code>postnl-paket-verfolgen.info</code></li><li>Ein verdächtig kleiner Betrag, um die Hemmschwelle zu senken</li><li>Zeitdruck ('innerhalb von 24 Stunden')</li></ul><p>Unsicher bei einer Zustellnachricht? Gehe immer selbst zur Website oder App des Zustelldienstes.</p><button type=\"button\" class=\"btn btn-ghost\" data-phish-reset>Nochmal versuchen</button></div></div>"
+        },
+        {
+          "title": "Falsche Recruiter und 'zu einfache' Nebenjobs",
+          "body": "<p>Ein 'Recruiter', der sich auf LinkedIn, Instagram oder WhatsApp mit einem zu guten Gehalt für zu wenig Arbeit meldet und schnell nach persönlichen Daten oder einer 'Anzahlung für Ausrüstung' fragt, ist ein Betrüger. Prüfe immer, ob das Unternehmen wirklich existiert und ob der Recruiter ein verifiziertes Profil mit einer gemeinsamen Verbindung hat.</p>"
+        }
+      ]
+    },
+    {
+      "id": "gegevens-gelekt",
+      "title": "Prüfen, ob deine Daten schon einmal geleakt sind",
+      "steps": [
+        {
+          "title": "Have I Been Pwned: prüfe es selbst",
+          "body": "<p>Bei so gut wie jedem großen Datenleck (LinkedIn, Discord, diverse Online-Shops) landen E-Mail-Adressen und manchmal Passwörter irgendwann auf <strong>haveibeenpwned.com</strong> — dem internationalen Standard, um zu prüfen, ob deine Daten dabei waren. Gib deine E-Mail-Adresse ein und du siehst sofort, bei welchen Lecks du vorkommst.</p>",
+          "practiceUrl": "https://haveibeenpwned.com/"
+        },
+        {
+          "title": "Check Je Hack der niederländischen Polizei (optional)",
+          "body": "<p>Die niederländische Polizei bietet mit <strong>Check Je Hack</strong> eine ähnliche, offizielle Prüfung an. Völlig optional neben Have I Been Pwned, aber eine gute zweite Prüfung bei einer anderen offiziellen Quelle.</p>",
+          "practiceUrl": "https://www.politie.nl/informatie/checkjehack.html"
+        },
+        {
+          "title": "Was es bedeutet, wenn du auftauchst",
+          "body": "<p>Stehst du auf einer dieser Listen? Dann ist die Wahrscheinlichkeit <strong>nachweislich größer</strong>, gezielte Phishing- und Betrugsnachrichten per E-Mail, SMS, WhatsApp oder DM zu bekommen — deine Adresse gilt bei Kriminellen, die mit geleakten Listen arbeiten, als 'aktiv'. Reagiere darauf, indem du: das Passwort des betroffenen Kontos sofort änderst, 2FA aktivierst, wo das noch nicht der Fall ist, und in nächster Zeit besonders kritisch bei unerwarteten Nachrichten bist.</p>"
+        },
+        {
+          "title": "Laufende Überwachung",
+          "body": "<p>Manche Passwort-Manager (wie 1Password und Bitwarden) haben eine eingebaute <strong>Leck-Überwachung</strong>, die dich automatisch warnt, sobald eines deiner gespeicherten Konten in einem neuen Leck auftaucht — praktischer, als jedes Mal selbst manuell zu prüfen. Darauf gehen wir in der nächsten Lektion weiter ein.</p>"
+        }
+      ]
+    },
+    {
+      "id": "wachtwoordmanager-standaard",
+      "title": "Passwort-Manager und 2FA: Standard, kein Luxus",
+      "steps": [
+        {
+          "title": "Warum es daran kein Vorbeikommen mehr gibt",
+          "body": "<p>Bei Dutzenden Konten (Schule, Arbeit, soziale Medien, Streaming, Gaming) ist es unrealistisch, sich für jede Seite ein einzigartiges, starkes Passwort zu merken. Ein Passwort-Manager (zum Beispiel Bitwarden, 1Password, oder der eingebaute Manager deines Browsers/Handys) ist inzwischen Standardausrüstung — wie eine Displayschutzfolie.</p>"
+        },
+        {
+          "title": "Passkeys: der Nachfolger des Passworts",
+          "body": "<p>Immer mehr Dienste (Google, Apple, Instagram, Banken) unterstützen <strong>Passkeys</strong>: Anmelden mit Fingerabdruck oder Gesicht, ohne Passwort. Sicherer als ein Passwort, weil es nichts gibt, das über eine Phishing-Mail gestohlen werden kann. Aktiviere dies, wo immer möglich.</p>"
+        },
+        {
+          "title": "2FA mit einer App, nicht per SMS",
+          "body": "<p>Nutze für 2FA vorzugsweise eine <strong>Authenticator-App</strong> (Google Authenticator, Authy) statt SMS — SMS-Codes können durch 'SIM-Swapping' abgefangen werden (deine Nummer wird von einem Betrüger übernommen, was gerade bei jungen, aktiven Social-Media-Nutzenden häufiger vorkommt).</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Prüfe bei einem deiner wichtigsten Konten (E-Mail, Bank, Instagram), ob 2FA über eine App eingerichtet ist, und aktiviere es, falls nicht.</p>"
+        }
+      ]
+    },
+    {
+      "id": "identiteitsdiefstal",
+      "title": "Identitätsdiebstahl und Social Engineering erkennen",
+      "steps": [
+        {
+          "title": "Was ist Social Engineering?",
+          "body": "<p>Social Engineering bedeutet, Menschen zu manipulieren, damit sie vertrauliche Informationen preisgeben — oft indem man dich unter Druck setzt, Dringlichkeit erzeugt, oder dich glauben lässt, der Absender habe Autorität (deine Praktikumsbetreuung, die Bank, die Polizei) oder sei jemand, dem du vertraust.</p>"
+        },
+        {
+          "title": "'Hey, ich bin's! Neue Nummer' — auch unter Freunden",
+          "body": "<p>Eine Nachricht von einer/einem 'Freund/in' oder Mitbewohner/in mit neuer Nummer, die bittet, schnell Geld zu überweisen, weil eine Zahlung 'nicht klappt' — prüfe dies immer mit einem Anruf an die bekannte Nummer oder über einen anderen Kanal (zum Beispiel einen gemeinsamen Gruppenchat), nie durch eine direkte Antwort an die neue Nummer.</p>"
+        },
+        {
+          "title": "Was tun bei Identitätsdiebstahl?",
+          "body": "<ol><li>Ändere sofort deine Passwörter, beginnend mit deiner E-Mail</li><li>Melde es deiner Bank, wenn Finanzdaten betroffen sind</li><li>Erstatte Anzeige bei der Polizei</li><li>Prüfe <a href=\"https://www.mijnoverheid.nl\" target=\"_blank\" rel=\"noopener\">MijnOverheid</a> auf fremde Einträge unter deinem Namen</li></ol>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Überlege: Würdest du einer Nachricht von einer/einem 'Freund/in' mit neuer Nummer und einer dringenden Geldbitte sofort glauben, oder erst über einen anderen Kanal nachfragen?</p>"
+        }
+      ]
+    }
+  ]
+}

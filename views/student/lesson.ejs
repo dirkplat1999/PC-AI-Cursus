@@ -41,6 +41,15 @@
       </button>
       <button type="button" id="btn-open-glossary"><%= t.glossary %> <%- icon('book-open', { size: 18 }) %></button>
     </div>
+
+    <% if (currentStep.requireConfirm) { %>
+      <div class="confirm-required">
+        <label class="checkbox-pill">
+          <input type="checkbox" id="confirm-checkbox">
+          <%= currentStep.confirmLabel %>
+        </label>
+      </div>
+    <% } %>
   </div>
 
   <div class="lesson-nav">
@@ -49,9 +58,9 @@
     <% } else { %><span></span><% } %>
 
     <% if (currentIndex < total - 1) { %>
-      <a class="btn btn-primary btn-large" href="?step=<%= currentIndex + 1 %>&lang=<%= lang %>"><%= t.next %> <%- icon('arrow-right', { size: 20 }) %></a>
+      <a class="btn btn-primary btn-large" id="nav-next" href="?step=<%= currentIndex + 1 %>&lang=<%= lang %>" <%= currentStep.requireConfirm ? 'data-requires-confirm="true"' : '' %>><%= t.next %> <%- icon('arrow-right', { size: 20 }) %></a>
     <% } else { %>
-      <a class="btn btn-primary btn-large" href="/student?lang=<%= lang %>" id="finish-btn"><%= t.finishModule %> <%- icon('check-circle', { size: 20 }) %></a>
+      <a class="btn btn-primary btn-large" href="/student?lang=<%= lang %>" id="finish-btn" <%= currentStep.requireConfirm ? 'data-requires-confirm="true"' : '' %>><%= t.finishModule %> <%- icon('check-circle', { size: 20 }) %></a>
     <% } %>
   </div>
 </div>
@@ -85,5 +94,37 @@
     document.getElementById('glossary-close')?.addEventListener('click', () => {
       document.getElementById('glossary-modal').classList.add('hidden');
     });
+
+    // Verplichte oefening: houdt "Volgende"/"Voltooien" op slot tot het
+    // vakje is aangevinkt. Status wordt per stap onthouden in localStorage,
+    // zodat je niet opnieuw hoeft te bevestigen als je terugbladert.
+    const navLink = document.querySelector('[data-requires-confirm]');
+    const confirmCheckbox = document.getElementById('confirm-checkbox');
+    if (navLink && confirmCheckbox) {
+      const confirmKey = 'pcai-confirm-<%= module.key %>-<%= currentIndex %>';
+      const applyLockState = (checked) => {
+        navLink.classList.toggle('btn-locked', !checked);
+        if (checked) navLink.removeAttribute('aria-disabled');
+        else navLink.setAttribute('aria-disabled', 'true');
+      };
+      let alreadyConfirmed = false;
+      try { alreadyConfirmed = localStorage.getItem(confirmKey) === '1'; } catch (e) {}
+      confirmCheckbox.checked = alreadyConfirmed;
+      applyLockState(alreadyConfirmed);
+      confirmCheckbox.addEventListener('change', () => {
+        applyLockState(confirmCheckbox.checked);
+        try {
+          if (confirmCheckbox.checked) localStorage.setItem(confirmKey, '1');
+          else localStorage.removeItem(confirmKey);
+        } catch (e) {}
+      });
+      navLink.addEventListener('click', (e) => {
+        if (navLink.classList.contains('btn-locked')) {
+          e.preventDefault();
+          confirmCheckbox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          confirmCheckbox.focus();
+        }
+      });
+    }
   })();
 </script>

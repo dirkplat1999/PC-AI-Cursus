@@ -1,0 +1,113 @@
+{
+  "lessons": [
+    {
+      "id": "mail-setup-snel",
+      "title": "Je mailbox instellen en beveiligen (5 minuten werk)",
+      "steps": [
+        {
+          "title": "Je mail is de sleutel tot alles",
+          "body": "<p>Spotify, Instagram, je bank, DigiD, je studentenportaal — overal log je uiteindelijk in via 'wachtwoord vergeten' naar je mail. Als iemand anders bij je mailbox kan, kan die persoon dus bij bijna al je andere accounts. Zet daarom als eerste <strong>tweestapsverificatie (2FA)</strong> aan.</p>",
+          "providerNotes": {
+            "gmail": "Ga naar je Google-account (myaccount.google.com) &gt; Beveiliging &gt; Tweestapsverificatie. Duurt echt 2 minuten.",
+            "outlook": "Ga naar je Microsoft-account &gt; Beveiliging &gt; Geavanceerde beveiligingsopties &gt; Tweestapsverificatie.",
+            "kpn": "Kijk bij 'Mijn KPN' onder Instellingen/Beveiliging. Geen 2FA-optie? Kies dan sowieso een lang, uniek wachtwoord.",
+            "icloud": "Instellingen &gt; je naam &gt; Aanmelding en beveiliging — bij een Apple-ID staat 2FA vaak al automatisch aan.",
+            "yahoo": "Ga naar je Yahoo-accountbeveiliging en zet 'Tweestapsverificatie' aan.",
+            "default": "Zoek in de instellingen van je e-mailprovider naar 'Beveiliging' of '2FA'."
+          }
+        },
+        {
+          "title": "Solliciteren of contact met een bedrijf? Even chill aan",
+          "body": "<p>Appen met je vrienden mag met halve zinnen en emoji's. Een mail naar een bedrijf, docent of stagebegeleider is een ander verhaal:</p><ul><li>Duidelijk onderwerp — geen leeg vak of 'hoi'</li><li>Kom to the point, geen wall of text</li><li>Check je automatische handtekening (naam, telefoonnummer)</li><li>Lees 'm één keer terug voor je op verzenden drukt — een typo in een sollicitatiemail blijft hangen</li></ul>"
+        },
+        {
+          "title": "Phishing pikt jou eruit, niet je oma",
+          "body": "<p>Oplichters richten zich juist op jonge mensen: nep-vacatures met absurd hoog salaris, 'je pakketje kon niet bezorgd worden' voor iets dat je net op Vinted kocht, of een mailtje dat lijkt op een Instagram/TikTok-verificatiemail. Check altijd:</p><ul><li>Klopt het volledige afzenderadres, of lijkt het er alleen op?</li><li>Wordt er tijdsdruk gezet ('binnen 24 uur' anders...)?</li><li>Moet je inloggen via een linkje in plaats van de app/website zelf te openen?</li></ul><p>Verderop in de cursus (module Veiligheid) gaan we hier dieper op in.</p>"
+        },
+        {
+          "title": "Verplichte oefening: verstuur een testbericht",
+          "body": "<p>Open hieronder je mailbox, check of 2FA aanstaat, en stuur daarna een testbericht naar jezelf. Zo weet je zeker dat alles werkt voordat je 'm gebruikt voor iets dat er echt toe doet (zoals een sollicitatie of een DigiD-koppeling). Vink het vakje hieronder pas aan als het testbericht is aangekomen.</p>",
+          "practiceUrl": "https://mail.google.com",
+          "practiceUrlByProvider": {
+            "gmail": "https://mail.google.com",
+            "outlook": "https://outlook.live.com/mail/",
+            "kpn": "https://mail.kpnmail.nl",
+            "icloud": "https://www.icloud.com/mail",
+            "yahoo": "https://mail.yahoo.com"
+          },
+          "requireConfirm": true,
+          "confirmLabel": "Ik heb een testbericht naar mezelf gestuurd en het is aangekomen."
+        }
+      ]
+    },
+    {
+      "id": "cloud-samen-delen",
+      "title": "Bestanden delen zonder chaos",
+      "steps": [
+        {
+          "title": "Zeg vaarwel tegen 'document_DEFINITIEF_v3_ECHT.docx'",
+          "body": "<p>Werk je met anderen aan een werkstuk, planning of side hustle? Gebruik Google Docs/Sheets of Word Online in plaats van een bestand heen en weer te mailen. Iedereen werkt in <strong>dezelfde, actuele versie</strong>, en je ziet direct wie wat aanpaste.</p>"
+        },
+        {
+          "title": "Rechten: bekijken, reageren of bewerken",
+          "body": "<p>Bij het delen van een link kies je: <strong>alleen bekijken</strong>, <strong>opmerkingen maken</strong> of <strong>bewerken</strong>. Standaard geef je nooit meer rechten dan nodig — en zet gevoelige dingen nooit op 'iedereen met de link', kies specifieke personen.</p>"
+        },
+        {
+          "title": "Groepswerk zonder 15 versies in de groepsapp",
+          "body": "<p>Maak één gedeelde map voor het project en houd 'm gescheiden van je persoonlijke spullen. Consistente bestandsnamen (datum + onderwerp) besparen je later veel gezoek — vooral vlak voor een deadline.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Maak hieronder een nieuw document aan in Google Drive, deel 'm met jezelf (of een vriend) en zet de rechten op 'alleen bekijken'.</p>",
+          "practiceUrl": "https://drive.google.com"
+        }
+      ]
+    },
+    {
+      "id": "surfen-slim-prive",
+      "title": "Slim en privé surfen",
+      "steps": [
+        {
+          "title": "Google-fu: sneller je antwoord vinden",
+          "body": "<p>Zoek exact op een zin met aanhalingstekens, bijvoorbeeld <code>\"beste laptop voor studenten 2026\"</code>. Wil je een site of woord uitsluiten? Typ <code>-woord</code>. Scheelt eindeloos scrollen door reclame en irrelevante resultaten.</p>"
+        },
+        {
+          "title": "Privacy-instellingen die je echt even moet checken",
+          "body": "<p>In je browser (bijvoorbeeld Chrome: drie puntjes rechtsboven &gt; Instellingen &gt; Privacy en beveiliging) kun je:</p><ul><li>Cookies van derden blokkeren</li><li>Je browse- en zoekgeschiedenis beheren</li><li>Per site checken welke apps toegang hebben tot locatie, camera en microfoon</li></ul>"
+        },
+        {
+          "title": "Tabbladen en sneltoetsen die je tijd besparen",
+          "body": "<p>Open een link in een <strong>nieuw tabblad</strong> met het muiswiel, of rechtermuisknop &gt; 'Openen in nieuw tabblad'. <code>Ctrl+Tab</code> wisselt snel tussen tabbladen, en <code>Ctrl+Shift+T</code> heropent het tabblad dat je net per ongeluk sloot.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Zoek hieronder iets met aanhalingstekens, en open een resultaat in een nieuw tabblad.</p>",
+          "practiceUrl": "https://www.google.com"
+        }
+      ]
+    },
+    {
+      "id": "videobellen-mixed",
+      "title": "Videobellen: van vriendengroep tot sollicitatiegesprek",
+      "steps": [
+        {
+          "title": "Meer dan FaceTime met je vrienden",
+          "body": "<p>Voor school, stage of werk gebruik je vaak <strong>Microsoft Teams</strong>, <strong>Zoom</strong> of <strong>Google Meet</strong> in plaats van FaceTime of Instagram-videobellen. Het principe blijft hetzelfde: camera en microfoon aan, en de link openen op tijd.</p>"
+        },
+        {
+          "title": "Ja, ook via een scherm maak je een indruk",
+          "body": "<ul><li>Check je achtergrond (of gebruik een virtuele achtergrond/vervaging — niet je slaapkamer met wasgoed op de achtergrond)</li><li>Zet je microfoon op 'mute' als je niet aan het woord bent</li><li>Zorg voor goed licht — ga niet met je rug naar het raam zitten</li></ul>"
+        },
+        {
+          "title": "Je scherm delen zonder gênante momenten",
+          "body": "<p>Klik tijdens het gesprek op <strong>'Scherm delen'</strong> en kies specifiek het venster dat je wilt tonen (niet je hele bureaublad — dat voorkomt dat er per ongeluk een privéchat of tabblad in beeld komt). Vergeet niet het delen te stoppen als je klaar bent.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Bekijk hieronder Google Meet en maak jezelf vertrouwd met de knoppen voor microfoon, camera en schermdelen.</p>",
+          "practiceUrl": "https://meet.google.com"
+        }
+      ]
+    }
+  ]
+}

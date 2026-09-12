@@ -35,6 +35,20 @@
             "icloud": "https://www.icloud.com/mail",
             "yahoo": "https://mail.yahoo.com"
           }
+        },
+        {
+          "title": "Verplichte oefening: verstuur een testbericht",
+          "body": "<p>Stuur nu een testbericht naar jezelf en controleer of het goed aankomt. Zo weet je zeker dat je mailbox werkt zoals verwacht, voordat je 'm voor iets belangrijks gebruikt.</p>",
+          "practiceUrl": "https://mail.google.com",
+          "practiceUrlByProvider": {
+            "gmail": "https://mail.google.com",
+            "outlook": "https://outlook.live.com/mail/",
+            "kpn": "https://mail.kpnmail.nl",
+            "icloud": "https://www.icloud.com/mail",
+            "yahoo": "https://mail.yahoo.com"
+          },
+          "requireConfirm": true,
+          "confirmLabel": "Ik heb een testbericht naar mezelf gestuurd en het is aangekomen."
         }
       ]
     },

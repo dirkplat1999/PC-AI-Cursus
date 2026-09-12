@@ -1,0 +1,135 @@
+{
+  "lessons": [
+    {
+      "id": "digid-mijnoverheid-snel",
+      "title": "DigiD & MijnOverheid in 2 minuten geregeld",
+      "steps": [
+        {
+          "title": "DigiD instellen",
+          "body": "<p>Installeer de DigiD-app, koppel gezichtsherkenning of vingerafdruk, en je bent klaar. Je gebruikt 'm onder andere voor DUO (studiefinanciering!), de Belastingdienst, je zorgverzekeraar en MijnOverheid.</p>"
+        },
+        {
+          "title": "Berichtenbox: mis nooit een DUO- of belastingdeadline",
+          "body": "<p>Ga naar MijnOverheid &gt; <strong>Berichtenbox</strong> en zet een e-mailherinnering aan. Zo mis je geen bericht van DUO over je studieschuld of studiefinanciering, zonder de site actief te hoeven checken.</p>"
+        },
+        {
+          "title": "DigiD is persoonlijk — ook niet 'even' voor je huisgenoot",
+          "body": "<p>DigiD-gegevens deel je nooit, met niemand — ook niet 'even snel' voor een huisgenoot die zijn eigen DigiD kwijt is. De overheid belt of appt je <strong>nooit</strong> om een DigiD-code te vragen.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Bekijk hieronder MijnOverheid en check of je berichtenbox-herinneringen aan staan.</p>",
+          "practiceUrl": "https://www.mijnoverheid.nl"
+        }
+      ]
+    },
+    {
+      "id": "bankieren-fraude-geavanceerd",
+      "title": "Scams die specifiek op jou mikken",
+      "steps": [
+        {
+          "title": "Crypto- en 'finfluencer'-oplichting",
+          "body": "<p>Een TikTok- of Instagram-account belooft snel rijk worden met crypto of aandelen, soms met een nep-video van een bekende influencer of BN'er. Vrijwel altijd nep. Beleg nooit via een link uit een advertentie of DM; ga naar een erkende, gereguleerde partij (check de AFM-registratie).</p>"
+        },
+        {
+          "title": "Bijklussen dat eigenlijk geldsmokkel is ('money mule')",
+          "body": "<p>Een aanbod om 'gewoon' geld op je rekening te ontvangen en door te sturen voor een paar tientjes commissie, is <strong>witwassen</strong> — ook als je het zelf niet zo noemt. Je staat hierdoor zelf strafrechtelijk in de problemen, en je bankrekening kan geblokkeerd worden. Ga hier nooit op in, hoe aantrekkelijk het aanbod ook klinkt.</p>"
+        },
+        {
+          "title": "Ticket- en 'te-mooi-om-waar'-scams",
+          "body": "<p>Een festivalticket, concertkaartje of PS5 die nergens meer te krijgen is, maar toch 'net' beschikbaar via een DM of onbekende site — reken op oplichting. Koop alleen via officiële verkooppunten of platforms met kopersbescherming (zoals Ticketswap met geverifieerde doorverkoop).</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Bekijk je bank-app en controleer of je meldingen krijgt bij ongebruikelijke transacties.</p>"
+        }
+      ]
+    },
+    {
+      "id": "phishing-2",
+      "title": "Phishing 2.0: pakketjes, DM's en spear-phishing",
+      "steps": [
+        {
+          "title": "Phishing wordt persoonlijker",
+          "body": "<p>Klassieke phishing is generiek ('Beste klant'). <strong>Spear-phishing</strong> is gericht op jou persoonlijk: een DM van een 'nep-vriend' met een gehackt account, een nep-recruiter op LinkedIn, of een nep-pakketbezorger die weet dat je onlangs iets via Vinted of Marktplaats kocht.</p>"
+        },
+        {
+          "title": "Oefening: een pakketbezorging-scam",
+          "body": "<p>Hieronder staat een <strong>nagebouwd voorbeeld</strong> van een veelvoorkomende sms/e-mail-scam over een 'mislukte pakketbezorging'. Klik op het bericht om het te openen. Er zijn twee dingen die je kunt proberen: op de knop klikken, of de mail verwijderen via het menu (⋮).</p><div class=\"phish-sim\"><button type=\"button\" class=\"phish-inbox-item\" data-phish-open aria-expanded=\"false\"><span class=\"phish-avatar\" aria-hidden=\"true\">P</span><span class=\"phish-inbox-text\"><span class=\"phish-sender-name\">PostNL</span><span class=\"phish-subject\">Bezorging mislukt: pak binnen 24 uur opnieuw in</span><span class=\"phish-snippet\">Uw pakket kon niet worden afgeleverd. Openstaand bedrag: €0,49...</span></span><span class=\"phish-time\">11:32</span></button><div class=\"phish-email hidden\" data-phish-email><button type=\"button\" class=\"phish-more-btn\" data-phish-more aria-haspopup=\"true\" aria-expanded=\"false\" aria-label=\"Meer opties\">⋮</button><div class=\"phish-more-menu hidden\" data-phish-menu role=\"menu\"><button type=\"button\" data-phish-delete role=\"menuitem\">🗑 Verwijderen</button></div><div class=\"phish-email-header\"><div><strong>Van:</strong> PostNL &lt;bezorging@<span class=\"phish-flag\">postnl-pakket-volgen.info</span>&gt;</div><div><strong>Aan:</strong> jij@voorbeeld.nl</div><div><strong>Onderwerp:</strong> Bezorging mislukt: pak binnen 24 uur opnieuw in</div></div><div class=\"phish-email-body\"><p>Beste klant,</p><p>Helaas konden wij uw pakket niet bezorgen. Er staat nog een bedrag van <strong>€0,49</strong> aan verzendkosten open. Betaal dit binnen 24 uur, anders wordt uw pakket geretourneerd naar de afzender.</p><button type=\"button\" class=\"phish-cta-btn\" data-phish-click>Betaal €0,49 en plan bezorging opnieuw</button></div></div><div class=\"phish-reveal phish-reveal-bad hidden\" data-phish-reveal-bad tabindex=\"-1\"><h4>⚠️ Gelukkig maar een oefening!</h4><p>Dit type scam is razend populair juist omdat het bedrag zo klein lijkt (€0,49) — mensen denken 'wat kan het kwaad'. In werkelijkheid worden hier je kaartgegevens gestolen. De docent heeft hier automatisch een melding van gekregen, zodat je er samen op kunt terugkomen.</p><p><strong>De signalen:</strong></p><ul><li>Het volledige e-mailadres is niet van PostNL: <code>postnl-pakket-volgen.info</code></li><li>Een klein bedrag, om de drempel om te klikken te verlagen</li><li>Tijdsdruk ('binnen 24 uur')</li><li>Bezorgdiensten vragen nooit om online na te betalen via een linkje</li></ul><p>Twijfel je? Ga altijd zelf naar de site of app van de bezorgdienst via het adres dat je zelf intypt, en vraag bij twijfel iemand om een tweede mening.</p><button type=\"button\" class=\"btn btn-ghost\" data-phish-reset>Opnieuw proberen</button></div><div class=\"phish-reveal phish-reveal-good hidden\" data-phish-reveal-good tabindex=\"-1\"><h4>✅ Goed gedaan!</h4><p>Je hebt het verdachte bericht <strong>verwijderd</strong> zonder te betalen. Precies goed — dit soort 'kleine bedrag'-scams zijn juist ontworpen om je waakzaamheid te omzeilen.</p><p><strong>De signalen die je herkende:</strong></p><ul><li>Het volledige e-mailadres was niet van PostNL: <code>postnl-pakket-volgen.info</code></li><li>Een verdacht klein bedrag om de drempel te verlagen</li><li>Tijdsdruk ('binnen 24 uur')</li></ul><p>Twijfel je ooit over een bezorgbericht? Ga altijd zelf naar de site of app van de bezorgdienst.</p><button type=\"button\" class=\"btn btn-ghost\" data-phish-reset>Opnieuw proberen</button></div></div>"
+        },
+        {
+          "title": "Nep-recruiters en 'te makkelijk'-bijbanen",
+          "body": "<p>Een 'recruiter' die op LinkedIn, Instagram of via WhatsApp contact legt met een te mooi salaris voor te weinig werk, en snel vraagt om persoonsgegevens of een 'aanbetaling voor materialen', is een oplichter. Controleer altijd of het bedrijf echt bestaat en of de recruiter een geverifieerd profiel met een gedeelde connectie heeft.</p>"
+        }
+      ]
+    },
+    {
+      "id": "gegevens-gelekt",
+      "title": "Check of jouw gegevens al eens gelekt zijn",
+      "steps": [
+        {
+          "title": "Have I Been Pwned: check het zelf",
+          "body": "<p>Bij vrijwel elk groot datalek (LinkedIn, Discord, allerlei webshops) belanden e-mailadressen en soms wachtwoorden uiteindelijk op <strong>haveibeenpwned.com</strong> — de internationale standaard om te checken of jouw gegevens erbij zaten. Vul je e-mailadres in en je ziet direct bij welke lekken je voorkomt.</p>",
+          "practiceUrl": "https://haveibeenpwned.com/"
+        },
+        {
+          "title": "Check Je Hack van de politie (optioneel)",
+          "body": "<p>De Nederlandse politie biedt een vergelijkbare, officiële check aan via <strong>Check Je Hack</strong>. Volledig optioneel naast Have I Been Pwned, maar een goede tweede check bij een andere, officiële bron.</p>",
+          "practiceUrl": "https://www.politie.nl/informatie/checkjehack.html"
+        },
+        {
+          "title": "Wat het betekent als je erin voorkomt",
+          "body": "<p>Sta je in een van deze lijsten? Dan is de kans <strong>aantoonbaar groter</strong> dat je gerichte phishing- en oplichtingsberichten krijgt via e-mail, sms, WhatsApp of DM — je adres staat te boek als 'actief' bij criminelen die met gelekte lijsten werken. Reageer hierop door: het wachtwoord van het gelekte account direct te wijzigen, 2FA aan te zetten waar dat nog niet zo is, en de komende tijd extra kritisch te zijn op onverwachte berichten.</p>"
+        },
+        {
+          "title": "Doorlopende monitoring",
+          "body": "<p>Sommige wachtwoordmanagers (zoals 1Password en Bitwarden) hebben ingebouwde <strong>lekcontrole</strong>, die je automatisch waarschuwt zodra een van je opgeslagen accounts in een nieuw lek opduikt — handiger dan zelf steeds handmatig te checken. We gaan hier in de volgende les verder op in.</p>"
+        }
+      ]
+    },
+    {
+      "id": "wachtwoordmanager-standaard",
+      "title": "Wachtwoordmanagers en 2FA: standaard, geen luxe",
+      "steps": [
+        {
+          "title": "Waarom je hier niet meer omheen kunt",
+          "body": "<p>Met tientallen accounts (school, werk, social media, streaming, gaming) is een uniek, sterk wachtwoord per site met de hand onthouden onrealistisch. Een wachtwoordmanager (bijvoorbeeld Bitwarden, 1Password, of de ingebouwde manager van je browser/telefoon) is inmiddels standaardgereedschap — net als een screen protector.</p>"
+        },
+        {
+          "title": "Passkeys: de opvolger van het wachtwoord",
+          "body": "<p>Steeds meer diensten (Google, Apple, Instagram, banken) ondersteunen <strong>passkeys</strong>: inloggen met je vingerafdruk of gezicht, zonder wachtwoord. Veiliger dan een wachtwoord, omdat er niets is dat gestolen kan worden via een phishing-mail. Zet dit aan waar mogelijk.</p>"
+        },
+        {
+          "title": "2FA met een app, niet met sms",
+          "body": "<p>Gebruik voor 2FA bij voorkeur een <strong>authenticator-app</strong> (Google Authenticator, Authy) in plaats van sms — sms-codes kunnen onderschept worden via 'sim-swapping' (je nummer wordt overgenomen door een oplichter, iets wat juist bij jonge, actieve social-media-gebruikers vaker voorkomt).</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Controleer bij één van je belangrijkste accounts (mail, bank, Instagram) of 2FA via een app staat ingesteld, en stel dit in als dat nog niet zo is.</p>"
+        }
+      ]
+    },
+    {
+      "id": "identiteitsdiefstal",
+      "title": "Identiteitsdiefstal en social engineering herkennen",
+      "steps": [
+        {
+          "title": "Wat is social engineering?",
+          "body": "<p>Social engineering is mensen manipuleren om vertrouwelijke informatie prijs te geven — vaak door je onder druk te zetten, urgentie te creëren, of je te laten geloven dat de afzender autoriteit heeft (je stagebegeleider, de bank, de politie) of iemand is die je vertrouwt.</p>"
+        },
+        {
+          "title": "'Hé, met mij! Nieuw nummer' — ook onder vrienden",
+          "body": "<p>Een appje van een 'vriend' of huisgenoot met een nieuw nummer, die vraagt om snel geld over te maken voor een rekening die 'niet lukt' — controleer dit altijd via een telefoontje naar het bekende nummer of via een ander kanaal (bijvoorbeeld een gedeelde groepschat), nooit door direct te reageren op het nieuwe nummer.</p>"
+        },
+        {
+          "title": "Wat te doen bij identiteitsdiefstal",
+          "body": "<ol><li>Wijzig direct je wachtwoorden, te beginnen bij je e-mail</li><li>Meld het bij je bank als er financiële gegevens bij betrokken zijn</li><li>Doe aangifte bij de politie</li><li>Check <a href=\"https://www.mijnoverheid.nl\" target=\"_blank\" rel=\"noopener\">MijnOverheid</a> op vreemde meldingen op jouw naam</li></ol>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Bedenk: zou jij een appje van een 'vriend' met een nieuw nummer en een spoedverzoek om geld direct geloven, of eerst navragen via een ander kanaal?</p>"
+        }
+      ]
+    }
+  ]
+}

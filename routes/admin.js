@@ -30,7 +30,7 @@ const upload = multer({
 const router = express.Router();
 router.use(requireAdmin);
 
-const RECOMMENDED_MODULES_MAP = { senior: getRecommendedModules('senior'), young: getRecommendedModules('young') };
+const RECOMMENDED_MODULES_MAP = Object.fromEntries(AGE_GROUPS.map((g) => [g, getRecommendedModules(g)]));
 
 function withAdminLocals(req, res, next) {
   res.locals.adminLang = normalizeLang(req.query.lang || req.session.adminLang || 'nl');

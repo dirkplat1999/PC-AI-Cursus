@@ -1,0 +1,113 @@
+{
+  "lessons": [
+    {
+      "id": "mail-setup-snel",
+      "title": "Postfach einrichten und sichern (dauert 5 Minuten)",
+      "steps": [
+        {
+          "title": "Deine Mail ist der Schlüssel zu allem",
+          "body": "<p>Spotify, Instagram, deine Bank, dein Studierendenportal — überall landest du am Ende über 'Passwort vergessen' wieder bei deiner Mail. Wenn jemand anders in dein Postfach kommt, kommt diese Person also fast überall rein. Aktiviere deshalb zuerst die <strong>Zwei-Faktor-Authentifizierung (2FA)</strong>.</p>",
+          "providerNotes": {
+            "gmail": "Gehe zu deinem Google-Konto (myaccount.google.com) &gt; Sicherheit &gt; Zwei-Faktor-Authentifizierung. Dauert etwa 2 Minuten.",
+            "outlook": "Gehe zu deinem Microsoft-Konto &gt; Sicherheit &gt; Erweiterte Sicherheitsoptionen &gt; Zweistufige Überprüfung.",
+            "kpn": "Schau bei 'Mijn KPN' unter Einstellungen/Sicherheit. Keine 2FA-Option? Dann wähle zumindest ein langes, einzigartiges Passwort.",
+            "icloud": "Einstellungen &gt; dein Name &gt; Anmeldung &amp; Sicherheit — bei einer Apple-ID ist 2FA meist schon automatisch aktiv.",
+            "yahoo": "Gehe zu den Sicherheitseinstellungen deines Yahoo-Kontos und aktiviere die 'Zwei-Stufen-Verifizierung'.",
+            "default": "Suche in den Einstellungen deines E-Mail-Anbieters nach 'Sicherheit' oder '2FA'."
+          }
+        },
+        {
+          "title": "Bewerbung oder Kontakt mit einer Firma? Anderer Ton",
+          "body": "<p>Mit Freunden schreibst du in Halbsätzen und Emojis. Eine Mail an eine Firma, Lehrkraft oder Praktikumsbetreuung ist etwas anderes:</p><ul><li>Klarer Betreff — nicht leer, nicht nur 'Hallo'</li><li>Komm auf den Punkt, kein Textblock</li><li>Prüfe deine automatische Signatur (Name, Telefonnummer)</li><li>Lies sie einmal durch, bevor du sendest — ein Tippfehler in einer Bewerbungsmail bleibt hängen</li></ul>"
+        },
+        {
+          "title": "Phishing zielt auf dich, nicht nur auf deine Großeltern",
+          "body": "<p>Betrüger zielen gezielt auf junge Leute: Fake-Jobangebote mit absurd hohem Gehalt, 'dein Paket konnte nicht zugestellt werden' für etwas, das du gerade gebraucht gekauft hast, oder eine Mail, die wie eine Instagram/TikTok-Verifizierung aussieht. Prüfe immer:</p><ul><li>Stimmt die vollständige Absenderadresse wirklich, oder sieht sie nur ähnlich aus?</li><li>Wird Zeitdruck aufgebaut ('innerhalb von 24 Stunden' sonst...)?</li><li>Musst du dich über einen Link anmelden, statt die App/Website selbst zu öffnen?</li></ul><p>Später im Kurs (Modul Sicherheit) gehen wir tiefer darauf ein.</p>"
+        },
+        {
+          "title": "Pflichtübung: sende eine Testnachricht",
+          "body": "<p>Öffne unten dein Postfach, prüfe ob 2FA aktiv ist, und sende dir danach eine Testnachricht. So weißt du sicher, dass alles funktioniert, bevor du es für etwas nutzt, das wirklich zählt (wie eine Bewerbung oder eine DigiD-Verknüpfung). Hake das Kästchen unten erst ab, wenn die Testnachricht angekommen ist.</p>",
+          "practiceUrl": "https://mail.google.com",
+          "practiceUrlByProvider": {
+            "gmail": "https://mail.google.com",
+            "outlook": "https://outlook.live.com/mail/",
+            "kpn": "https://mail.kpnmail.nl",
+            "icloud": "https://www.icloud.com/mail",
+            "yahoo": "https://mail.yahoo.com"
+          },
+          "requireConfirm": true,
+          "confirmLabel": "Ich habe mir selbst eine Testnachricht gesendet und sie ist angekommen."
+        }
+      ]
+    },
+    {
+      "id": "cloud-samen-delen",
+      "title": "Dateien teilen ohne Chaos",
+      "steps": [
+        {
+          "title": "Schluss mit 'dokument_FINAL_v3_WIRKLICH_FINAL.docx'",
+          "body": "<p>Arbeitest du mit anderen an einer Aufgabe, Planung oder einem Nebenprojekt? Nutze Google Docs/Sheets oder Word Online, statt eine Datei hin- und herzumailen. Alle arbeiten an <strong>derselben, aktuellen Version</strong>, und du siehst genau, wer was geändert hat.</p>"
+        },
+        {
+          "title": "Berechtigungen: ansehen, kommentieren oder bearbeiten",
+          "body": "<p>Beim Teilen eines Links wählst du: <strong>nur ansehen</strong>, <strong>kommentieren</strong> oder <strong>bearbeiten</strong>. Vergib standardmäßig nie mehr Rechte als nötig — und stelle sensible Dinge nie auf 'jeder mit dem Link', wähle bestimmte Personen aus.</p>"
+        },
+        {
+          "title": "Gruppenarbeit ohne 15 Versionen im Gruppenchat",
+          "body": "<p>Erstelle einen gemeinsamen Ordner für das Projekt und halte ihn getrennt von deinen persönlichen Sachen. Einheitliche Dateinamen (Datum + Thema) ersparen dir später viel Suchen — besonders kurz vor einer Abgabefrist.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Erstelle unten ein neues Dokument in Google Drive, teile es mit dir selbst (oder einer Freundin/einem Freund) und stelle die Berechtigung auf 'nur ansehen'.</p>",
+          "practiceUrl": "https://drive.google.com"
+        }
+      ]
+    },
+    {
+      "id": "surfen-slim-prive",
+      "title": "Klug und privat surfen",
+      "steps": [
+        {
+          "title": "Google-fu: schneller die richtige Antwort finden",
+          "body": "<p>Suche mit Anführungszeichen exakt nach einem Satz, zum Beispiel <code>\"bester Laptop für Studierende 2026\"</code>. Möchtest du eine Seite oder ein Wort ausschließen? Gib <code>-Wort</code> ein. Erspart dir endloses Scrollen durch Werbung und irrelevante Ergebnisse.</p>"
+        },
+        {
+          "title": "Datenschutz-Einstellungen, die du wirklich prüfen solltest",
+          "body": "<p>In deinem Browser (bei Chrome: drei Punkte oben rechts &gt; Einstellungen &gt; Datenschutz und Sicherheit) kannst du:</p><ul><li>Cookies von Drittanbietern blockieren</li><li>Deinen Browser- und Suchverlauf verwalten</li><li>Pro Website prüfen, welche Apps Zugriff auf Standort, Kamera und Mikrofon haben</li></ul>"
+        },
+        {
+          "title": "Tabs und Shortcuts, die dir Zeit sparen",
+          "body": "<p>Öffne einen Link in einem <strong>neuen Tab</strong> mit dem Mausrad, oder rechte Maustaste &gt; 'Link in neuem Tab öffnen'. <code>Strg+Tab</code> wechselt schnell zwischen Tabs, und <code>Strg+Umschalt+T</code> öffnet einen gerade versehentlich geschlossenen Tab wieder.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Suche unten mit Anführungszeichen und öffne ein Ergebnis in einem neuen Tab.</p>",
+          "practiceUrl": "https://www.google.com"
+        }
+      ]
+    },
+    {
+      "id": "videobellen-mixed",
+      "title": "Videotelefonie: von der Freundesgruppe bis zum Bewerbungsgespräch",
+      "steps": [
+        {
+          "title": "Mehr als FaceTime mit Freunden",
+          "body": "<p>Für Schule, Praktikum oder Arbeit nutzt du oft <strong>Microsoft Teams</strong>, <strong>Zoom</strong> oder <strong>Google Meet</strong> statt FaceTime oder Instagram-Videocalls. Das Prinzip bleibt gleich: Kamera und Mikrofon an, und den Link pünktlich öffnen.</p>"
+        },
+        {
+          "title": "Ja, auch über einen Bildschirm machst du Eindruck",
+          "body": "<ul><li>Prüfe deinen Hintergrund (oder nutze einen virtuellen Hintergrund/Weichzeichner — nicht dein Zimmer mit Wäsche im Hintergrund)</li><li>Stelle dein Mikrofon auf stumm, wenn du nicht sprichst</li><li>Sorge für gutes Licht — sitze nicht mit dem Rücken zum Fenster</li></ul>"
+        },
+        {
+          "title": "Bildschirm teilen ohne peinliche Momente",
+          "body": "<p>Klicke während des Gesprächs auf <strong>'Bildschirm teilen'</strong> und wähle gezielt das Fenster, das du zeigen möchtest (nicht deinen ganzen Desktop — so taucht kein privater Chat oder Tab versehentlich im Bild auf). Vergiss nicht, das Teilen zu beenden, wenn du fertig bist.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Schau dir unten Google Meet an und mach dich mit den Schaltflächen für Mikrofon, Kamera und Bildschirmfreigabe vertraut.</p>",
+          "practiceUrl": "https://meet.google.com"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "lessons": [
+    {
+      "id": "slim-vergelijken",
+      "title": "Comparing and buying smart",
+      "steps": [
+        {
+          "title": "Using price comparison sites",
+          "body": "<p>Sites like <strong>Tweakers Pricewatch</strong> or Google Shopping show in one overview where a product is cheapest, including shipping costs and the shop's rating.</p>"
+        },
+        {
+          "title": "Checking discount codes",
+          "body": "<p>Before checking out: search '[shop name] discount code' or check a student-discount app. There's often a valid code for free shipping or a percentage off.</p>"
+        },
+        {
+          "title": "Checking price history",
+          "body": "<p>Some tools (like the Camelizer browser extension) show whether a 'deal' you saw in an Instagram or TikTok ad is a real deal, or whether the price was just as low a few weeks ago.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Compare the price of a product you're interested in at two different web shops.</p>"
+        }
+      ]
+    },
+    {
+      "id": "betalen-zonder-zorgen",
+      "title": "Paying without worries (and without building up debt)",
+      "steps": [
+        {
+          "title": "iDEAL and credit card",
+          "body": "<p>At well-known Dutch web shops you usually pay safely with <strong>iDEAL</strong> (via your own bank) or credit card. Both offer protection if something goes wrong with your order.</p>"
+        },
+        {
+          "title": "Buy now, pay later: the trap that catches a lot of young people",
+          "body": "<p>Services like Klarna or Riverty let you 'buy now, pay later'. Handy, but it also makes impulse buying too easy — and miss a payment deadline and collection fees can pile up fast, along with a negative credit record that can follow you for years. Always set a reminder for the payment date, and don't treat it as 'free money'.</p>"
+        },
+        {
+          "title": "Subscription traps",
+          "body": "<p>A 'free trial' that automatically turns into a paid subscription after a month is a well-known pitfall. Read the fine print and, if needed, set a reminder right away to cancel on time.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>With a 'buy now, pay later' option, check exactly when the payment deadline falls.</p>"
+        }
+      ]
+    },
+    {
+      "id": "bezorging-garantie",
+      "title": "Delivery, returns, and warranty",
+      "steps": [
+        {
+          "title": "Checking track & trace quickly",
+          "body": "<p>Most delivery services have an app (PostNL, DHL) that lets you track all your parcels in one overview, instead of looking up separate track & trace links.</p>"
+        },
+        {
+          "title": "Comparing return policies",
+          "body": "<p>Not every shop uses the same deadline. Check this before buying, especially for clothing or electronics: some shops offer 30 or even 100 days to change your mind — handy if something doesn't fit or you change your mind.</p>"
+        },
+        {
+          "title": "Knowing your legal warranty rights",
+          "body": "<p>Besides the warranty a shop offers itself, you always have a right to <strong>legal warranty</strong> for a faulty product — it simply has to do what you can reasonably expect, regardless of what the shop says about it.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Look up the return policy of a web shop you order from often.</p>"
+        }
+      ]
+    },
+    {
+      "id": "nepwebshops-reviewfraude",
+      "title": "Spotting fake web shops and review fraud (including ones from social media ads)",
+      "steps": [
+        {
+          "title": "Spotting a fake web shop quickly",
+          "body": "<p>Watch for: a very new domain, no company registration number, only a contact form with no phone number, and prices that are too good to be true. Check the domain on a tool like whois.com for its registration date — fake shops that show up via an Instagram or TikTok ad are often only a few weeks old.</p>"
+        },
+        {
+          "title": "Recognizing review fraud",
+          "body": "<p>Many identical reviews around the same date, only 5 stars with no text, or reviews using the exact same phrases — all signs of bought or fake reviews.</p>"
+        },
+        {
+          "title": "Payment method as a warning sign",
+          "body": "<p>Is only an upfront bank transfer accepted, with no iDEAL, credit card, or PayPal option? With a scam you can almost never get that transfer back — a big reason to walk away, however tempting the 'deal' looks.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Think about it: which three signs would help you spot a fake web shop the fastest?</p>"
+        }
+      ]
+    }
+  ]
+}

@@ -2,6 +2,15 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [3.7.0] - 2026-09-12
+
+### Toegevoegd
+- Nieuwe leeftijdsgroep **"Jonger dan 30"** naast de bestaande "30 - 49 jaar" en "50 jaar en ouder" — met eigen lesstof voor alle 9 modules, in het Nederlands, Engels en Duits. De toon is losser en directer, en de voorbeelden sluiten aan bij de leefwereld van jonge cursisten (bijbanen, kamer zoeken, TikTok/Instagram-algoritme, Klarna-schuldval, scams gericht op jongeren zoals money mules en nep-recruiters).
+- De mail-oefening ("stuur een testbericht naar jezelf") is nu **verplicht** in de eerste les van elke leeftijdsgroep: je moet aanvinken dat het testbericht is aangekomen voordat je verder kunt naar de volgende stap. Deze bevestiging wordt per stap onthouden, dus je hoeft het niet opnieuw te doen als je terugbladert.
+
+### Opgelost
+- Het cursistenformulier toonde bij drie leeftijdsgroepen nog steeds alleen het label voor "jong"/"senior" — uitgebreid zodat elke leeftijdsgroep zijn eigen label toont.
+
 ## [3.6.5] - 2026-09-11
 
 ### Opgelost

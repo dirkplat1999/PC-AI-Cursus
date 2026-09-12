@@ -1,0 +1,142 @@
+{
+  "lessons": [
+    {
+      "id": "maps-slim",
+      "title": "Google Maps: getting from A to B faster",
+      "steps": [
+        {
+          "title": "Live traffic and ETA",
+          "body": "<p>Google Maps tracks <strong>live traffic</strong> (orange/red roads = busy) and adjusts your route and arrival time accordingly — handy when you don't want to be late for a shift or meetup.</p>"
+        },
+        {
+          "title": "Multiple stops in one route",
+          "body": "<ol><li>Set a route as usual</li><li>Tap the plus icon (⋮ or 'Add stop') next to the address field</li><li>Add a stop, like a shop or a friend who's carpooling</li><li>Drag the stops into the order you want</li></ol>"
+        },
+        {
+          "title": "Offline maps for a festival or trip",
+          "body": "<p>Heading to a festival, campsite, or abroad with poor signal? Download the area offline in advance: tap your profile picture &gt; <strong>Offline maps</strong> &gt; 'Select your own map'. This way navigation still works without internet.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Plan a route below with at least two stops.</p>",
+          "practiceUrl": "https://maps.google.com"
+        }
+      ]
+    },
+    {
+      "id": "marktplaats-veilig",
+      "title": "Scoring secondhand and selling: Marktplaats & Vinted",
+      "steps": [
+        {
+          "title": "A listing that stands out",
+          "body": "<p>Selling clothes, furniture, or stuff (nice side income)? Sharp photos in daylight, an honest description of flaws, and a realistic price — check similar listings before you set one.</p>"
+        },
+        {
+          "title": "Paying safely, even under time pressure",
+          "body": "<p>When in doubt, use <strong>Marktplaats's secure payment</strong> or Vinted's built-in payment, instead of a direct bank transfer. Watch out for buyers/sellers who pressure you to respond fast, or who want to arrange things outside the platform — a classic scam pattern.</p>"
+        },
+        {
+          "title": "Known tricks",
+          "body": "<ul><li>A 'proof of payment' followed by a request for you to front the shipping costs yourself</li><li>An offer too good to be true, followed by time pressure</li><li>A payment link that isn't on marktplaats.nl or vinted.com</li></ul><p>Not sure? Never agree to requests outside the platform, and ask someone for a second opinion if in doubt.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Browse a category that interests you below and note the price differences between similar listings.</p>",
+          "practiceUrl": "https://www.marktplaats.nl"
+        }
+      ]
+    },
+    {
+      "id": "kamer-studio-zoeken",
+      "title": "Room hunting: finding a room or studio safely",
+      "steps": [
+        {
+          "title": "Setting filters and turning on an alert",
+          "body": "<p>Set filters for price, location, and type (room, studio, apartment) on sites like Kamernet or Funda Rentals. Turn on an <strong>email alert</strong> — popular rooms sometimes only stay listed for a few hours before someone else grabs them.</p>"
+        },
+        {
+          "title": "The classic room scam",
+          "body": "<p>A 'landlord abroad' asking you to transfer a deposit plus first month's rent before you've ever seen the room is almost always a scam. Always view it in person first (or via a trustworthy video call with the current residents) before sending any money.</p>"
+        },
+        {
+          "title": "What to pay attention to",
+          "body": "<ul><li>Is the lease in your name, and does the deposit match what's legally allowed?</li><li>Who are the housemates, and is there a trial period?</li><li>What's included in the rent (gas, water, electricity, internet)?</li></ul>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Set up a search below for your ideal room or studio and save it.</p>",
+          "practiceUrl": "https://www.kamernet.nl"
+        }
+      ]
+    },
+    {
+      "id": "streamen-slim",
+      "title": "Seeing through the TikTok & YouTube algorithm",
+      "steps": [
+        {
+          "title": "Why your 'for you' feed is what it is",
+          "body": "<p>TikTok, Instagram Reels, and YouTube show content based on an <strong>algorithm</strong>: what you like, how long you watch, and what you skip shapes what you see next. Great for finding content you enjoy, but it can also keep you in a 'bubble'.</p>"
+        },
+        {
+          "title": "Cleaning up your watch history",
+          "body": "<p>Notice your feed getting one-sided (or showing more of a type of video you don't actually want anymore)? Go to your account &gt; <strong>History</strong> and delete items, or deliberately tap 'not interested' on a video now and then.</p>"
+        },
+        {
+          "title": "Subscriptions and notifications, under control",
+          "body": "<p>Subscribe to channels/accounts you genuinely find interesting. Turn on the bell for instant notifications, or leave it off if you'd rather choose when you watch — saves a lot of 'just checking real quick' moments.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Check your YouTube watch history below and delete a few items you no longer find relevant.</p>",
+          "practiceUrl": "https://www.youtube.com"
+        }
+      ]
+    },
+    {
+      "id": "reisplanner-forenzen",
+      "title": "9292: getting to school, work, or a night out",
+      "steps": [
+        {
+          "title": "Saving favorite routes",
+          "body": "<p>Traveling the same route regularly (school, internship, work)? Save it as a favorite so you can pull it up with one tap instead of typing everything in again.</p>"
+        },
+        {
+          "title": "Checking disruptions before you leave",
+          "body": "<p>9292 shows live delays and disruptions on the rail network. Check alternative routes before you leave if a disruption is reported — saves you standing around on an empty platform for nothing.</p>"
+        },
+        {
+          "title": "Student transit passes and subscriptions",
+          "body": "<p>Traveling a lot outside your student transit hours, or finished studying? Compare travel subscriptions on your carrier's website (NS, GVB, RET, HTM) against your average travel pattern — it can save you real money.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Plan your regular route to school, an internship, or work below and save it as a favorite.</p>",
+          "practiceUrl": "https://www.9292.nl"
+        }
+      ]
+    },
+    {
+      "id": "social-privacy",
+      "title": "Instagram, TikTok & Snapchat: taking control of your privacy",
+      "steps": [
+        {
+          "title": "Who sees what you post?",
+          "body": "<p>Go to <strong>Settings &gt; Privacy</strong> on Instagram or TikTok and check who can see your posts, stories, and profile: everyone, only followers, or a select group. Consider a private account if you don't want strangers seeing everything.</p>"
+        },
+        {
+          "title": "Not sharing your location automatically",
+          "body": "<p>Many apps automatically attach your location to photos and stories. Turn this off in the settings (on Instagram, for example: Settings &gt; Privacy &gt; Location Services) — especially handy if you don't want people knowing exactly where you live or hang out.</p>"
+        },
+        {
+          "title": "What future employers (and future-you) will see",
+          "body": "<p>A public profile can be viewed by anyone — including an internship supervisor or recruiter googling your name. Check your own profile as a 'stranger' now and then by logging out and seeing what's visible, and consider whether old posts still fit how you want to be seen.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Check your privacy settings on Instagram below and adjust who can see your posts.</p>",
+          "practiceUrl": "https://www.instagram.com"
+        }
+      ]
+    }
+  ]
+}

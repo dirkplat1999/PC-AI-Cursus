@@ -1,0 +1,142 @@
+{
+  "lessons": [
+    {
+      "id": "maps-slim",
+      "title": "Google Maps: schneller von A nach B",
+      "steps": [
+        {
+          "title": "Live-Verkehr und Ankunftszeit",
+          "body": "<p>Google Maps verfolgt <strong>Live-Verkehr</strong> (orange/rote Straßen = viel Verkehr) und passt Route und Ankunftszeit entsprechend an — praktisch, wenn du nicht zu spät zur Schicht oder zum Treffen kommen willst.</p>"
+        },
+        {
+          "title": "Mehrere Stopps in einer Route",
+          "body": "<ol><li>Lege eine Route wie gewohnt fest</li><li>Tippe auf das Plus-Symbol (⋮ oder 'Stopp hinzufügen') neben dem Adressfeld</li><li>Füge einen Stopp hinzu, zum Beispiel einen Laden oder eine Mitfahrerin</li><li>Ziehe die Stopps in die gewünschte Reihenfolge</li></ol>"
+        },
+        {
+          "title": "Offline-Karten für Festival oder Reise",
+          "body": "<p>Unterwegs zu einem Festival, Campingplatz oder ins Ausland mit schlechtem Empfang? Lade das Gebiet vorher offline herunter: tippe auf dein Profilbild &gt; <strong>Offline-Karten</strong> &gt; 'Eigene Karte auswählen'. So funktioniert Navigation auch ohne Internet.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Plane unten eine Route mit mindestens zwei Zwischenstopps.</p>",
+          "practiceUrl": "https://maps.google.com"
+        }
+      ]
+    },
+    {
+      "id": "marktplaats-veilig",
+      "title": "Gebraucht kaufen und verkaufen: Marktplaats & Vinted",
+      "steps": [
+        {
+          "title": "Eine Anzeige, die auffällt",
+          "body": "<p>Möchtest du Klamotten, Möbel oder Sachen verkaufen (schöner Nebenverdienst)? Scharfe Fotos bei Tageslicht, eine ehrliche Beschreibung von Mängeln und ein realistischer Preis — vergleiche ähnliche Anzeigen, bevor du einen Preis festlegst.</p>"
+        },
+        {
+          "title": "Sicher bezahlen, auch unter Zeitdruck",
+          "body": "<p>Nutze im Zweifel die <strong>sichere Bezahlfunktion von Marktplaats</strong> oder die eingebaute Zahlung von Vinted, statt einer direkten Überweisung. Sei besonders wachsam bei Käufern/Verkäufern, die dich zu schnellem Handeln drängen oder außerhalb der Plattform kommunizieren wollen — ein klassisches Betrugsmuster.</p>"
+        },
+        {
+          "title": "Bekannte Maschen",
+          "body": "<ul><li>Ein 'Zahlungsbeleg', gefolgt von der Bitte, die Versandkosten selbst vorzustrecken</li><li>Ein zu gutes Angebot, gefolgt von Zeitdruck</li><li>Ein Zahlungslink, der nicht auf marktplaats.nl oder vinted.de liegt</li></ul><p>Unsicher? Gehe nie auf Anfragen außerhalb der Plattform ein und hol dir im Zweifel eine zweite Meinung.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Schau dir unten eine Kategorie an, die dich interessiert, und achte auf Preisunterschiede zwischen ähnlichen Anzeigen.</p>",
+          "practiceUrl": "https://www.marktplaats.nl"
+        }
+      ]
+    },
+    {
+      "id": "kamer-studio-zoeken",
+      "title": "Zimmersuche: sicher ein Zimmer oder Studio finden",
+      "steps": [
+        {
+          "title": "Filter einstellen und einen Alarm aktivieren",
+          "body": "<p>Stelle Filter für Preis, Lage und Typ (Zimmer, Studio, Wohnung) auf Seiten wie Kamernet oder Funda Huur ein. Aktiviere einen <strong>E-Mail-Alarm</strong> — beliebte Zimmer sind manchmal nur wenige Stunden online, bevor sie jemand anders schnappt.</p>"
+        },
+        {
+          "title": "Die klassische Zimmer-Masche",
+          "body": "<p>Ein 'Vermieter im Ausland', der dich bittet, Kaution plus erste Monatsmiete zu überweisen, bevor du das Zimmer je gesehen hast — das ist so gut wie immer Betrug. Besichtige immer erst persönlich (oder über einen vertrauenswürdigen Videocall mit den aktuellen Bewohnern), bevor du Geld überweist.</p>"
+        },
+        {
+          "title": "Worauf du achten solltest",
+          "body": "<ul><li>Steht der Mietvertrag auf deinen Namen, und passt die Kaution zu dem, was gesetzlich erlaubt ist?</li><li>Wer sind die Mitbewohner, und gibt es eine Probezeit?</li><li>Was ist in der Miete enthalten (Gas, Wasser, Strom, Internet)?</li></ul>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Richte unten eine Suche für dein ideales Zimmer oder Studio ein und speichere sie.</p>",
+          "practiceUrl": "https://www.kamernet.nl"
+        }
+      ]
+    },
+    {
+      "id": "streamen-slim",
+      "title": "TikTok, YouTube & den Algorithmus durchschauen",
+      "steps": [
+        {
+          "title": "Warum dein 'Für dich'-Feed so ist, wie er ist",
+          "body": "<p>TikTok, Instagram Reels und YouTube zeigen Inhalte basierend auf einem <strong>Algorithmus</strong>: Was du likst, wie lange du schaust und was du überspringst, bestimmt, was dir als Nächstes gezeigt wird. Praktisch, um Inhalte zu finden, die dir gefallen, kann dich aber auch in einer 'Blase' halten.</p>"
+        },
+        {
+          "title": "Verlauf aufräumen",
+          "body": "<p>Merkst du, dass dein Feed einseitig wird (oder immer mehr von einer Videoart zeigt, die du eigentlich nicht mehr willst)? Gehe zu deinem Konto &gt; <strong>Verlauf</strong> und lösche Einträge, oder tippe hin und wieder bewusst auf 'nicht interessiert'.</p>"
+        },
+        {
+          "title": "Abos und Benachrichtigungen unter Kontrolle",
+          "body": "<p>Abonniere Kanäle/Accounts, die dich wirklich interessieren. Aktiviere die Glocke für sofortige Benachrichtigungen, oder lass sie aus, wenn du lieber selbst entscheidest, wann du schaust — erspart dir viele 'nur kurz reinschauen'-Momente.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Schau dir unten deinen YouTube-Verlauf an und lösche ein paar Einträge, die für dich nicht mehr relevant sind.</p>",
+          "practiceUrl": "https://www.youtube.com"
+        }
+      ]
+    },
+    {
+      "id": "reisplanner-forenzen",
+      "title": "9292: unterwegs zu Schule, Job oder Freizeit",
+      "steps": [
+        {
+          "title": "Lieblingsrouten speichern",
+          "body": "<p>Fährst du regelmäßig dieselbe Strecke (Schule, Praktikum, Arbeit)? Speichere die Route als Favorit, damit du sie mit einem Tipp wieder abrufen kannst, ohne alles erneut einzugeben.</p>"
+        },
+        {
+          "title": "Störungen prüfen, bevor du losfährst",
+          "body": "<p>9292 zeigt Echtzeit-Verspätungen und Störungen im Schienennetz. Prüfe alternative Routen, bevor du losfährst, wenn eine Störung gemeldet wird — erspart dir unnötiges Warten auf einem leeren Bahnsteig.</p>"
+        },
+        {
+          "title": "Studenten-Fahrkarten und Abos",
+          "body": "<p>Fährst du oft außerhalb deiner Studenten-Zeiten, oder hast du dein Studium beendet? Vergleiche Reiseabos auf der Website deines Verkehrsunternehmens (NS, GVB, RET, HTM) mit deinem durchschnittlichen Reiseverhalten — das kann sich richtig lohnen.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Plane unten deine feste Strecke zu Schule, Praktikum oder Arbeit und speichere sie als Favorit.</p>",
+          "practiceUrl": "https://www.9292.nl"
+        }
+      ]
+    },
+    {
+      "id": "social-privacy",
+      "title": "Instagram, TikTok & Snapchat: deine Privatsphäre im Griff",
+      "steps": [
+        {
+          "title": "Wer sieht, was du postest?",
+          "body": "<p>Gehe zu <strong>Einstellungen &gt; Datenschutz</strong> bei Instagram oder TikTok und prüfe, wer deine Posts, Storys und dein Profil sehen kann: alle, nur Follower, oder eine Auswahl. Überlege dir ein privates Konto, wenn Fremde nicht alles sehen sollen.</p>"
+        },
+        {
+          "title": "Standort nicht automatisch teilen",
+          "body": "<p>Viele Apps fügen deinen Standort automatisch zu Fotos und Storys hinzu. Schalte das in den Einstellungen aus (bei Instagram zum Beispiel: Einstellungen &gt; Datenschutz &gt; Standortdienste) — praktisch, wenn niemand genau wissen soll, wo du wohnst oder dich aufhältst.</p>"
+        },
+        {
+          "title": "Was zukünftige Arbeitgeber (und du selbst in 5 Jahren) sehen",
+          "body": "<p>Ein öffentliches Profil kann von jedem angesehen werden — auch von einer Praktikumsbetreuung oder einem Recruiter, der deinen Namen googelt. Prüfe dein eigenes Profil hin und wieder als 'Fremde/r', indem du dich ausloggst und schaust, was sichtbar ist, und überlege, ob alte Posts noch zu dem passen, wie du gesehen werden möchtest.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Prüfe unten deine Datenschutz-Einstellungen bei Instagram und passe an, wer deine Posts sehen kann.</p>",
+          "practiceUrl": "https://www.instagram.com"
+        }
+      ]
+    }
+  ]
+}

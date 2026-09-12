@@ -29,8 +29,8 @@
           "body": "<p>Expecting an email that never arrives? Check the <strong>'Spam'</strong> or <strong>'Junk'</strong> folder (usually on the left in the menu) — messages your email program finds suspicious end up there automatically, even if it's a real message.</p><p>Is it there? Click <strong>'Not spam'</strong> to move it back to your Inbox.</p>"
         },
         {
-          "title": "Exercise",
-          "body": "<p>Open your own mailbox below and try sending a test message to yourself. This way you'll see exactly how a sent message arrives.</p>",
+          "title": "Required exercise: send a test message",
+          "body": "<p>Open your own mailbox below and send a test message to yourself. This way you'll see exactly how a sent message arrives. Then tick the box below to continue.</p>",
           "practiceUrl": "https://mail.google.com",
           "practiceUrlByProvider": {
             "gmail": "https://mail.google.com",
@@ -38,7 +38,9 @@
             "kpn": "https://mail.kpnmail.nl",
             "icloud": "https://www.icloud.com/mail",
             "yahoo": "https://mail.yahoo.com"
-          }
+          },
+          "requireConfirm": true,
+          "confirmLabel": "I sent myself a test message and it arrived."
         },
         {
           "title": "Note: staying safe by email",
