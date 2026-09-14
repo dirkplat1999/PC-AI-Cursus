@@ -29,6 +29,7 @@
 
   <section class="panel">
     <h2>Toegangsaanvragen <span id="access-live-dot" class="live-dot hidden"></span></h2>
+    <p class="hint">Goedgekeurde aanvragen starten op niveau 1 — pas het niveau zo nodig aan via "Bewerken" bij Cursisten.</p>
     <ul id="access-list" class="help-list">
       <% if (!accessRequests.length) { %>
         <li class="empty" id="access-empty">Geen openstaande toegangsaanvragen.</li>
@@ -37,7 +38,6 @@
         <li class="help-item" data-id="<%= a.id %>">
           <div>
             <strong><%= a.full_name %></strong> (<%= a.email %>)
-            <span class="tag"><%= a.age_group === 'young' ? t.ageGroupYoung : a.age_group === 'genz' ? t.ageGroupGenz : t.ageGroupSenior %></span>
             <p><%= a.message || '(geen bericht)' %></p>
             <small><%= a.created_at %></small>
           </div>

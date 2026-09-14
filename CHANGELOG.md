@@ -2,6 +2,12 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [3.7.3] - 2026-09-14
+
+### Gewijzigd
+- De leeftijdscategorie is uit het "toegang aanvragen"-formulier op het inlogscherm gehaald — die keuze maakt alleen de docent nog, op het beheerdersdashboard (bij het goedkeuren start een account op niveau 1; het niveau is daarna aan te passen via "Bewerken" bij Cursisten).
+- De drie leeftijdscategorieën heten nu **Niveau 1** (50 jaar en ouder), **Niveau 2** (30-49 jaar) en **Niveau 3** (jonger dan 30) — overal in de app, inclusief het cursistenformulier en -overzicht.
+
 ## [3.7.2] - 2026-09-14
 
 ### Toegevoegd

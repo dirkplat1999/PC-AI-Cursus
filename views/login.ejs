@@ -49,13 +49,6 @@
       <label for="ra-email"><%= t.email %></label>
       <input type="email" id="ra-email" name="email" required>
 
-      <label for="ra-age-group"><%= t.ageGroup %></label>
-      <select id="ra-age-group" name="age_group">
-        <% (typeof ageGroups !== 'undefined' ? ageGroups : ['senior', 'young', 'genz']).forEach(a => { %>
-          <option value="<%= a %>"><%= a === 'young' ? t.ageGroupYoung : a === 'genz' ? t.ageGroupGenz : t.ageGroupSenior %></option>
-        <% }) %>
-      </select>
-
       <label for="ra-message"><%= t.requestAccessMessage %></label>
       <textarea id="ra-message" name="message" rows="3"></textarea>
 

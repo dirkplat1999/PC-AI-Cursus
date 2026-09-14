@@ -266,6 +266,10 @@ router.post('/help/:id/resolve', (req, res) => {
 });
 
 // --- Toegangsaanvragen (vanaf het inlogscherm, zie routes/auth.js) ---
+// De aanvrager kiest geen niveau — dat staat bewust alleen hier op het
+// beheerdersdashboard. Bij goedkeuren start het account op niveau 1
+// ("senior", de kolomdefault van access_requests.age_group); pas dit zo
+// nodig aan via "Bewerken" bij Cursisten.
 router.post('/access-requests/:id/approve', async (req, res) => {
   const id = Number(req.params.id);
   const io = req.app.get('io');

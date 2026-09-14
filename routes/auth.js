@@ -1,7 +1,7 @@
 const express = require('express');
 const bcrypt = require('bcryptjs');
 const db = require('../db/database');
-const { getUi, normalizeLang, AGE_GROUPS, normalizeAgeGroup } = require('../lib/content');
+const { getUi, normalizeLang } = require('../lib/content');
 
 const router = express.Router();
 
@@ -11,7 +11,7 @@ function adminExists() {
 
 function renderLogin(res, lang, extra) {
   const t = getUi(lang);
-  res.render('login', { t, lang, error: null, notice: null, ageGroups: AGE_GROUPS, ...extra });
+  res.render('login', { t, lang, error: null, notice: null, ...extra });
 }
 
 router.get('/setup', (req, res) => {
@@ -73,21 +73,23 @@ router.post('/login', (req, res) => {
 // Toegangsaanvraag vanaf het inlogscherm — komt binnen als openstaande
 // aanvraag op het beheerdersdashboard, waar de docent 'm met één klik kan
 // goedkeuren (maakt dan automatisch een account aan en mailt de
-// inloggegevens) of afwijzen.
+// inloggegevens) of afwijzen. De leeftijdscategorie/niveau wordt bewust
+// niet hier gevraagd — de docent kiest/wijzigt die zelf op het
+// beheerdersdashboard (het account start op niveau 1, aan te passen via
+// "Bewerken" bij Cursisten).
 router.post('/access-request', (req, res) => {
   const lang = normalizeLang(req.body.lang || 'nl');
   const t = getUi(lang);
   const fullName = (req.body.full_name || '').trim().slice(0, 200);
   const email = (req.body.email || '').trim().slice(0, 200);
-  const ageGroup = normalizeAgeGroup(req.body.age_group);
   const message = (req.body.message || '').trim().slice(0, 500);
 
   if (!fullName || !email) {
     return renderLogin(res, lang, { error: t.requestAccessError });
   }
 
-  const info = db.prepare('INSERT INTO access_requests (full_name, email, language, age_group, message) VALUES (?, ?, ?, ?, ?)')
-    .run(fullName, email, lang, ageGroup, message || null);
+  const info = db.prepare('INSERT INTO access_requests (full_name, email, language, message) VALUES (?, ?, ?, ?)')
+    .run(fullName, email, lang, message || null);
 
   const io = req.app.get('io');
   if (io) {
@@ -95,7 +97,6 @@ router.post('/access-request', (req, res) => {
       id: info.lastInsertRowid,
       fullName,
       email,
-      ageGroup,
       message,
       createdAt: new Date().toISOString()
     });
