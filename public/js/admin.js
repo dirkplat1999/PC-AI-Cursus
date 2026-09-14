@@ -58,4 +58,55 @@
   if (window.Notification && Notification.permission === 'default') {
     Notification.requestPermission();
   }
+
+  // --- Toegangsaanvragen (live, zonder de pagina te herladen) ---
+  const accessList = document.getElementById('access-list');
+  const accessEmpty = document.getElementById('access-empty');
+  const accessLiveDot = document.getElementById('access-live-dot');
+
+  function addAccessItem(data) {
+    if (!accessList) return;
+    document.getElementById('access-empty')?.remove();
+    const li = document.createElement('li');
+    li.className = 'help-item';
+    li.dataset.id = data.id;
+    li.innerHTML = `
+      <div>
+        <strong>${escapeHtml(data.fullName)}</strong> (${escapeHtml(data.email)})
+        <p>${escapeHtml(data.message) || '(geen bericht)'}</p>
+        <small>${new Date(data.createdAt).toLocaleTimeString()}</small>
+      </div>
+      <div class="student-row-actions">
+        <form method="POST" action="/admin/access-requests/${data.id}/approve">
+          <button type="submit" class="btn btn-small btn-primary">Goedkeuren</button>
+        </form>
+        <form method="POST" action="/admin/access-requests/${data.id}/reject" onsubmit="return confirm('Aanvraag van ${escapeHtml(data.fullName)} afwijzen?');">
+          <button type="submit" class="btn btn-small btn-danger">Afwijzen</button>
+        </form>
+      </div>
+    `;
+    accessList.prepend(li);
+  }
+
+  socket.on('access-request', (data) => {
+    addAccessItem(data);
+    accessLiveDot?.classList.remove('hidden');
+    sound?.play().catch(() => {});
+    if (window.Notification && Notification.permission === 'granted') {
+      new Notification('Nieuwe toegangsaanvraag', { body: data.fullName });
+    }
+    setTimeout(() => accessLiveDot?.classList.add('hidden'), 4000);
+  });
+
+  socket.on('access-request-resolved', (data) => {
+    const item = accessList?.querySelector(`li[data-id="${data.id}"]`);
+    item?.remove();
+    if (accessList && !accessList.querySelector('li')) {
+      const li = document.createElement('li');
+      li.className = 'empty';
+      li.id = 'access-empty';
+      li.textContent = 'Geen openstaande toegangsaanvragen.';
+      accessList.appendChild(li);
+    }
+  });
 })();

@@ -1,12 +1,17 @@
 const express = require('express');
 const bcrypt = require('bcryptjs');
 const db = require('../db/database');
-const { getUi, normalizeLang } = require('../lib/content');
+const { getUi, normalizeLang, AGE_GROUPS, normalizeAgeGroup } = require('../lib/content');
 
 const router = express.Router();
 
 function adminExists() {
   return !!db.prepare('SELECT 1 FROM admin WHERE id = 1').get();
+}
+
+function renderLogin(res, lang, extra) {
+  const t = getUi(lang);
+  res.render('login', { t, lang, error: null, notice: null, ageGroups: AGE_GROUPS, ...extra });
 }
 
 router.get('/setup', (req, res) => {
@@ -39,7 +44,7 @@ router.get('/login', (req, res) => {
   if (req.session && req.session.role === 'admin') return res.redirect('/admin');
   if (req.session && req.session.role === 'student') return res.redirect('/student');
   const lang = normalizeLang(req.query.lang || 'nl');
-  res.render('login', { t: getUi(lang), lang, error: null });
+  renderLogin(res, lang, {});
 });
 
 router.post('/login', (req, res) => {
@@ -53,7 +58,7 @@ router.post('/login', (req, res) => {
       req.session.role = 'admin';
       return res.redirect('/admin');
     }
-    return res.render('login', { t, lang, error: t.loginError });
+    return renderLogin(res, lang, { error: t.loginError });
   }
 
   const student = db.prepare('SELECT * FROM students WHERE username = ?').get((username || '').trim().toLowerCase());
@@ -62,7 +67,41 @@ router.post('/login', (req, res) => {
     req.session.studentId = student.id;
     return res.redirect('/student');
   }
-  return res.render('login', { t, lang, error: t.loginError });
+  return renderLogin(res, lang, { error: t.loginError });
+});
+
+// Toegangsaanvraag vanaf het inlogscherm — komt binnen als openstaande
+// aanvraag op het beheerdersdashboard, waar de docent 'm met één klik kan
+// goedkeuren (maakt dan automatisch een account aan en mailt de
+// inloggegevens) of afwijzen.
+router.post('/access-request', (req, res) => {
+  const lang = normalizeLang(req.body.lang || 'nl');
+  const t = getUi(lang);
+  const fullName = (req.body.full_name || '').trim().slice(0, 200);
+  const email = (req.body.email || '').trim().slice(0, 200);
+  const ageGroup = normalizeAgeGroup(req.body.age_group);
+  const message = (req.body.message || '').trim().slice(0, 500);
+
+  if (!fullName || !email) {
+    return renderLogin(res, lang, { error: t.requestAccessError });
+  }
+
+  const info = db.prepare('INSERT INTO access_requests (full_name, email, language, age_group, message) VALUES (?, ?, ?, ?, ?)')
+    .run(fullName, email, lang, ageGroup, message || null);
+
+  const io = req.app.get('io');
+  if (io) {
+    io.emit('access-request', {
+      id: info.lastInsertRowid,
+      fullName,
+      email,
+      ageGroup,
+      message,
+      createdAt: new Date().toISOString()
+    });
+  }
+
+  renderLogin(res, lang, { notice: t.requestAccessSent });
 });
 
 // Eenmalige inloglink uit de "inloggegevens versturen"-e-mail (zie
@@ -80,7 +119,7 @@ router.get('/login/token/:token', (req, res) => {
 
   if (!student || !student.login_token_expires || new Date(student.login_token_expires).getTime() < Date.now()) {
     invalidate();
-    return res.render('login', { t, lang, error: t.magicLinkExpired });
+    return renderLogin(res, lang, { error: t.magicLinkExpired });
   }
 
   invalidate();

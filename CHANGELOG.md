@@ -2,6 +2,16 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [3.7.2] - 2026-09-14
+
+### Toegevoegd
+- Op het inlogscherm kan iedereen nu **toegang aanvragen** via een knop onder het inlogformulier (naam, e-mail, leeftijdscategorie, optioneel bericht). De aanvraag verschijnt direct op het beheerdersdashboard.
+- Op het beheerdersdashboard staat een nieuwe sectie **"Toegangsaanvragen"** (live bijgewerkt, net als hulpvragen). Eén klik op **"Goedkeuren"** maakt automatisch een account aan (met een gegenereerde gebruikersnaam en de aanbevolen modules voor die leeftijdsgroep) en verstuurt meteen de inloggegevens-e-mail — inclusief de "direct inloggen"-knop uit v3.7.1. **"Afwijzen"** verwijdert de aanvraag zonder account.
+- Wordt een aanvraag gedaan met een e-mailadres dat al bij een bestaande cursist hoort, dan wordt die automatisch verwijderd in plaats van een dubbel account aan te maken.
+
+### Opgelost
+- Het beheerdersdashboard toonde de nieuwe leeftijdsgroep "Jonger dan 30" nog als "50 jaar en ouder" in de cursistentabel (label-logica was nooit bijgewerkt na het toevoegen van die groep in v3.7.0).
+
 ## [3.7.1] - 2026-09-12
 
 ### Toegevoegd

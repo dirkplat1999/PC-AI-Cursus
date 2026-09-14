@@ -16,6 +16,7 @@
     </div>
 
     <% if (error) { %><p class="error"><%= error %></p><% } %>
+    <% if (notice) { %><p class="notice"><%= notice %></p><% } %>
 
     <form method="POST" action="/login" id="login-form">
       <input type="hidden" name="lang" value="<%= lang %>">
@@ -31,6 +32,38 @@
 
       <button type="submit" class="btn btn-primary btn-block"><%= t.loginButton %></button>
     </form>
+
+    <button type="button" id="btn-open-request-access" class="btn btn-ghost btn-block" style="margin-top: 10px;"><%= t.requestAccess %></button>
+  </div>
+</div>
+
+<div id="request-access-modal" class="modal hidden">
+  <div class="modal-box">
+    <h3><%= t.requestAccessTitle %></h3>
+    <p class="hint"><%= t.requestAccessIntro %></p>
+    <form method="POST" action="/access-request" class="student-form">
+      <input type="hidden" name="lang" value="<%= lang %>">
+      <label for="ra-full-name"><%= t.fullName %></label>
+      <input type="text" id="ra-full-name" name="full_name" required>
+
+      <label for="ra-email"><%= t.email %></label>
+      <input type="email" id="ra-email" name="email" required>
+
+      <label for="ra-age-group"><%= t.ageGroup %></label>
+      <select id="ra-age-group" name="age_group">
+        <% (typeof ageGroups !== 'undefined' ? ageGroups : ['senior', 'young', 'genz']).forEach(a => { %>
+          <option value="<%= a %>"><%= a === 'young' ? t.ageGroupYoung : a === 'genz' ? t.ageGroupGenz : t.ageGroupSenior %></option>
+        <% }) %>
+      </select>
+
+      <label for="ra-message"><%= t.requestAccessMessage %></label>
+      <textarea id="ra-message" name="message" rows="3"></textarea>
+
+      <div class="modal-actions">
+        <button type="button" id="btn-cancel-request-access" class="btn btn-ghost"><%= t.cancel %></button>
+        <button type="submit" class="btn btn-primary"><%= t.requestAccessSubmit %></button>
+      </div>
+    </form>
   </div>
 </div>
 
@@ -45,5 +78,13 @@
       roleInput.value = tab.dataset.role;
       usernameField.style.display = tab.dataset.role === 'admin' ? 'none' : 'block';
     });
+  });
+
+  const requestModal = document.getElementById('request-access-modal');
+  document.getElementById('btn-open-request-access')?.addEventListener('click', () => {
+    requestModal.classList.remove('hidden');
+  });
+  document.getElementById('btn-cancel-request-access')?.addEventListener('click', () => {
+    requestModal.classList.add('hidden');
   });
 </script>

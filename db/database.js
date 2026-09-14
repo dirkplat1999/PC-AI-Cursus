@@ -60,6 +60,18 @@ CREATE TABLE IF NOT EXISTS settings (
   key TEXT PRIMARY KEY,
   value TEXT
 );
+
+CREATE TABLE IF NOT EXISTS access_requests (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  full_name TEXT NOT NULL,
+  email TEXT NOT NULL,
+  language TEXT NOT NULL DEFAULT 'nl',
+  age_group TEXT NOT NULL DEFAULT 'senior',
+  message TEXT,
+  status TEXT NOT NULL DEFAULT 'pending',
+  created_at TEXT NOT NULL DEFAULT (datetime('now')),
+  resolved_at TEXT
+);
 `);
 
 // Migrations for databases created before these columns existed (CREATE

@@ -10,6 +10,9 @@
     </nav>
   </div>
 
+  <% if (typeof error !== 'undefined' && error) { %><p class="error"><%= error %></p><% } %>
+  <% if (typeof notice !== 'undefined' && notice) { %><p class="notice"><%= notice %></p><% } %>
+
   <div class="stat-cards">
     <div class="stat-card">
       <div class="stat-value"><%= students.length %></div>
@@ -23,6 +26,33 @@
       <div class="stat-value"><%= t.currentVersion %>: v<%= version %></div>
     </div>
   </div>
+
+  <section class="panel">
+    <h2>Toegangsaanvragen <span id="access-live-dot" class="live-dot hidden"></span></h2>
+    <ul id="access-list" class="help-list">
+      <% if (!accessRequests.length) { %>
+        <li class="empty" id="access-empty">Geen openstaande toegangsaanvragen.</li>
+      <% } %>
+      <% accessRequests.forEach(a => { %>
+        <li class="help-item" data-id="<%= a.id %>">
+          <div>
+            <strong><%= a.full_name %></strong> (<%= a.email %>)
+            <span class="tag"><%= a.age_group === 'young' ? t.ageGroupYoung : a.age_group === 'genz' ? t.ageGroupGenz : t.ageGroupSenior %></span>
+            <p><%= a.message || '(geen bericht)' %></p>
+            <small><%= a.created_at %></small>
+          </div>
+          <div class="student-row-actions">
+            <form method="POST" action="/admin/access-requests/<%= a.id %>/approve">
+              <button type="submit" class="btn btn-small btn-primary">Goedkeuren</button>
+            </form>
+            <form method="POST" action="/admin/access-requests/<%= a.id %>/reject" onsubmit="return confirm('Aanvraag van <%= a.full_name %> afwijzen?');">
+              <button type="submit" class="btn btn-small btn-danger">Afwijzen</button>
+            </form>
+          </div>
+        </li>
+      <% }) %>
+    </ul>
+  </section>
 
   <section class="panel">
     <h2><%= t.helpRequests %> <span id="help-live-dot" class="live-dot hidden"></span></h2>
@@ -66,7 +96,7 @@
               <td><%= s.full_name %></td>
               <td><%= s.username %></td>
               <td><%= s.language.toUpperCase() %></td>
-              <td><%= s.age_group === 'young' ? t.ageGroupYoung : t.ageGroupSenior %></td>
+              <td><%= s.age_group === 'young' ? t.ageGroupYoung : s.age_group === 'genz' ? t.ageGroupGenz : t.ageGroupSenior %></td>
               <td><%= s.assignedModuleTitles.join(', ') || '—' %></td>
               <td><%= s.completedCount %> / <%= s.totalAssigned %></td>
             </tr>

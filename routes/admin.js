@@ -24,6 +24,71 @@ function generatePassword(length = 10) {
   return out;
 }
 
+// Genereert een nieuw wachtwoord + eenmalige inloglink en e-mailt die naar
+// de cursist. Werkt zowel voor een net aangemaakt account als voor een
+// wachtwoord-reset van een bestaand account. Gooit een error als het
+// versturen mislukt (bijvoorbeeld SMTP niet ingesteld) — in dat geval
+// blijft het bestaande wachtwoord van de cursist ongewijzigd.
+async function sendCredentialsMail(student, courseUrl) {
+  const newPassword = generatePassword();
+  const loginToken = crypto.randomBytes(32).toString('hex');
+  const loginTokenExpires = new Date(Date.now() + MAGIC_LOGIN_MINUTES * 60 * 1000).toISOString();
+  const magicUrl = `${courseUrl}/login/token/${loginToken}`;
+
+  const text = [
+    `Hallo ${student.full_name},`,
+    '',
+    'Je account voor de PC & AI Cursus is klaar. Zo log je in:',
+    '',
+    `Website: ${courseUrl}`,
+    `Gebruikersnaam: ${student.username}`,
+    `Wachtwoord: ${newPassword}`,
+    '',
+    `Of log direct in met deze link (werkt tot ${MAGIC_LOGIN_MINUTES} minuten na het versturen van deze e-mail): ${magicUrl}`,
+    '',
+    'Open de website, kies "Cursisten" en log in met de gegevens hierboven — of gebruik de link hierboven om in één keer in te loggen.',
+    '',
+    'Tot snel!'
+  ].join('\n');
+  const html = `
+    <p>Hallo ${student.full_name},</p>
+    <p>Je account voor de <strong>PC &amp; AI Cursus</strong> is klaar. Zo log je in:</p>
+    <p>
+      Website: <a href="${courseUrl}">${courseUrl}</a><br>
+      Gebruikersnaam: <strong>${student.username}</strong><br>
+      Wachtwoord: <strong>${newPassword}</strong>
+    </p>
+    <p style="margin: 20px 0;">
+      <a href="${magicUrl}" style="display:inline-block;background:#0369a1;color:#fff;text-decoration:none;padding:12px 22px;border-radius:8px;font-weight:bold;">Direct inloggen</a>
+    </p>
+    <p style="color:#666;font-size:0.9em;">Deze knop werkt tot ${MAGIC_LOGIN_MINUTES} minuten na het versturen van deze e-mail. Daarna kun je altijd inloggen met de gebruikersnaam en het wachtwoord hierboven.</p>
+    <p>Tot snel!</p>
+  `;
+
+  await sendMail({ to: student.email, subject: 'Je inloggegevens voor de PC & AI Cursus', text, html });
+
+  db.prepare('UPDATE students SET password_hash = ?, login_token = ?, login_token_expires = ? WHERE id = ?')
+    .run(bcrypt.hashSync(newPassword, 10), loginToken, loginTokenExpires, student.id);
+}
+
+// Maakt van een volledige naam een unieke, url/login-vriendelijke
+// gebruikersnaam (diakritische tekens weg, alles op een rijtje puntjes,
+// eindigend op een oplopend nummer bij een botsing).
+function usernameFromName(fullName) {
+  const base = fullName
+    .toLowerCase()
+    .normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-z0-9]+/g, '.')
+    .replace(/^\.+|\.+$/g, '') || 'cursist';
+  let username = base;
+  let suffix = 1;
+  while (db.prepare('SELECT 1 FROM students WHERE username = ?').get(username)) {
+    suffix += 1;
+    username = `${base}${suffix}`;
+  }
+  return username;
+}
+
 const upload = multer({
   dest: path.join(backup.BACKUPS_DIR, '_incoming'),
   limits: { fileSize: 200 * 1024 * 1024 }
@@ -71,12 +136,29 @@ router.get('/', (req, res) => {
     JOIN students s ON s.id = h.student_id
     WHERE h.status = 'open' ORDER BY h.created_at DESC
   `).all();
+  const accessRequests = db.prepare("SELECT * FROM access_requests WHERE status = 'pending' ORDER BY created_at DESC").all();
   const students = studentsWithProgress(res.locals.lang);
+
+  let notice = null;
+  let error = null;
+  if (req.query.approved) {
+    notice = req.query.mailok === '1'
+      ? `${req.query.approved} is goedgekeurd — de inloggegevens zijn verstuurd.`
+      : `${req.query.approved} is goedgekeurd, maar de e-mail met inloggegevens kon niet worden verstuurd. Gebruik "Verstuur inloggegevens" bij Cursisten zodra e-mail is ingesteld.`;
+  } else if (req.query.rejected) {
+    notice = 'Aanvraag afgewezen.';
+  } else if (req.query.error === 'dupemail') {
+    error = 'Er bestaat al een cursist met dit e-mailadres — de aanvraag is verwijderd.';
+  }
+
   res.render('admin/dashboard', {
     students,
     openHelp,
+    accessRequests,
     modules: getModules(),
-    version: pkg.version
+    version: pkg.version,
+    notice,
+    error
   });
 });
 
@@ -164,52 +246,15 @@ router.post('/students/:id/send-credentials', async (req, res) => {
   if (!student.email) return renderError(`${student.full_name} heeft nog geen e-mailadres — vul die eerst in bij het bewerken van de cursist.`);
   if (!isMailConfigured()) return renderError('E-mail is nog niet ingesteld. Ga naar Instellingen om de SMTP-gegevens in te vullen.');
 
-  const newPassword = generatePassword();
   const settings = getSettings();
   const courseUrl = settings.course_url || `${req.protocol}://${req.get('host')}`;
 
-  const loginToken = crypto.randomBytes(32).toString('hex');
-  const loginTokenExpires = new Date(Date.now() + MAGIC_LOGIN_MINUTES * 60 * 1000).toISOString();
-  const magicUrl = `${courseUrl}/login/token/${loginToken}`;
-
-  const text = [
-    `Hallo ${student.full_name},`,
-    '',
-    'Je account voor de PC & AI Cursus is klaar. Zo log je in:',
-    '',
-    `Website: ${courseUrl}`,
-    `Gebruikersnaam: ${student.username}`,
-    `Wachtwoord: ${newPassword}`,
-    '',
-    `Of log direct in met deze link (werkt tot ${MAGIC_LOGIN_MINUTES} minuten na het versturen van deze e-mail): ${magicUrl}`,
-    '',
-    'Open de website, kies "Cursisten" en log in met de gegevens hierboven — of gebruik de link hierboven om in één keer in te loggen.',
-    '',
-    'Tot snel!'
-  ].join('\n');
-  const html = `
-    <p>Hallo ${student.full_name},</p>
-    <p>Je account voor de <strong>PC &amp; AI Cursus</strong> is klaar. Zo log je in:</p>
-    <p>
-      Website: <a href="${courseUrl}">${courseUrl}</a><br>
-      Gebruikersnaam: <strong>${student.username}</strong><br>
-      Wachtwoord: <strong>${newPassword}</strong>
-    </p>
-    <p style="margin: 20px 0;">
-      <a href="${magicUrl}" style="display:inline-block;background:#0369a1;color:#fff;text-decoration:none;padding:12px 22px;border-radius:8px;font-weight:bold;">Direct inloggen</a>
-    </p>
-    <p style="color:#666;font-size:0.9em;">Deze knop werkt tot ${MAGIC_LOGIN_MINUTES} minuten na het versturen van deze e-mail. Daarna kun je altijd inloggen met de gebruikersnaam en het wachtwoord hierboven.</p>
-    <p>Tot snel!</p>
-  `;
-
   try {
-    await sendMail({ to: student.email, subject: 'Je inloggegevens voor de PC & AI Cursus', text, html });
+    await sendCredentialsMail(student, courseUrl);
   } catch (err) {
     return renderError(`Versturen mislukt: ${err.message}`);
   }
 
-  db.prepare('UPDATE students SET password_hash = ?, login_token = ?, login_token_expires = ? WHERE id = ?')
-    .run(bcrypt.hashSync(newPassword, 10), loginToken, loginTokenExpires, id);
   res.redirect(`/admin/students?sent=${encodeURIComponent(student.email)}`);
 });
 
@@ -218,6 +263,52 @@ router.post('/help/:id/resolve', (req, res) => {
   const io = req.app.get('io');
   if (io) io.emit('help-resolved', { id: Number(req.params.id) });
   res.redirect('/admin');
+});
+
+// --- Toegangsaanvragen (vanaf het inlogscherm, zie routes/auth.js) ---
+router.post('/access-requests/:id/approve', async (req, res) => {
+  const id = Number(req.params.id);
+  const io = req.app.get('io');
+  const reqRow = db.prepare("SELECT * FROM access_requests WHERE id = ? AND status = 'pending'").get(id);
+  if (!reqRow) return res.redirect('/admin');
+
+  const duplicate = db.prepare('SELECT 1 FROM students WHERE email = ?').get(reqRow.email);
+  if (duplicate) {
+    db.prepare('DELETE FROM access_requests WHERE id = ?').run(id);
+    if (io) io.emit('access-request-resolved', { id });
+    return res.redirect('/admin?error=dupemail');
+  }
+
+  const username = usernameFromName(reqRow.full_name);
+  const placeholderHash = bcrypt.hashSync(crypto.randomBytes(16).toString('hex'), 10);
+  const info = db.prepare('INSERT INTO students (username, password_hash, full_name, email, language, age_group) VALUES (?, ?, ?, ?, ?, ?)')
+    .run(username, placeholderHash, reqRow.full_name, reqRow.email, normalizeLang(reqRow.language), normalizeAgeGroup(reqRow.age_group));
+  const studentId = info.lastInsertRowid;
+
+  const insertMod = db.prepare('INSERT OR IGNORE INTO student_modules (student_id, module_key) VALUES (?, ?)');
+  getRecommendedModules(reqRow.age_group).forEach((m) => insertMod.run(studentId, m));
+
+  db.prepare("UPDATE access_requests SET status = 'approved', resolved_at = datetime('now') WHERE id = ?").run(id);
+  if (io) io.emit('access-request-resolved', { id });
+
+  const settings = getSettings();
+  const courseUrl = settings.course_url || `${req.protocol}://${req.get('host')}`;
+  let mailOk = true;
+  try {
+    await sendCredentialsMail({ id: studentId, full_name: reqRow.full_name, username, email: reqRow.email }, courseUrl);
+  } catch (err) {
+    mailOk = false;
+  }
+
+  res.redirect(`/admin?approved=${encodeURIComponent(reqRow.full_name)}&mailok=${mailOk ? '1' : '0'}`);
+});
+
+router.post('/access-requests/:id/reject', (req, res) => {
+  const id = Number(req.params.id);
+  db.prepare('DELETE FROM access_requests WHERE id = ?').run(id);
+  const io = req.app.get('io');
+  if (io) io.emit('access-request-resolved', { id });
+  res.redirect('/admin?rejected=1');
 });
 
 // --- Changelog & updates ---
