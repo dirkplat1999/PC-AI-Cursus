@@ -11,7 +11,7 @@ const backup = require('../lib/backup');
 const pkg = require('../package.json');
 const { getSettings, setSettings, isMailConfigured } = require('../lib/settings');
 const { sendMail } = require('../lib/mailer');
-const { detectProvider, providerName } = require('../lib/email-provider');
+const { detectProvider, providerName, isValidEmail } = require('../lib/email-provider');
 const updater = require('../lib/updater');
 
 // Avoids visually ambiguous characters (0/O, 1/l/I) so a hand-typed
@@ -22,6 +22,21 @@ function generatePassword(length = 10) {
   let out = '';
   for (let i = 0; i < length; i++) out += PASSWORD_CHARS[Math.floor(Math.random() * PASSWORD_CHARS.length)];
   return out;
+}
+
+// student.full_name can originate from the public "toegang aanvragen"
+// form (routes/auth.js) — untrusted text. Escape it before it lands in
+// an HTML email, otherwise a request submitted with someone else's real
+// e-mail address and an HTML payload as "naam" would get that payload
+// delivered from the app's own trusted mail identity the moment an
+// admin clicks "Goedkeuren".
+function escapeHtml(str) {
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
 }
 
 // Genereert een nieuw wachtwoord + eenmalige inloglink en e-mailt die naar
@@ -51,12 +66,12 @@ async function sendCredentialsMail(student, courseUrl) {
     'Tot snel!'
   ].join('\n');
   const html = `
-    <p>Hallo ${student.full_name},</p>
+    <p>Hallo ${escapeHtml(student.full_name)},</p>
     <p>Je account voor de <strong>PC &amp; AI Cursus</strong> is klaar. Zo log je in:</p>
     <p>
       Website: <a href="${courseUrl}">${courseUrl}</a><br>
-      Gebruikersnaam: <strong>${student.username}</strong><br>
-      Wachtwoord: <strong>${newPassword}</strong>
+      Gebruikersnaam: <strong>${escapeHtml(student.username)}</strong><br>
+      Wachtwoord: <strong>${escapeHtml(newPassword)}</strong>
     </p>
     <p style="margin: 20px 0;">
       <a href="${magicUrl}" style="display:inline-block;background:#0369a1;color:#fff;text-decoration:none;padding:12px 22px;border-radius:8px;font-weight:bold;">Direct inloggen</a>
@@ -195,6 +210,13 @@ router.post('/students', (req, res) => {
       error: 'Gebruikersnaam bestaat al.', notice: null, formStudent: req.body
     });
   }
+  if (email && email.trim() && !isValidEmail(email)) {
+    return res.render('admin/students', {
+      students: studentsWithProgress(res.locals.lang), modules: getModules(), langs: SUPPORTED_LANGS,
+      ageGroups: AGE_GROUPS, recommendedModules: RECOMMENDED_MODULES_MAP, mailConfigured: isMailConfigured(),
+      error: 'Dit e-mailadres lijkt niet te kloppen.', notice: null, formStudent: req.body
+    });
+  }
   const hash = bcrypt.hashSync(password, 10);
   const info = db.prepare('INSERT INTO students (username, password_hash, full_name, email, language, age_group) VALUES (?, ?, ?, ?, ?, ?)')
     .run(uname, hash, full_name.trim(), (email || '').trim() || null, normalizeLang(language), normalizeAgeGroup(age_group));
@@ -209,8 +231,9 @@ router.post('/students', (req, res) => {
 router.post('/students/:id', (req, res) => {
   const id = Number(req.params.id);
   const { full_name, email, language, age_group, modules, new_password } = req.body;
+  const cleanEmail = (email || '').trim();
   db.prepare('UPDATE students SET full_name = ?, email = ?, language = ?, age_group = ? WHERE id = ?')
-    .run(full_name.trim(), (email || '').trim() || null, normalizeLang(language), normalizeAgeGroup(age_group), id);
+    .run(full_name.trim(), (cleanEmail && isValidEmail(cleanEmail)) ? cleanEmail : null, normalizeLang(language), normalizeAgeGroup(age_group), id);
 
   if (new_password && new_password.length >= 6) {
     db.prepare('UPDATE students SET password_hash = ? WHERE id = ?').run(bcrypt.hashSync(new_password, 10), id);

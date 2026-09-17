@@ -13,6 +13,8 @@
   "requestAccessSubmit": "Antrag senden",
   "requestAccessSent": "Dein Antrag wurde gesendet! Du hörst von uns, sobald er genehmigt ist.",
   "requestAccessError": "Bitte gib deinen Namen und deine E-Mail-Adresse ein.",
+  "requestAccessInvalidEmail": "Diese E-Mail-Adresse scheint nicht zu stimmen — bitte prüfe sie und versuche es erneut.",
+  "rateLimited": "Zu viele Versuche. Bitte versuche es in ein paar Minuten erneut.",
   "email": "E-Mail-Adresse",
   "logout": "Abmelden",
   "next": "Weiter",

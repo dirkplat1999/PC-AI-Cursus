@@ -26,6 +26,23 @@ app.locals.appVersion = require('./package.json').version;
 // Dokploy's Traefik), which is harmless and a no-op for direct/LAN use.
 app.set('trust proxy', 1);
 
+// Stops Express announcing itself in every response — a small, free bit of
+// fingerprinting resistance.
+app.disable('x-powered-by');
+
+// Baseline security headers. No CSP here: the app relies on inline <script>
+// blocks throughout its views, so a real CSP would need a rewrite; these
+// headers still cover the cheap, high-value defenses.
+app.use((req, res, next) => {
+  res.setHeader('X-Content-Type-Options', 'nosniff');
+  res.setHeader('X-Frame-Options', 'DENY');
+  res.setHeader('Referrer-Policy', 'strict-origin-when-cross-origin');
+  if (req.secure || req.get('x-forwarded-proto') === 'https') {
+    res.setHeader('Strict-Transport-Security', 'max-age=15552000; includeSubDomains');
+  }
+  next();
+});
+
 const PORT = process.env.PORT || 3000;
 const dataDir = path.join(__dirname, 'data');
 if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir, { recursive: true });
@@ -66,7 +83,16 @@ app.use(session({
   secret: sessionSecret,
   resave: false,
   saveUninitialized: false,
-  cookie: { maxAge: 1000 * 60 * 60 * 12 } // 12 hours
+  cookie: {
+    maxAge: 1000 * 60 * 60 * 12, // 12 hours
+    sameSite: 'lax', // blocks cross-site POSTs from carrying the session cookie (CSRF hardening)
+    // 'auto' marks the cookie Secure only on an HTTPS request (via the
+    // X-Forwarded-Proto header Traefik sets, honored because of
+    // "trust proxy" above) — so it stays usable for plain-HTTP LAN/local
+    // use (see README) while getting Secure automatically once hosted
+    // behind HTTPS.
+    secure: 'auto'
+  }
 }));
 
 app.use((req, res, next) => {

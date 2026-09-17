@@ -2,6 +2,8 @@ const express = require('express');
 const bcrypt = require('bcryptjs');
 const db = require('../db/database');
 const { getUi, normalizeLang } = require('../lib/content');
+const { isValidEmail } = require('../lib/email-provider');
+const { isRateLimited } = require('../lib/rate-limit');
 
 const router = express.Router();
 
@@ -52,6 +54,13 @@ router.post('/login', (req, res) => {
   const t = getUi(lang);
   const { role, username, password } = req.body;
 
+  // Geen wachtwoord-lockout per account (dat zou een account juist
+  // blokkeerbaar maken voor de echte eigenaar) — in plaats daarvan een
+  // eenvoudige limiet per IP-adres tegen brute-force gokken.
+  if (isRateLimited(`login:${req.ip}`, { max: 15, windowMs: 5 * 60 * 1000 })) {
+    return renderLogin(res, lang, { error: t.rateLimited });
+  }
+
   if (role === 'admin') {
     const admin = db.prepare('SELECT * FROM admin WHERE id = 1').get();
     if (admin && bcrypt.compareSync(password || '', admin.password_hash)) {
@@ -86,6 +95,12 @@ router.post('/access-request', (req, res) => {
 
   if (!fullName || !email) {
     return renderLogin(res, lang, { error: t.requestAccessError });
+  }
+  if (!isValidEmail(email)) {
+    return renderLogin(res, lang, { error: t.requestAccessInvalidEmail });
+  }
+  if (isRateLimited(`access-request:${req.ip}`, { max: 5, windowMs: 15 * 60 * 1000 })) {
+    return renderLogin(res, lang, { error: t.rateLimited });
   }
 
   const info = db.prepare('INSERT INTO access_requests (full_name, email, language, message) VALUES (?, ?, ?, ?)')

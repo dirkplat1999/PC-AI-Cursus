@@ -167,8 +167,16 @@ router.post('/preferences', (req, res) => {
 });
 
 router.get('/browser', (req, res) => {
-  const url = req.query.url || 'https://www.google.com';
-  const back = req.query.back || '/student';
+  // Both params are reflected into the page (an "open in new tab" link and
+  // a "back" link) and are shown to a logged-in student, so they're
+  // constrained here rather than trusted as-is: url must be a real
+  // http(s) link (blocks javascript:/data: URI tricks), and back must be
+  // an internal path (blocks it being turned into an open redirect to an
+  // external, potentially phishing, site via a shared link).
+  let url = req.query.url || 'https://www.google.com';
+  if (!/^https?:\/\//i.test(url)) url = 'https://www.google.com';
+  let back = req.query.back || '/student';
+  if (!back.startsWith('/') || back.startsWith('//')) back = '/student';
   const device = detectDevice(req.headers['user-agent']);
   res.render('student/browser', { url, back, device });
 });

@@ -2,6 +2,18 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [3.7.4] - 2026-09-17
+
+### Beveiliging
+Naar aanleiding van een pentest op cursus.nieuwediep.com zijn de volgende punten verholpen:
+- **E-mail HTML-injectie**: de naam die iemand invult bij "toegang aanvragen" kwam ongefilterd in de inloggegevens-e-mail terecht. Iemand had daarmee een aanvraag met een vals e-mailadres van een derde en kwaadaardige HTML als "naam" kunnen indienen, die bij goedkeuring vanuit het eigen vertrouwde afzenderadres van de cursus verstuurd zou worden. Namen/tekst worden nu ge-escaped voordat ze in de e-mail terechtkomen.
+- **Geen limiet op inlogpogingen en aanvragen**: toegevoegd — een lichte, in-memory limiet per IP-adres op zowel `/login` (brute-force wachtwoorden raden) als `/access-request` (spam/flooden van de aanvragenlijst).
+- **Geen e-mailvalidatie**: het aanvraagformulier en het cursistenformulier accepteerden elke tekst als e-mailadres. Er wordt nu op een geldig formaat gecontroleerd (en expliciet op regel-tekens, tegen e-mail header-injectie).
+- **Ontbrekende beveiligingsheaders**: `X-Frame-Options`, `X-Content-Type-Options` en `Strict-Transport-Security` toegevoegd; de `X-Powered-By: Express`-header is uitgezet.
+- **Sessiecookie verstevigd**: `SameSite=Lax` (helpt tegen CSRF) en `Secure` wanneer via HTTPS bezocht — blijft wel gewoon werken bij lokaal LAN-gebruik zonder HTTPS.
+- **Open-redirect/`javascript:`-risico in de oefenomgeving-link** (`/student/browser`): de `url`- en `back`-parameters worden nu gevalideerd (alleen `http(s)://` resp. een intern pad).
+- Drie van de vijf `npm audit`-meldingen (via `adm-zip`) opgelost met `npm audit fix`; de resterende twee zitten in een dev-only testtool (`autocannon`) die niet wordt meegeleverd in productie.
+
 ## [3.7.3] - 2026-09-14
 
 ### Gewijzigd

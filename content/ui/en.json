@@ -13,6 +13,8 @@
   "requestAccessSubmit": "Send request",
   "requestAccessSent": "Your request has been sent! You'll hear from us once it's approved.",
   "requestAccessError": "Please fill in your name and email address.",
+  "requestAccessInvalidEmail": "That email address doesn't look right — please check it and try again.",
+  "rateLimited": "Too many attempts. Please try again in a few minutes.",
   "email": "Email address",
   "logout": "Log out",
   "next": "Next",

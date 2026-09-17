@@ -13,6 +13,8 @@
   "requestAccessSubmit": "Aanvraag versturen",
   "requestAccessSent": "Je aanvraag is verstuurd! Je ontvangt bericht zodra deze is goedgekeurd.",
   "requestAccessError": "Vul je naam en e-mailadres in.",
+  "requestAccessInvalidEmail": "Dit e-mailadres lijkt niet te kloppen — controleer het en probeer opnieuw.",
+  "rateLimited": "Te veel pogingen. Probeer het over een paar minuten opnieuw.",
   "email": "E-mailadres",
   "logout": "Uitloggen",
   "next": "Volgende",
