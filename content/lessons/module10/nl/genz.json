@@ -1,0 +1,73 @@
+{
+  "lessons": [
+    {
+      "id": "word-genz",
+      "title": "Word: cv, werkstuk en sneltoetsen",
+      "steps": [
+        {
+          "title": "Sneltoetsen die je uren schelen",
+          "body": "<p><code>Ctrl+C</code> kopiëren, <code>Ctrl+V</code> plakken, <code>Ctrl+Z</code> ongedaan maken, <code>Ctrl+S</code> opslaan, <code>Ctrl+B</code> vet. Wie deze vijf uit zijn hoofd kent, werkt twee keer zo snel. Op een Mac gebruik je <code>Cmd</code> in plaats van <code>Ctrl</code>.</p>"
+        },
+        {
+          "title": "Een cv dat er strak uitziet",
+          "body": "<p>Gebruik een <strong>sjabloon</strong> (Nieuw &gt; zoek 'cv') of maak zelf een simpele opmaak: één lettertype, duidelijke koppen via <strong>Stijlen</strong>, en niet meer dan één pagina. Sla op als <strong>pdf</strong> voordat je mailt, anders verspringt je opmaak bij de ontvanger.</p>"
+        },
+        {
+          "title": "Werkstukken: inhoudsopgave, bronnen, samenwerken",
+          "body": "<p>Gebruik Kop 1/2 en voeg met <strong>Verwijzingen &gt; Inhoudsopgave</strong> automatisch een inhoudsopgave toe. Bronnen zet je via <strong>Verwijzingen &gt; Bronnen beheren</strong>. Werk je met anderen aan hetzelfde bestand, sla het dan op in <strong>OneDrive</strong> en deel de link, zodat jullie tegelijk kunnen typen.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Maak een cv van één pagina met een sjabloon of eigen opmaak en sla het op als pdf.</p>",
+          "practiceUrl": "https://www.office.com/launch/word"
+        }
+      ]
+    },
+    {
+      "id": "excel-genz",
+      "title": "Excel: budget, formules en slimme filters",
+      "steps": [
+        {
+          "title": "Je eigen budget in een sheet",
+          "body": "<p>Maak kolommen voor Datum, Omschrijving, Categorie en Bedrag. Met <code>=SOM.ALS(C:C;\"Eten\";D:D)</code> tel je alle uitgaven in één categorie op. Zo zie je in één oogopslag waar je geld naartoe gaat (en waarom het steeds op is).</p>"
+        },
+        {
+          "title": "Zoeken, filteren, voorwaardelijke opmaak",
+          "body": "<p>Zet een <strong>filter</strong> op je tabel (Gegevens &gt; Filter). Met <strong>Start &gt; Voorwaardelijke opmaak</strong> kleur je bijvoorbeeld automatisch alle bedragen boven €100 rood. Met <code>Ctrl+T</code> maak je van je bereik een echte tabel die vanzelf meegroeit.</p>"
+        },
+        {
+          "title": "Draaitabellen en grafieken",
+          "body": "<p>Een <strong>draaitabel</strong> (Invoegen &gt; Draaitabel) vat honderden regels samen in een overzichtelijke tabel: sleep 'Categorie' naar Rijen en 'Bedrag' naar Waarden. Voeg er een <strong>grafiek</strong> aan toe voor een presentatie of werkstuk.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Maak een budgetsheet met minstens tien uitgaven, tel per categorie op met SOM.ALS en kleur bedragen boven €50 rood.</p>",
+          "practiceUrl": "https://www.office.com/launch/excel"
+        }
+      ]
+    },
+    {
+      "id": "powerpoint-genz",
+      "title": "PowerPoint: presentaties voor school en werk",
+      "steps": [
+        {
+          "title": "Ontwerpen zonder dat het er saai uitziet",
+          "body": "<p>Klik op <strong>Ontwerpen &gt; Designer</strong> voor automatische suggesties. Weinig tekst, grote beelden, maximaal twee lettertypes. Gebruik <strong>Invoegen &gt; Pictogrammen</strong> voor icoontjes in plaats van clipart.</p>"
+        },
+        {
+          "title": "Animaties en overgangen: minder is meer",
+          "body": "<p>Eén subtiele overgang (bijvoorbeeld 'Vervagen') is genoeg. Te veel geflits leidt af van je verhaal. Gebruik animaties alleen om punten één voor één te laten verschijnen.</p>"
+        },
+        {
+          "title": "Samen werken en presenteren",
+          "body": "<p>Deel de presentatie via <strong>OneDrive</strong> zodat je groepsgenoten er tegelijk in werken. Oefen met <strong>Presentatorweergave</strong> (je ziet notities, het publiek niet). Vraag desnoods <strong>Copilot</strong> of een andere AI-assistent om een eerste opzet, en pas die daarna aan naar je eigen verhaal.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Maak een presentatie van vijf dia's voor een schoolopdracht of stage, met Designer, één grafiek en geen dia met meer dan zes regels.</p>",
+          "practiceUrl": "https://www.office.com/launch/powerpoint"
+        }
+      ]
+    }
+  ]
+}

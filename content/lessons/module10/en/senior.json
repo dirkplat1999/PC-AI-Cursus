@@ -1,0 +1,81 @@
+{
+  "lessons": [
+    {
+      "id": "word-basis",
+      "title": "Word: typing a letter",
+      "steps": [
+        {
+          "title": "What is Word?",
+          "body": "<p><strong>Word</strong> is a program for typing texts, like a letter, an invitation or a shopping list. You can have Word on your computer, or use it free in your browser at <strong>office.com</strong> (you do need a Microsoft account for that).</p>"
+        },
+        {
+          "title": "Opening a new document and typing",
+          "body": "<p>Choose <strong>'Blank document'</strong>. You'll see a white sheet of paper with a blinking line: that's where you type. Press <strong>Enter</strong> for a new line. Made a mistake? Press <strong>Backspace</strong> (the key with the arrow pointing left, top right of your keyboard).</p>"
+        },
+        {
+          "title": "Making letters bigger or bolder",
+          "body": "<p>First select the text: hold down the left mouse button and drag over the words. At the top you'll find the buttons: <strong>B</strong> makes text <strong>bold</strong>, and with the number (for example 11) you make the letters bigger or smaller.</p>"
+        },
+        {
+          "title": "Saving and printing",
+          "body": "<p>Click the <strong>floppy-disk icon</strong> (or 'File' &gt; 'Save') and give your document a name, for example 'Letter to the council'. Want it on paper? Choose 'File' &gt; 'Print'. Save your work regularly as you go, so you never lose anything.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Open Word, type a short three-line letter, make the first line bold and save the document.</p>",
+          "practiceUrl": "https://www.office.com/launch/word"
+        }
+      ]
+    },
+    {
+      "id": "excel-basis",
+      "title": "Excel: calculating in boxes",
+      "steps": [
+        {
+          "title": "What is Excel?",
+          "body": "<p><strong>Excel</strong> is a big grid of boxes (<strong>cells</strong>). You use it to keep lists and to calculate, for example an overview of your spending per month. Excel does the maths for you, so you don't have to do it by hand.</p>"
+        },
+        {
+          "title": "Filling in numbers and text",
+          "body": "<p>Click a box and type something, for example 'Groceries' in the first box and '45' in the box next to it. Press <strong>Enter</strong> to move to the box below, or the <strong>Tab</strong> key to move to the right.</p>"
+        },
+        {
+          "title": "Adding up numbers",
+          "body": "<p>Put a column of numbers under each other. Click the box below them and click the button with the <strong>Σ</strong> at the top (called 'AutoSum'). Press Enter, and Excel adds up the column automatically.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Make a list of five expenses with an amount next to each and let Excel calculate the total.</p>",
+          "practiceUrl": "https://www.office.com/launch/excel"
+        }
+      ]
+    },
+    {
+      "id": "powerpoint-basis",
+      "title": "PowerPoint: making a presentation",
+      "steps": [
+        {
+          "title": "What is PowerPoint?",
+          "body": "<p><strong>PowerPoint</strong> makes a presentation: a series of <strong>slides</strong> (screens) with text and pictures, which you can show on a screen or projector. Handy for a birthday, a photo story or a talk for your club.</p>"
+        },
+        {
+          "title": "Adding a slide and typing text",
+          "body": "<p>Choose a blank design. The first slide has a <strong>title</strong>: click in it and type. For a new slide, click <strong>'New slide'</strong>. Keep the text short: a few words rather than whole sentences.</p>"
+        },
+        {
+          "title": "Adding a photo",
+          "body": "<p>Click <strong>'Insert'</strong> &gt; <strong>'Pictures'</strong> and choose a photo from your computer. Drag the photo to the spot you like. Use the corners to make it bigger or smaller.</p>"
+        },
+        {
+          "title": "Showing the presentation",
+          "body": "<p>Click <strong>'Slide Show'</strong> (or press F5) to see your slides full screen. Use the arrow keys to go to the next slide, and <strong>Esc</strong> to stop.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Make a three-slide presentation about your hobby, with at least one photo, and view it as a slide show.</p>",
+          "practiceUrl": "https://www.office.com/launch/powerpoint"
+        }
+      ]
+    }
+  ]
+}

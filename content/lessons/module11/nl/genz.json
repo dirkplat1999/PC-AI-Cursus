@@ -1,0 +1,73 @@
+{
+  "lessons": [
+    {
+      "id": "docs-genz",
+      "title": "Google Documenten: cv, werkstuk en samenwerken",
+      "steps": [
+        {
+          "title": "Sneltoetsen die je uren schelen",
+          "body": "<p><code>Ctrl+C</code> kopiëren, <code>Ctrl+V</code> plakken, <code>Ctrl+Z</code> ongedaan maken, <code>Ctrl+B</code> vet. Bonus: <code>Ctrl+Alt+M</code> plaatst een opmerking en <code>Ctrl+/</code> toont alle sneltoetsen. Op een Mac gebruik je <code>Cmd</code>.</p>"
+        },
+        {
+          "title": "Een cv dat er strak uitziet",
+          "body": "<p>Kies in de <strong>Sjabloongalerij</strong> een cv-sjabloon of houd het simpel: één lettertype, duidelijke koppen via Stijlen, één pagina. Download als <strong>pdf</strong> (Bestand &gt; Downloaden) voordat je 'm verstuurt.</p>"
+        },
+        {
+          "title": "Samen aan een werkstuk",
+          "body": "<p>Deel het document met je groep (<strong>Delen</strong>), zet bij 'Kan bewerken' en typ tegelijk. Gebruik <strong>Suggereren</strong> (i.p.v. Bewerken, rechtsboven) om wijzigingen voor te stellen zonder iets te overschrijven. Via <strong>Extra &gt; Bronnen</strong> zoek je bronnen en citeer je ze direct.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Maak een cv van één pagina met een sjabloon en download het als pdf.</p>",
+          "practiceUrl": "https://docs.google.com"
+        }
+      ]
+    },
+    {
+      "id": "sheets-genz",
+      "title": "Google Spreadsheets: budget, formules en filters",
+      "steps": [
+        {
+          "title": "Je eigen budget in een sheet",
+          "body": "<p>Maak kolommen voor Datum, Omschrijving, Categorie en Bedrag. Met <code>=SOM.ALS(C:C;\"Eten\";D:D)</code> tel je alle uitgaven in één categorie op. Zo zie je meteen waar je geld naartoe gaat.</p>"
+        },
+        {
+          "title": "Voorwaardelijke opmaak en filters",
+          "body": "<p>Kies <strong>Opmaak &gt; Voorwaardelijke opmaak</strong> om bijvoorbeeld bedragen boven €100 automatisch rood te kleuren. Zet met <strong>Gegevens &gt; Filter maken</strong> een filter op je tabel. Nog sneller zoeken: <code>=ZOEKEN</code> en <code>=VERT.ZOEKEN</code>.</p>"
+        },
+        {
+          "title": "Draaitabellen en slimme hulp",
+          "body": "<p>Een <strong>draaitabel</strong> (Invoegen &gt; Draaitabel) vat honderden regels samen: sleep 'Categorie' naar Rijen en 'Bedrag' naar Waarden. Met de <strong>Gemini</strong>-knop in Sheets kun je in gewone taal om een formule of samenvatting vragen. Check het resultaat wel altijd zelf.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Maak een budgetsheet met minstens tien uitgaven, tel per categorie op met SOM.ALS en kleur bedragen boven €50 rood.</p>",
+          "practiceUrl": "https://sheets.google.com"
+        }
+      ]
+    },
+    {
+      "id": "slides-genz",
+      "title": "Google Presentaties: voor school en werk",
+      "steps": [
+        {
+          "title": "Ontwerpen zonder dat het saai wordt",
+          "body": "<p>Weinig tekst, grote beelden, maximaal twee lettertypes. Kies een thema via <strong>Dia &gt; Thema wijzigen</strong> en gebruik <strong>Invoegen &gt; Afbeelding &gt; Zoeken op internet</strong> voor rechtenvrije foto's. Kopieer geen plaatjes zonder toestemming.</p>"
+        },
+        {
+          "title": "Overgangen: minder is meer",
+          "body": "<p>Eén subtiele overgang (bijvoorbeeld 'Vervagen') is genoeg. Gebruik animaties alleen om punten één voor één te laten verschijnen: <strong>Invoegen &gt; Animatie</strong>.</p>"
+        },
+        {
+          "title": "Samen werken en presenteren",
+          "body": "<p>Deel de presentatie zodat je groepsgenoten tegelijk kunnen werken. Oefen in de <strong>presentatorweergave</strong> (spreekstand: jij ziet notities, het publiek niet). Vraag desnoods <strong>Gemini</strong> om een eerste opzet en pas die aan naar je eigen verhaal.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Maak een presentatie van vijf dia's voor een schoolopdracht of stage, met één grafiek en geen dia met meer dan zes regels.</p>",
+          "practiceUrl": "https://slides.google.com"
+        }
+      ]
+    }
+  ]
+}

@@ -88,5 +88,25 @@
       "en": "Recognizing disinformation, checking a source before sharing, the difference between opinion and fact online.",
       "de": "Desinformation erkennen, eine Quelle prüfen, bevor du etwas teilst, der Unterschied zwischen Meinung und Fakt online."
     }
+  },
+  {
+    "key": "module10",
+    "icon": "file-text",
+    "title": { "nl": "Word, Excel & PowerPoint", "en": "Word, Excel & PowerPoint", "de": "Word, Excel & PowerPoint" },
+    "description": {
+      "nl": "Brieven en documenten maken in Word, rekenen met Excel en een presentatie maken in PowerPoint (Microsoft Office).",
+      "en": "Writing documents in Word, calculating with Excel and building a presentation in PowerPoint (Microsoft Office).",
+      "de": "Dokumente in Word schreiben, mit Excel rechnen und eine Präsentation in PowerPoint erstellen (Microsoft Office)."
+    }
+  },
+  {
+    "key": "module11",
+    "icon": "table",
+    "title": { "nl": "Google Documenten, Spreadsheets & Presentaties", "en": "Google Docs, Sheets & Slides", "de": "Google Docs, Tabellen & Präsentationen" },
+    "description": {
+      "nl": "Hetzelfde als Word, Excel en PowerPoint, maar gratis in je browser met Google: Documenten, Spreadsheets en Presentaties.",
+      "en": "The same as Word, Excel and PowerPoint, but free in your browser with Google: Docs, Sheets and Slides.",
+      "de": "Dasselbe wie Word, Excel und PowerPoint, aber kostenlos im Browser mit Google: Docs, Tabellen und Präsentationen."
+    }
   }
 ]

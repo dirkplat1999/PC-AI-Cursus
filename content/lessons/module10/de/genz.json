@@ -1,0 +1,73 @@
+{
+  "lessons": [
+    {
+      "id": "word-genz",
+      "title": "Word: Lebenslauf, Hausarbeit und Tastenkürzel",
+      "steps": [
+        {
+          "title": "Tastenkürzel, die dir Stunden sparen",
+          "body": "<p><code>Strg+C</code> kopieren, <code>Strg+V</code> einfügen, <code>Strg+Z</code> rückgängig, <code>Strg+S</code> speichern, <code>Strg+F</code> fett. Wer diese fünf auswendig kann, arbeitet doppelt so schnell. Auf einem Mac nimmst du <code>Cmd</code> statt <code>Strg</code>.</p>"
+        },
+        {
+          "title": "Ein Lebenslauf, der sauber aussieht",
+          "body": "<p>Nutze eine <strong>Vorlage</strong> (Neu &gt; suche 'Lebenslauf') oder erstelle ein einfaches Layout selbst: eine Schriftart, klare Überschriften über <strong>Formatvorlagen</strong> und nicht mehr als eine Seite. Speichere als <strong>PDF</strong>, bevor du mailst, sonst kann das Layout beim Empfänger verrutschen.</p>"
+        },
+        {
+          "title": "Hausarbeiten: Inhaltsverzeichnis, Quellen, Zusammenarbeit",
+          "body": "<p>Nutze Überschrift 1/2 und füge über <strong>Referenzen &gt; Inhaltsverzeichnis</strong> automatisch ein Inhaltsverzeichnis hinzu. Quellen verwaltest du unter <strong>Referenzen &gt; Quellen verwalten</strong>. Arbeitest du mit anderen an derselben Datei? Speichere sie in <strong>OneDrive</strong> und teile den Link, damit ihr gleichzeitig schreiben könnt.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Erstelle einen einseitigen Lebenslauf mit einer Vorlage oder eigenem Layout und speichere ihn als PDF.</p>",
+          "practiceUrl": "https://www.office.com/launch/word"
+        }
+      ]
+    },
+    {
+      "id": "excel-genz",
+      "title": "Excel: Budget, Formeln und clevere Filter",
+      "steps": [
+        {
+          "title": "Dein eigenes Budget in einer Tabelle",
+          "body": "<p>Erstelle Spalten für Datum, Beschreibung, Kategorie und Betrag. Mit <code>=SUMMEWENN(C:C;\"Essen\";D:D)</code> addierst du alle Ausgaben einer Kategorie. So siehst du auf einen Blick, wohin dein Geld geht (und warum es immer alle ist).</p>"
+        },
+        {
+          "title": "Suchen, filtern, bedingte Formatierung",
+          "body": "<p>Setze einen <strong>Filter</strong> auf deine Tabelle (Daten &gt; Filter). Mit <strong>Start &gt; Bedingte Formatierung</strong> färbst du zum Beispiel automatisch alle Beträge über 100 € rot. Mit <code>Strg+T</code> machst du aus deinem Bereich eine echte Tabelle, die von selbst mitwächst.</p>"
+        },
+        {
+          "title": "Pivot-Tabellen und Diagramme",
+          "body": "<p>Eine <strong>PivotTable</strong> (Einfügen &gt; PivotTable) fasst Hunderte Zeilen in einer übersichtlichen Tabelle zusammen: Ziehe 'Kategorie' nach Zeilen und 'Betrag' nach Werte. Füge ein <strong>Diagramm</strong> für eine Präsentation oder Hausarbeit hinzu.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Erstelle eine Budgettabelle mit mindestens zehn Ausgaben, addiere pro Kategorie mit SUMMEWENN und färbe Beträge über 50 € rot.</p>",
+          "practiceUrl": "https://www.office.com/launch/excel"
+        }
+      ]
+    },
+    {
+      "id": "powerpoint-genz",
+      "title": "PowerPoint: Präsentationen für Schule und Job",
+      "steps": [
+        {
+          "title": "Gestalten, ohne dass es langweilig aussieht",
+          "body": "<p>Klicke auf <strong>Entwurf &gt; Designer</strong> für automatische Vorschläge. Wenig Text, große Bilder, höchstens zwei Schriftarten. Nutze <strong>Einfügen &gt; Symbole</strong> für Icons statt Clipart.</p>"
+        },
+        {
+          "title": "Animationen und Übergänge: weniger ist mehr",
+          "body": "<p>Ein dezenter Übergang (zum Beispiel 'Verblassen') reicht. Zu viel Blitzlicht lenkt von deiner Geschichte ab. Nutze Animationen nur, um Punkte nacheinander erscheinen zu lassen.</p>"
+        },
+        {
+          "title": "Zusammenarbeiten und präsentieren",
+          "body": "<p>Teile die Präsentation über <strong>OneDrive</strong>, damit deine Gruppe gleichzeitig daran arbeiten kann. Übe mit der <strong>Referentenansicht</strong> (du siehst Notizen, das Publikum nicht). Frag bei Bedarf <strong>Copilot</strong> oder einen anderen KI-Assistenten nach einem ersten Entwurf und passe ihn dann an deine eigene Geschichte an.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Erstelle eine Präsentation mit fünf Folien für eine Schulaufgabe oder ein Praktikum, mit Designer, einem Diagramm und keiner Folie mit mehr als sechs Zeilen.</p>",
+          "practiceUrl": "https://www.office.com/launch/powerpoint"
+        }
+      ]
+    }
+  ]
+}

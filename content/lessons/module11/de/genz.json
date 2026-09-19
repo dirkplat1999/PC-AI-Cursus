@@ -1,0 +1,73 @@
+{
+  "lessons": [
+    {
+      "id": "docs-genz",
+      "title": "Google Docs: Lebenslauf, Hausarbeit und Zusammenarbeit",
+      "steps": [
+        {
+          "title": "Tastenkürzel, die dir Stunden sparen",
+          "body": "<p><code>Strg+C</code> kopieren, <code>Strg+V</code> einfügen, <code>Strg+Z</code> rückgängig, <code>Strg+B</code> fett. Bonus: <code>Strg+Alt+M</code> fügt einen Kommentar hinzu und <code>Strg+/</code> zeigt alle Tastenkürzel. Auf einem Mac nimmst du <code>Cmd</code>.</p>"
+        },
+        {
+          "title": "Ein Lebenslauf, der sauber aussieht",
+          "body": "<p>Wähle in der <strong>Vorlagengalerie</strong> eine Lebenslauf-Vorlage oder halte es einfach: eine Schriftart, klare Überschriften über Formatvorlagen, eine Seite. Lade als <strong>PDF</strong> herunter (Datei &gt; Herunterladen), bevor du ihn verschickst.</p>"
+        },
+        {
+          "title": "Gemeinsam an einer Hausarbeit",
+          "body": "<p>Gib das Dokument für deine Gruppe frei (<strong>Freigeben</strong>), stelle 'Bearbeiter' ein und schreibt gleichzeitig. Nutze <strong>Vorschlagen</strong> (statt Bearbeiten, oben rechts), um Änderungen vorzuschlagen, ohne etwas zu überschreiben. Über <strong>Tools &gt; Erkunden</strong> findest du Quellen und zitierst sie direkt.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Erstelle einen einseitigen Lebenslauf mit einer Vorlage und lade ihn als PDF herunter.</p>",
+          "practiceUrl": "https://docs.google.com"
+        }
+      ]
+    },
+    {
+      "id": "sheets-genz",
+      "title": "Google Tabellen: Budget, Formeln und Filter",
+      "steps": [
+        {
+          "title": "Dein eigenes Budget in einer Tabelle",
+          "body": "<p>Erstelle Spalten für Datum, Beschreibung, Kategorie und Betrag. Mit <code>=SUMMEWENN(C:C;\"Essen\";D:D)</code> addierst du alle Ausgaben einer Kategorie. So siehst du sofort, wohin dein Geld geht.</p>"
+        },
+        {
+          "title": "Bedingte Formatierung und Filter",
+          "body": "<p>Wähle <strong>Format &gt; Bedingte Formatierung</strong>, um zum Beispiel Beträge über 100 € automatisch rot zu färben. Setze mit <strong>Daten &gt; Filter erstellen</strong> einen Filter auf deine Tabelle. Schneller nachschlagen: <code>=SVERWEIS</code> und <code>=XVERWEIS</code>.</p>"
+        },
+        {
+          "title": "Pivot-Tabellen und clevere Hilfe",
+          "body": "<p>Eine <strong>Pivot-Tabelle</strong> (Einfügen &gt; Pivot-Tabelle) fasst Hunderte Zeilen zusammen: Ziehe 'Kategorie' nach Zeilen und 'Betrag' nach Werte. Mit der <strong>Gemini</strong>-Schaltfläche in Tabellen kannst du in normaler Sprache nach einer Formel oder Zusammenfassung fragen. Prüfe das Ergebnis immer selbst.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Erstelle eine Budgettabelle mit mindestens zehn Ausgaben, addiere pro Kategorie mit SUMMEWENN und färbe Beträge über 50 € rot.</p>",
+          "practiceUrl": "https://sheets.google.com"
+        }
+      ]
+    },
+    {
+      "id": "slides-genz",
+      "title": "Google Präsentationen: für Schule und Job",
+      "steps": [
+        {
+          "title": "Gestalten, ohne dass es langweilig wird",
+          "body": "<p>Wenig Text, große Bilder, höchstens zwei Schriftarten. Wähle ein Design über <strong>Folie &gt; Design ändern</strong> und nutze <strong>Einfügen &gt; Bild &gt; Im Web suchen</strong> für lizenzfreie Fotos. Kopiere keine Bilder ohne Erlaubnis.</p>"
+        },
+        {
+          "title": "Übergänge: weniger ist mehr",
+          "body": "<p>Ein dezenter Übergang (zum Beispiel 'Verblassen') reicht. Nutze Animationen nur, um Punkte nacheinander erscheinen zu lassen: <strong>Einfügen &gt; Animation</strong>.</p>"
+        },
+        {
+          "title": "Zusammenarbeiten und präsentieren",
+          "body": "<p>Gib die Präsentation frei, damit deine Gruppe gleichzeitig arbeiten kann. Übe in der <strong>Referentenansicht</strong> (du siehst Notizen, das Publikum nicht). Frag bei Bedarf <strong>Gemini</strong> nach einem ersten Entwurf und passe ihn an deine eigene Geschichte an.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Erstelle eine Präsentation mit fünf Folien für eine Schulaufgabe oder ein Praktikum, mit einem Diagramm und keiner Folie mit mehr als sechs Zeilen.</p>",
+          "practiceUrl": "https://slides.google.com"
+        }
+      ]
+    }
+  ]
+}

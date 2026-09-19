@@ -1,0 +1,73 @@
+{
+  "lessons": [
+    {
+      "id": "docs-genz",
+      "title": "Google Docs: résumé, assignments and collaborating",
+      "steps": [
+        {
+          "title": "Shortcuts that save you hours",
+          "body": "<p><code>Ctrl+C</code> copy, <code>Ctrl+V</code> paste, <code>Ctrl+Z</code> undo, <code>Ctrl+B</code> bold. Bonus: <code>Ctrl+Alt+M</code> adds a comment and <code>Ctrl+/</code> shows all shortcuts. On a Mac use <code>Cmd</code>.</p>"
+        },
+        {
+          "title": "A résumé that looks sharp",
+          "body": "<p>Pick a résumé template in the <strong>Template gallery</strong> or keep it simple: one font, clear headings via Styles, one page. Download as a <strong>PDF</strong> (File &gt; Download) before sending it.</p>"
+        },
+        {
+          "title": "Working on an assignment together",
+          "body": "<p>Share the document with your group (<strong>Share</strong>), set it to 'Editor' and type at the same time. Use <strong>Suggesting</strong> (instead of Editing, top right) to propose changes without overwriting anything. Via <strong>Tools &gt; Explore</strong> you can find sources and cite them directly.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Make a one-page résumé with a template and download it as a PDF.</p>",
+          "practiceUrl": "https://docs.google.com"
+        }
+      ]
+    },
+    {
+      "id": "sheets-genz",
+      "title": "Google Sheets: budget, formulas and filters",
+      "steps": [
+        {
+          "title": "Your own budget in a sheet",
+          "body": "<p>Make columns for Date, Description, Category and Amount. With <code>=SUMIF(C:C,\"Food\",D:D)</code> you add up all spending in one category. That way you immediately see where your money goes.</p>"
+        },
+        {
+          "title": "Conditional formatting and filters",
+          "body": "<p>Choose <strong>Format &gt; Conditional formatting</strong> to, for example, automatically color amounts over €100 red. Put a filter on your table with <strong>Data &gt; Create a filter</strong>. Faster lookups: <code>=VLOOKUP</code> and <code>=XLOOKUP</code>.</p>"
+        },
+        {
+          "title": "Pivot tables and smart help",
+          "body": "<p>A <strong>pivot table</strong> (Insert &gt; Pivot table) summarizes hundreds of rows: drag 'Category' to Rows and 'Amount' to Values. With the <strong>Gemini</strong> button in Sheets you can ask for a formula or summary in plain language. Always double-check the result yourself.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Make a budget sheet with at least ten expenses, add up per category with SUMIF and color amounts over €50 red.</p>",
+          "practiceUrl": "https://sheets.google.com"
+        }
+      ]
+    },
+    {
+      "id": "slides-genz",
+      "title": "Google Slides: for school and work",
+      "steps": [
+        {
+          "title": "Designing without it getting boring",
+          "body": "<p>Little text, big visuals, at most two fonts. Choose a theme via <strong>Slide &gt; Change theme</strong> and use <strong>Insert &gt; Image &gt; Search the web</strong> for royalty-free photos. Don't copy pictures without permission.</p>"
+        },
+        {
+          "title": "Transitions: less is more",
+          "body": "<p>One subtle transition (like 'Fade') is enough. Use animations only to make points appear one by one: <strong>Insert &gt; Animation</strong>.</p>"
+        },
+        {
+          "title": "Collaborating and presenting",
+          "body": "<p>Share the presentation so your group members can work at the same time. Practice in <strong>presenter view</strong> (you see notes, the audience doesn't). If you like, ask <strong>Gemini</strong> for a first draft and adapt it to your own story.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Make a five-slide presentation for a school assignment or internship, with one chart and no slide with more than six lines.</p>",
+          "practiceUrl": "https://slides.google.com"
+        }
+      ]
+    }
+  ]
+}

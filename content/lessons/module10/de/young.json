@@ -1,0 +1,73 @@
+{
+  "lessons": [
+    {
+      "id": "word-praktisch",
+      "title": "Word: professionelle Dokumente",
+      "steps": [
+        {
+          "title": "Formatvorlagen statt loser Formatierung",
+          "body": "<p>Mache Überschriften nicht von Hand größer und fetter, sondern nutze <strong>Formatvorlagen</strong> (Registerkarte 'Start'): Überschrift 1, Überschrift 2, Standard. So sieht dein Dokument überall gleich aus, und du kannst später alle Überschriften mit einem Klick ändern.</p>"
+        },
+        {
+          "title": "Listen, Tabellen und Ränder",
+          "body": "<p>Nutze Aufzählungszeichen für Listen und <strong>Einfügen &gt; Tabelle</strong> für Übersichten (zum Beispiel ein Angebot). Unter <strong>Layout</strong> stellst du Ränder und Ausrichtung ein. Füge über <strong>Einfügen &gt; Seitenzahl</strong> bei längeren Texten Seitenzahlen hinzu.</p>"
+        },
+        {
+          "title": "Vorlagen, Prüfung und PDF",
+          "body": "<p>Fange nicht jedes Mal mit einem leeren Blatt an: Wähle unter 'Neu' eine <strong>Vorlage</strong> für Brief, Lebenslauf oder Rechnung. Lass die Rechtschreibprüfung (F7) mitlaufen. Schickst du das Dokument an jemand anderen? Speichere es als <strong>PDF</strong> (Datei &gt; Speichern unter), dann bleibt das Layout erhalten.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Erstelle ein kurzes Angebot oder einen Brief mit Überschrift 1, einer Tabelle mit drei Zeilen und Seitenzahlen, und speichere es auch als PDF.</p>",
+          "practiceUrl": "https://www.office.com/launch/word"
+        }
+      ]
+    },
+    {
+      "id": "excel-praktisch",
+      "title": "Excel: Formeln und Übersichten",
+      "steps": [
+        {
+          "title": "Formeln verwenden",
+          "body": "<p>Eine Formel beginnt immer mit <strong>=</strong>. Beispiele: <code>=SUMME(B2:B10)</code> addiert, <code>=MITTELWERT(B2:B10)</code> ergibt den Durchschnitt, und <code>=B2*C2</code> multipliziert zwei Zellen. Verweise auf Zellen, statt Zahlen zu tippen: Ändert sich eine Zahl, rechnet Excel von selbst neu.</p>"
+        },
+        {
+          "title": "Sortieren, filtern und fixierte Überschriften",
+          "body": "<p>Markiere deine Tabelle und wähle <strong>Daten &gt; Filter</strong>, um zu sortieren und zu filtern (zum Beispiel alle Ausgaben über 50 €). Mit <strong>Ansicht &gt; Fenster fixieren</strong> bleibt deine oberste Zeile beim Scrollen sichtbar.</p>"
+        },
+        {
+          "title": "Ein Diagramm erstellen",
+          "body": "<p>Markiere deine Daten und wähle <strong>Einfügen &gt; Diagramm</strong>. Ein Balkendiagramm eignet sich gut zum Vergleichen (Ausgaben pro Monat), ein Kreisdiagramm zum Aufteilen (wohin geht mein Geld). Gib dem Diagramm einen klaren Titel.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Erstelle ein Haushaltsbudget für drei Monate, berechne Summen und Durchschnitt mit Formeln und füge ein Diagramm hinzu.</p>",
+          "practiceUrl": "https://www.office.com/launch/excel"
+        }
+      ]
+    },
+    {
+      "id": "powerpoint-praktisch",
+      "title": "PowerPoint: eine Präsentation, die hängen bleibt",
+      "steps": [
+        {
+          "title": "Eine Botschaft pro Folie",
+          "body": "<p>Setze auf jede Folie <strong>einen</strong> Punkt, mit kurzem Text und lieber einem Bild als einer Textwand. Eine gute Regel: nicht mehr als sechs Zeilen pro Folie. Lies deine Folien nicht wörtlich vor, sondern erzähle etwas dazu.</p>"
+        },
+        {
+          "title": "Design und Layout",
+          "body": "<p>Wähle unter <strong>Entwurf</strong> ein Design und bleibe dabei: dieselben Farben und Schriftarten auf allen Folien. Nutze die eingebauten <strong>Layouts</strong> (Start &gt; Layout), statt selbst Textfelder zu verschieben. Füge ein <strong>Diagramm oder Foto</strong> hinzu, wo es hilft.</p>"
+        },
+        {
+          "title": "Sicher präsentieren",
+          "body": "<p>Nutze die <strong>Notizen</strong> unter deiner Folie für deine Stichpunkte und übe einmal laut. Mit <strong>Präsentieren</strong> (F5) siehst du die Folien im Vollbild; in einer Videokonferenz kannst du deinen Bildschirm teilen. Speichere eine Kopie als PDF, um sie danach zu teilen.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Erstelle eine Präsentation mit fünf Folien für eine Arbeitsbesprechung oder Nachbarschaftsversammlung, mit einem Design, einem Diagramm und Notizen zu jeder Folie.</p>",
+          "practiceUrl": "https://www.office.com/launch/powerpoint"
+        }
+      ]
+    }
+  ]
+}

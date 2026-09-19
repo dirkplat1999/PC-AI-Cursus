@@ -1,0 +1,73 @@
+{
+  "lessons": [
+    {
+      "id": "word-praktisch",
+      "title": "Word: professional documents",
+      "steps": [
+        {
+          "title": "Styles instead of loose formatting",
+          "body": "<p>Don't make headings bigger and bolder by hand — use <strong>Styles</strong> (the 'Home' tab): Heading 1, Heading 2, Normal. That way your document looks consistent everywhere, and you can change all headings with one click later.</p>"
+        },
+        {
+          "title": "Lists, tables and margins",
+          "body": "<p>Use bullet points for lists and <strong>Insert &gt; Table</strong> for overviews (like a quote). Under <strong>Layout</strong> you set margins and orientation. Add page numbers via <strong>Insert &gt; Page Number</strong> for longer documents.</p>"
+        },
+        {
+          "title": "Templates, checking and PDF",
+          "body": "<p>Don't start from a blank page every time: under 'New' choose a <strong>template</strong> for a letter, résumé or invoice. Let the spell checker (F7) run. Sending the document to someone else? Save it as a <strong>PDF</strong> (File &gt; Save as) so the layout stays intact.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Make a short quote or letter with a Heading 1, a table with three rows and page numbers, and also save it as a PDF.</p>",
+          "practiceUrl": "https://www.office.com/launch/word"
+        }
+      ]
+    },
+    {
+      "id": "excel-praktisch",
+      "title": "Excel: formulas and overviews",
+      "steps": [
+        {
+          "title": "Using formulas",
+          "body": "<p>A formula always starts with <strong>=</strong>. Examples: <code>=SUM(B2:B10)</code> adds up, <code>=AVERAGE(B2:B10)</code> gives the average, and <code>=B2*C2</code> multiplies two cells. Refer to cells instead of typing numbers: if a number changes, Excel recalculates by itself.</p>"
+        },
+        {
+          "title": "Sorting, filtering and frozen headers",
+          "body": "<p>Select your table and choose <strong>Data &gt; Filter</strong> to sort and filter (for example all expenses above €50). With <strong>View &gt; Freeze Panes</strong> your top row stays visible while scrolling.</p>"
+        },
+        {
+          "title": "Making a chart",
+          "body": "<p>Select your data and choose <strong>Insert &gt; Chart</strong>. A bar chart works well for comparing (spending per month), a pie chart for splitting up (where does my money go). Give the chart a clear title.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Make a household budget for three months, calculate totals and the average with formulas, and add a chart.</p>",
+          "practiceUrl": "https://www.office.com/launch/excel"
+        }
+      ]
+    },
+    {
+      "id": "powerpoint-praktisch",
+      "title": "PowerPoint: a presentation that sticks",
+      "steps": [
+        {
+          "title": "One message per slide",
+          "body": "<p>Put <strong>one</strong> point on each slide, with short text and preferably an image rather than a wall of text. A good rule: no more than six lines per slide. Don't read your slides out word for word — add something to them.</p>"
+        },
+        {
+          "title": "Design and layout",
+          "body": "<p>Choose a theme under <strong>Design</strong> and stick to it: the same colors and fonts on all slides. Use the built-in <strong>layouts</strong> (Home &gt; Layout) instead of dragging text boxes around yourself. Add a <strong>chart or photo</strong> where it helps.</p>"
+        },
+        {
+          "title": "Presenting with confidence",
+          "body": "<p>Use the <strong>notes</strong> under your slide for your talking points, and practice once out loud. With <strong>Present</strong> (F5) you see the slides full screen; during a video meeting you can share your screen. Save a copy as a PDF to share afterwards.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Make a five-slide presentation for a work meeting or neighborhood meeting, with a theme, one chart and notes on every slide.</p>",
+          "practiceUrl": "https://www.office.com/launch/powerpoint"
+        }
+      ]
+    }
+  ]
+}

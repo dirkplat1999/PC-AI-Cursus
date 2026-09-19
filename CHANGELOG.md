@@ -2,6 +2,15 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [3.8.0] - 2026-09-19
+
+### Toegevoegd
+- Twee nieuwe modules over kantoorprogramma's, elk met drie lessen (tekstverwerker, spreadsheet, presentatie), voor alle drie de niveaus en in het Nederlands, Engels en Duits (18 lesbestanden):
+  - **Module 10 — Word, Excel & PowerPoint** (Microsoft Office, via office.com in de browser of op de pc)
+  - **Module 11 — Google Documenten, Spreadsheets & Presentaties** (gratis in de browser)
+  De keuze tussen beide varianten maak je bij het toewijzen van modules aan een cursist: geef de variant die bij hun pc past (of allebei). Niveau 1 is rustig stap-voor-stap, niveau 2 gaat over praktische documenten, formules en samenwerken, niveau 3 over sneltoetsen, cv, budget-sheets, draaitabellen en presenteren voor school/werk (inclusief AI-hulp zoals Copilot/Gemini).
+- Twee nieuwe pictogrammen (document en tabel) voor de moduletegels.
+
 ## [3.7.4] - 2026-09-17
 
 ### Beveiliging

@@ -55,7 +55,7 @@ Heeft een cursist een e-mailadres bij een herkende provider (Gmail, Outlook/Hotm
 - `views/` — EJS-templates (pagina's).
 - `public/` — CSS, client-side JavaScript, service worker (offline-ondersteuning).
 - `content/modules.json` — de 9 cursusmodules (titel/omschrijving in NL/EN/DE): modules 1-5 vormen avond 1, modules 6-9 een optionele vervolgavond.
-- `content/lessons/<module>/<taal>/<leeftijdsgroep>.json` — lesinhoud per module, taal én leeftijdsgroep (`senior` = 50+, `young` = jonger dan 50). Alle 9 modules zijn volledig uitgewerkt voor beide leeftijdsgroepen, in het Nederlands, Engels en Duits (54 bestanden).
+- `content/lessons/<module>/<taal>/<leeftijdsgroep>.json` — lesinhoud per module, taal én leeftijdsgroep (`senior` = niveau 1 (50+), `young` = niveau 2 (30-49), `genz` = niveau 3 (jonger dan 30)). Alle 11 modules zijn volledig uitgewerkt voor alle drie de niveaus, in het Nederlands, Engels en Duits (99 bestanden). Module 10 (Word/Excel/PowerPoint) en module 11 (Google Documenten/Spreadsheets/Presentaties) dekken dezelfde vaardigheden; wijs de cursist de variant toe die bij zijn/haar pc past.
 - `content/glossary/<taal>.json` — digitale woordenlijst per taal.
 - `content/ui/<taal>.json` — vertaling van de interface-teksten (knoppen, labels).
 

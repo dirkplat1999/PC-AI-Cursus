@@ -1,0 +1,73 @@
+{
+  "lessons": [
+    {
+      "id": "word-genz",
+      "title": "Word: résumé, assignments and shortcuts",
+      "steps": [
+        {
+          "title": "Shortcuts that save you hours",
+          "body": "<p><code>Ctrl+C</code> copy, <code>Ctrl+V</code> paste, <code>Ctrl+Z</code> undo, <code>Ctrl+S</code> save, <code>Ctrl+B</code> bold. Know these five by heart and you work twice as fast. On a Mac use <code>Cmd</code> instead of <code>Ctrl</code>.</p>"
+        },
+        {
+          "title": "A résumé that looks sharp",
+          "body": "<p>Use a <strong>template</strong> (New &gt; search 'resume') or make a simple layout yourself: one font, clear headings via <strong>Styles</strong>, and no more than one page. Save as a <strong>PDF</strong> before emailing, otherwise your layout can shift on the recipient's end.</p>"
+        },
+        {
+          "title": "Assignments: table of contents, sources, collaboration",
+          "body": "<p>Use Heading 1/2 and add a table of contents automatically via <strong>References &gt; Table of Contents</strong>. Manage sources under <strong>References &gt; Manage Sources</strong>. Working with others on the same file? Save it in <strong>OneDrive</strong> and share the link so you can type at the same time.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Make a one-page résumé using a template or your own layout and save it as a PDF.</p>",
+          "practiceUrl": "https://www.office.com/launch/word"
+        }
+      ]
+    },
+    {
+      "id": "excel-genz",
+      "title": "Excel: budget, formulas and smart filters",
+      "steps": [
+        {
+          "title": "Your own budget in a sheet",
+          "body": "<p>Make columns for Date, Description, Category and Amount. With <code>=SUMIF(C:C,\"Food\",D:D)</code> you add up all spending in one category. That way you see at a glance where your money goes (and why it's always gone).</p>"
+        },
+        {
+          "title": "Searching, filtering, conditional formatting",
+          "body": "<p>Put a <strong>filter</strong> on your table (Data &gt; Filter). With <strong>Home &gt; Conditional Formatting</strong> you can, for example, automatically color all amounts over €100 red. With <code>Ctrl+T</code> you turn your range into a real table that grows by itself.</p>"
+        },
+        {
+          "title": "Pivot tables and charts",
+          "body": "<p>A <strong>pivot table</strong> (Insert &gt; PivotTable) summarizes hundreds of rows in a tidy table: drag 'Category' to Rows and 'Amount' to Values. Add a <strong>chart</strong> for a presentation or assignment.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Make a budget sheet with at least ten expenses, add up per category with SUMIF and color amounts over €50 red.</p>",
+          "practiceUrl": "https://www.office.com/launch/excel"
+        }
+      ]
+    },
+    {
+      "id": "powerpoint-genz",
+      "title": "PowerPoint: presentations for school and work",
+      "steps": [
+        {
+          "title": "Designing without it looking boring",
+          "body": "<p>Click <strong>Design &gt; Designer</strong> for automatic suggestions. Little text, big visuals, at most two fonts. Use <strong>Insert &gt; Icons</strong> for icons instead of clip art.</p>"
+        },
+        {
+          "title": "Animations and transitions: less is more",
+          "body": "<p>One subtle transition (like 'Fade') is enough. Too much flash distracts from your story. Use animations only to make points appear one by one.</p>"
+        },
+        {
+          "title": "Collaborating and presenting",
+          "body": "<p>Share the presentation via <strong>OneDrive</strong> so your group members can work in it at the same time. Practice with <strong>Presenter View</strong> (you see notes, the audience doesn't). If you like, ask <strong>Copilot</strong> or another AI assistant for a first draft, then adapt it to your own story.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Make a five-slide presentation for a school assignment or internship, using Designer, one chart and no slide with more than six lines.</p>",
+          "practiceUrl": "https://www.office.com/launch/powerpoint"
+        }
+      ]
+    }
+  ]
+}

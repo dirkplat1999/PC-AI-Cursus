@@ -1,0 +1,81 @@
+{
+  "lessons": [
+    {
+      "id": "word-basis",
+      "title": "Word: een brief typen",
+      "steps": [
+        {
+          "title": "Wat is Word?",
+          "body": "<p><strong>Word</strong> is een programma om teksten te typen, zoals een brief, een uitnodiging of een boodschappenlijst. Je kunt Word op de computer hebben, of gratis gebruiken in je browser via <strong>office.com</strong> (daarvoor heb je wel een Microsoft-account nodig).</p>"
+        },
+        {
+          "title": "Een nieuw document openen en typen",
+          "body": "<p>Kies <strong>'Leeg document'</strong>. Je ziet een wit vel papier met een knipperend streepje: dat is de plek waar je typt. Druk op <strong>Enter</strong> voor een nieuwe regel. Maak je een fout? Druk op <strong>Backspace</strong> (de toets met het pijltje naar links, rechtsboven op je toetsenbord).</p>"
+        },
+        {
+          "title": "Letters groter of dikker maken",
+          "body": "<p>Selecteer eerst de tekst: houd de linkermuisknop ingedrukt en sleep over de woorden. Bovenin vind je de knoppen: <strong>B</strong> maakt de tekst <strong>vet</strong>, en met het getal (bijvoorbeeld 11) maak je de letters groter of kleiner.</p>"
+        },
+        {
+          "title": "Opslaan en afdrukken",
+          "body": "<p>Klik op het <strong>diskette-icoontje</strong> (of op 'Bestand' &gt; 'Opslaan') en geef je document een naam, bijvoorbeeld 'Brief aan de gemeente'. Wil je het op papier? Kies 'Bestand' &gt; 'Afdrukken'. Sla je werk tussendoor regelmatig op, dan raak je niets kwijt.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Open Word, typ een korte brief van drie regels, maak de eerste regel vet en sla het document op.</p>",
+          "practiceUrl": "https://www.office.com/launch/word"
+        }
+      ]
+    },
+    {
+      "id": "excel-basis",
+      "title": "Excel: rekenen in vakjes",
+      "steps": [
+        {
+          "title": "Wat is Excel?",
+          "body": "<p><strong>Excel</strong> is een groot rooster van vakjes (<strong>cellen</strong>). Je gebruikt het om lijstjes bij te houden en om te rekenen, bijvoorbeeld een overzicht van je uitgaven per maand. Excel rekent voor je uit, zodat je het niet met de hand hoeft te doen.</p>"
+        },
+        {
+          "title": "Getallen en tekst invullen",
+          "body": "<p>Klik op een vakje en typ er iets in, bijvoorbeeld 'Boodschappen' in het eerste vakje en '45' in het vakje ernaast. Druk op <strong>Enter</strong> om naar het volgende vakje eronder te gaan, of op de <strong>Tab</strong>-toets om naar rechts te gaan.</p>"
+        },
+        {
+          "title": "Getallen optellen",
+          "body": "<p>Zet een rijtje getallen onder elkaar. Klik in het vakje eronder en klik bovenin op de knop met de <strong>Σ</strong> (dat heet 'AutoSom'). Druk op Enter, en Excel telt het rijtje automatisch voor je op.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Maak een lijstje van vijf uitgaven met een bedrag erachter en laat Excel het totaal uitrekenen.</p>",
+          "practiceUrl": "https://www.office.com/launch/excel"
+        }
+      ]
+    },
+    {
+      "id": "powerpoint-basis",
+      "title": "PowerPoint: een presentatie maken",
+      "steps": [
+        {
+          "title": "Wat is PowerPoint?",
+          "body": "<p><strong>PowerPoint</strong> maakt een presentatie: een reeks <strong>dia's</strong> (schermen) met tekst en plaatjes, die je kunt laten zien op een scherm of beamer. Handig voor een verjaardag, een fotoverhaal of een praatje voor je vereniging.</p>"
+        },
+        {
+          "title": "Een dia toevoegen en tekst typen",
+          "body": "<p>Kies een leeg ontwerp. De eerste dia heeft een <strong>titel</strong>: klik erin en typ. Voor een nieuwe dia klik je op <strong>'Nieuwe dia'</strong>. Houd de tekst kort: liever een paar woorden dan hele zinnen.</p>"
+        },
+        {
+          "title": "Een foto toevoegen",
+          "body": "<p>Klik op <strong>'Invoegen'</strong> &gt; <strong>'Afbeeldingen'</strong> en kies een foto van je computer. Sleep de foto naar de plek die je mooi vindt. Met de hoekjes maak je 'm groter of kleiner.</p>"
+        },
+        {
+          "title": "De presentatie laten zien",
+          "body": "<p>Klik op <strong>'Diavoorstelling'</strong> (of druk op F5) om je dia's schermvullend te zien. Met de pijltjestoetsen ga je naar de volgende dia, met <strong>Esc</strong> stop je.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Maak een presentatie van drie dia's over je hobby, met minstens één foto, en bekijk 'm als diavoorstelling.</p>",
+          "practiceUrl": "https://www.office.com/launch/powerpoint"
+        }
+      ]
+    }
+  ]
+}

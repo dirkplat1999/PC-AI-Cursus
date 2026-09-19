@@ -1,0 +1,73 @@
+{
+  "lessons": [
+    {
+      "id": "docs-praktisch",
+      "title": "Google Docs: gemeinsam und professionell",
+      "steps": [
+        {
+          "title": "Formatvorlagen und Struktur",
+          "body": "<p>Nutze statt loser Formatierung die <strong>Formatvorlagen</strong> (das Menü 'Normaler Text' oben): Überschrift 1, Überschrift 2, Titel. Über <strong>Einfügen &gt; Inhaltsverzeichnis</strong> erstellst du automatisch ein Inhaltsverzeichnis aus deinen Überschriften. So bleibt ein längeres Dokument übersichtlich.</p>"
+        },
+        {
+          "title": "Gemeinsam an einem Dokument arbeiten",
+          "body": "<p>Klicke auf <strong>Freigeben</strong> und gib E-Mail-Adressen ein. Wähle 'Bearbeiter', 'Kommentator' oder 'Betrachter'. Alle sehen Änderungen live. Mit <strong>Kommentaren</strong> (Rechtsklick auf Text) gibst du Feedback, und über <strong>Datei &gt; Versionsverlauf</strong> stellst du ältere Versionen wieder her.</p>"
+        },
+        {
+          "title": "Vorlagen, Prüfung und PDF",
+          "body": "<p>Wähle über die <strong>Vorlagengalerie</strong> eine fertige Vorlage für Brief, Lebenslauf oder Protokoll. Die Rechtschreibprüfung findest du unter <strong>Tools</strong>. Als Anhang mailen? <strong>Datei &gt; Herunterladen &gt; PDF-Dokument</strong>.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Erstelle ein Dokument mit einer Überschrift 1, einer Tabelle und einem Inhaltsverzeichnis, gib es für jemanden frei und bitte um einen Kommentar.</p>",
+          "practiceUrl": "https://docs.google.com"
+        }
+      ]
+    },
+    {
+      "id": "sheets-praktisch",
+      "title": "Google Tabellen: Formeln und Übersichten",
+      "steps": [
+        {
+          "title": "Formeln verwenden",
+          "body": "<p>Eine Formel beginnt immer mit <strong>=</strong>. Beispiele: <code>=SUMME(B2:B10)</code> addiert, <code>=MITTELWERT(B2:B10)</code> ergibt den Durchschnitt und <code>=B2*C2</code> multipliziert. Verweise auf Zellen, statt Zahlen zu tippen: Ändert sich eine Zahl, rechnet Tabellen von selbst neu.</p>"
+        },
+        {
+          "title": "Filtern und den Überblick behalten",
+          "body": "<p>Wähle <strong>Daten &gt; Filter erstellen</strong>, um zu sortieren und zu filtern (zum Beispiel alle Ausgaben über 50 €). Mit <strong>Ansicht &gt; Fixieren</strong> bleibt deine oberste Zeile beim Scrollen stehen. Arbeitest du mit mehreren Tabs, gib ihnen klare Namen.</p>"
+        },
+        {
+          "title": "Ein Diagramm erstellen",
+          "body": "<p>Markiere deine Daten und wähle <strong>Einfügen &gt; Diagramm</strong>. Ein Balkendiagramm eignet sich zum Vergleichen (Ausgaben pro Monat), ein Kreisdiagramm zum Aufteilen. Tabellen schlägt selbst einen passenden Typ vor, und du passt ihn rechts an.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Erstelle ein Haushaltsbudget für drei Monate, berechne Summen und Durchschnitt mit Formeln und füge ein Diagramm hinzu.</p>",
+          "practiceUrl": "https://sheets.google.com"
+        }
+      ]
+    },
+    {
+      "id": "slides-praktisch",
+      "title": "Google Präsentationen: eine Präsentation, die hängen bleibt",
+      "steps": [
+        {
+          "title": "Eine Botschaft pro Folie",
+          "body": "<p>Setze auf jede Folie <strong>einen</strong> Punkt, mit kurzem Text und lieber einem Bild als einer Textwand. Nicht mehr als sechs Zeilen pro Folie. Lies deine Folien nicht wörtlich vor, sondern erzähle etwas dazu.</p>"
+        },
+        {
+          "title": "Design und Layout",
+          "body": "<p>Wähle über <strong>Folie &gt; Design ändern</strong> ein Design und bleibe dabei: dieselben Farben und Schriftarten. Nutze <strong>Folie &gt; Layout anwenden</strong> für feste Formate. Füge ein Diagramm aus Tabellen über <strong>Einfügen &gt; Diagramm &gt; Aus Tabellen</strong> hinzu.</p>"
+        },
+        {
+          "title": "Präsentieren und teilen",
+          "body": "<p>Schreibe deine Geschichte in die <strong>Sprechernotizen</strong> unter deiner Folie. Mit <strong>Präsentieren</strong> zeigst du die Folien; mit <strong>Freigeben</strong> können Kollegen mitarbeiten. In einer Videokonferenz teilst du deinen Bildschirm oder präsentierst direkt in Google Meet.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Erstelle eine Präsentation mit fünf Folien für eine Arbeitsbesprechung oder Nachbarschaftsversammlung, mit einem Design, einem Diagramm und Notizen zu jeder Folie.</p>",
+          "practiceUrl": "https://slides.google.com"
+        }
+      ]
+    }
+  ]
+}

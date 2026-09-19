@@ -1,0 +1,73 @@
+{
+  "lessons": [
+    {
+      "id": "docs-basis",
+      "title": "Google Documenten: een brief typen",
+      "steps": [
+        {
+          "title": "Wat is Google Documenten?",
+          "body": "<p><strong>Google Documenten</strong> werkt zoals Word, maar dan gratis in je browser. Je hebt een <strong>Google-account</strong> nodig (bijvoorbeeld een Gmail-adres). Ga naar <strong>docs.google.com</strong> en kies 'Leeg document'.</p>"
+        },
+        {
+          "title": "Typen en opmaken",
+          "body": "<p>Klik op het witte vel en typ. Wil je woorden <strong>vet</strong> of groter maken? Selecteer ze eerst met de muis en klik dan op de <strong>B</strong> of op het getal bovenin (bijvoorbeeld 11) om de grootte te veranderen. Fout gemaakt? Druk op <strong>Backspace</strong>.</p>"
+        },
+        {
+          "title": "Opslaan doet Google zelf",
+          "body": "<p>Je hoeft niet zelf op 'Opslaan' te klikken: Google bewaart je werk <strong>automatisch</strong> in je Google Drive. Bovenin staat je documentnaam; klik erop en typ een duidelijke naam. Wil je het op papier? Kies <strong>Bestand &gt; Afdrukken</strong>.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Maak een nieuw document, typ een korte brief van drie regels, maak de eerste regel vet en geef het document een naam.</p>",
+          "practiceUrl": "https://docs.google.com"
+        }
+      ]
+    },
+    {
+      "id": "sheets-basis",
+      "title": "Google Spreadsheets: rekenen in vakjes",
+      "steps": [
+        {
+          "title": "Wat is Google Spreadsheets?",
+          "body": "<p><strong>Google Spreadsheets</strong> werkt zoals Excel: een groot rooster van vakjes (<strong>cellen</strong>) waarin je lijstjes bijhoudt en rekent, bijvoorbeeld je uitgaven per maand. Ga naar <strong>sheets.google.com</strong> en kies 'Leeg'.</p>"
+        },
+        {
+          "title": "Getallen en tekst invullen",
+          "body": "<p>Klik op een vakje en typ, bijvoorbeeld 'Boodschappen' en in het vakje ernaast '45'. Druk op <strong>Enter</strong> om naar het vakje eronder te gaan, of op <strong>Tab</strong> om naar rechts te gaan.</p>"
+        },
+        {
+          "title": "Getallen optellen",
+          "body": "<p>Zet een rijtje getallen onder elkaar. Klik in het vakje eronder, typ <code>=SOM(</code>, selecteer met de muis het rijtje getallen en druk op Enter. Google telt alles voor je op. Of klik bovenin op <strong>Σ</strong> en kies 'SOM'.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Maak een lijstje van vijf uitgaven met een bedrag erachter en laat Google Spreadsheets het totaal uitrekenen.</p>",
+          "practiceUrl": "https://sheets.google.com"
+        }
+      ]
+    },
+    {
+      "id": "slides-basis",
+      "title": "Google Presentaties: dia's maken",
+      "steps": [
+        {
+          "title": "Wat is Google Presentaties?",
+          "body": "<p><strong>Google Presentaties</strong> werkt zoals PowerPoint: een reeks <strong>dia's</strong> met tekst en foto's, om te laten zien op een scherm. Ga naar <strong>slides.google.com</strong> en kies 'Lege presentatie'.</p>"
+        },
+        {
+          "title": "Een dia vullen",
+          "body": "<p>De eerste dia heeft een titel: klik erin en typ. Voor een nieuwe dia klik je op het <strong>plusje</strong> linksboven. Houd de tekst kort: een paar woorden per regel is genoeg.</p>"
+        },
+        {
+          "title": "Een foto toevoegen en presenteren",
+          "body": "<p>Kies <strong>Invoegen &gt; Afbeelding &gt; Uploaden vanaf computer</strong> en sleep de foto naar de goede plek. Klik rechtsboven op <strong>Presenteren</strong> om je dia's schermvullend te tonen. Met de pijltjestoetsen ga je verder, met <strong>Esc</strong> stop je.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Maak een presentatie van drie dia's over je hobby, met minstens één foto, en bekijk 'm met 'Presenteren'.</p>",
+          "practiceUrl": "https://slides.google.com"
+        }
+      ]
+    }
+  ]
+}

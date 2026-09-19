@@ -1,0 +1,73 @@
+{
+  "lessons": [
+    {
+      "id": "docs-praktisch",
+      "title": "Google Docs: together and professional",
+      "steps": [
+        {
+          "title": "Styles and structure",
+          "body": "<p>Instead of loose formatting, use the <strong>Styles</strong> (the 'Normal text' menu at the top): Heading 1, Heading 2, Title. Via <strong>Insert &gt; Table of contents</strong> you automatically build a table of contents from your headings. That keeps a longer document organized.</p>"
+        },
+        {
+          "title": "Working on one document together",
+          "body": "<p>Click <strong>Share</strong> and enter email addresses. Choose 'Editor', 'Commenter' or 'Viewer'. Everyone sees changes live. With <strong>Comments</strong> (right-click on text) you give feedback, and via <strong>File &gt; Version history</strong> you restore older versions.</p>"
+        },
+        {
+          "title": "Templates, checking and PDF",
+          "body": "<p>Pick a ready-made template for a letter, résumé or meeting notes via the <strong>Template gallery</strong>. The spell check is under <strong>Tools</strong>. Want to email it as an attachment? <strong>File &gt; Download &gt; PDF Document</strong>.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Make a document with a Heading 1, a table and a table of contents, share it with someone and ask for one comment.</p>",
+          "practiceUrl": "https://docs.google.com"
+        }
+      ]
+    },
+    {
+      "id": "sheets-praktisch",
+      "title": "Google Sheets: formulas and overviews",
+      "steps": [
+        {
+          "title": "Using formulas",
+          "body": "<p>A formula always starts with <strong>=</strong>. Examples: <code>=SUM(B2:B10)</code> adds up, <code>=AVERAGE(B2:B10)</code> gives the average and <code>=B2*C2</code> multiplies. Refer to cells instead of typing numbers: if a number changes, Sheets recalculates by itself.</p>"
+        },
+        {
+          "title": "Filtering and staying organized",
+          "body": "<p>Choose <strong>Data &gt; Create a filter</strong> to sort and filter (for example all expenses above €50). With <strong>View &gt; Freeze</strong> your top row stays put while scrolling. Working with multiple tabs? Give them clear names.</p>"
+        },
+        {
+          "title": "Making a chart",
+          "body": "<p>Select your data and choose <strong>Insert &gt; Chart</strong>. A bar chart is good for comparing (spending per month), a pie chart for splitting up. Sheets suggests a suitable type itself, and you adjust it on the right.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Make a household budget for three months, calculate totals and the average with formulas and add a chart.</p>",
+          "practiceUrl": "https://sheets.google.com"
+        }
+      ]
+    },
+    {
+      "id": "slides-praktisch",
+      "title": "Google Slides: a presentation that sticks",
+      "steps": [
+        {
+          "title": "One message per slide",
+          "body": "<p>Put <strong>one</strong> point on each slide, with short text and preferably an image rather than a wall of text. No more than six lines per slide. Don't read your slides out word for word — add something to them.</p>"
+        },
+        {
+          "title": "Theme and layout",
+          "body": "<p>Choose a theme via <strong>Slide &gt; Change theme</strong> and stick to it: the same colors and fonts. Use <strong>Slide &gt; Apply layout</strong> for fixed formats. Add a chart from Sheets via <strong>Insert &gt; Chart &gt; From Sheets</strong>.</p>"
+        },
+        {
+          "title": "Presenting and sharing",
+          "body": "<p>Write your story in the <strong>speaker notes</strong> under your slide. With <strong>Present</strong> you show the slides; with <strong>Share</strong> colleagues can collaborate. During a video meeting you share your screen or present directly in Google Meet.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Make a five-slide presentation for a work meeting or neighborhood meeting, with a theme, one chart and notes on every slide.</p>",
+          "practiceUrl": "https://slides.google.com"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "lessons": [
+    {
+      "id": "word-praktisch",
+      "title": "Word: professionele documenten",
+      "steps": [
+        {
+          "title": "Stijlen in plaats van losse opmaak",
+          "body": "<p>Maak koppen niet handmatig groter en dikker, maar gebruik <strong>Stijlen</strong> (tabblad 'Start'): Kop 1, Kop 2, Standaard. Zo ziet je document er overal hetzelfde uit, en kun je later met één klik alle koppen aanpassen.</p>"
+        },
+        {
+          "title": "Lijsten, tabellen en marges",
+          "body": "<p>Gebruik opsommingstekens voor lijstjes en <strong>Invoegen &gt; Tabel</strong> voor overzichten (bijvoorbeeld een offerte). Onder <strong>Indeling</strong> stel je de marges en de afdrukstand in. Voeg via <strong>Invoegen &gt; Paginanummer</strong> paginanummers toe bij langere stukken.</p>"
+        },
+        {
+          "title": "Sjablonen, controle en pdf",
+          "body": "<p>Begin niet elke keer met een leeg vel: kies bij 'Nieuw' een <strong>sjabloon</strong> voor een brief, cv of factuur. Laat de spellingcontrole (F7) meelopen. Stuur je het document naar iemand anders? Sla het op als <strong>pdf</strong> (Bestand &gt; Opslaan als), dan blijft de opmaak intact.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Maak een korte offerte of brief met een Kop 1, een tabel met drie regels en paginanummers, en sla 'm ook op als pdf.</p>",
+          "practiceUrl": "https://www.office.com/launch/word"
+        }
+      ]
+    },
+    {
+      "id": "excel-praktisch",
+      "title": "Excel: formules en overzichten",
+      "steps": [
+        {
+          "title": "Formules gebruiken",
+          "body": "<p>Een formule begint altijd met <strong>=</strong>. Voorbeelden: <code>=SOM(B2:B10)</code> telt op, <code>=GEMIDDELDE(B2:B10)</code> geeft het gemiddelde, en <code>=B2*C2</code> vermenigvuldigt twee cellen. Verwijs naar cellen in plaats van getallen te typen: verandert een getal, dan rekent Excel vanzelf opnieuw.</p>"
+        },
+        {
+          "title": "Sorteren, filteren en vaste koppen",
+          "body": "<p>Selecteer je tabel en kies <strong>Gegevens &gt; Filter</strong> om te sorteren en te filteren (bijvoorbeeld alle uitgaven boven €50). Met <strong>Beeld &gt; Deelvensters blokkeren</strong> blijft je bovenste rij zichtbaar tijdens het scrollen.</p>"
+        },
+        {
+          "title": "Een grafiek maken",
+          "body": "<p>Selecteer je gegevens en kies <strong>Invoegen &gt; Grafiek</strong>. Een staafdiagram werkt goed voor vergelijken (uitgaven per maand), een cirkeldiagram voor verdelen (waar gaat mijn geld heen). Geef de grafiek een duidelijke titel.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Maak een huishoudbudget voor drie maanden, laat totalen en het gemiddelde uitrekenen met formules en voeg een grafiek toe.</p>",
+          "practiceUrl": "https://www.office.com/launch/excel"
+        }
+      ]
+    },
+    {
+      "id": "powerpoint-praktisch",
+      "title": "PowerPoint: een presentatie die blijft hangen",
+      "steps": [
+        {
+          "title": "Eén boodschap per dia",
+          "body": "<p>Zet op elke dia <strong>één</strong> punt, met korte tekst en liever een beeld dan een lap tekst. Een goede regel: niet meer dan zes regels per dia. Lees je dia's niet letterlijk voor, maar vertel er iets bij.</p>"
+        },
+        {
+          "title": "Ontwerp en indeling",
+          "body": "<p>Kies bij <strong>Ontwerpen</strong> een thema en blijf daarbij: dezelfde kleuren en lettertypes op alle dia's. Gebruik de ingebouwde <strong>indelingen</strong> (Start &gt; Indeling) in plaats van zelf tekstvakken te slepen. Voeg een <strong>diagram of foto</strong> toe waar dat helpt.</p>"
+        },
+        {
+          "title": "Presenteren met vertrouwen",
+          "body": "<p>Gebruik de <strong>notities</strong> onder je dia voor je verhaaltje, en oefen één keer hardop. Met <strong>Presenteren</strong> (F5) zie je de dia's schermvullend; tijdens een videovergadering kun je je scherm delen. Sla een kopie op als pdf om na afloop te delen.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Maak een presentatie van vijf dia's voor een werkoverleg of buurtvergadering, met een thema, één diagram en notities bij elke dia.</p>",
+          "practiceUrl": "https://www.office.com/launch/powerpoint"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "lessons": [
+    {
+      "id": "docs-basis",
+      "title": "Google Docs: typing a letter",
+      "steps": [
+        {
+          "title": "What is Google Docs?",
+          "body": "<p><strong>Google Docs</strong> works like Word, but free in your browser. You need a <strong>Google account</strong> (for example a Gmail address). Go to <strong>docs.google.com</strong> and choose 'Blank document'.</p>"
+        },
+        {
+          "title": "Typing and formatting",
+          "body": "<p>Click on the white sheet and type. Want to make words <strong>bold</strong> or bigger? Select them with the mouse first, then click the <strong>B</strong> or the number at the top (for example 11) to change the size. Made a mistake? Press <strong>Backspace</strong>.</p>"
+        },
+        {
+          "title": "Google saves for you",
+          "body": "<p>You don't have to click 'Save' yourself: Google keeps your work <strong>automatically</strong> in your Google Drive. At the top is your document name; click it and type a clear name. Want it on paper? Choose <strong>File &gt; Print</strong>.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Make a new document, type a short three-line letter, make the first line bold and give the document a name.</p>",
+          "practiceUrl": "https://docs.google.com"
+        }
+      ]
+    },
+    {
+      "id": "sheets-basis",
+      "title": "Google Sheets: calculating in boxes",
+      "steps": [
+        {
+          "title": "What is Google Sheets?",
+          "body": "<p><strong>Google Sheets</strong> works like Excel: a big grid of boxes (<strong>cells</strong>) where you keep lists and calculate, for example your spending per month. Go to <strong>sheets.google.com</strong> and choose 'Blank'.</p>"
+        },
+        {
+          "title": "Filling in numbers and text",
+          "body": "<p>Click a box and type, for example 'Groceries' and in the box next to it '45'. Press <strong>Enter</strong> to go to the box below, or <strong>Tab</strong> to go to the right.</p>"
+        },
+        {
+          "title": "Adding up numbers",
+          "body": "<p>Put a column of numbers under each other. Click the box below, type <code>=SUM(</code>, select the numbers with the mouse and press Enter. Google adds everything up for you. Or click <strong>Σ</strong> at the top and choose 'SUM'.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Make a list of five expenses with an amount next to each and let Google Sheets calculate the total.</p>",
+          "practiceUrl": "https://sheets.google.com"
+        }
+      ]
+    },
+    {
+      "id": "slides-basis",
+      "title": "Google Slides: making slides",
+      "steps": [
+        {
+          "title": "What is Google Slides?",
+          "body": "<p><strong>Google Slides</strong> works like PowerPoint: a series of <strong>slides</strong> with text and photos, to show on a screen. Go to <strong>slides.google.com</strong> and choose 'Blank presentation'.</p>"
+        },
+        {
+          "title": "Filling a slide",
+          "body": "<p>The first slide has a title: click in it and type. For a new slide, click the <strong>plus</strong> at the top left. Keep the text short: a few words per line is enough.</p>"
+        },
+        {
+          "title": "Adding a photo and presenting",
+          "body": "<p>Choose <strong>Insert &gt; Image &gt; Upload from computer</strong> and drag the photo to the right spot. Click <strong>Present</strong> at the top right to show your slides full screen. Use the arrow keys to continue, and <strong>Esc</strong> to stop.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Make a three-slide presentation about your hobby, with at least one photo, and view it with 'Present'.</p>",
+          "practiceUrl": "https://slides.google.com"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "lessons": [
+    {
+      "id": "word-basis",
+      "title": "Word: einen Brief schreiben",
+      "steps": [
+        {
+          "title": "Was ist Word?",
+          "body": "<p><strong>Word</strong> ist ein Programm zum Schreiben von Texten, zum Beispiel eines Briefes, einer Einladung oder einer Einkaufsliste. Du kannst Word auf dem Computer haben oder kostenlos im Browser über <strong>office.com</strong> nutzen (dafür brauchst du ein Microsoft-Konto).</p>"
+        },
+        {
+          "title": "Ein neues Dokument öffnen und schreiben",
+          "body": "<p>Wähle <strong>'Leeres Dokument'</strong>. Du siehst ein weißes Blatt Papier mit einem blinkenden Strich: Dort schreibst du. Drücke <strong>Enter</strong> für eine neue Zeile. Fehler gemacht? Drücke <strong>Rücktaste</strong> (die Taste mit dem Pfeil nach links, oben rechts auf der Tastatur).</p>"
+        },
+        {
+          "title": "Buchstaben größer oder fetter machen",
+          "body": "<p>Markiere zuerst den Text: Halte die linke Maustaste gedrückt und ziehe über die Wörter. Oben findest du die Schaltflächen: <strong>F</strong> macht den Text <strong>fett</strong>, und mit der Zahl (zum Beispiel 11) machst du die Buchstaben größer oder kleiner.</p>"
+        },
+        {
+          "title": "Speichern und drucken",
+          "body": "<p>Klicke auf das <strong>Disketten-Symbol</strong> (oder 'Datei' &gt; 'Speichern') und gib deinem Dokument einen Namen, zum Beispiel 'Brief an die Gemeinde'. Auf Papier? Wähle 'Datei' &gt; 'Drucken'. Speichere zwischendurch regelmäßig, dann geht nichts verloren.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Öffne Word, schreibe einen kurzen Brief mit drei Zeilen, mache die erste Zeile fett und speichere das Dokument.</p>",
+          "practiceUrl": "https://www.office.com/launch/word"
+        }
+      ]
+    },
+    {
+      "id": "excel-basis",
+      "title": "Excel: rechnen in Kästchen",
+      "steps": [
+        {
+          "title": "Was ist Excel?",
+          "body": "<p><strong>Excel</strong> ist ein großes Raster aus Kästchen (<strong>Zellen</strong>). Du nutzt es, um Listen zu führen und zu rechnen, zum Beispiel eine Übersicht deiner Ausgaben pro Monat. Excel rechnet für dich, damit du es nicht von Hand tun musst.</p>"
+        },
+        {
+          "title": "Zahlen und Text eintragen",
+          "body": "<p>Klicke auf ein Kästchen und tippe etwas ein, zum Beispiel 'Einkäufe' im ersten Kästchen und '45' im Kästchen daneben. Drücke <strong>Enter</strong>, um zum Kästchen darunter zu gehen, oder die <strong>Tab</strong>-Taste, um nach rechts zu gehen.</p>"
+        },
+        {
+          "title": "Zahlen addieren",
+          "body": "<p>Schreibe eine Reihe von Zahlen untereinander. Klicke in das Kästchen darunter und oben auf die Schaltfläche mit dem <strong>Σ</strong> (genannt 'AutoSumme'). Drücke Enter, und Excel addiert die Reihe automatisch für dich.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Erstelle eine Liste mit fünf Ausgaben mit je einem Betrag und lass Excel die Summe berechnen.</p>",
+          "practiceUrl": "https://www.office.com/launch/excel"
+        }
+      ]
+    },
+    {
+      "id": "powerpoint-basis",
+      "title": "PowerPoint: eine Präsentation erstellen",
+      "steps": [
+        {
+          "title": "Was ist PowerPoint?",
+          "body": "<p><strong>PowerPoint</strong> erstellt eine Präsentation: eine Reihe von <strong>Folien</strong> (Bildschirmen) mit Text und Bildern, die du auf einem Bildschirm oder Beamer zeigen kannst. Praktisch für einen Geburtstag, eine Fotogeschichte oder einen Vortrag im Verein.</p>"
+        },
+        {
+          "title": "Eine Folie hinzufügen und Text schreiben",
+          "body": "<p>Wähle ein leeres Design. Die erste Folie hat einen <strong>Titel</strong>: Klicke hinein und schreibe. Für eine neue Folie klicke auf <strong>'Neue Folie'</strong>. Halte den Text kurz: lieber ein paar Wörter als ganze Sätze.</p>"
+        },
+        {
+          "title": "Ein Foto hinzufügen",
+          "body": "<p>Klicke auf <strong>'Einfügen'</strong> &gt; <strong>'Bilder'</strong> und wähle ein Foto von deinem Computer. Ziehe das Foto an die Stelle, die dir gefällt. An den Ecken machst du es größer oder kleiner.</p>"
+        },
+        {
+          "title": "Die Präsentation zeigen",
+          "body": "<p>Klicke auf <strong>'Bildschirmpräsentation'</strong> (oder drücke F5), um deine Folien im Vollbild zu sehen. Mit den Pfeiltasten gehst du zur nächsten Folie, mit <strong>Esc</strong> beendest du.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Erstelle eine Präsentation mit drei Folien über dein Hobby, mit mindestens einem Foto, und sieh sie dir als Bildschirmpräsentation an.</p>",
+          "practiceUrl": "https://www.office.com/launch/powerpoint"
+        }
+      ]
+    }
+  ]
+}

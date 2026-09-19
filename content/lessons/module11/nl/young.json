@@ -1,0 +1,73 @@
+{
+  "lessons": [
+    {
+      "id": "docs-praktisch",
+      "title": "Google Documenten: samen en professioneel",
+      "steps": [
+        {
+          "title": "Stijlen en structuur",
+          "body": "<p>Gebruik in plaats van losse opmaak de <strong>Stijlen</strong> (het menu 'Standaardtekst' bovenin): Kop 1, Kop 2, Titel. Via <strong>Invoegen &gt; Inhoudsopgave</strong> maak je automatisch een inhoudsopgave van je koppen. Zo blijft een langer document overzichtelijk.</p>"
+        },
+        {
+          "title": "Samen aan één document werken",
+          "body": "<p>Klik op <strong>Delen</strong> en voer e-mailadressen in. Kies 'Kan bewerken', 'Kan reageren' of 'Kan bekijken'. Iedereen ziet de wijzigingen live. Met <strong>Opmerkingen</strong> (rechtermuisknop op tekst) geef je feedback, en via <strong>Bestand &gt; Versiegeschiedenis</strong> zet je oude versies terug.</p>"
+        },
+        {
+          "title": "Sjablonen, controle en pdf",
+          "body": "<p>Kies via <strong>Sjabloongalerij</strong> een kant-en-klaar sjabloon voor een brief, cv of notulen. De spellingcontrole staat onder <strong>Extra</strong>. Wil je het als bijlage mailen? <strong>Bestand &gt; Downloaden &gt; PDF-document</strong>.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Maak een document met een Kop 1, een tabel en een inhoudsopgave, deel het met iemand en vraag om één opmerking.</p>",
+          "practiceUrl": "https://docs.google.com"
+        }
+      ]
+    },
+    {
+      "id": "sheets-praktisch",
+      "title": "Google Spreadsheets: formules en overzichten",
+      "steps": [
+        {
+          "title": "Formules gebruiken",
+          "body": "<p>Een formule begint altijd met <strong>=</strong>. Voorbeelden: <code>=SOM(B2:B10)</code> telt op, <code>=GEMIDDELDE(B2:B10)</code> geeft het gemiddelde en <code>=B2*C2</code> vermenigvuldigt. Verwijs naar cellen in plaats van getallen te typen: verandert een getal, dan rekent Sheets vanzelf opnieuw.</p>"
+        },
+        {
+          "title": "Filteren en overzicht houden",
+          "body": "<p>Kies <strong>Gegevens &gt; Filter maken</strong> om te sorteren en te filteren (bijvoorbeeld alle uitgaven boven €50). Met <strong>Beeld &gt; Blokkeren</strong> blijft je bovenste rij staan tijdens het scrollen. Werk je met meerdere tabbladen, geef ze dan duidelijke namen.</p>"
+        },
+        {
+          "title": "Een grafiek maken",
+          "body": "<p>Selecteer je gegevens en kies <strong>Invoegen &gt; Grafiek</strong>. Een staafdiagram is goed om te vergelijken (uitgaven per maand), een cirkeldiagram om te verdelen. Sheets stelt zelf een geschikt type voor, en je past het rechts aan.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Maak een huishoudbudget voor drie maanden, laat totalen en gemiddelde uitrekenen met formules en voeg een grafiek toe.</p>",
+          "practiceUrl": "https://sheets.google.com"
+        }
+      ]
+    },
+    {
+      "id": "slides-praktisch",
+      "title": "Google Presentaties: een presentatie die blijft hangen",
+      "steps": [
+        {
+          "title": "Eén boodschap per dia",
+          "body": "<p>Zet op elke dia <strong>één</strong> punt, met korte tekst en liever een beeld dan een lap tekst. Niet meer dan zes regels per dia. Lees je dia's niet letterlijk voor, maar vertel er iets bij.</p>"
+        },
+        {
+          "title": "Thema en indeling",
+          "body": "<p>Kies via <strong>Dia &gt; Thema wijzigen</strong> een thema en blijf daarbij: dezelfde kleuren en lettertypes. Gebruik <strong>Dia &gt; Indeling toepassen</strong> voor vaste opmaken. Voeg een grafiek uit Sheets toe via <strong>Invoegen &gt; Grafiek &gt; Uit Spreadsheets</strong>.</p>"
+        },
+        {
+          "title": "Presenteren en delen",
+          "body": "<p>Schrijf je verhaal in de <strong>spreekstand</strong> (notities onder je dia). Met <strong>Presenteren</strong> toon je de dia's; met <strong>Delen</strong> laat je collega's meewerken. Tijdens een videovergadering deel je je scherm of presenteer je direct in Google Meet.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Maak een presentatie van vijf dia's voor een werkoverleg of buurtvergadering, met een thema, één grafiek en notities bij elke dia.</p>",
+          "practiceUrl": "https://slides.google.com"
+        }
+      ]
+    }
+  ]
+}

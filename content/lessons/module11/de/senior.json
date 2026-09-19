@@ -1,0 +1,73 @@
+{
+  "lessons": [
+    {
+      "id": "docs-basis",
+      "title": "Google Docs: einen Brief schreiben",
+      "steps": [
+        {
+          "title": "Was ist Google Docs?",
+          "body": "<p><strong>Google Docs</strong> funktioniert wie Word, aber kostenlos im Browser. Du brauchst ein <strong>Google-Konto</strong> (zum Beispiel eine Gmail-Adresse). Gehe zu <strong>docs.google.com</strong> und wähle 'Leeres Dokument'.</p>"
+        },
+        {
+          "title": "Schreiben und formatieren",
+          "body": "<p>Klicke auf das weiße Blatt und schreibe. Möchtest du Wörter <strong>fett</strong> oder größer machen? Markiere sie zuerst mit der Maus und klicke dann auf das <strong>F</strong> oder auf die Zahl oben (zum Beispiel 11), um die Größe zu ändern. Fehler gemacht? Drücke <strong>Rücktaste</strong>.</p>"
+        },
+        {
+          "title": "Speichern macht Google selbst",
+          "body": "<p>Du musst nicht selbst auf 'Speichern' klicken: Google bewahrt deine Arbeit <strong>automatisch</strong> in deinem Google Drive auf. Oben steht dein Dokumentname; klicke darauf und gib einen klaren Namen ein. Auf Papier? Wähle <strong>Datei &gt; Drucken</strong>.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Erstelle ein neues Dokument, schreibe einen kurzen Brief mit drei Zeilen, mache die erste Zeile fett und gib dem Dokument einen Namen.</p>",
+          "practiceUrl": "https://docs.google.com"
+        }
+      ]
+    },
+    {
+      "id": "sheets-basis",
+      "title": "Google Tabellen: rechnen in Kästchen",
+      "steps": [
+        {
+          "title": "Was ist Google Tabellen?",
+          "body": "<p><strong>Google Tabellen</strong> funktioniert wie Excel: ein großes Raster aus Kästchen (<strong>Zellen</strong>), in dem du Listen führst und rechnest, zum Beispiel deine Ausgaben pro Monat. Gehe zu <strong>sheets.google.com</strong> und wähle 'Leer'.</p>"
+        },
+        {
+          "title": "Zahlen und Text eintragen",
+          "body": "<p>Klicke auf ein Kästchen und tippe, zum Beispiel 'Einkäufe' und im Kästchen daneben '45'. Drücke <strong>Enter</strong>, um zum Kästchen darunter zu gehen, oder <strong>Tab</strong>, um nach rechts zu gehen.</p>"
+        },
+        {
+          "title": "Zahlen addieren",
+          "body": "<p>Schreibe eine Reihe von Zahlen untereinander. Klicke in das Kästchen darunter, tippe <code>=SUMME(</code>, markiere die Zahlen mit der Maus und drücke Enter. Google addiert alles für dich. Oder klicke oben auf <strong>Σ</strong> und wähle 'SUMME'.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Erstelle eine Liste mit fünf Ausgaben mit je einem Betrag und lass Google Tabellen die Summe berechnen.</p>",
+          "practiceUrl": "https://sheets.google.com"
+        }
+      ]
+    },
+    {
+      "id": "slides-basis",
+      "title": "Google Präsentationen: Folien erstellen",
+      "steps": [
+        {
+          "title": "Was ist Google Präsentationen?",
+          "body": "<p><strong>Google Präsentationen</strong> funktioniert wie PowerPoint: eine Reihe von <strong>Folien</strong> mit Text und Fotos, die du auf einem Bildschirm zeigen kannst. Gehe zu <strong>slides.google.com</strong> und wähle 'Leere Präsentation'.</p>"
+        },
+        {
+          "title": "Eine Folie füllen",
+          "body": "<p>Die erste Folie hat einen Titel: Klicke hinein und schreibe. Für eine neue Folie klicke oben links auf das <strong>Plus</strong>. Halte den Text kurz: ein paar Wörter pro Zeile genügen.</p>"
+        },
+        {
+          "title": "Ein Foto hinzufügen und präsentieren",
+          "body": "<p>Wähle <strong>Einfügen &gt; Bild &gt; Vom Computer hochladen</strong> und ziehe das Foto an die richtige Stelle. Klicke oben rechts auf <strong>Präsentieren</strong>, um deine Folien im Vollbild zu zeigen. Mit den Pfeiltasten geht es weiter, mit <strong>Esc</strong> beendest du.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Erstelle eine Präsentation mit drei Folien über dein Hobby, mit mindestens einem Foto, und sieh sie dir mit 'Präsentieren' an.</p>",
+          "practiceUrl": "https://slides.google.com"
+        }
+      ]
+    }
+  ]
+}
