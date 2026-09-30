@@ -88,6 +88,28 @@
           "body": "<p>Überlege eine Situation, in der du eine KI-App auf deinem Handy nutzen würdest, und eine, in der du das bewusst nicht tun würdest.</p>"
         }
       ]
+    },
+    {
+      "id": "ai-camera-mobiel",
+      "title": "KI tiefer auf dem Handy: Kamera, Suche und Content erstellen",
+      "steps": [
+        {
+          "title": "Circle to Search: alles nachschlagen, ohne die App zu wechseln",
+          "body": "<p>Siehst du in einem TikTok- oder Instagram-Video etwas, das du haben willst (Outfit, Musik, Location)? Halte auf aktuellen Android-Handys deinen Finger auf den Bildschirm (Circle to Search), um direkt danach zu suchen, ohne zwischen Apps zu wechseln.</p>"
+        },
+        {
+          "title": "Deine Kamera als Übersetzer und Erkennungstool",
+          "body": "<p>Google Lens erkennt Pflanzen, Produkte (mit Links zum Kaufen) und übersetzt fremdsprachigen Text in Echtzeit über deine Kamera — praktisch auf Reisen oder wenn du für eine Schulaufgabe schnell eine Quelle prüfen musst.</p>"
+        },
+        {
+          "title": "Content aufräumen für Reels und Stories",
+          "body": "<p>Google Fotos (Magic Editor), Samsung Gallery und die Fotos-App auf dem iPhone (Aufräumen) entfernen mit KI störende Objekte oder Personen aus dem Hintergrund, ohne dass du CapCut oder Photoshop brauchst. Schnell, aber nicht unsichtbar: bei genauem Hinsehen erkennst du oft noch die verschwommenen Ränder.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Nutze Google Lens oder Circle to Search, um etwas in deiner Umgebung oder in einem Video nachzuschlagen, und versuche danach, ein Foto mit einer KI-Bearbeitungsfunktion auf deinem Handy zu verbessern.</p>"
+        }
+      ]
     }
   ]
 }

@@ -2,6 +2,18 @@
 
 Alle belangrijke wijzigingen aan de PC & AI Cursus-omgeving worden hier bijgehouden.
 
+## [3.9.0] - 2026-09-30
+
+### Toegevoegd
+- **Phishing-sandbox met 6 voorbeeldmails**: de oude oefening met één nepmail (module Overheid & Veiligheid) is vervangen door een echt postvak met 6 nagebouwde mails — 5 phishing (pakketbezorging, bank-phishing, nep-Microsoft-melding, prijs-scam, CEO-fraude/cadeaubonnen) en 1 gewoon veilige mail (webshop-orderbevestiging), zodat cursisten ook leren dat niet alles verdacht is. Per mail kies je "veilig" of "verdacht/phishing", met directe uitleg waarom dat goed of fout was, een voortgangsbadge per mail en een eindscore. Een gemiste phishing-mail meldt de docent automatisch, zoals voorheen. Beschikbaar in alle drie de niveaus en in het Nederlands, Engels en Duits.
+- **AI verdiept — twee nieuwe lessen:**
+  - **"Afbeeldingen maken en bewerken met AI"** (module AI-gebruik & Ethiek): tekst-naar-beeld, bestaande foto's laten bewerken, en de risico's van nepfoto's/deepfakes.
+  - **"AI dieper op je telefoon"** (module Slimme Telefoon & AI): Circle to Search, Google Lens, camera-vertaling, en AI-fotobewerking op je telefoon (Magic Editor/Opschonen).
+  Beide in alle drie de niveaus en in het Nederlands, Engels en Duits.
+
+### Opgelost
+- Algemene opschoonronde: de losse phishing-widget-code (⋮-menu, eenmalige klikafhandeling) is vervangen door de nieuwe, herbruikbare sandbox-component; geen dubbele of dode code meer voor deze oefening.
+
 ## [3.8.0] - 2026-09-19
 
 ### Toegevoegd

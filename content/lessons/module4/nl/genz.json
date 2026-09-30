@@ -89,6 +89,29 @@
           "body": "<p>Bedenk een situatie uit je eigen studie, bijbaan of leven waarbij je AI wél zou inzetten, en één waarbij je dat bewust niet zou doen. Waarom het verschil?</p>"
         }
       ]
+    },
+    {
+      "id": "ai-afbeeldingen",
+      "title": "Afbeeldingen maken en bewerken met AI",
+      "steps": [
+        {
+          "title": "Van prompt naar plaatje",
+          "body": "<p>Typ een beschrijving in Gemini of ChatGPT en er verschijnt een afbeelding — handig voor een thumbnail, een moodboard, of gewoon voor de lol. Hoe specifieker je prompt (stijl, kleuren, camerahoek, sfeer), hoe minder generiek het resultaat oogt.</p>"
+        },
+        {
+          "title": "Bestaande foto's een boost geven",
+          "body": "<p>Google Foto's (Magic Editor), Samsung Gallery en de Foto's-app op iPhone (Clean Up) kunnen met AI objecten of mensen uit de achtergrond wegpoetsen, belichting fixen, of een low-res foto scherper maken — allemaal zonder Photoshop-kennis nodig te hebben.</p>"
+        },
+        {
+          "title": "De grens: deepfakes en nep-content",
+          "body": "<p>Dezelfde techniek maakt het ook makkelijk om iemand ergens 'in te plakken' die er niet echt bij was, of erger: expliciete nepbeelden van iemand te maken zonder toestemming (<strong>deepfake nudes</strong>). Dat is illegaal, ook als het 'als grap' bedoeld is — en jij hebt recht op aangifte als het jou overkomt. Post ook zelf geen AI-beeld van een echt persoon zonder diegene het te vragen.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Laat Gemini een afbeelding maken in een stijl die jou aanspreekt (bijvoorbeeld anime, retro-poster of aquarel), en verfijn de prompt minstens één keer.</p>",
+          "practiceUrl": "https://gemini.google.com"
+        }
+      ]
     }
   ]
 }

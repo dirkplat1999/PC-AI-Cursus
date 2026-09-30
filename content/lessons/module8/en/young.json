@@ -88,6 +88,28 @@
           "body": "<p>Think of a situation where you would use an AI app on your phone, and one where you would deliberately choose not to.</p>"
         }
       ]
+    },
+    {
+      "id": "ai-camera-mobiel",
+      "title": "AI, deeper on your phone: camera, search and photos",
+      "steps": [
+        {
+          "title": "Circle to Search and Google Lens",
+          "body": "<p>See something out and about that you want to look up — a piece of furniture, an item of clothing, text on a sign? Hold your finger on the screen (Circle to Search on recent Android phones) or use Google Lens to search for it directly, without typing it out.</p>"
+        },
+        {
+          "title": "Live translation on the go",
+          "body": "<p>Travelling, or in a meeting with a client who speaks another language? The camera translate feature in Google Translate or the Gemini app translates text on your screen in real time — handy for a menu, a contract, or an instruction sign.</p>"
+        },
+        {
+          "title": "Cleaning up photos quickly for work or social media",
+          "body": "<p>Google Photos (Magic Editor) and the iPhone Photos app (Clean Up) can use AI to remove a distracting object or person from the background, or fix the lighting — faster than opening a separate editing program for a product photo or LinkedIn post.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Use Google Lens or Circle to Search to look up something around you, then try improving a photo with the Magic Editor feature.</p>"
+        }
+      ]
     }
   ]
 }

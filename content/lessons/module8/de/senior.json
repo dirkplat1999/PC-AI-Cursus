@@ -88,6 +88,28 @@
           "practiceUrl": "https://gemini.google.com"
         }
       ]
+    },
+    {
+      "id": "ai-camera-mobiel",
+      "title": "Mehr KI-Tricks auf dem Handy: Kamera und Fotos",
+      "steps": [
+        {
+          "title": "Deine Kamera als Suchmaschine",
+          "body": "<p>Richte die Kamera deines Handys (über Google Lens, oder halte bei Android deinen Finger auf den Bildschirm) auf eine Pflanze, ein Produkt oder einen unbekannten Gegenstand, und die KI sagt dir, was es ist. Praktisch im Garten, im Laden, oder um einen unbekannten Medikamentenstreifen zu erkennen.</p>"
+        },
+        {
+          "title": "Sofort übersetzen mit deiner Kamera",
+          "body": "<p>Stehst du im Ausland vor einer Speisekarte oder einem Schild, das du nicht verstehst? Richte deine Kamera darauf über die Übersetzungs-App (Google Übersetzer hat eine Kamera-Taste), und der Text wird sofort auf deinem Bildschirm übersetzt.</p>"
+        },
+        {
+          "title": "Ein unordentliches Foto aufräumen",
+          "body": "<p>Öffne ein Foto in deiner Fotos-App und suche nach 'Bearbeiten' oder 'Magic Editor'. Damit kannst du mit KI zum Beispiel eine fremde Person, die zufällig auf dem Foto ist, entfernen, oder das Foto heller machen — ohne komplizierte Bearbeitungssoftware.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Richte deine Kamera über Google Lens auf einen Gegenstand zu Hause und schau, was die KI dir darüber erzählen kann.</p>"
+        }
+      ]
     }
   ]
 }

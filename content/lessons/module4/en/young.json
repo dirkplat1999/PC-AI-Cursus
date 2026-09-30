@@ -89,6 +89,29 @@
           "body": "<p>Think of a situation from your own work or life where you would use AI, and one where you would deliberately choose not to. What's the difference?</p>"
         }
       ]
+    },
+    {
+      "id": "ai-afbeeldingen",
+      "title": "Creating and editing images with AI",
+      "steps": [
+        {
+          "title": "From text to image",
+          "body": "<p>Gemini and ChatGPT can generate an <strong>image</strong> from a description — handy for a presentation illustration, an invitation, or a social media post. The more specific your prompt (style, colours, mood, proportions), the closer the result gets to what you had in mind.</p>"
+        },
+        {
+          "title": "Editing existing photos with AI",
+          "body": "<p>Upload a photo and ask for a change: replace the background, remove a distracting object, fix the lighting, or restore an old photo. Also available standalone in tools like <strong>Canva</strong> (Magic Eraser/Magic Edit) and <strong>Google Photos</strong> (Magic Editor).</p>"
+        },
+        {
+          "title": "Rights and origin: what can you actually do with it?",
+          "body": "<p>Planning to use an AI image commercially (at work, for a client)? First check your employer's or client's policy and the tool's terms of use — some AI models were trained on artists' work without permission, and copyright on AI images is still legally unsettled in many places.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Have Gemini create an image for a fictional presentation or social media post, and tweak the prompt at least once to improve the result.</p>",
+          "practiceUrl": "https://gemini.google.com"
+        }
+      ]
     }
   ]
 }

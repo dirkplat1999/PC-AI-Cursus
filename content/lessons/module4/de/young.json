@@ -89,6 +89,29 @@
           "body": "<p>Überlege eine Situation aus deiner eigenen Arbeit oder deinem Leben, in der du KI einsetzen würdest, und eine, in der du das bewusst nicht tun würdest. Was ist der Unterschied?</p>"
         }
       ]
+    },
+    {
+      "id": "ai-afbeeldingen",
+      "title": "Bilder erstellen und bearbeiten mit KI",
+      "steps": [
+        {
+          "title": "Von Text zu Bild",
+          "body": "<p>Gemini und ChatGPT können anhand einer Beschreibung ein <strong>Bild generieren</strong> — praktisch für eine Präsentations-Illustration, eine Einladung oder einen Social-Media-Post. Je konkreter dein Prompt (Stil, Farben, Stimmung, Proportionen), desto näher kommt das Ergebnis dem, was du im Kopf hattest.</p>"
+        },
+        {
+          "title": "Vorhandene Fotos mit KI bearbeiten",
+          "body": "<p>Lade ein Foto hoch und bitte um eine Anpassung: Hintergrund austauschen, ein störendes Objekt entfernen, Belichtung korrigieren, oder ein altes Foto restaurieren. Auch einzeln erhältlich in Tools wie <strong>Canva</strong> (Magic Eraser/Magic Edit) und <strong>Google Fotos</strong> (Magic Editor).</p>"
+        },
+        {
+          "title": "Rechte und Herkunft: was darfst du damit machen?",
+          "body": "<p>Möchtest du ein KI-Bild kommerziell nutzen (bei der Arbeit, für einen Kunden)? Prüfe zuerst die Richtlinie deines Arbeitgebers oder Auftraggebers und die Nutzungsbedingungen des Tools — manche KI-Modelle wurden ohne Erlaubnis mit Werken von Künstlern trainiert, und das Urheberrecht bei KI-Bildern ist rechtlich vielerorts noch nicht geklärt.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Lass Gemini ein Bild für eine fiktive Präsentation oder einen Social-Media-Post erstellen, und passe den Prompt mindestens einmal an, um das Ergebnis zu verbessern.</p>",
+          "practiceUrl": "https://gemini.google.com"
+        }
+      ]
     }
   ]
 }

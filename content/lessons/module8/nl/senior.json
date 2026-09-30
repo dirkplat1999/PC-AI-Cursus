@@ -88,6 +88,28 @@
           "practiceUrl": "https://gemini.google.com"
         }
       ]
+    },
+    {
+      "id": "ai-camera-mobiel",
+      "title": "Meer AI-trucs op je telefoon: camera en foto's",
+      "steps": [
+        {
+          "title": "Je camera als zoekmachine",
+          "body": "<p>Richt de camera van je telefoon (via Google Lens, of houd bij Android je vinger op het scherm) op een plant, product of onbekend voorwerp, en de AI vertelt je wat het is. Handig bij de tuin, in de winkel, of om een onbekend medicijnstrip te herkennen.</p>"
+        },
+        {
+          "title": "Direct vertalen met je camera",
+          "body": "<p>Sta je in het buitenland voor een menukaart of bordje die je niet begrijpt? Richt je camera erop via de vertaal-app (Google Translate heeft een cameraknop) en de tekst wordt direct op je scherm vertaald.</p>"
+        },
+        {
+          "title": "Een rommelige foto opruimen",
+          "body": "<p>Open een foto in je Foto's-app en zoek naar 'Bewerken' of 'Magic Editor'. Hiermee kun je met AI bijvoorbeeld een vreemde die per ongeluk op de foto staat wegpoetsen, of de foto helderder maken — zonder ingewikkelde bewerkingssoftware.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Richt je camera op een voorwerp in huis via Google Lens en kijk wat de AI erover kan vertellen.</p>"
+        }
+      ]
     }
   ]
 }

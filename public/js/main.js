@@ -126,74 +126,89 @@
     });
   });
 
-  // --- Phishing-mail oefening (nep-postvak-widget) ---
-  function resetPhishSim(sim) {
-    sim.querySelector('[data-phish-reveal-bad]')?.classList.add('hidden');
-    sim.querySelector('[data-phish-reveal-good]')?.classList.add('hidden');
-    sim.querySelector('[data-phish-menu]')?.classList.add('hidden');
-    sim.querySelector('[data-phish-more]')?.setAttribute('aria-expanded', 'false');
-    sim.querySelector('[data-phish-email]')?.classList.add('hidden');
-    const openBtn = sim.querySelector('[data-phish-open]');
-    openBtn?.classList.remove('hidden');
-    openBtn?.setAttribute('aria-expanded', 'false');
-    return openBtn;
-  }
+  // --- Phishing-sandbox (nep-postvak met meerdere mails) ---
+  // Elke .mailbox-sim bevat een lijst (.mailbox-list met [data-mailbox-item])
+  // en, per mail, een detailblok ([data-mailbox-email] met
+  // data-mailbox-verdict="phishing"|"safe"). De cursist opent een mail en
+  // kiest "veilig" of "verdacht"; het antwoord wordt vergeleken met
+  // data-mailbox-verdict. Fout op een echte phishing-mail meldt de docent
+  // (zoals de oude eenmalige widget deed), fout op een veilige mail is
+  // alleen een leermoment.
+  document.querySelectorAll('.mailbox-sim').forEach((sim) => {
+    const list = sim.querySelector('.mailbox-list');
+    const items = Array.from(sim.querySelectorAll('[data-mailbox-item]'));
+    const emails = Array.from(sim.querySelectorAll('[data-mailbox-email]'));
+    const summary = sim.querySelector('[data-mailbox-summary]');
+    const answered = new Set();
 
-  document.querySelectorAll('[data-phish-open]').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      const sim = btn.closest('.phish-sim');
-      btn.classList.add('hidden');
-      btn.setAttribute('aria-expanded', 'true');
-      sim.querySelector('[data-phish-email]')?.classList.remove('hidden');
+    function showList() {
+      list?.classList.remove('hidden');
+      emails.forEach((e) => e.classList.add('hidden'));
+    }
+
+    function showEmail(id) {
+      list?.classList.add('hidden');
+      emails.forEach((e) => e.classList.toggle('hidden', e.dataset.mailboxEmail !== id));
+      sim.querySelector(`[data-mailbox-email="${id}"]`)?.focus();
+    }
+
+    function updateSummary() {
+      if (!summary) return;
+      if (answered.size < items.length) return;
+      let correct = 0;
+      emails.forEach((email) => { if (email.dataset.mailboxResult === 'correct') correct++; });
+      const template = summary.dataset.mailboxSummaryTemplate || '{correct}/{total}';
+      summary.textContent = template.replace('{correct}', correct).replace('{total}', items.length);
+      summary.classList.remove('hidden');
+    }
+
+    items.forEach((item) => {
+      item.addEventListener('click', () => showEmail(item.dataset.mailboxId));
     });
-  });
 
-  document.querySelectorAll('[data-phish-more]').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      const sim = btn.closest('.phish-sim');
-      const menu = sim.querySelector('[data-phish-menu]');
-      const nowOpen = menu?.classList.toggle('hidden') === false;
-      btn.setAttribute('aria-expanded', nowOpen ? 'true' : 'false');
-    });
-  });
+    emails.forEach((email) => {
+      const id = email.dataset.mailboxEmail;
+      const item = items.find((i) => i.dataset.mailboxId === id);
+      const actions = email.querySelector('[data-mailbox-actions]');
+      const feedbackCorrect = email.querySelector('[data-mailbox-feedback-correct]');
+      const feedbackIncorrect = email.querySelector('[data-mailbox-feedback-incorrect]');
 
-  // Clicking the CTA link is the "wrong" action: shows the warning reveal
-  // and alerts the teacher's dashboard, so they know who needs follow-up.
-  document.querySelectorAll('[data-phish-click]').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      const sim = btn.closest('.phish-sim');
-      sim.querySelector('[data-phish-email]')?.classList.add('hidden');
-      const reveal = sim.querySelector('[data-phish-reveal-bad]');
-      reveal?.classList.remove('hidden');
-      reveal?.focus();
+      email.querySelector('[data-mailbox-back]')?.addEventListener('click', showList);
 
-      if (window.APP_ROLE === 'student') {
-        const moduleMatch = window.location.pathname.match(/\/student\/module\/([^/]+)/);
-        fetch('/student/phishing-alert', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ module_key: moduleMatch ? moduleMatch[1] : null })
-        }).catch(() => {});
-      }
-    });
-  });
+      email.querySelectorAll('[data-mailbox-choose]').forEach((chooseBtn) => {
+        chooseBtn.addEventListener('click', () => {
+          const chosen = chooseBtn.dataset.mailboxChoose;
+          const isCorrect = chosen === email.dataset.mailboxVerdict;
+          email.dataset.mailboxResult = isCorrect ? 'correct' : 'incorrect';
+          actions?.classList.add('hidden');
+          (isCorrect ? feedbackCorrect : feedbackIncorrect)?.classList.remove('hidden');
+          (isCorrect ? feedbackCorrect : feedbackIncorrect)?.focus();
 
-  // Deleting the message (via the ⋮ menu) is the correct action.
-  document.querySelectorAll('[data-phish-delete]').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      const sim = btn.closest('.phish-sim');
-      sim.querySelector('[data-phish-menu]')?.classList.add('hidden');
-      sim.querySelector('[data-phish-email]')?.classList.add('hidden');
-      const reveal = sim.querySelector('[data-phish-reveal-good]');
-      reveal?.classList.remove('hidden');
-      reveal?.focus();
-    });
-  });
+          const badge = item?.querySelector('[data-mailbox-status]');
+          if (badge) {
+            badge.hidden = false;
+            badge.textContent = isCorrect ? '✓' : '!';
+            badge.classList.add(isCorrect ? 'is-correct' : 'is-incorrect');
+          }
 
-  document.querySelectorAll('[data-phish-reset]').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      const sim = btn.closest('.phish-sim');
-      resetPhishSim(sim)?.focus();
+          if (!answered.has(id)) {
+            answered.add(id);
+            updateSummary();
+          }
+
+          // Alleen bij een gemiste phishing-mail (niet bij een te
+          // voorzichtige beoordeling van een veilige mail) meldt dit de
+          // docent, zodat die er samen op kan terugkomen.
+          if (!isCorrect && email.dataset.mailboxVerdict === 'phishing' && window.APP_ROLE === 'student') {
+            const moduleMatch = window.location.pathname.match(/\/student\/module\/([^/]+)/);
+            fetch('/student/phishing-alert', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({ module_key: moduleMatch ? moduleMatch[1] : null })
+            }).catch(() => {});
+          }
+        });
+      });
     });
   });
 

@@ -89,6 +89,29 @@
           "body": "<p>Think of a situation from your own studies, side job, or life where you would use AI, and one where you would deliberately choose not to. What's the difference?</p>"
         }
       ]
+    },
+    {
+      "id": "ai-afbeeldingen",
+      "title": "Creating and editing images with AI",
+      "steps": [
+        {
+          "title": "From prompt to picture",
+          "body": "<p>Type a description into Gemini or ChatGPT and an image appears — handy for a thumbnail, a moodboard, or just for fun. The more specific your prompt (style, colours, camera angle, mood), the less generic the result looks.</p>"
+        },
+        {
+          "title": "Giving existing photos a boost",
+          "body": "<p>Google Photos (Magic Editor), Samsung Gallery, and the iPhone Photos app (Clean Up) can use AI to erase objects or people from the background, fix lighting, or sharpen a low-res photo — no Photoshop skills required.</p>"
+        },
+        {
+          "title": "The line: deepfakes and fake content",
+          "body": "<p>The same tech also makes it easy to 'paste' someone into a scene they were never part of, or worse: create explicit fake images of someone without consent (<strong>deepfake nudes</strong>). That's illegal, even if it's 'meant as a joke' — and you have the right to report it if it happens to you. Also don't post an AI image of a real person without asking them first.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Have Gemini create an image in a style you like (like anime, a retro poster, or watercolour), and refine the prompt at least once.</p>",
+          "practiceUrl": "https://gemini.google.com"
+        }
+      ]
     }
   ]
 }

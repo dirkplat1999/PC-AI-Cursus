@@ -81,6 +81,29 @@
           "body": "<p>Betrachte KI als <strong>Hilfsmittel</strong> — praktisch, um Ideen zu bekommen, Texte zu prüfen oder sich etwas erklären zu lassen — aber nicht als unfehlbare Wahrheit. Im Zweifel: frage einen Menschen.</p>"
         }
       ]
+    },
+    {
+      "id": "ai-afbeeldingen",
+      "title": "Bilder erstellen und bearbeiten mit KI",
+      "steps": [
+        {
+          "title": "Ein Bild von der KI zeichnen lassen",
+          "body": "<p>Neben Text kann Gemini auch <strong>Bilder erstellen</strong>. Tippe zum Beispiel <em>'Zeichne ein gemütliches Wohnzimmer mit Weihnachtsbaum, im Aquarellstil'</em>, und innerhalb weniger Sekunden erscheint ein Bild. Gefällt es nicht ganz? Bitte einfach um eine Anpassung, zum Beispiel 'mach den Raum etwas heller'.</p>"
+        },
+        {
+          "title": "Ein vorhandenes Foto bearbeiten lassen",
+          "body": "<p>Du kannst auch ein <strong>eigenes Foto hochladen</strong> und die KI bitten, es zu verbessern: den Hintergrund entfernen, einen Fleck wegretuschieren, oder ein altes, unscharfes Foto schärfer machen. Klicke auf das Büroklammer- oder Foto-Symbol im Textfeld, um ein Foto hinzuzufügen, und beschreibe danach, was du möchtest.</p>"
+        },
+        {
+          "title": "Achtung: Fake-Fotos sind immer schwerer zu erkennen",
+          "body": "<p>Dieselbe Technik kann auch genutzt werden, um <strong>Fake-Fotos</strong> zu erstellen, die völlig echt aussehen — von Ereignissen, die nie stattgefunden haben, oder von Menschen, die etwas tun, das sie nie getan haben. Siehst du ein auffälliges Foto online? Sei besonders kritisch, vor allem wenn es dich wütend oder ängstlich macht.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Öffne unten Gemini und lass ein Bild von etwas Schönem erstellen, zum Beispiel dein Haustier als Gemälde.</p>",
+          "practiceUrl": "https://gemini.google.com"
+        }
+      ]
     }
   ]
 }

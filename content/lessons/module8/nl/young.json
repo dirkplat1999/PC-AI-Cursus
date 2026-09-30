@@ -88,6 +88,28 @@
           "body": "<p>Bedenk een situatie waarin je een AI-app op je telefoon wél zou gebruiken, en één waarin je dat bewust niet zou doen.</p>"
         }
       ]
+    },
+    {
+      "id": "ai-camera-mobiel",
+      "title": "AI dieper op je telefoon: camera, zoeken en foto's",
+      "steps": [
+        {
+          "title": "Circle to Search en Google Lens",
+          "body": "<p>Zie je onderweg iets dat je wilt opzoeken — een meubelstuk, een kledingstuk, tekst op een bord? Houd je vinger op het scherm (Circle to Search op recente Android-telefoons) of gebruik Google Lens om er direct op te zoeken, zonder over te typen.</p>"
+        },
+        {
+          "title": "Live vertalen onderweg",
+          "body": "<p>Op reis of in een vergadering met een anderstalige klant? De cameravertaalfunctie van Google Translate of de Gemini-app vertaalt tekst realtime op je scherm — handig voor een menukaart, contract of instructiebordje.</p>"
+        },
+        {
+          "title": "Foto's snel opschonen voor werk of social media",
+          "body": "<p>Google Foto's (Magic Editor) en de Foto's-app op iPhone (Opschonen) kunnen met AI een storend object of persoon uit de achtergrond verwijderen, of de belichting corrigeren — sneller dan een los bewerkingsprogramma openen voor een productfoto of LinkedIn-post.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Gebruik Google Lens of Circle to Search om iets in je omgeving op te zoeken, en probeer daarna een foto te verbeteren met de Magic Editor-functie.</p>"
+        }
+      ]
     }
   ]
 }

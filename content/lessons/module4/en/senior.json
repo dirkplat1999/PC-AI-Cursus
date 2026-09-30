@@ -81,6 +81,29 @@
           "body": "<p>Think of AI as a <strong>tool</strong> — handy for getting ideas, checking text, or having something explained — but not as an infallible truth. When in doubt: ask a person.</p>"
         }
       ]
+    },
+    {
+      "id": "ai-afbeeldingen",
+      "title": "Creating and editing images with AI",
+      "steps": [
+        {
+          "title": "Having AI draw a picture",
+          "body": "<p>Besides text, Gemini can also <strong>create images</strong>. Type something like <em>'Draw a cosy living room with a Christmas tree, in watercolour style'</em> and a picture appears within seconds. Not quite right? Just ask for a change, like 'make the room a bit brighter'.</p>"
+        },
+        {
+          "title": "Having an existing photo edited",
+          "body": "<p>You can also <strong>upload your own photo</strong> and ask the AI to improve it: remove the background, clean up a smudge, or sharpen an old, blurry photo. Click the paperclip or photo icon in the text box to add a photo, then describe what you want.</p>"
+        },
+        {
+          "title": "Watch out: fake photos are harder to spot",
+          "body": "<p>The same technology can also be used to create <strong>fake photos</strong> that look completely real — of events that never happened, or of people doing something they never did. See a striking photo online? Be extra critical, especially if it makes you angry or scared.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Open Gemini below and have it create an image of something fun, like your pet as a painting.</p>",
+          "practiceUrl": "https://gemini.google.com"
+        }
+      ]
     }
   ]
 }

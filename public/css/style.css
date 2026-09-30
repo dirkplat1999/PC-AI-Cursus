@@ -186,8 +186,37 @@ textarea:focus-visible,
 .step-body { font-size: 1.05rem; }
 .step-body ul, .step-body ol { padding-left: 22px; }
 
-/* Phishing-mail oefening (nep-postvak-widget) */
-.phish-sim { margin-top: 12px; }
+/* Phishing-sandbox: een nep-postvak met meerdere voorbeeldmails, elk te
+   beoordelen als "veilig" of "verdacht" (zie public/js/main.js). */
+.mailbox-sim { margin-top: 12px; }
+.mailbox-list { display: flex; flex-direction: column; gap: 10px; }
+.mailbox-badge {
+  flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center;
+  width: 26px; height: 26px; border-radius: 50%; font-size: 0.95rem;
+}
+.mailbox-badge.is-correct { background: var(--color-success); color: #fff; }
+.mailbox-badge.is-incorrect { background: var(--color-danger); color: #fff; }
+.mailbox-back-btn {
+  display: inline-flex; align-items: center; gap: 6px; margin-bottom: 10px;
+  background: none; border: none; color: var(--color-primary); font-size: 0.95rem;
+  cursor: pointer; padding: 6px 0; min-height: 44px;
+}
+.mailbox-actions { display: flex; gap: 10px; flex-wrap: wrap; padding: 0 16px 16px; }
+.mailbox-choose-btn {
+  flex: 1; min-width: 160px; min-height: 44px; padding: 12px 16px; border-radius: 8px;
+  font-size: 1rem; font-weight: 700; cursor: pointer; border: 2px solid;
+}
+.mailbox-choose-safe { background: var(--color-bg); border-color: var(--color-success); color: var(--color-success); }
+.mailbox-choose-safe:hover { background: var(--color-success); color: #fff; }
+.mailbox-choose-phishing { background: var(--color-bg); border-color: var(--color-danger); color: var(--color-danger); }
+.mailbox-choose-phishing:hover { background: var(--color-danger); color: #fff; }
+.mailbox-summary {
+  margin-top: 14px; padding: 16px 20px; border-radius: 10px; text-align: center;
+  background: var(--color-bg); border: 2px solid var(--color-primary); font-weight: 700; font-size: 1.05rem;
+}
+.phish-cta-btn[disabled] { cursor: not-allowed; opacity: 0.9; }
+.phish-cta-caption { display: block; margin-top: 6px; color: var(--color-muted); font-size: 0.85rem; font-style: italic; }
+
 .phish-instruction { color: var(--color-muted); font-style: italic; }
 .phish-inbox-item {
   display: flex; align-items: center; gap: 12px; width: 100%;
@@ -211,25 +240,6 @@ textarea:focus-visible,
   position: relative;
   background: var(--color-surface); border: 1px solid var(--color-border); border-radius: 10px; overflow: visible;
 }
-.phish-more-btn {
-  position: absolute; top: 10px; right: 10px; z-index: 2;
-  width: 36px; height: 36px; border-radius: 8px; border: 1px solid var(--color-border);
-  background: var(--color-surface); color: var(--color-text); font-size: 1.3rem; line-height: 1;
-  cursor: pointer; display: flex; align-items: center; justify-content: center;
-}
-.phish-more-btn:hover { border-color: var(--color-primary); background: var(--color-bg); }
-.phish-more-menu {
-  position: absolute; top: 50px; right: 10px; z-index: 3;
-  background: var(--color-surface); border: 1px solid var(--color-border); border-radius: 8px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.18); overflow: hidden; min-width: 160px;
-}
-.phish-more-menu button {
-  display: flex; align-items: center; gap: 8px; width: 100%; padding: 12px 14px;
-  border: none; background: var(--color-surface); color: var(--color-text); font-size: 1rem;
-  cursor: pointer; text-align: left; min-height: 44px;
-}
-.phish-more-menu button:hover { background: var(--color-bg); }
-.phish-more-menu.hidden { display: none; }
 .phish-email-header {
   background: var(--color-bg); padding: 14px 56px 14px 16px; border-bottom: 1px solid var(--color-border);
   font-size: 0.95rem; line-height: 1.7; border-radius: 10px 10px 0 0;

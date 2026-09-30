@@ -81,6 +81,29 @@
           "body": "<p>Zie AI als een <strong>hulpmiddel</strong> — handig om ideeën te krijgen, teksten te controleren of iets uit te laten leggen — maar niet als een onfeilbare waarheid. Bij twijfel: vraag het na bij een mens.</p>"
         }
       ]
+    },
+    {
+      "id": "ai-afbeeldingen",
+      "title": "Afbeeldingen maken en bewerken met AI",
+      "steps": [
+        {
+          "title": "Een plaatje laten tekenen door AI",
+          "body": "<p>Naast tekst kan Gemini ook <strong>afbeeldingen maken</strong>. Typ bijvoorbeeld <em>'Maak een tekening van een gezellige woonkamer met een kerstboom, in aquarelstijl'</em> en binnen een paar seconden verschijnt er een plaatje. Bevalt het niet helemaal? Vraag gewoon om een aanpassing, bijvoorbeeld 'maak de kamer wat lichter'.</p>"
+        },
+        {
+          "title": "Een bestaande foto laten bewerken",
+          "body": "<p>Je kunt ook een <strong>eigen foto uploaden</strong> en aan de AI vragen om die te verbeteren: de achtergrond weghalen, een vlek wegpoetsen, of een oude, vage foto wat scherper maken. Klik op het paperclip- of foto-icoontje in het tekstvak om een foto toe te voegen, en beschrijf daarna wat je wilt.</p>"
+        },
+        {
+          "title": "Let op: nepfoto's zijn steeds moeilijker te herkennen",
+          "body": "<p>Diezelfde techniek kan ook gebruikt worden om <strong>nepfoto's</strong> te maken die heel echt lijken — van gebeurtenissen die nooit gebeurd zijn, of van mensen die iets doen wat ze nooit deden. Zie je een opvallende foto online? Wees extra kritisch, zeker als 'ie ergens boos of bang van maakt.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Open hieronder Gemini en laat een afbeelding maken van iets leuks, bijvoorbeeld je huisdier als schilderij.</p>",
+          "practiceUrl": "https://gemini.google.com"
+        }
+      ]
     }
   ]
 }

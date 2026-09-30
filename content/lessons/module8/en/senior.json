@@ -88,6 +88,28 @@
           "practiceUrl": "https://gemini.google.com"
         }
       ]
+    },
+    {
+      "id": "ai-camera-mobiel",
+      "title": "More AI tricks on your phone: camera and photos",
+      "steps": [
+        {
+          "title": "Your camera as a search engine",
+          "body": "<p>Point your phone's camera (via Google Lens, or on Android hold your finger on the screen) at a plant, a product, or an unknown object, and the AI tells you what it is. Handy in the garden, at the shop, or to identify an unfamiliar medicine strip.</p>"
+        },
+        {
+          "title": "Instant translation with your camera",
+          "body": "<p>Abroad and stuck in front of a menu or sign you don't understand? Point your camera at it using the translate app (Google Translate has a camera button) and the text is translated on your screen right away.</p>"
+        },
+        {
+          "title": "Cleaning up a messy photo",
+          "body": "<p>Open a photo in your Photos app and look for 'Edit' or 'Magic Editor'. With AI, you can erase a stranger who accidentally walked into the shot, or brighten the photo — no complicated editing software needed.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Point your camera at an object in your home using Google Lens and see what the AI can tell you about it.</p>"
+        }
+      ]
     }
   ]
 }

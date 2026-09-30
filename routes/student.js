@@ -135,7 +135,7 @@ router.post('/help', (req, res) => {
 // simulated "bad" button, so the teacher can follow up with them.
 router.post('/phishing-alert', (req, res) => {
   const { module_key } = req.body;
-  const message = 'Klikte op de knop in de phishing-oefening (viel voor de nepmail tijdens het oefenen).';
+  const message = 'Beoordeelde een phishing-mail in de sandbox-oefening als "veilig" (viel ervoor tijdens het oefenen).';
   const info = db.prepare('INSERT INTO help_requests (student_id, module_key, message) VALUES (?, ?, ?)')
     .run(req.student.id, module_key || null, message);
   const io = req.app.get('io');

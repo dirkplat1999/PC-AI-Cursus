@@ -89,6 +89,29 @@
           "body": "<p>Überlege eine Situation aus deinem Studium, Nebenjob oder Leben, in der du KI einsetzen würdest, und eine, in der du das bewusst nicht tun würdest. Was ist der Unterschied?</p>"
         }
       ]
+    },
+    {
+      "id": "ai-afbeeldingen",
+      "title": "Bilder erstellen und bearbeiten mit KI",
+      "steps": [
+        {
+          "title": "Vom Prompt zum Bild",
+          "body": "<p>Tippe eine Beschreibung in Gemini oder ChatGPT ein, und ein Bild erscheint — praktisch für ein Thumbnail, ein Moodboard, oder einfach zum Spaß. Je konkreter dein Prompt (Stil, Farben, Kamerawinkel, Stimmung), desto weniger generisch wirkt das Ergebnis.</p>"
+        },
+        {
+          "title": "Vorhandenen Fotos einen Boost geben",
+          "body": "<p>Google Fotos (Magic Editor), Samsung Gallery und die Fotos-App auf dem iPhone (Aufräumen) können mit KI Objekte oder Personen aus dem Hintergrund entfernen, die Belichtung reparieren, oder ein Foto mit niedriger Auflösung schärfer machen — ganz ohne Photoshop-Kenntnisse.</p>"
+        },
+        {
+          "title": "Die Grenze: Deepfakes und Fake-Content",
+          "body": "<p>Dieselbe Technik macht es auch leicht, jemanden irgendwo 'reinzumontieren', wo die Person nie war, oder schlimmer: explizite Fake-Bilder von jemandem ohne Zustimmung zu erstellen (<strong>Deepfake-Nudes</strong>). Das ist illegal, auch wenn es 'als Scherz gemeint' war — und du hast das Recht, Anzeige zu erstatten, wenn dir das passiert. Poste auch selbst kein KI-Bild einer echten Person, ohne sie vorher zu fragen.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Lass Gemini ein Bild in einem Stil erstellen, der dir gefällt (zum Beispiel Anime, Retro-Poster oder Aquarell), und verfeinere den Prompt mindestens einmal.</p>",
+          "practiceUrl": "https://gemini.google.com"
+        }
+      ]
     }
   ]
 }

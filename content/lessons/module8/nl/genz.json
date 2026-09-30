@@ -88,6 +88,28 @@
           "body": "<p>Bedenk een situatie waarin je een AI-app op je telefoon wél zou gebruiken, en één waarin je dat bewust niet zou doen.</p>"
         }
       ]
+    },
+    {
+      "id": "ai-camera-mobiel",
+      "title": "AI dieper op je telefoon: camera, zoeken en content maken",
+      "steps": [
+        {
+          "title": "Circle to Search: alles opzoeken zonder app te wisselen",
+          "body": "<p>Zie je in een TikTok of Instagram-video iets dat je wilt hebben (outfit, muziek, locatie)? Houd op recente Android-telefoons je vinger op het scherm (Circle to Search) om er direct op te zoeken, zonder te schakelen tussen apps.</p>"
+        },
+        {
+          "title": "Je camera als vertaler en identificatietool",
+          "body": "<p>Google Lens herkent planten, producten (met linkjes om te kopen) en vertaalt buitenlandse tekst realtime via je camera — handig op reis of voor een schoolopdracht waar je een bron snel moet checken.</p>"
+        },
+        {
+          "title": "Content opschonen voor Reels en Stories",
+          "body": "<p>Google Foto's (Magic Editor), Samsung Gallery en de Foto's-app op iPhone (Opschonen) halen met AI storende objecten of mensen uit de achtergrond, zonder dat je CapCut of Photoshop nodig hebt. Snel, maar niet onzichtbaar: bij goed opletten zie je vaak nog net de vervaagde randjes.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Gebruik Google Lens of Circle to Search om iets uit je omgeving of een video op te zoeken, en probeer daarna een foto te verbeteren met een AI-bewerkfunctie op je telefoon.</p>"
+        }
+      ]
     }
   ]
 }

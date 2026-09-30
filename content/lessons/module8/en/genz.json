@@ -88,6 +88,28 @@
           "body": "<p>Think of a situation where you would use an AI app on your phone, and one where you would deliberately choose not to.</p>"
         }
       ]
+    },
+    {
+      "id": "ai-camera-mobiel",
+      "title": "AI, deeper on your phone: camera, search and making content",
+      "steps": [
+        {
+          "title": "Circle to Search: look anything up without switching apps",
+          "body": "<p>Spot something in a TikTok or Instagram video that you want (an outfit, a song, a location)? On recent Android phones, hold your finger on the screen (Circle to Search) to look it up directly, without switching between apps.</p>"
+        },
+        {
+          "title": "Your camera as a translator and identifier",
+          "body": "<p>Google Lens recognises plants, products (with links to buy them), and translates foreign text in real time through your camera — handy while travelling or when you need to quickly check a source for a school assignment.</p>"
+        },
+        {
+          "title": "Cleaning up content for Reels and Stories",
+          "body": "<p>Google Photos (Magic Editor), Samsung Gallery, and the iPhone Photos app (Clean Up) use AI to remove distracting objects or people from the background, without needing CapCut or Photoshop. Fast, but not invisible: look closely and you can often still spot the blurred edges.</p>"
+        },
+        {
+          "title": "Exercise",
+          "body": "<p>Use Google Lens or Circle to Search to look up something around you or in a video, then try improving a photo with an AI editing feature on your phone.</p>"
+        }
+      ]
     }
   ]
 }

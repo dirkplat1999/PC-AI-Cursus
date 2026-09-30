@@ -89,6 +89,29 @@
           "body": "<p>Bedenk een situatie uit je eigen werk of leven waarbij je AI wél zou inzetten, en één waarbij je dat bewust niet zou doen. Waarom het verschil?</p>"
         }
       ]
+    },
+    {
+      "id": "ai-afbeeldingen",
+      "title": "Afbeeldingen maken en bewerken met AI",
+      "steps": [
+        {
+          "title": "Van tekst naar beeld",
+          "body": "<p>Gemini en ChatGPT kunnen op basis van een beschrijving een <strong>afbeelding genereren</strong> — handig voor een presentatie-illustratie, een uitnodiging of een social media-post. Hoe specifieker je prompt (stijl, kleuren, sfeer, verhoudingen), hoe dichter het resultaat bij wat je voor ogen had.</p>"
+        },
+        {
+          "title": "Bestaande foto's bewerken met AI",
+          "body": "<p>Upload een foto en vraag om een aanpassing: achtergrond vervangen, een storend object verwijderen, belichting corrigeren, of een oude foto restaureren. Ook los verkrijgbaar in tools als <strong>Canva</strong> (Magic Eraser/Magic Edit) en <strong>Google Foto's</strong> (Magic Editor).</p>"
+        },
+        {
+          "title": "Rechten en herkomst: wat mag je ermee?",
+          "body": "<p>Ga je een AI-afbeelding commercieel gebruiken (op je werk, voor een klant)? Check eerst het beleid van je werkgever of opdrachtgever en de gebruiksvoorwaarden van de tool — sommige AI-modellen zijn getraind op werk van kunstenaars zonder toestemming, en het auteursrecht op AI-beelden is juridisch nog niet overal uitgekristalliseerd.</p>"
+        },
+        {
+          "title": "Oefening",
+          "body": "<p>Laat Gemini een afbeelding maken voor een fictieve presentatie of social media-post, en pas de prompt minstens één keer aan om het resultaat te verbeteren.</p>",
+          "practiceUrl": "https://gemini.google.com"
+        }
+      ]
     }
   ]
 }

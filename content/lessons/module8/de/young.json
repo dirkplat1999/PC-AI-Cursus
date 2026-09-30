@@ -88,6 +88,28 @@
           "body": "<p>Überlege eine Situation, in der du eine KI-App auf deinem Handy nutzen würdest, und eine, in der du das bewusst nicht tun würdest.</p>"
         }
       ]
+    },
+    {
+      "id": "ai-camera-mobiel",
+      "title": "KI tiefer auf dem Handy: Kamera, Suche und Fotos",
+      "steps": [
+        {
+          "title": "Circle to Search und Google Lens",
+          "body": "<p>Siehst du unterwegs etwas, das du nachschlagen möchtest — ein Möbelstück, ein Kleidungsstück, Text auf einem Schild? Halte deinen Finger auf den Bildschirm (Circle to Search auf aktuellen Android-Handys) oder nutze Google Lens, um direkt danach zu suchen, ohne es abzutippen.</p>"
+        },
+        {
+          "title": "Live-Übersetzung unterwegs",
+          "body": "<p>Auf Reisen oder in einem Meeting mit einer fremdsprachigen Kundin? Die Kamera-Übersetzungsfunktion von Google Übersetzer oder der Gemini-App übersetzt Text in Echtzeit auf deinem Bildschirm — praktisch für eine Speisekarte, einen Vertrag oder ein Hinweisschild.</p>"
+        },
+        {
+          "title": "Fotos schnell aufräumen für Arbeit oder soziale Medien",
+          "body": "<p>Google Fotos (Magic Editor) und die Fotos-App auf dem iPhone (Aufräumen) können mit KI ein störendes Objekt oder eine Person aus dem Hintergrund entfernen, oder die Belichtung korrigieren — schneller, als ein separates Bearbeitungsprogramm für ein Produktfoto oder einen LinkedIn-Post zu öffnen.</p>"
+        },
+        {
+          "title": "Übung",
+          "body": "<p>Nutze Google Lens oder Circle to Search, um etwas in deiner Umgebung nachzuschlagen, und versuche danach, ein Foto mit der Magic-Editor-Funktion zu verbessern.</p>"
+        }
+      ]
     }
   ]
 }
